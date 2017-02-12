@@ -2889,9 +2889,8 @@ class ExileAbstractAction
 /**
  * Sort this by probability of occurence to speed things up a bit
  */
-class CfgInteractionMenus
-{
-	#include "custom\EBM\menus.hpp"
+
+#include "custom\EBM\menus.hpp"
 
 	class Car 
 	{
@@ -3278,14 +3277,14 @@ class CfgInteractionMenus
 
 		class Actions
 		{
-			
+			/*
 			class Manage : ExileAbstractAction
 			{
 				title = "Manage";
 				condition = "true";
 				action = "_this call ExileClient_gui_baseManagement_event_show";
 			};
-			
+			*/
 			class StealFlag: ExileAbstractAction
 			{
 				title = "Steal Flag";
@@ -3299,6 +3298,24 @@ class CfgInteractionMenus
 				condition = "((ExileClientInteractionObject getvariable ['ExileFlagStolen',0]) isEqualTo 1)";
 				action = "['restoreFlagRequest', [netID ExileClientInteractionObject]] call ExileClient_system_network_send";
 			};
+			class PayProtectionFlag: ExileAbstractAction
+			{
+				title = "Pay Flag Maintenance";
+				condition = "true";
+				action = "_this call ExileClient_gui_payTerritoryProtectionMoneyDialog_show";
+			};
+			class PayRansomFlag: ExileAbstractAction
+			{
+				title = "Pay Flag Ransom";
+				condition = "true";
+				action = "_this call ExileClient_gui_payFlagRansomDialog_show";
+			};
+			class RegisterFamily: ExileAbstractAction
+			{
+				title = "Register Family";
+				condition = "true";
+				action = "_this call ExileClient_gui_registerClanDialog_show";
+			};
 		};
 	};
 
@@ -3309,13 +3326,13 @@ class CfgInteractionMenus
 
 		class Actions
 		{
-			// Locks a vehicle
-			class Lock: ExileAbstractAction
-			{
-				title = "Lock";
-				condition = "((locked ExileClientInteractionObject) isEqualTo 0) && ((locked ExileClientInteractionObject) != 1)";
-				action = "true spawn ExileClient_object_lock_toggle";
-			};
+			//// Locks a vehicle
+			//class Lock: ExileAbstractAction
+			//{
+			//	title = "Lock";
+			//	condition = "((locked ExileClientInteractionObject) isEqualTo 0) && ((locked ExileClientInteractionObject) != 1)";
+			//	action = "true spawn ExileClient_object_lock_toggle";
+			//};
 
 			// Unlocks a vehicle
 			class Unlock: ExileAbstractAction
@@ -3325,13 +3342,13 @@ class CfgInteractionMenus
 				action = "false spawn ExileClient_object_lock_toggle";
 			};
 
-			// Hot-wires a vehicle
-			class Hotwire: ExileAbstractAction
-			{
-				title = "Hotwire";
-				condition = "((locked ExileClientInteractionObject) isEqualTo 2) && ((locked ExileClientInteractionObject) != 1)";
-				action = "['HotwireVehicle', _this select 0] call ExileClient_action_execute";
-			};
+			//// Hot-wires a vehicle
+			//class Hotwire: ExileAbstractAction
+			//{
+			//	title = "Hotwire";
+			//	condition = "((locked ExileClientInteractionObject) isEqualTo 2) && ((locked ExileClientInteractionObject) != 1)";
+			//	action = "['HotwireVehicle', _this select 0] call ExileClient_action_execute";
+			//};
 
 			// Repairs a vehicle to 100%. Requires Duckttape
 			class Repair: ExileAbstractAction
@@ -3360,7 +3377,7 @@ class CfgInteractionMenus
 			// Pushes a boat into look direction to move into water
 			class Push: ExileAbstractAction
 			{
-				title = "Fus Ro Dah!";
+				title = "Push Boat (Stand Back)";
 				condition = "((crew ExileClientInteractionObject) isEqualTo [])";
 				action = "_this call ExileClient_object_vehicle_push";
 			};
@@ -3413,8 +3430,8 @@ class CfgInteractionMenus
 			
 			class HideCorpse: ExileAbstractAction
 			{
-				title = "Hide Body";
-				condition = "!(alive ExileClientInteractionObject) && ('Exile_Melee_Shovel' isEqualTo (currentWeapon player))";
+				title = "Bury Body";
+				condition = "!(alive ExileClientInteractionObject)"; // && ('Exile_Melee_Shovel' isEqualTo (currentWeapon player))
 				action = "['HideBody', (_this select 0)] call ExileClient_action_execute";
 			};
 		};
