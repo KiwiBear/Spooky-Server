@@ -2891,6 +2891,8 @@ class ExileAbstractAction
  */
 class CfgInteractionMenus
 {
+	#include "custom\EBM\menus.hpp"
+
 	class Car 
 	{
 		targetType = 2;
@@ -2898,20 +2900,20 @@ class CfgInteractionMenus
 
 		class Actions 
 		{
-			class ScanLock: ExileAbstractAction
-			{
-				title = "Scan Lock";
-				condition = "('Exile_Item_ThermalScannerPro' in (magazines player)) && !ExilePlayerInSafezone && ((locked ExileClientInteractionObject) != 1)";
-				action = "_this call ExileClient_object_lock_scan";
-			};
-
-			// Locks a vehicle
-			class Lock: ExileAbstractAction
-			{
-				title = "Lock";
-				condition = "((locked ExileClientInteractionObject) isEqualTo 0) && ((locked ExileClientInteractionObject) != 1)";
-				action = "true spawn ExileClient_object_lock_toggle";
-			};
+			//class ScanLock: ExileAbstractAction
+			//{
+			//	title = "Scan Lock";
+			//	condition = "('Exile_Item_ThermalScannerPro' in (magazines player)) && !ExilePlayerInSafezone && ((locked ExileClientInteractionObject) != 1)";
+			//	action = "_this call ExileClient_object_lock_scan";
+			//};
+            //
+			//// Locks a vehicle
+			//class Lock: ExileAbstractAction
+			//{
+			//	title = "Lock";
+			//	condition = "((locked ExileClientInteractionObject) isEqualTo 0) && ((locked ExileClientInteractionObject) != 1)";
+			//	action = "true spawn ExileClient_object_lock_toggle";
+			//};
 
 			// Unlocks a vehicle
 			class Unlock: ExileAbstractAction
@@ -2921,21 +2923,34 @@ class CfgInteractionMenus
 				action = "false spawn ExileClient_object_lock_toggle";
 			};
 
-			// Repairs a vehicle to 100%. Requires Duckttape
 			class Repair: ExileAbstractAction
 			{
-				title = "Repair";
+				title = "Repair Engine and Body";
 				condition = "true";
-				action = "['RepairVehicle', _this select 0] call ExileClient_action_execute";
+				action = "_this call JohnO_fnc_vehicleRepairCar";
 			};
-
-			// Hot-wires a vehicle
-			class Hotwire: ExileAbstractAction
+			class RepairWheels: ExileAbstractAction
 			{
-				title = "Hotwire";
-				condition = "((locked ExileClientInteractionObject) isEqualTo 2) && ((locked ExileClientInteractionObject) != 1)";
-				action = "['HotwireVehicle', _this select 0] call ExileClient_action_execute";
+				title = "Repair Wheel";
+				condition = "call ExileClient_object_vehicle_interaction_show";
+				action = "_this call JohnO_fnc_repairWheels";
 			};
+			
+			//// Repairs a vehicle to 100%. Requires Duckttape
+			//class Repair: ExileAbstractAction
+			//{
+			//	title = "Repair";
+			//	condition = "true";
+			//	action = "['RepairVehicle', _this select 0] call ExileClient_action_execute";
+			//};
+
+			//// Hot-wires a vehicle
+			//class Hotwire: ExileAbstractAction
+			//{
+			//	title = "Hotwire";
+			//	condition = "((locked ExileClientInteractionObject) isEqualTo 2) && ((locked ExileClientInteractionObject) != 1)";
+			//	action = "['HotwireVehicle', _this select 0] call ExileClient_action_execute";
+			//};
 
 			// Flips a vehicle so the player doesnt have to call an admin
 			// Check if vector up is fucked
@@ -2971,20 +2986,20 @@ class CfgInteractionMenus
 
 		class Actions
 		{
-			class ScanLock: ExileAbstractAction
-			{
-				title = "Scan Lock";
-				condition = "('Exile_Item_ThermalScannerPro' in (magazines player)) && ((locked ExileClientInteractionObject) != 1) && !ExilePlayerInSafezone";
-				action = "_this call ExileClient_object_lock_scan";
-			};
-
-			// Locks a vehicle
-			class Lock: ExileAbstractAction
-			{
-				title = "Lock";
-				condition = "((locked ExileClientInteractionObject) isEqualTo 0) && ((locked ExileClientInteractionObject) != 1)";
-				action = "true spawn ExileClient_object_lock_toggle";
-			};
+			//class ScanLock: ExileAbstractAction
+			//{
+			//	title = "Scan Lock";
+			//	condition = "('Exile_Item_ThermalScannerPro' in (magazines player)) && ((locked ExileClientInteractionObject) != 1) && !ExilePlayerInSafezone";
+			//	action = "_this call ExileClient_object_lock_scan";
+			//};
+            //
+			//// Locks a vehicle
+			//class Lock: ExileAbstractAction
+			//{
+			//	title = "Lock";
+			//	condition = "((locked ExileClientInteractionObject) isEqualTo 0) && ((locked ExileClientInteractionObject) != 1)";
+			//	action = "true spawn ExileClient_object_lock_toggle";
+			//};
 
 			// Unlocks a vehicle
 			class Unlock: ExileAbstractAction
@@ -2994,21 +3009,34 @@ class CfgInteractionMenus
 				action = "false spawn ExileClient_object_lock_toggle";
 			};
 
-			// Hot-wires a vehicle
-			class Hotwire: ExileAbstractAction
+			class RepairMajor: ExileAbstractAction
 			{
-				title = "Hotwire";
-				condition = "((locked ExileClientInteractionObject) isEqualTo 2) && ((locked ExileClientInteractionObject) != 1)";
-				action = "['HotwireVehicle', _this select 0] call ExileClient_action_execute";
-			};
-
-			// Repairs a vehicle to 100%. Requires Duckttape
-			class Repair: ExileAbstractAction
-			{
-				title = "Repair";
+				title = "Full Repair";
 				condition = "true";
-				action = "['RepairVehicle', _this select 0] call ExileClient_action_execute";
+				action = "_this call JohnO_fnc_repairchopper";
 			};
+			class RepairMinor: ExileAbstractAction
+			{
+				title = "Minor Repair";
+				condition = "true";
+				action = "_this call JohnO_fnc_repairchopperhalf";
+			};
+			
+			//// Hot-wires a vehicle
+			//class Hotwire: ExileAbstractAction
+			//{
+			//	title = "Hotwire";
+			//	condition = "((locked ExileClientInteractionObject) isEqualTo 2) && ((locked ExileClientInteractionObject) != 1)";
+			//	action = "['HotwireVehicle', _this select 0] call ExileClient_action_execute";
+			//};
+
+			//// Repairs a vehicle to 100%. Requires Duckttape
+			//class Repair: ExileAbstractAction
+			//{
+			//	title = "Repair";
+			//	condition = "true";
+			//	action = "['RepairVehicle', _this select 0] call ExileClient_action_execute";
+			//};
 
 			// Flips a vehicle so the player doesnt have to call an admin
 			// Check if vector up is fucked
