@@ -1,7 +1,7 @@
 ///////////////////////////////////////////////////////////////////////////////
 // Server Settings - Modify at will
 ///////////////////////////////////////////////////////////////////////////////
-author = "Updated by [FPS]kuplion";
+author = "By ExileMod Team, modified by STR";
 onLoadName = "Exile Chernarus Winter";
 onLoadMission= "www.exilemod.com";
 loadScreen = "exile_assets\texture\mod\logo.paa"; 
