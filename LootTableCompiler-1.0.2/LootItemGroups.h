@@ -99,6 +99,11 @@
 13, Exile_Weapon_TaurusGold	// Taurus (Gold)
 13, hgun_Pistol_01_F		// PM 9 mm
 13, hgun_P07_khk_F			// P07 9 mm (Khaki)
+12, CUP_hgun_Duty_M3X
+8, CUP_hgun_MicroUzi
+13, CUP_hgun_SA61
+18, CUP_hgun_Phantom
+10, CUP_hgun_PB6P9_snds
 
 > PistolAmmo
 20, 11Rnd_45ACP_Mag				// 4-five
@@ -112,24 +117,41 @@
 20, Exile_Magazine_8Rnd_9x18	// Makarov
 20, Exile_Magazine_6Rnd_45ACP	// Taurus
 20, 10Rnd_9x21_Mag				// PM 9 mm
+20, 16Rnd_9x21_Mag
+18, CUP_30Rnd_9x19_UZI
+18, CUP_20Rnd_B_765x17_Ball_M
+18, CUP_18Rnd_9x19_Phantom
+12, CUP_8Rnd_9x18_MakarovSD_M
 
 > PistolAttachments
 36, muzzle_snds_L
 36, muzzle_snds_acp
 14, optic_Yorris		// No one needs this crap
 14, optic_MRD
+20, CUP_muzzle_snds_MicroUzi
+18, CUP_muzzle_snds_M9
+20, CUP_acc_Glock17_Flashlight
+20, CUP_acc_CZ_M3X
 
 > Shotguns
 1, Exile_Weapon_M1014	//M1014
+1, CUP_sgun_Saiga12K
 
 > ShotgunAmmo
 1, Exile_Magazine_8Rnd_74Slug		//M1014
+1, CUP_8Rnd_B_Saiga12_74Slug_M
+1, CUP_8Rnd_B_Saiga12_74Pellets_M
 
 > SMG
-34, SMG_01_F		// Vermin SMG .45 ACP
-33, SMG_02_F		// Sting 9 mm
+25, SMG_01_F		// Vermin SMG .45 ACP
+20, SMG_02_F		// Sting 9 mm
 33, SMG_05_F		// Protector 9mm
 33, hgun_PDW2000_F	// PDW2000 9 mm
+20, CUP_smg_bizon
+10, CUP_smg_bizon_snds
+10, CUP_smg_EVO
+14, CUP_smg_MP5SD6
+25, CUP_smg_MP5A5
 
 > SMGAmmo
 50, 30Rnd_45ACP_Mag_SMG_01					// Vermin SMG
@@ -138,6 +160,9 @@
 50, 30Rnd_9x21_Mag_SMG_02_Tracer_Red        // Sting, Protector
 50, 30Rnd_9x21_Mag_SMG_02_Tracer_Yellow     // Sting, Protector
 50, 30Rnd_9x21_Mag_SMG_02_Tracer_Green      // Sting, Protector
+50, CUP_64Rnd_9x19_Bizon_M
+50, CUP_30Rnd_9x19_MP5
+50, CUP_30Rnd_9x19_EVO
 
 > SMGAttachments
 20, optic_Holosight_smg
@@ -146,16 +171,24 @@
 20, optic_Aco_smg
 20, optic_ACO_grn
 20, optic_Aco
+15, CUP_optic_ACOG
+
+> BattleRifles
+
+
+>BattleRifleAmmo
+
+>BattleRifleAttachments
 
 > Rifles
-10, arifle_Katiba_F			// Katiba 6.5 mm
-8, arifle_Katiba_GL_F		// Katiba GL 6.5 mm
+6, arifle_Katiba_F			// Katiba 6.5 mm
+6, arifle_Katiba_GL_F		// Katiba GL 6.5 mm
 8, arifle_MXC_F				// MXC 6.5 mm
 8, arifle_MX_F				// MX 6.5 mm
 4, arifle_MX_GL_F			// MX 3GL 6.5 mm
 6, arifle_MXM_F				// MXM 6.5 mm
 3, arifle_MXM_Black_F		// MXM 6.5 mm (Black)
-6, arifle_SDAR_F			// SDAR 5.56 mm
+2, arifle_SDAR_F			// SDAR 5.56 mm
 8, arifle_TRG21_F			// TRG-21 5.56 mm
 8, arifle_TRG20_F			// TRG-20 5.56 mm
 4, arifle_TRG21_GL_F		// TRG-21 EGLM 5.56 mm
@@ -170,13 +203,13 @@
 10, Exile_Weapon_AK74_GL
 10, Exile_Weapon_AK74
 10, Exile_Weapon_AK47				
-10, Exile_Weapon_AKS_Gold	
-10, Exile_Weapon_DMR		
+1, Exile_Weapon_AKS_Gold	
+3, Exile_Weapon_DMR		
 10, Exile_Weapon_LeeEnfield
-10, Exile_Weapon_CZ550
-10, Exile_Weapon_SVD
-10, Exile_Weapon_SVDCamo
-10, Exile_Weapon_VSSVintorez
+9, Exile_Weapon_CZ550
+6, Exile_Weapon_SVD
+6, Exile_Weapon_SVDCamo
+6, Exile_Weapon_VSSVintorez
 8, arifle_MX_khk_F   			// MX 6.5 mm (Khaki)
 4, arifle_MX_GL_khk_F			// MX 3GL 6.5 mm (Khaki)
 8, arifle_MXC_khk_F  			// MXC 6.5 mm (Khaki)
@@ -208,6 +241,48 @@
 5, arifle_SPAR_03_blk_F         // SPAR-17 7.62 mm (Black)
 5, arifle_SPAR_03_khk_F         // SPAR-17 7.62 mm (Khaki)
 5, arifle_SPAR_03_snd_F         // SPAR-17 7.62 mm (Sand)
+5, CUP_arifle_L86A2
+5, CUP_arifle_L85A2_NG
+3, CUP_arifle_L85A2_GL_SUSAT_Laser
+5, CUP_arifle_L85A2_GL
+5, CUP_arifle_G36A
+5, CUP_arifle_G36C
+2, CUP_arifle_G36C_camo_holo_snds
+7, CUP_arifle_M16A2
+7, CUP_arifle_M4A1
+7, CUP_arifle_M4A1_camo
+6, CUP_arifle_M4A3_desert
+2, CUP_arifle_M4A1_camo_AIM_snds
+6, CUP_arifle_XM8_Railed
+5, CUP_arifle_M4A1_BUIS_camo_GL
+5, CUP_arifle_AK74_GL
+5, CUP_arifle_CZ805_GL
+5, CUP_arifle_Mk16_CQC_EGLM
+5, CUP_arifle_Mk16_STD_EGLM
+6, CUP_arifle_CZ805_A1
+6, CUP_arifle_CZ805_B
+6, CUP_arifle_AK74
+8, CUP_arifle_AK74M
+7, CUP_arifle_AK107
+8, CUP_arifle_AK107_GL
+5, CUP_arifle_AKS74U
+2, CUP_arifle_AK107_GL_kobra
+2, CUP_arifle_AK107_GL_pso
+8, CUP_arifle_AK107_kobra
+5, CUP_arifle_Mk16_CQC
+4, CUP_arifle_Mk16_CQC_FG
+5, CUP_arifle_Mk16_SV
+7, CUP_arifle_AK47
+8, CUP_arifle_AKM
+1, CUP_arifle_AKS_Gold
+6, CUP_arifle_Sa58P
+7, CUP_arifle_Sa58P_des
+4, CUP_arifle_Sa58RIS1
+4, CUP_arifle_Sa58RIS2_gl
+4, CUP_arifle_Sa58RIS2_camo
+1, CUP_arifle_Sa58RIS2_Arco_Laser
+
+
 
 > RifleAmmo
 11, 20Rnd_556x45_UW_mag						// SDAR
@@ -254,6 +329,23 @@
 9, 150Rnd_556x45_Drum_Mag_F					// SPAR-16S 
 9, 150Rnd_556x45_Drum_Mag_Tracer_F			// SPAR-16S 
 9, 20Rnd_762x51_Mag							// SPAR-17
+9, CUP_30Rnd_556x45_Stanag
+9, 30Rnd_556x45_Stanag
+9, CUP_30Rnd_556x45_G36
+6, CUP_100Rnd_556x45_BetaCMag
+9, CUP_30Rnd_545x39_AK_M
+9, CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M
+9, CUP_30Rnd_TE1_Yellow_Tracer_545x39_AK_M
+8, CUP_100Rnd_TE1_Green_Tracer_556x45_BetaCMag
+8, CUP_100Rnd_TE1_Yellow_Tracer_556x45_BetaCMag
+8, 30Rnd_556x45_Stanag_Tracer_Red
+8, 30Rnd_556x45_Stanag_Tracer_Green
+7, CUP_30Rnd_762x39_AK47_M
+8, CUP_30Rnd_Sa58_M
+8, CUP_30Rnd_Sa58_M_TracerR
+7, CUP_30Rnd_Sa58_M_TracerY
+
+
 
 > RifleAttachments
 10, muzzle_snds_M
@@ -286,6 +378,34 @@
 10, optic_ERCO_khk_F
 10, optic_ERCO_snd_F
 5, optic_NVS
+10, CUP_optic_ACOG
+10, CUP_optic_SUSAT
+10, CUP_optic_CompM4
+10, CUP_optic_RCO
+8, CUP_optic_Elcan
+10, CUP_optic_TrijiconRx01_desert
+10, CUP_optic_AN_PVS_4
+10, CUP_optic_SB_11_4x20_PM
+10, CUP_optic_HoloDesert
+10, CUP_optic_HoloBlack
+10, CUP_optic_PechenegScope
+10, CUP_muzzle_PBS4
+10, CUP_muzzle_PB6P9
+10, CUP_muzzle_Bizon
+10, CUP_optic_Kobra
+10, CUP_optic_PSO_3
+10, CUP_optic_PSO_1
+10, CUP_optic_CompM2_Black
+10, CUP_optic_CompM2_Desert
+5, CUP_acc_ANPEQ_2_camo
+5, CUP_acc_ANPEQ_2_desert
+5, CUP_acc_ANPEQ_2_grey
+8, CUP_muzzle_snds_G36_black
+8, CUP_muzzle_snds_L85
+8, 
+
+
+
 //1, optic_tws
 
 > LMG

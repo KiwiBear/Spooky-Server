@@ -17,7 +17,7 @@ class CfgClans
 
 		Default: 20,000
 	*/
-	registrationFee = 500;
+	registrationFee = 250;
 
 	/*
 		A list of all characters allowed in a clan *name*
@@ -2794,7 +2794,7 @@ class CfgExileLootSettings
 	 *
 	 * You can also cap it at a maximum value. See below.
 	 */
-	maximumPositionCoverage = 50;
+	maximumPositionCoverage = 40;
 
  	/**
  	 * Limit the number of loot positions per building. If the 
@@ -2804,7 +2804,7 @@ class CfgExileLootSettings
  	 * This results in 30 loot positions and that is too much. So we
  	 * cap this at 10
  	 */
-	maximumNumberOfLootSpotsPerBuilding = 6;
+	maximumNumberOfLootSpotsPerBuilding = 4;
 
 	/**
 	 * Exile spawns a random number of items per loot spot. This 
