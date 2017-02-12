@@ -2889,7 +2889,8 @@ class ExileAbstractAction
 /**
  * Sort this by probability of occurence to speed things up a bit
  */
-
+class CfgInteractionMenus
+{
 #include "custom\EBM\menus.hpp"
 
 	class Car 
