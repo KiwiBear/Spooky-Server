@@ -117,7 +117,6 @@
 20, Exile_Magazine_8Rnd_9x18	// Makarov
 20, Exile_Magazine_6Rnd_45ACP	// Taurus
 20, 10Rnd_9x21_Mag				// PM 9 mm
-20, 16Rnd_9x21_Mag
 18, CUP_30Rnd_9x19_UZI
 18, CUP_20Rnd_B_765x17_Ball_M
 18, CUP_18Rnd_9x19_Phantom
@@ -194,9 +193,6 @@
 10, CUP_20Rnd_762x51_DMR
 10, CUP_20Rnd_TE1_Yellow_Tracer_762x51_DMR
 10, CUP_20Rnd_TE1_Green_Tracer_762x51_DMR
-10, CUP_20Rnd_762x51_B_SCAR
-10, CUP_20Rnd_TE1_Yellow_Tracer_762x51_SCAR
-10, CUP_20Rnd_TE1_Red_Tracer_762x51_SCAR
 8, CUP_20Rnd_762x51_L129_M
 8, CUP_20Rnd_762x51_B_M110
 8, CUP_20Rnd_TE1_Yellow_Tracer_762x51_M110
@@ -367,7 +363,6 @@
 9, 150Rnd_556x45_Drum_Mag_Tracer_F			// SPAR-16S 
 9, 20Rnd_762x51_Mag							// SPAR-17
 9, CUP_30Rnd_556x45_Stanag
-9, 30Rnd_556x45_Stanag
 9, CUP_30Rnd_556x45_G36
 6, CUP_100Rnd_556x45_BetaCMag
 9, CUP_30Rnd_545x39_AK_M
@@ -375,8 +370,6 @@
 9, CUP_30Rnd_TE1_Yellow_Tracer_545x39_AK_M
 8, CUP_100Rnd_TE1_Green_Tracer_556x45_BetaCMag
 8, CUP_100Rnd_TE1_Yellow_Tracer_556x45_BetaCMag
-8, 30Rnd_556x45_Stanag_Tracer_Red
-8, 30Rnd_556x45_Stanag_Tracer_Green
 7, CUP_30Rnd_762x39_AK47_M
 8, CUP_30Rnd_Sa58_M
 8, CUP_30Rnd_Sa58_M_TracerR
