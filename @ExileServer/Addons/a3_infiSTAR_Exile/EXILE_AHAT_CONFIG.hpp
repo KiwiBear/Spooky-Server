@@ -87,6 +87,8 @@ AdminNameTag = "[Admin]";
 		RobotoRegular
 NOTE: do not use " within the text.
 */
+
+/*
 ENABLE_NOTIFICATION_MESSAGES = "true";
 NOTIFY_MSG_ARRAY[] =
 {
@@ -95,29 +97,31 @@ NOTIFY_MSG_ARRAY[] =
 	{-1, 45, 5, 0.6, "safeZoneX", "0.5", "#048B5B", "OrbitronLight", "Protected and administrated by<br/>infiSTAR.de AdminTools, AntiHack and more!"},
 	{15, 15, 8, 0.6, 0, 0, "#E600E6", "OrbitronLight", "15 minutes have passed, drink some water!<br/>(IN REAL LIFE NOT INGAME)"}
 };
-
+*/
 
 /*
 	{chatCommand (text typed in chat), color, size, font, text shown to player}
 	only triggers if the EXACT text is typed!
 NOTE: do not use " within the text.
-*/
+
 chatCommands[] =
 {
 	{"!ts","#2784D6","1","OrbitronMedium","ts.mycommunity.com"},
 	{"!website","#2784D6","1","OrbitronMedium","www.mycommunity.com"},
 	{"!admin","#2784D6","1","OrbitronMedium","please visit ts.mycommunity.com"}
 };
+*/
 
 /*
 	{chatCommand (text typed in chat) partitial, color, size, font, text shown to player}
 	"Hello, why is there no loot on this map?" <- will trigger the example below!
 NOTE: do not use " within the text.
-*/
+
 chatCommandsP[] =
 {
 	{"no loot","#2784D6","1","OrbitronMedium","You cannot loot from non arma buildings in this map, you must move around - check the shipping yards for best loot"}
 };
+*/
 
 
 
