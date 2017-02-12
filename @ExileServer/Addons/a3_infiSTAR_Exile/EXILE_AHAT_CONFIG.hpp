@@ -88,16 +88,11 @@ AdminNameTag = "[Admin]";
 NOTE: do not use " within the text.
 */
 
-/*
-ENABLE_NOTIFICATION_MESSAGES = "true";
+
+ENABLE_NOTIFICATION_MESSAGES = "false";
 NOTIFY_MSG_ARRAY[] =
 {
-	{-1, -1, 6, 0.6, 0, 0, "#ff0000", "OrbitronLight", "Welcome to our server"},
-	{-1, -1, 4, 0.6, 0, 0, "#1900FF", "OrbitronLight", "Enjoy!"},
-	{-1, 45, 5, 0.6, "safeZoneX", "0.5", "#048B5B", "OrbitronLight", "Protected and administrated by<br/>infiSTAR.de AdminTools, AntiHack and more!"},
-	{15, 15, 8, 0.6, 0, 0, "#E600E6", "OrbitronLight", "15 minutes have passed, drink some water!<br/>(IN REAL LIFE NOT INGAME)"}
 };
-*/
 
 /*
 	{chatCommand (text typed in chat), color, size, font, text shown to player}
