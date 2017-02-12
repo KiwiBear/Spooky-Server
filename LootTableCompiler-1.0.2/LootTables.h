@@ -99,7 +99,7 @@
 4, SMG
 3, SMGAmmo
 3, SMGAttachments
-3, Rifles
+1, Rifles
 3, RifleAmmo
 3, RifleAttachments
 20, CivilianClothing
@@ -142,9 +142,12 @@
 // Construction Sites, Warehouses, Research etc.
 ///////////////////////////////////////////////////////////////////////////////
 > Industrial
+5, Food
+5, Drinks
+10, Electronics
 30, Trash
 40, IndustrialItems
-25, Vehicle
+15, Vehicle
 15, RoadFlares
 5, Restraints
 
@@ -152,6 +155,7 @@
 // Factories
 ///////////////////////////////////////////////////////////////////////////////
 > Factories
+20, Vehicle
 10, Electronics
 40, Trash
 50, IndustrialItems
@@ -170,10 +174,13 @@
 // Towers, Barracks, Hangars etc.
 ///////////////////////////////////////////////////////////////////////////////
 > Military
+5, Pistols
+5, PistolAmmo
+5, PistolAttachments
 100, Trash
 4, CivilianItems
 4, GuerillaItems
-3, HEGrenades
+6, HEGrenades
 3, UGLFlares
 3, UGLSmokes
 3, HandGrenades
@@ -185,10 +192,10 @@
 4, GuerillaBackpacks
 3, MilitaryBackpacks
 3, GuerillaVests
-3, MilitaryVests
-3, DLCVests
-3, GuerillaHeadgear
-3, MilitaryHeadgear
+5, MilitaryVests
+1, DLCVests
+5, GuerillaHeadgear
+5, MilitaryHeadgear
 1, Ghillies
 1, DLCGhillies
 1, Rebreathers
@@ -206,6 +213,9 @@
 2, DLCSupressor
 2, Bipods
 5, Explosives
+1, BattleRifles
+1, BattleRifleAmmo
+2, BattleRifleAttachments
 
 ///////////////////////////////////////////////////////////////////////////////
 // Hospital, Medevac etc. (Does not spawn on Altis!)
@@ -218,22 +228,26 @@
 // Light Houses + Life Guard Towers + Castles
 ///////////////////////////////////////////////////////////////////////////////
 > Tourist
+20, CivilianBackpacks
 10, MilitaryBackpacks
 10, MilitaryHeadgear
-5, Ghillies
-5, DLCGhillies
-20, Snipers
+1, Ghillies
+1, DLCGhillies
+5, Snipers
 2, SniperAmmo
 2, SniperAttachments
-20, DLCRifles
+2, DLCRifles
 2, DLCAmmo
 2, DLCOptics
-2, DLCSupressor
-4, CivilianItems
+1, DLCSupressor
+10, CivilianItems
 4, HandGrenades
 4, Restraints
 4, MedicalItems
-4, Explosives
+10, MilitaryClothing
+10, GuerillaClothing
+10, GuerillaBackpacks
+5, GuerillaItems
 
 ///////////////////////////////////////////////////////////////////////////////
 // Ghost Hotel Buildings
@@ -255,3 +269,22 @@
 4, MedicalItems
 10, Explosives
 4, EpicWeapons
+
+///////////////////////////////////////////////////////////////////////////////
+// Custom Crates
+///////////////////////////////////////////////////////////////////////////////
+> SuperCrate
+10, EpicWeapons
+20, DLCGhillies
+20, Ghillies
+20, EpicWeaponAmmo
+20, DLCSupressor
+20, DLCVests
+30, Trash
+
+
+///////////////////////////////////////////////////////////////////////////////
+// Chopper Crashes
+///////////////////////////////////////////////////////////////////////////////
+
+

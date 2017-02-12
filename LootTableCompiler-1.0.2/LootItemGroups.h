@@ -78,8 +78,9 @@
 14, Exile_Item_Beer							// +75% Thirst
 17, Exile_Item_EnergyDrink					// +75% Thirst
 20, Exile_Item_MountainDupe					// +50% Thirst, spawns always twice!	
-25, Exile_Item_ChocolateMilk				// +35% Thirst
-30, Exile_Item_PlasticBottleDirtyWater		// +10% Thirst
+20, Exile_Item_ChocolateMilk				// +35% Thirst
+25, Exile_Item_PlasticBottleDirtyWater		// +10% Thirst
+5, Exile_Item_PlasticBottleCoffee
 
 
 ///////////////////////////////////////////////////////////////////////////////
@@ -608,6 +609,11 @@
 20, srifle_GM6_F
 3, CUP_launch_RPG7V
 3, CUP_launch_M136
+15, srifle_DMR_02_camo_F
+15, srifle_DMR_02_F
+10, srifle_DMR_05_blk_F
+10, srifle_DMR_05_hex_F
+10, srifle_DMR_05_tan_F
 
 
 > EpicWeaponAmmo
@@ -618,6 +624,8 @@
 5, CUP_5Rnd_127x99_as50_M
 4, CUP_M136_M
 4, CUP_OG7_M
+6, 10Rnd_93x64_DMR_05_Mag
+5, 10Rnd_338_Mag
 
 > Bipods
 17, bipod_03_F_oli
@@ -668,13 +676,13 @@
 50, MiniGrenade
 
 > Explosives
-12, DemoCharge_Remote_Mag
-12, IEDUrbanSmall_Remote_Mag
-12, IEDLandSmall_Remote_Mag
-20, APERSMine_Range_Mag
-20, APERSBoundingMine_Range_Mag
-20, APERSTripMine_Wire_Mag
-4, SatchelCharge_Remote_Mag
+15, DemoCharge_Remote_Mag
+5, IEDUrbanSmall_Remote_Mag
+5, IEDLandSmall_Remote_Mag
+5, APERSMine_Range_Mag
+5, APERSBoundingMine_Range_Mag
+5, APERSTripMine_Wire_Mag
+10, SatchelCharge_Remote_Mag
 
 ///////////////////////////////////////////////////////////////////////////////
 // Clothing & Gear
@@ -685,7 +693,7 @@
 > CivilianItems
 30, ItemWatch
 30, ItemRadio
-20, ItemGPS
+10, ItemGPS
 20, Binocular
 40, Exile_Item_Heatpack
 35, ItemMap
@@ -1070,38 +1078,45 @@
 ///////////////////////////////////////////////////////////////////////////////
 
 > MedicalItems
-2, Exile_Item_InstaDoc
+4, Exile_Item_InstaDoc
 5, Exile_Item_Bandage
 10, Exile_Item_Vishpirin
 10, Exile_Item_Heatpack
 
 > IndustrialItems
-1, Exile_Item_ThermalScannerPro
+2, Exile_Item_ThermalScannerPro
 2, Exile_Item_Knife
 3, Exile_Item_Cement
 3, Exile_Item_FloodLightKit
 3, Exile_Item_PortableGeneratorKit
-4, Exile_Item_CamoTentKit
+6, Exile_Item_CamoTentKit
 4, Exile_Item_MetalBoard
-4, Exile_Item_Foolbox
+6, Exile_Item_Foolbox
 4, Exile_Item_Sand
 5, Exile_Item_Grinder
-5, Exile_Item_MetalScrews
+10, Exile_Item_MetalScrews
 5, Exile_Melee_SledgeHammer
 8, Exile_Item_ExtensionCord
 9, Exile_Item_LightBulb
 10, Exile_Item_WaterCanisterEmpty
-10, Exile_Melee_Shovel
+2, Exile_Melee_Shovel
 11, Exile_Item_JunkMetal
 13, Exile_Item_Handsaw
 13, Exile_Item_Pliers
 13, Exile_Item_ScrewDriver
-22, Exile_Melee_Axe
+10, Exile_Melee_Axe
+4, Exile_Item_Rope
+3, Exile_Item_FireExtinguisher
+3, Exile_Item_CordlessScrewdriver
 
 > Vehicle
-40, Exile_Item_FuelCanisterFull
-50, Exile_Item_FuelCanisterEmpty
-10, Exile_Item_DuctTape
+5, Exile_Item_FuelCanisterFull
+15, Exile_Item_FuelCanisterEmpty
+30, Exile_Item_DuctTape
+10, Exile_Item_OilCanister
+10, Exile_Item_Carwheel
+5, Exile_Item_Wrench
+
 
 // Throwables
 
