@@ -37,8 +37,8 @@ EnableMoneyOnCorpse          = true;             // Money stays on corpse for lo
 ZombieMoney                  = 5;                // Money per zombie kill
 ZombieMaxMoney               = 15;               // Max Money per zombie kill-random amount put on corpses
 
-EnableStatKill				 = true;			 // Enable stat tracking for Kills DB entry
-EnableZombieStatKill         = false;			 // Enable stat tracking for ZedKills DB entry
+EnableStatKill		     = false;			 // Enable stat tracking for Kills DB entry
+EnableZombieStatKill         = true;			 // Enable stat tracking for ZedKills DB entry
 
 EnableRankChange			 = false;			 // Enable Rank change
 EnableHumanityChange		 = false;			 // Enable GR8's Humanity change
@@ -93,9 +93,9 @@ _Ryanzombiesjumpdemon                  = 1;      // Jumping Demons
 _Ryanzombiesfeed                       = -1;     // Feeding Zombies
 _Ryanzombiesfeeddemon                  = 1;      // Feeding Demons
                                                     
-_Ryanzombiesinfection                  = -1;     // Enable infections *(-1 to disable)
-_ryanzombiesinfectedchance             = 10;     // Precent chances to be infected on hit
-_ryanzombiesinfectedrate               = 0.05;   // Damage per minute when infected (+/- 30 minutes to live)
+_Ryanzombiesinfection                  = 1;     // Enable infections *(-1 to disable)
+_ryanzombiesinfectedchance             = 5;     // Precent chances to be infected on hit
+_ryanzombiesinfectedrate               = 0.04;   // Damage per minute when infected (+/- 30 minutes to live)
 _ryanzombiesinfectedsymptoms           = 0.9;    // Symptomes showed when infected 0.9 = Normal 0.7 = Less 0.5 = None
 _ryanzombiesinfecteddeath              = 0.9;    // 0.9 = Scream on death 0.7 = Silent death
 _ryanzombiesantivirusduration          = 300;    // Antivirus duration *(5 minutes)
