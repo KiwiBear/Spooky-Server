@@ -58,10 +58,8 @@ showHUD[] =
     true,   // Vehicle radar 
     true,   // Vehicle compass
     true,   // Tank direction indicator
-    false,  // Commanding menu
     false,  // Group Bar
     true,   // HUD Weapon Cursors
-    false   // Squad Radar
 };
 
 #include "config.cpp"

@@ -543,7 +543,7 @@ allowedActions_player[] = {"Break free","Use AutoLockPicker","Craft Vehicle"};
 allowedActions_object[] = {"UnLock","Select vehicle to tow","Tow Selected vehicle","Untow vehicle","Unselect selected vehicle"};
 
 
-KCM = "true";		/* Just close ALL CommandingMenus */
+KCM = "false";		/* Just close ALL CommandingMenus */
 CMC = "false";		/* Check for CommandingMenus that are not in the allowedCommandingMenus array */
 allowedCommandingMenus[] = {"#user:example","#user:example2"};
 
