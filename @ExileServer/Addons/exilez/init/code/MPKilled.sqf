@@ -126,7 +126,7 @@ if ((!isNull _playerObj) && {((getPlayerUID _playerObj) != "") && {_playerObj is
 	
 	if (EnableRespectOnKill) then
 	{
-		[_playerObj, "showFragRequest", [_killerRespectPoints]] call ExileServer_system_network_send_to;
+		// [_playerObj, "showFragRequest", [_killerRespectPoints]] call ExileServer_system_network_send_to;
 		_playerObj setVariable ["ExileScore", _respect];
 		ExileClientPlayerScore = _respect;
 		format["setAccountScore:%1:%2", _respect, (getPlayerUID _playerObj)] call ExileServer_system_database_query_fireAndForget;
