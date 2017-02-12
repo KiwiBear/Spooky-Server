@@ -286,7 +286,7 @@ _objects =
     ["Land_fort_bagfence_round",[12138.6,12602.4,0],197.399,0,0,false],
     ["Land_Wreck_Heli_Attack_02_F",[12173,12588.9,0],0,0,0,false],
     ["Land_HelipadCircle_F",[12168.4,12638,0],19,0,0,false],
-    ["Land_HelipadSquare_F",[12205,12625.7,0],19,0,0,false]
+    ["Land_HelipadSquare_F",[12205,12625.7,0],19,0,0,false],
 
 	
 /////// custom map additions
