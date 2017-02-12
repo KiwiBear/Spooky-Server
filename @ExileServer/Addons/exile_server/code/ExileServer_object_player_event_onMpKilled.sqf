@@ -120,7 +120,7 @@ if !(isNull _killingPlayer) then
 {
 	if !(_killSummary isEqualTo []) then 
 	{	
-		[_killingPlayer, "showFragRequest", [_killSummary]] call ExileServer_system_network_send_to;
+//		[_killingPlayer, "showFragRequest", [_killSummary]] call ExileServer_system_network_send_to;
 	};
 };
 if !(isNull _killingPlayer) then 
