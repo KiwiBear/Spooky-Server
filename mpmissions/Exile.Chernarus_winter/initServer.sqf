@@ -510,7 +510,7 @@ private _additionalProps = [
 
 {
 	private _prop = (_x select 0) createVehicle [0,0,0];
-	_prop setPosATL (_x select 1);
+	_prop setPosASL (_x select 1);
 	_prop setVectorDirAndUp (_x select 2);
 	_prop enableSimulationGlobal true;
 	_prop allowDamage true;
