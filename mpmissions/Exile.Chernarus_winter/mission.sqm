@@ -4,7 +4,10 @@ class Mission
 	addOns[]=
 	{
 		"exile_client",
-		"a3_map_altis"
+		"chernarus_winter",
+		"Ryanzombies",
+		"ryanzombiesfunctions",
+		"CUP_Core"
 	};
 	addOnsAuto[]=
 	{
