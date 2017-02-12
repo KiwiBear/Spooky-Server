@@ -27,14 +27,12 @@ class Industrial {
 };
 
 // stary half dome tents
-class Camp_EP1 : Military
-{
+class Camp_EP1 : Military {
 	positions[] = {{1.58154, 1.66943, -1.11099}, {1.37646, -1.74463, -1.11099}, {-0.449219, -1.64453, -1.11099}, {-0.224609, 1.54834, -1.11099}, {0.403809, 0.27832, -1.11099}};
 };
 
 // stary and cherno bigger mil tents
-class CampEast : Military
-{
+class CampEast : Military {
 	positions[] = {{-1.87646, 2.72266, -1.30192}, {1.65674, 2.63867, -1.30192}, {-0.20166, 1.51563, -1.30192}, {-1.91064, 0.175781, -1.30192}, {1.64551, -0.109375, -1.30192}, {-0.0976563, -1.53027, -1.30192}, {-1.79346, -3.01123, -1.30192}, {1.96338, -2.81641, -1.30192}};
 };
 class Land_NavigLight : VehicleService {
