@@ -174,11 +174,47 @@
 15, CUP_optic_ACOG
 
 > BattleRifles
+10, CUP_arifle_Mk17_STD_EGLM
+15, CUP_arifle_FNFAL
+10, CUP_arifle_FNFAL_railed
+10, CUP_srifle_M14
+8, CUP_arifle_Mk17_STD_FG
+8, CUP_arifle_Mk20
+5, CUP_srifle_L129A1_HG
+5, CUP_srifle_L129A1
+7, CUP_srifle_M110
+
 
 
 >BattleRifleAmmo
+10, CUP_20Rnd_762x51_B_SCAR
+10, CUP_20Rnd_TE1_Yellow_Tracer_762x51_SCAR
+10, CUP_20Rnd_TE1_Red_Tracer_762x51_SCAR
+10, CUP_20Rnd_762x51_FNFAL_M
+10, CUP_20Rnd_762x51_DMR
+10, CUP_20Rnd_TE1_Yellow_Tracer_762x51_DMR
+10, CUP_20Rnd_TE1_Green_Tracer_762x51_DMR
+10, CUP_20Rnd_762x51_B_SCAR
+10, CUP_20Rnd_TE1_Yellow_Tracer_762x51_SCAR
+10, CUP_20Rnd_TE1_Red_Tracer_762x51_SCAR
+8, CUP_20Rnd_762x51_L129_M
+8, CUP_20Rnd_762x51_B_M110
+8, CUP_20Rnd_TE1_Yellow_Tracer_762x51_M110
+8, CUP_20Rnd_TE1_Red_Tracer_762x51_M110
 
 >BattleRifleAttachments
+5, CUP_muzzle_snds_M110
+10, CUP_muzzle_snds_M14
+10, CUP_optic_SB_11_4x20_PM
+10, CUP_optic_LeupoldM3LR
+10, CUP_optic_ACOG
+10, muzzle_snds_B
+10, optic_SOS
+10, optic_DMS
+10, optic_LRPS
+10, optic_AMS
+10, optic_KHS_hex
+10, optic_KHS_blk
 
 > Rifles
 6, arifle_Katiba_F			// Katiba 6.5 mm
@@ -281,6 +317,7 @@
 4, CUP_arifle_Sa58RIS2_gl
 4, CUP_arifle_Sa58RIS2_camo
 1, CUP_arifle_Sa58RIS2_Arco_Laser
+7, CUP_srifle_Mk12SPR
 
 
 
@@ -344,6 +381,7 @@
 8, CUP_30Rnd_Sa58_M
 8, CUP_30Rnd_Sa58_M_TracerR
 7, CUP_30Rnd_Sa58_M_TracerY
+7, CUP_20Rnd_556x45_Stanag
 
 
 
@@ -402,21 +440,34 @@
 5, CUP_acc_ANPEQ_2_grey
 8, CUP_muzzle_snds_G36_black
 8, CUP_muzzle_snds_L85
-8, 
+8, CUP_muzzle_snds_Mk12
+10, CUP_muzzle_snds_XM8
 
 
 
 //1, optic_tws
 
 > LMG
-25, arifle_MX_SW_Black_F	// MX SW 6.5 mm (Black)
-25, arifle_MX_SW_F			// MX SW 6.5 mm
-25, LMG_Mk200_F				// Mk200 6.5 mm
-25, LMG_Zafir_F				// Zafir 7.62 mm
+20, arifle_MX_SW_Black_F	// MX SW 6.5 mm (Black)
+15, arifle_MX_SW_F			// MX SW 6.5 mm
+15, LMG_Mk200_F				// Mk200 6.5 mm
+10, LMG_Zafir_F				// Zafir 7.62 mm
 25, Exile_Weapon_RPK
-25, Exile_Weapon_PK
-25, Exile_Weapon_PKP
-25, LMG_03_F				//= LIM-85 5.56 mm
+13, Exile_Weapon_PK
+13, Exile_Weapon_PKP
+10, LMG_03_F				//= LIM-85 5.56 mm
+14, CUP_lmg_L110A1
+13, CUP_lmg_Mk48_des
+18, CUP_arifle_RPK74
+16, CUP_lmg_minimi_railed
+16, CUP_lmg_m249_para
+13, CUP_lmg_M60E4
+14, CUP_lmg_PKM
+15, CUP_lmg_Pecheneg
+13, CUP_lmg_M240
+10, CUP_lmg_L7A2
+
+
 
 > LMGAmmo
 12, 100Rnd_65x39_caseless_mag			// MX SW
@@ -435,18 +486,43 @@
 10, 200Rnd_556x45_Box_F				// LIM-85 	
 10, 200Rnd_556x45_Box_Red_F         // LIM-85	
 10, 200Rnd_556x45_Box_Tracer_F      // LIM-85	
-10, 200Rnd_556x45_Box_Tracer_Red_F  // LIM-85	
+10, 200Rnd_556x45_Box_Tracer_Red_F  // LIM-85
+10, CUP_200Rnd_TE4_Red_Tracer_556x45_M249
+10, CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249
+10, CUP_200Rnd_TE1_Red_Tracer_556x45_M249
+10, CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M
+10, CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
+5, CUP_200Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M
+5, CUP_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
+15, CUP_30Rnd_545x39_AK_M
+14, CUP_30Rnd_Subsonic_545x39_AK_M
+14, CUP_30Rnd_762x39_AK47_M
+14, CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M
+13, CUP_200Rnd_TE4_Red_Tracer_556x45_M249
+13, CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249
+13, CUP_200Rnd_TE1_Red_Tracer_556x45_M249
+13, CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M
+15, CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M
 
 > Snipers
 28, srifle_DMR_01_F			// Rahim 7.62 mm
 28, srifle_EBR_F			// Mk18 ABR 7.62 mm
-22, srifle_GM6_F			// GM6 Lynx 12.7 mm
-22, srifle_LRR_F			// M320 LRR .408
-22, srifle_LRR_tna_F    	// M320 LRR .408 (Tropic)
-22, srifle_GM6_ghex_F   	// GM6 Lynx 12.7 mm (Green Hex)
-22, srifle_DMR_07_blk_F     // CMR-76 6.5 mm (Black)
-22, srifle_DMR_07_hex_F     // CMR-76 6.5 mm (Hex)
-22, srifle_DMR_07_ghex_F    // CMR-76 6.5 mm (Green Hex)
+10, srifle_GM6_F			// GM6 Lynx 12.7 mm
+15, srifle_LRR_F			// M320 LRR .408
+15, srifle_LRR_tna_F    	// M320 LRR .408 (Tropic)
+10, srifle_GM6_ghex_F   	// GM6 Lynx 12.7 mm (Green Hex)
+17, srifle_DMR_07_blk_F     // CMR-76 6.5 mm (Black)
+17, srifle_DMR_07_hex_F     // CMR-76 6.5 mm (Hex)
+17, srifle_DMR_07_ghex_F    // CMR-76 6.5 mm (Green Hex)
+15, CUP_srifle_CZ750
+20, CUP_srifle_VSSVintorez
+25, CUP_srifle_M40A3
+25, CUP_srifle_M24_wdl
+25, CUP_srifle_M24_des
+13, CUP_srifle_G22_des
+13, CUP_srifle_AWM_wdl
+13, CUP_srifle_AWM_des
+26, CUP_srifle_SVD
 
 > SniperAmmo
 10, 5Rnd_127x108_Mag									// GM6 Lynx
@@ -458,7 +534,19 @@
 2, Exile_Magazine_5Rnd_127x108_Bullet_Cam_Mag 			// GM6 Lynx 12.7 mm
 5, Exile_Magazine_10Rnd_93x64_DMR_05_Bullet_Cam_Mag 	// Cyrus 9.3mm	
 3, Exile_Magazine_7Rnd_408_Bullet_Cam_Mag 				// M320 LRR .408	
-5, Exile_Magazine_10Rnd_338_Bullet_Cam_Mag 				// MAR-10 .338	
+5, Exile_Magazine_10Rnd_338_Bullet_Cam_Mag 				// MAR-10 .338
+5, CUP_5Rnd_127x99_as50_M
+5, CUP_10Rnd_127x99_M107
+15, CUP_10Rnd_762x51_CZ750
+15, CUP_10Rnd_762x51_CZ750_Tracer
+13, CUP_5Rnd_86x70_L115A1
+20, CUP_5Rnd_762x51_M24
+20, CUP_10Rnd_9x39_SP5_VSS_M
+18, CUP_20Rnd_9x39_SP5_VSS_M
+16, CUP_5Rnd_762x67_G22
+20, CUP_10Rnd_762x54_SVD_M
+20, CUP_srifle_SVD_des
+
 
 > SniperAttachments
 19, muzzle_snds_B
@@ -526,6 +614,21 @@
 6, MMG_02_black_F			//SPMG
 6, MMG_02_camo_F			//SPMG
 6, MMG_02_sand_F			//SPMG
+15, CUP_srifle_M107_Base
+6, CUP_srifle_AS50
+20, srifle_GM6_F
+3, CUP_launch_RPG7V
+3, CUP_launch_M136
+
+
+> EpicWeaponAmmo
+5, 5Rnd_127x108_Mag
+5, 5Rnd_127x108_APDS_Mag
+5, 130Rnd_338_Mag
+5, 150Rnd_93x64_Mag
+5, CUP_5Rnd_127x99_as50_M
+4, CUP_M136_M
+4, CUP_OG7_M
 
 > Bipods
 17, bipod_03_F_oli
