@@ -101,3 +101,88 @@ class WY_SNOW_1
 		};
 	};
 };
+
+
+class CfgSounds
+{
+	class snowWindd {
+		name = "snowWindd";
+		sound[] = {"custom\Snow\sounds\snowWindd.ogg", 1, 1};
+		titles[] = {};
+	};
+	class snowWindd2 {
+		name = "snowWindd2";
+		sound[] = {"custom\Snow\sounds\snowWindd.ogg", 0.2, 1};
+		titles[] = {};
+	};
+	class Ss1 {
+		name = "Ss1";
+		sound[] = {"custom\Snow\sounds\Voce_001.ogg", 1, 1};
+		titles[] = {};
+	};	
+	class Ss2 {
+		name = "Ss2";
+		sound[] = {"custom\Snow\sounds\Voce_002.ogg", 1, 1};
+		titles[] = {};
+	};		
+	class Ss3 {
+		name = "Ss3";
+		sound[] = {"custom\Snow\sounds\Voce_003.ogg", 1, 1};
+		titles[] = {};
+	};		
+	class Ss4 {
+		name = "Ss4";
+		sound[] = {"custom\Snow\sounds\Voce_004.ogg", 1, 1};
+		titles[] = {};
+	};		
+	class Ss5 {
+		name = "Ss5";
+		sound[] = {"custom\Snow\sounds\Voce_005.ogg", 1, 1};
+		titles[] = {};
+	};		
+	class Ss6 {
+		name = "Ss6";
+		sound[] = {"custom\Snow\sounds\Voce_006.ogg", 1, 1};
+		titles[] = {};
+	};		
+	class Ss7 {
+		name = "Ss7";
+		sound[] = {"custom\Snow\sounds\Voce_007.ogg", 1, 1};
+		titles[] = {};
+	};		
+	class Ss8 {
+		name = "Ss8";
+		sound[] = {"custom\Snow\sounds\Voce_008.ogg", 1, 1};
+		titles[] = {};
+	};		
+	class Ss9 {
+		name = "Ss9";
+		sound[] = {"custom\Snow\sounds\Voce_009.ogg", 1, 1};
+		titles[] = {};
+	};		
+	class Ss10 {
+		name = "Ss10";
+		sound[] = {"custom\Snow\sounds\Voce_010.ogg", 1, 1};
+		titles[] = {};
+	};		
+	class Ss11 {
+		name = "Ss11";
+		sound[] = {"custom\Snow\sounds\Voce_011.ogg", 1, 1};
+		titles[] = {};
+	};		
+	class Ss12 {
+		name = "Ss12";
+		sound[] = {"custom\Snow\sounds\Voce_012.ogg", 1, 1};
+		titles[] = {};
+	};		
+	class Ss13 {
+		name = "Ss13";
+		sound[] = {"custom\Snow\sounds\Voce_013.ogg", 1, 1};
+		titles[] = {};
+	};		
+	class Ss14 {
+		name = "Ss14";
+		sound[] = {"custom\Snow\sounds\Voce_014.ogg", 1, 1};
+		titles[] = {};
+	};		
+};

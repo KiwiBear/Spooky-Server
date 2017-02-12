@@ -2580,13 +2580,16 @@ class CfgExileCustomCode
 
 		ExileClient_util_fusRoDah = "myaddon\myfunction.sqf";
 	*/
-	
+	//Snow updates
+	ExileClient_system_snow_thread_update = "custom\overrides\ExileClient_system_snow_thread_update.sqf";
 	//Temperature
 	ExileClient_object_player_stats_updateTemperature = "custom\overrides\ExileClient_object_player_stats_updateTemperature.sqf";
 	//Random Spawn
 	ExileClient_gui_selectSpawnLocation_show = "custom\overrides\ExileClient_gui_selectSpawnLocation_show.sqf";
 	//Party ESP GPS
 	ExileClient_gui_hud_renderPartyESP = "custom\overrides\ExileClient_gui_hud_renderPartyESP.sqf";
+	//Death Blackout
+	ExileClient_object_player_death_startBleedingOut = "custom\overrides\ExileClient_object_player_death_startBleedingOut.sqf";
 	//Random Spawn Outfit
 	ExileServer_object_player_createBambi = "custom\loadout\ExileServer_object_player_createBambi.sqf";
 	ExileServer_object_player_network_createPlayerRequest = "custom\loadout\ExileServer_object_player_network_createPlayerRequest.sqf";
@@ -2683,22 +2686,22 @@ class CfgExileEnvironment
 		{
 			// Temperature in °C for the time of day, per hour
 			// Add the first index to the last index, so it is 25 indizes!
-			daytimeTemperature[] = {10.93,11.89,13.42,15.40,17.68,20.10,22.48,24.63,26.40,27.66,28.32,28.80,28.80,28.32,27.66,26.40,24.63,22.48,20.10,17.68,15.40,13.42,11.89,10.93,10.93};
+			daytimeTemperature[] = {10.93,10.89,10.42,20.40,30.68,20.10,30.48,20.63,30.40,30.66,40.32,40.80,40.80,50.32,40.66,40.40,30.63,30.48,30.10,20.68,20.40,20.42,10.89,10.93,10.93};
 		
 			// Temperature change in °C when it is 100% overcast
-			overcast = -2;
+			overcast = -5;
 
 			// Temperature change in °C when it is 100% raining
-			rain = -5;
+			rain = 3;
 
 			// Temperature change in °C when it is 100% windy
-			wind = -1;
+			wind = -3;
 
 			// Temperature change per 100m altitude in °C
-			altitude = -0.5;
+			altitude = -5;
 
 			// Difference from the daytime temperature to the water temperature
-			water = -5;
+			water = -15;
 		};
 	};
 };
