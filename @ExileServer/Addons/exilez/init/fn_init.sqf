@@ -15,9 +15,9 @@ Debug                        = true;             // debug messages.
 MinSpawnDistance             = 20;               // Closest distance from any player to spawn a zombie.
 MaxSpawnDistance             = 160;              // Max distance a zombie should spawn from a player.
 MaxDistance			         = 300;              // Max distance to players before delete.
-MaxTime                      = 30;               // Max time away from a player before delete.
+MaxTime                      = 35;               // Max time away from a player before delete.
 RemoveZfromTerritory         = true;             // Will kill zombies when they get too close to a flag. *(the check is done every MaxTime) will only work with zombies that are configured to avoid territories
-TriggerGroupScaling          = 0.25;             // 1 player = Groupsize, 2 player in trigger = Groupsize + (GroupSize * TriggerGroupScalling * number of player in the trigger) set at 0 to disable scaling
+TriggerGroupScaling          = 0.30;             // 1 player = Groupsize, 2 player in trigger = Groupsize + (GroupSize * TriggerGroupScalling * number of player in the trigger) set at 0 to disable scaling
 LightsOff                    = true;             // Kill all the light on map except the player lights.
 HarassingZombieAtNightOnly   = false;             // Spawn harassing zombies at night only.
 NightStartTime               = 18;               // Time at which it is night in hours
@@ -59,7 +59,7 @@ _Ryanzombieshealthdemon                = 0.5;	 // Health, *(initial damage level
 _Ryanzombiesattackspeed 	           = 1.5;	 // Attack speed, *(Time is seconds between attacks)
 _Ryanzombiesattackdistance 	           = 2;	     // Attack distance, *(in meters)
 _Ryanzombiesattackstrenth 	           = 0;	     // Attack strength *(Knockback strength) *(TYPO IS NORMAL)
-_Ryanzombiesdamage 			           = 0.09;   // Attack damage *(% of players life per hit, 1 is 100%)
+_Ryanzombiesdamage 			           = 0.12;   // Attack damage *(% of players life per hit, 1 is 100%)
 _Ryanzombiesdamagecar 		           = 0.05;	 // Attack damage to car *(% of car health per hit, 1 is 100%)
 _Ryanzombiesdamageair 		           = 0.01;	 // Attack damage to air *(% of car health per hit, 1 is 100%)
 _Ryanzombiesdamagetank                 = 0.005;	 // Attack damage to tank *(% of car health per hit, 1 is 100%)
@@ -77,7 +77,7 @@ _Ryanzombiescanthrowtankdemon          = 1;	     // Enable or disable Throwing t
 _Ryanzombiescanthrowdistancedemon      = 50;	 // Max throw distance demon
 _Ryanzombiescanthrowtankdistancedemon  = 10;     // Max throw distance for tanks      
 
-_ryanzombiesdisablebleeding            = 1;      // 1 to DISABLE player bleeding on hit, -1 to ENABLE player bleeding on hit.
+_ryanzombiesdisablebleeding            = -1;      // 1 to DISABLE player bleeding on hit, -1 to ENABLE player bleeding on hit.
 _ryanzombiesstartinganim               = 1;      // Enable Spawning animation
 _ryanzombieslimit                      = 100;    // Player detection distance in meters
 		
@@ -93,8 +93,8 @@ _Ryanzombiesjumpdemon                  = 1;      // Jumping Demons
 _Ryanzombiesfeed                       = -1;     // Feeding Zombies
 _Ryanzombiesfeeddemon                  = 1;      // Feeding Demons
                                                     
-_Ryanzombiesinfection                  = 1;     // Enable infections *(-1 to disable)
-_ryanzombiesinfectedchance             = 5;     // Precent chances to be infected on hit
+_Ryanzombiesinfection                  = -1;     // Enable infections *(-1 to disable)
+_ryanzombiesinfectedchance             = 10;     // Precent chances to be infected on hit
 _ryanzombiesinfectedrate               = 0.04;   // Damage per minute when infected (+/- 30 minutes to live)
 _ryanzombiesinfectedsymptoms           = 0.9;    // Symptomes showed when infected 0.9 = Normal 0.7 = Less 0.5 = None
 _ryanzombiesinfecteddeath              = 0.9;    // 0.9 = Scream on death 0.7 = Silent death
@@ -106,10 +106,10 @@ _ryanzombiesantivirusduration          = 300;    // Antivirus duration *(5 minut
 _ryanzombiesmovementspeedwalker        = 1;      // Animation speed for walker zombies
 _ryanzombiesmovementspeedslow          = 1;      // Animation speed for slow zombies
 _ryanzombiesmovementspeedmedium        = 1;      // Animation speed for medium zombies
-_ryanzombiesmovementspeedfast          = 1;      // Animation speed for fast zombies
-_ryanzombiesmovementspeeddemon         = 1;      // Animation speed for demons
-_ryanzombiesmovementspeedspider        = 1;      // Animation speed for spider
-_ryanzombiesmovementspeedcrawler       = 1;      // Animation speed for crawler
+_ryanzombiesmovementspeedfast          = 1.1;      // Animation speed for fast zombies
+_ryanzombiesmovementspeeddemon         = 1.1;      // Animation speed for demons
+_ryanzombiesmovementspeedspider        = 1.1;      // Animation speed for spider
+_ryanzombiesmovementspeedcrawler       = 1.1;      // Animation speed for crawler
 
 
 //Default Altis SafeZones
