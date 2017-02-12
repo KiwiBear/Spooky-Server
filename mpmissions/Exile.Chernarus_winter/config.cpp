@@ -2588,8 +2588,6 @@ class CfgExileCustomCode
 	ExileClient_gui_selectSpawnLocation_show = "custom\overrides\ExileClient_gui_selectSpawnLocation_show.sqf";
 	//Party ESP GPS
 	ExileClient_gui_hud_renderPartyESP = "custom\overrides\ExileClient_gui_hud_renderPartyESP.sqf";
-	//Death Blackout
-	ExileClient_object_player_death_startBleedingOut = "custom\overrides\ExileClient_object_player_death_startBleedingOut.sqf";
 	//Random Spawn Outfit
 	ExileServer_object_player_createBambi = "custom\loadout\ExileServer_object_player_createBambi.sqf";
 	ExileServer_object_player_network_createPlayerRequest = "custom\loadout\ExileServer_object_player_network_createPlayerRequest.sqf";
