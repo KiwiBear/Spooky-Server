@@ -158,7 +158,7 @@ Trigger_1 = [				 //Cities
 /* 3  Activation Delay */    15,                 // The delay before the activation of the trigger.
 /* 4  Spawn Delay */         15,                 // The delay between each zombie spawn right after the activation until the Max group size is reached.
 /* 5  Respawn Delay */       60,                 // The respawn delay after the max group size was reached
-/* 6  Show Trigger On Map */ true,               // Put a marker at the location and radius of the trigger on the map
+/* 6  Show Trigger On Map */ false,               // Put a marker at the location and radius of the trigger on the map
 /* 7  Marker Color */        "ColorRed",         // Color of the trigger
 /* 8  MarkerBrush */         "Solid",            // "Solid","SolidFull","Horizontal","Vertical","Grid","FDiagonal","BDiagonal","DiagGrid","Cross","Border","SolidBorder"
 /* 9  Marker Alpha */        0.2,                // Alpha of the trigger *(0 is invisible 1 is opaque)
@@ -179,7 +179,7 @@ Trigger_2 = [				 //Military
 /* 3  Activation Delay */    15,                 
 /* 4  Spawn Delay */         15,                 
 /* 5  Respawn Delay */       45,                 
-/* 6  Show Trigger On Map */ true,               
+/* 6  Show Trigger On Map */ false,               
 /* 7  Marker Color */        "ColorRed",         
 /* 8  MarkerBrush */         "Solid",            
 /* 9  Marker Alpha */        0.2,                
@@ -200,7 +200,7 @@ Trigger_3 = [				 //No Buildings
 /* 3  Activation Delay */    15,                 
 /* 4  Spawn Delay */         15,                 
 /* 5  Respawn Delay */       60,                 
-/* 6  Show Trigger On Map */ true,               
+/* 6  Show Trigger On Map */ false,               
 /* 7  Marker Color */        "ColorRed",         
 /* 8  MarkerBrush */         "Solid",            
 /* 9  Marker Alpha */        0.2,                
@@ -221,7 +221,7 @@ Trigger_4 = [				 //No Man Land
 /* 3  Activation Delay */    15,                 
 /* 4  Spawn Delay */         15,                 
 /* 5  Respawn Delay */       30,                 
-/* 6  Show Trigger On Map */ true,               
+/* 6  Show Trigger On Map */ false,               
 /* 7  Marker Color */        "ColorRed",         
 /* 8  MarkerBrush */         "DiagGrid",            
 /* 9  Marker Alpha */        0.2,                
@@ -242,7 +242,7 @@ Trigger_5 = [				 //Mission Trigger
 /* 3  Activation Delay */    5,                  
 /* 4  Spawn Delay */         5,                  
 /* 5  Respawn Delay */       5,                  
-/* 6  Show Trigger On Map */ true,               
+/* 6  Show Trigger On Map */ false,               
 /* 7  Marker Color */        "ColorYellow",      
 /* 8  MarkerBrush */         "Solid",            
 /* 9  Marker Alpha */        0.5,                
