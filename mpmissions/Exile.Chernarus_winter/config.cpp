@@ -2581,6 +2581,16 @@ class CfgExileCustomCode
 		ExileClient_util_fusRoDah = "myaddon\myfunction.sqf";
 	*/
 	
+	//Temperature
+	ExileClient_object_player_stats_updateTemperature = "custom\overrides\ExileClient_object_player_stats_updateTemperature.sqf";
+	//Random Spawn
+	ExileClient_gui_selectSpawnLocation_show = "custom\overrides\ExileClient_gui_selectSpawnLocation_show.sqf";
+	//Party ESP GPS
+	ExileClient_gui_hud_renderPartyESP = "custom\overrides\ExileClient_gui_hud_renderPartyESP.sqf";
+	//Random Spawn Outfit
+	ExileServer_object_player_createBambi = "custom\loadout\ExileServer_object_player_createBambi.sqf";
+	ExileServer_object_player_network_createPlayerRequest = "custom\loadout\ExileServer_object_player_network_createPlayerRequest.sqf";
+	
 	// Fix Vehicle Trader Spawns
 	ExileServer_system_trading_network_purchaseVehicleRequest = "Fixes\TraderFixes\ExileServer_system_trading_network_purchaseVehicleRequest.sqf";
 	
