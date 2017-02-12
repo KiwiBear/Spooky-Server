@@ -286,10 +286,36 @@ _objects =
     ["Land_fort_bagfence_round",[12138.6,12602.4,0],197.399,0,0,false],
     ["Land_Wreck_Heli_Attack_02_F",[12173,12588.9,0],0,0,0,false],
     ["Land_HelipadCircle_F",[12168.4,12638,0],19,0,0,false],
-    ["Land_HelipadSquare_F",[12205,12625.7,0],19,0,0,false],
+    ["Land_HelipadSquare_F",[12205,12625.7,0],19,0,0,false]
 
+];
+
+{
+    private ["_object"];
+
+    _object = (_x select 0) createVehicle [0,0,0];
+    _object setDir (_x select 2);
+    _object setPosATL (_x select 1);
+    _object allowDamage true;
+    _object enableSimulationGlobal true; // :)
+}
+forEach _objects;
+
+private _lockers = [
 	
-/////// custom map additions
+	// Polana Lockers	
+	// ["Exile_Locker",[11463.5,7488.04,221.448],[[-0.288025,-0.957528,0.0134808],[-0.0064223,0.0160085,0.999851]],[false,false]],
+	// ["Exile_Locker",[11464.8,7487.63,221.464],[[-0.288025,-0.957528,0.0134808],[-0.0064223,0.0160085,0.999851]],[false,false]],
+	// ["Exile_Locker",[11466.2,7487.18,221.48],[[-0.288025,-0.957528,0.0134808],[-0.0064223,0.0160085,0.999851]],[false,false]],
+	// ["Exile_Sign_Locker",[11465.3,7487.57,222.283],[[-0.264868,-0.964285,0],[0,0,1]],[false,false]],
+	// Vybor Lockers
+	// ["Exile_Locker",[3822.34,8946.1,311.051],[[-0.39086,-0.92045,0],[0,0,1]],[false,false]],
+	// ["Exile_Locker",[3821.29,8947.11,311.051],[[-0.921152,0.389203,0],[0,0,1]],[false,false]],
+	// ["Exile_Sign_Locker",[3823.76,8949.96,311.901],[[-0.391934,-0.919993,0],[0,0,1]],[false,false]],
+	// ["Land_VergePost_01_F",[3822.81,8950.36,310.988],[[-0.427044,-0.904228,-0.00234138],[-0.00265204,-0.00133687,0.999996]],[false,false]],
+	// ["Land_VergePost_01_F",[3824.71,8949.58,310.992],[[-0.427044,-0.904228,-0.00234138],[-0.00265204,-0.00133687,0.999996]],[false,false]],
+	
+	/////// custom map additions
 
 	["Land_HBarrier_Big_F",[8109.6,9235.2,470.066],[[0,0.999978,0.00665928],[0.00532655,-0.00665919,0.999964]],false],
 	["Land_HBarrier_Big_F",[8101.14,9234.8,470.019],[[0,0.999928,0.0119949],[-0.0106641,-0.0119942,0.999871]],false],
@@ -480,41 +506,14 @@ _objects =
 	["CUP_hromada_beden_dekorativniX",[8939.99,4377.45,343.296],[[0,0.996815,0.0797462],[-0.0519322,-0.0796386,0.99547]],false],
 	["CUP_hromada_beden_dekorativniX",[2669.95,7630.79,365.928],[[0,0.999679,-0.0253251],[0.0346418,0.0253099,0.999079]],false],
 	["CUP_hromada_beden_dekorativniX",[10135.8,12050.5,337.103],[[0,0.985747,-0.168234],[-0.19234,0.165093,0.967341]],false]
-
-];
-
-{
-    private ["_object"];
-
-    _object = (_x select 0) createVehicle [0,0,0];
-    _object setDir (_x select 2);
-    _object setPosATL (_x select 1);
-    _object allowDamage true;
-    _object enableSimulationGlobal true; // :)
-}
-forEach _objects;
-
-private _lockers = [
-	
-	// Polana Lockers	
-	["Exile_Locker",[11463.5,7488.04,221.448],[[-0.288025,-0.957528,0.0134808],[-0.0064223,0.0160085,0.999851]],[false,false]],
-	["Exile_Locker",[11464.8,7487.63,221.464],[[-0.288025,-0.957528,0.0134808],[-0.0064223,0.0160085,0.999851]],[false,false]],
-	["Exile_Locker",[11466.2,7487.18,221.48],[[-0.288025,-0.957528,0.0134808],[-0.0064223,0.0160085,0.999851]],[false,false]],
-	["Exile_Sign_Locker",[11465.3,7487.57,222.283],[[-0.264868,-0.964285,0],[0,0,1]],[false,false]],
-	// Vybor Lockers
-	["Exile_Locker",[3822.34,8946.1,311.051],[[-0.39086,-0.92045,0],[0,0,1]],[false,false]],
-	["Exile_Locker",[3821.29,8947.11,311.051],[[-0.921152,0.389203,0],[0,0,1]],[false,false]],
-	["Exile_Sign_Locker",[3823.76,8949.96,311.901],[[-0.391934,-0.919993,0],[0,0,1]],[false,false]],
-	["Land_VergePost_01_F",[3822.81,8950.36,310.988],[[-0.427044,-0.904228,-0.00234138],[-0.00265204,-0.00133687,0.999996]],[false,false]],
-	["Land_VergePost_01_F",[3824.71,8949.58,310.992],[[-0.427044,-0.904228,-0.00234138],[-0.00265204,-0.00133687,0.999996]],[false,false]]
 ];
 
 {
 	private _locker = (_x select 0) createVehicle [0,0,0];
 	_locker setPosASL (_x select 1);
 	_locker setVectorDirAndUp (_x select 2);
-	_locker enableSimulationGlobal ((_x select 3) select 0);
-	_locker allowDamage ((_x select 3) select 1);
+	_locker enableSimulationGlobal true;
+	_locker allowDamage true;
 }
 forEach _lockers;
 
