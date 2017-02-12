@@ -12,10 +12,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={12292.703,41.560669,9743.043};
-		dir[]={-0.89033496,-0.45247445,-0.053056125};
-		up[]={-0.45181549,0.89162952,-0.026925432};
-		aside[]={-0.059505038,-5.3132826e-006,0.99834496};
+		pos[]={13477.963,79.615211,3340.5056};
+		dir[]={-0.78122085,-0.34500629,-0.5202626};
+		up[]={-0.28716019,0.93859965,-0.19123772};
+		aside[]={-0.55429542,-5.0058588e-009,0.83232516};
 	};
 };
 binarizationWanted=0;
@@ -43,15 +43,13 @@ addons[]=
 	"A3_Structures_F_EPA_Items_Vessels",
 	"exile_client",
 	"CUP_CAMisc",
-	"CUP_Editor_Buildings_Config",
-	"A3_Misc_F_Helpers",
-	"A3_Structures_F_Heli_VR_Helpers"
+	"CUP_Editor_Buildings_Config"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=17;
+		items=16;
 		class Item0
 		{
 			className="A3_Structures_F_Mil";
@@ -146,13 +144,6 @@ class AddonsMetaData
 			className="CUP_Editor_Buildings_Config";
 			name="CUP_Editor_Buildings_Config";
 		};
-		class Item16
-		{
-			className="A3_Misc_F";
-			name="Arma 3 - 3D Aids and Helpers";
-			author="Bohemia Interactive";
-			url="http://www.arma3.com";
-		};
 	};
 };
 randomSeed=12342667;
@@ -182,7 +173,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=221;
+		items=218;
 		class Item0
 		{
 			dataType="Object";
@@ -3736,59 +3727,6 @@ class Mission
 			};
 			id=457;
 			type="CUP_hromada_beden_dekorativniX";
-			atlOffset=3.0517578e-005;
-		};
-		class Item218
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={10138.115,337.53217,12050.675};
-				angles[]={0.16903779,0,0.19354662};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				createAsSimpleObject=1;
-			};
-			id=458;
-			type="Sign_Sphere25cm_F";
-			atlOffset=6.1035156e-005;
-		};
-		class Item219
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={10132.896,336.16449,12052.645};
-				angles[]={0.2241669,0,0.19354631};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				createAsSimpleObject=1;
-			};
-			id=460;
-			type="Sign_Sphere25cm_F";
-		};
-		class Item220
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={10133.365,336.88977,12049.357};
-				angles[]={0.19611186,0,0.166447};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				createAsSimpleObject=1;
-			};
-			id=462;
-			type="Sign_Sphere25cm_F";
 			atlOffset=3.0517578e-005;
 		};
 	};
