@@ -3010,7 +3010,7 @@ class CfgSettings
 	class KillFeed
 	{
 		// Shows a kill feed for well kills
-		showKillFeed = 1;
+		showKillFeed = 0;
 	};
 
 	///////////////////////////////////////////////////////////////////////
@@ -3026,8 +3026,6 @@ class CfgSettings
 		 */
 		loadOut[] = 
 		{
-			"ItemCompass",
-			"ItemMap", // Because why not
 			"Exile_Item_XM8",
 			"ItemRadio",
 			"Exile_Item_PlasticBottleFreshWater"
@@ -3173,7 +3171,6 @@ class CfgSettings
 			"Exile_Car_TowTractor_White",
 			"Exile_Car_UAZ_Open_Green",
 			"Exile_Car_UAZ_Green",
-			"Exile_Car_LandRover_Ambulance_Desert",
 			"Exile_Car_Tractor_Red",
 			"Exile_Car_OldTractor_Red",
 			"Exile_Car_Octavius_White"
@@ -3218,7 +3215,7 @@ class CfgSettings
 			weather type of be more dominant compared to others, add it multiple times
 		*/
 		//keyframes[] = {"Sunny", "Cloudy", "Thunderstorm"}; 
-		keyframes[] = {"Sunny"}; 
+		keyframes[] = {"Cloudy"}; 
 
 		/*
 			This is a keyframe. Look up the BIKI to get more details about the parameters
@@ -3251,10 +3248,10 @@ class CfgSettings
 
 		class Cloudy
 		{
-			fogValue = 0.2;
+			fogValue = 0.1;
 			fogDecay = 0.1;
 			fogBase = 5;
-			overcast = 0.4;
+			overcast = 0.8;
 			waves = 0.4;
 			wind = 0.25;
 			gusts = 0.5;
