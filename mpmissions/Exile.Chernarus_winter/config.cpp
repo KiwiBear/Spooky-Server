@@ -3757,7 +3757,7 @@ class CfgTraderCategories
 		};
 	};
 
-	class Community3..00
+	class Community3
 	{
 		name = "Community Items 3";
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\uniform_ca.paa";
