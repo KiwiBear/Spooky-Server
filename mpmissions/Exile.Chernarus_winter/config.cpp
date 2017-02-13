@@ -2592,6 +2592,9 @@ class CfgExileCustomCode
 	ExileServer_object_player_createBambi = "custom\loadout\ExileServer_object_player_createBambi.sqf";
 	ExileServer_object_player_network_createPlayerRequest = "custom\loadout\ExileServer_object_player_network_createPlayerRequest.sqf";
 	
+	// loot spawn fixe
+	ExileClient_system_lootManager_thread_spawn = "custom\overrides\ExileClient_system_lootManager_thread_spawn.sqf";
+	
 	// Fix Vehicle Trader Spawns
 	ExileServer_system_trading_network_purchaseVehicleRequest = "Fixes\TraderFixes\ExileServer_system_trading_network_purchaseVehicleRequest.sqf";
 	
