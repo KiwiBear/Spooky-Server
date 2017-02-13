@@ -2,8 +2,6 @@
 
 DayZ Mod Recreation - Survive, Build, PVP
 
-=======
-
 The directory structure is the same as the production server.
 
 Main files are:
