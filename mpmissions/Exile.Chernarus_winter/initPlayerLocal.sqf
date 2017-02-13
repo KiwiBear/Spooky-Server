@@ -48,7 +48,7 @@ _traderGuard1 =
     "Exile_Guard_01",
 	"",
     "WhiteHead_19",
-    ["HubStandingUA_move1", "HubStandingUA_move2", "HubStandingUA_idle1", "HubStandingUA_idle2", "HubStandingUA_idle3"],
+    ["InBaseMoves_patrolling1"],
     [8117.531,9241.470,6.911],
     91.148
 ]
@@ -59,7 +59,7 @@ _traderGuard2 =
     "Exile_Guard_02",
 	"",
     "WhiteHead_19",
-    ["HubStandingUA_move1", "HubStandingUA_move2", "HubStandingUA_idle1", "HubStandingUA_idle2", "HubStandingUA_idle3"],
+    ["InBaseMoves_patrolling2"],
     [8117.807,9260.574,6.929],
     91.148
 ]
