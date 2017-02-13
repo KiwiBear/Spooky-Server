@@ -8,14 +8,14 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=598;
+		nextID=609;
 	};
 	class Camera
 	{
-		pos[]={1594.702,287.05612,7783.5264};
-		dir[]={-0.030813079,-0.42428103,-0.90503681};
-		up[]={-0.0144383,0.90551341,-0.4240706};
-		aside[]={-0.99944711,1.5656224e-007,0.034028776};
+		pos[]={8104.4731,506.73834,9246.5078};
+		dir[]={-0.50757229,-0.76152354,-0.40312615};
+		up[]={-0.59634405,0.64810771,-0.47363162};
+		aside[]={-0.62194771,-2.9394869e-007,0.78308648};
 	};
 };
 binarizationWanted=0;
@@ -211,7 +211,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=304;
+		items=310;
 		class Item0
 		{
 			dataType="Object";
@@ -5018,22 +5018,6 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3828.5283,418.07736,14092.27};
-				angles[]={6.1954112,1.5758859,6.2299037};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=583;
-			type="Land_tent_east";
-		};
-		class Item296
-		{
-			dataType="Object";
-			class PositionInfo
-			{
 				position[]={3782.6428,419.26257,14099.585};
 				angles[]={6.206008,0,6.2525272};
 			};
@@ -5045,7 +5029,7 @@ class Mission
 			id=584;
 			type="FireLit";
 		};
-		class Item297
+		class Item296
 		{
 			dataType="Object";
 			class PositionInfo
@@ -5061,7 +5045,7 @@ class Mission
 			id=586;
 			type="Land_Lampa_sidl_3";
 		};
-		class Item298
+		class Item297
 		{
 			dataType="Group";
 			side="West";
@@ -5092,7 +5076,7 @@ class Mission
 			id=588;
 			atlOffset=-0.00012207031;
 		};
-		class Item299
+		class Item298
 		{
 			dataType="Object";
 			class PositionInfo
@@ -5108,7 +5092,7 @@ class Mission
 			id=590;
 			type="Land_A_Hospital";
 		};
-		class Item300
+		class Item299
 		{
 			dataType="Object";
 			class PositionInfo
@@ -5124,7 +5108,7 @@ class Mission
 			id=591;
 			type="AmmoCrates_NoInteractive_Large";
 		};
-		class Item301
+		class Item300
 		{
 			dataType="Object";
 			class PositionInfo
@@ -5140,12 +5124,12 @@ class Mission
 			id=592;
 			type="AmmoCrates_NoInteractive_Large";
 		};
-		class Item302
+		class Item301
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={8931.1162,343.61426,4389.8296};
+				position[]={8931.1201,343.77902,4389.0625};
 				angles[]={0.21145581,0,0.018667053};
 			};
 			side="Empty";
@@ -5156,7 +5140,7 @@ class Mission
 			id=593;
 			type="AmmoCrates_NoInteractive_Large";
 		};
-		class Item303
+		class Item302
 		{
 			dataType="Object";
 			class PositionInfo
@@ -5171,6 +5155,118 @@ class Mission
 			};
 			id=594;
 			type="AmmoCrates_NoInteractive_Large";
+		};
+		class Item303
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3828.5864,418.02188,14096.207};
+				angles[]={6.1940866,3.1594789,6.2299037};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=598;
+			type="CampEast";
+		};
+		class Item304
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4574.2476,322.52051,8304.7861};
+				angles[]={0.010669862,1.4129034,0.039976168};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=599;
+			type="Land_Vez";
+		};
+		class Item305
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4588.3115,322.95227,8239.0127};
+				angles[]={6.2725158,2.4346516,0.050623242};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=600;
+			type="Land_Vez";
+		};
+		class Item306
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4538.4106,320.83267,8369.2617};
+				angles[]={0,0,0.041308183};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=601;
+			type="Land_Vez";
+		};
+		class Item307
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4504.5786,319.03528,8329.8496};
+				angles[]={6.275177,2.2567797,0.043970551};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=602;
+			type="Land_Vez";
+		};
+		class Item308
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4467.7007,317.72757,8284.3545};
+				angles[]={0,4.7712107,0.029324362};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=603;
+			type="Land_Vez";
+		};
+		class Item309
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4521.019,319.49997,8257.4258};
+				angles[]={0,3.3519108,0.050624419};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=604;
+			type="Land_Vez";
 		};
 	};
 	class Connections
