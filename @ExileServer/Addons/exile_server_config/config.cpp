@@ -3816,8 +3816,7 @@ class CfgSettings
 		 */
 		spawnZoneVehicles[] =
 		{
-			{5, "Exile_Bike_OldBike"},
-			{5, "Exile_Bike_MountainBike"}
+			{3, "Exile_Bike_OldBike"}
 		};
 	};
 
@@ -4058,7 +4057,7 @@ class CfgSettings
 			0 = off
 			1 = on
 		*/
-		useAutoKick = 0;
+		useAutoKick = 1;
 
 		/*
 			Number of minutes before the server kicks players that did
@@ -4101,7 +4100,7 @@ class CfgSettings
 			If this is enabled, Exile developers will spawn with a ton of pop tabs.
 			We will have a hard time debugging things if you disable this.
 		*/
-		devFriendyMode = 1;
+		devFriendyMode = 0;
 
 		devs[] = 
 		{
@@ -4137,12 +4136,12 @@ class CfgSettings
 			*/
 			type = "spawn";
 			function = "ExileServer_system_event_supplyBox_start";
-			minTime = 60; // minutes
-			maxTime = 180; // minutes
-			minimumPlayersOnline = 10;
+			minTime = 20; // minutes
+			maxTime = 90; // minutes
+			minimumPlayersOnline = 2;
 			dropRadius = 500; // 500m around an airport (including the main airport on Altis!)
-			dropAltitude = 100; // altitude of the drop
-			markerTime = 10; // minutes
+			dropAltitude = 300; // altitude of the drop
+			markerTime = 45; // minutes
 
 			/*
 				These are different types of boxes can be dropped.
@@ -4150,7 +4149,7 @@ class CfgSettings
 				The type of box is chosen randomly from the following list.
 				Add a type multiple times to increase the chance of being used.
 			*/
-			types[] = {"Beer", "Beer", "Tools", "Food", "Food", "RepairParts"};
+			types[] = {"Beer", "Tools", "Food", "Drinks", "RepairParts", "Medical", "Technology", "Explosives", "BuildingSupplies"};
 
 			class BoxTypes
 			{
@@ -4158,7 +4157,7 @@ class CfgSettings
 				{
 					items[] = 
 					{
-						{"Exile_Item_Beer", 24}
+						{"Exile_Item_Beer", 48}
 					};
 				};
 
@@ -4166,29 +4165,92 @@ class CfgSettings
 				{
 					items[] = 
 					{
-						{"Exile_Item_BBQSandwich", 5},
-						{"Exile_Item_Catfood", 5},
-						{"Exile_Item_ChristmasTinner", 5},
-						{"Exile_Item_GloriousKnakworst", 5},
-						{"Exile_Item_SausageGravy", 5},
-						{"Exile_Item_Surstromming", 5},
-						{"Exile_Item_CanOpener", 1},
-						{"Exile_Item_CookingPot", 1},
-						{"Exile_Item_Matches", 1}
+						{"Exile_Item_BBQSandwich", 10},
+						{"Exile_Item_Catfood", 10},
+						{"Exile_Item_ChristmasTinner", 10},
+						{"Exile_Item_GloriousKnakworst", 10},
+						{"Exile_Item_SausageGravy", 10},
+						{"Exile_Item_Surstromming", 10,
+						{"Exile_Item_CanOpener", 3},
+						{"Exile_Item_CookingPot", 3},
+						{"Exile_Item_Matches", 3}
 					};
 				};
 
+				class Drinks 
+				{
+					items[] = 
+					{
+						{"Exile_Item_InstantCoffee", 12},
+						{"Exile_Item_Energydrink", 12},
+						{"Exile_Item_PlasticBottleFreshWater", 12},
+						{"Exile_Item_MountainDupe", 24},
+						{"Exile_Item_PowerDrink", 12},
+						{"Exile_Item_PlasticBottleCoffee", 12}
+					};
+				};
+				
 				class Tools 
 				{
 					items[] = 
 					{
 						{"Exile_Item_Wrench", 1},
+						{"Exile_Melee_Axe", 1},
 						{"Exile_Item_Shovel", 1},
 						{"Exile_Item_Screwdriver", 1},
 						{"Exile_Item_Pliers", 1},
+						{"Exile_Item_Grinder", 1},
 						{"Exile_Item_Handsaw", 1},
+						{"Exile_Item_Foolbox", 1},
 						{"Exile_Item_FireExtinguisher", 1},
-						{"Exile_Item_DuctTape", 1}
+						{"Exile_Item_CordlessScrewdriver", 1},
+						{"Exile_Melee_SledgeHammer", 1},
+						{"Exile_Item_Hammer", 1}
+					};
+				};
+				
+				class Medical 
+				{
+					items[] = 
+					{
+						{"Exile_Item_Bandage", 20},
+						{"Exile_Item_Vishpirin", 20},
+						{"Exile_Item_InstaDoc", 10}
+					};
+				};
+				
+				class BuildingSupplies 
+				{
+					items[] = 
+					{
+						{"Exile_Item_WoodFloorKit", 12},
+						{"Exile_Item_WoodFloorPortKit", 3},
+						{"Exile_Item_WoodWallKit", 12},
+						{"Exile_Item_WoodDoorwayKit", 2},
+						{"Exile_Item_WoodGateKit", 2},
+						{"Exile_Item_WoodWindowKit", 5},
+						{"Exile_Item_Codelock", 2}
+					};
+				};
+
+				class Technology 
+				{
+					items[] = 
+					{
+						{"Exile_Item_ThermalScannerPro", 2},
+						{"Exile_Item_BaseCameraKit", 2,
+						{"ItemGPS", 2},
+						{"Rangefinder", 2},
+						{"NVGoggles", 2}
+					};
+				};
+				
+				class Explosives 
+				{
+					items[] = 
+					{
+						{"Exile_Item_BreachingCharge_Wood", 3},
+						{"Exile_Item_BreachingCharge_Metal", 3}
 					};
 				};
 
@@ -4196,11 +4258,14 @@ class CfgSettings
 				{
 					items[] = 
 					{
-						{"Exile_Item_CarWheel", 8},
+						{"Exile_Item_CarWheel", 4},
 						{"Exile_Item_FuelCanisterFull", 4},
-						{"Exile_Item_OilCanister", 1},
-						{"Exile_Item_Grinder", 1},
-						{"Exile_Item_CordlessScrewdriver", 1}
+						{"Exile_Item_OilCanister", 2},
+						{"Exile_Item_MetalWire", 2},
+						{"Exile_Item_JunkMetal", 2},
+						{"Exile_Item_DuctTape", 3},
+						{"Exile_Item_MetalScrews", 3},
+						{"Exile_Item_MetalBoard", 2}
 					};
 				};
 			};
