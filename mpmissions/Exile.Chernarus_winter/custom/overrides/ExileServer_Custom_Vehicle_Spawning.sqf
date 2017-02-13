@@ -1,16 +1,64 @@
 
-// 2 hunters, 2 humvees, 2 suvs, 10 uaz, 2 vs3, 12 ladas, 2 turbos, 3 offroaders, 6 pickup trucks, 2 pizza trucks
-// 5 jeeps, 1 quelin, 1 prowler, 1 mtvr, 2 ural, 3 buses
-// 8 atvs, 1 littelbird, 2 hueys, 1 civ mi-17, 1 armed mi17, 1 medical blackhawks, x pbx, y fishing boats
+// 2 hunters, 2 humvees, 2 suvs, 10 uaz, 8 ladas, 4 datsun, 2 turbos, 3 offroaders, 6 pickup trucks, 2 pizza trucks
+// 5 jeeps, 1 quelin, 1 prowler, 2 vs3,1 mtvr, 2 ural, 3 buses
+// 8 atvs, 1 littelbird, 2 hueys, 1 civ mi-17, 1 armed mi17, 1 medical blackhawks, 2 planes
+// x pbx, y fishing boats
 
 private["_vehicleIDs", "_vehicleSpawnLocations", "_vehicleClassNames", "_curVehicleID", "_curVehicleData", "_allVehicleData"];
-_vehicleClassNames = [name1, name2, name3, name4, name5, name6];
+_vehicleClassNames = [["B_MRAP_01_F", 2], 
+					  ["Exile_Car_HMMWV_UNA_Green", 2], // 1
+					  ["Exile_Car_SUVXL_Black", 2],     // 2
+					  ["Exile_Car_UAZ_Green", 10], //3  
+					  ["Exile_Car_Lada_Green", 8], //4
+					  ["CUP_C_Datsun", 4], //5
+					  ["Golf_Civ_Black", 2], //6
+					  ["Exile_Car_LandRover_Green", 3], //7 
+					  ["Exile_Car_Offroad_Guerilla09", 6], //8
+					  ["CUP_C_Datsun_Covered", 2], //9
+					  ["Exile_Car_MB4WD", 5], //10
+					  ["Exile_Car_QilinUnarmed", 1], //11 
+					  ["B_LSV_01_unarmed_F", 1], //12
+					  ["Exile_Car_V3S_Open", 2], //13
+					  ["CUP_B_MTVR_USMC", 1], //14
+					  ["Ural_Civ_01", 2], //15
+					  ["Ikarus_Civ_Base", 3], //16
+					  ["Exile_Bike_QuadBike_Nato", 8],  //17
+					  ["Exile_Chopper_Hummingbird_Green", 1], //18
+					  ["Exile_Chopper_Huey_Armed_Green", 2],  //19
+					  ["CUP_C_Mi17_Civilian_RU", 1], //20
+					  ["CUP_O_Mi8_CHDKZ", 1], //21
+					  ["CUP_B_UH60L_Unarmed_FFV_US", 1], //22
+					  ["Exile_Plane_AN2_Green", 2], // 23
+					  ["Exile_Boat_RubberDuck_Black", 5], //24 
+					  ["CUP_C_Fishing_Boat_Chernarus", 3]]; //24
+						// number of sets of spawn coords MUST be at least as large as the number of
+						// that type of vehicle you want to spawn
 _vehicleSpawnLocations = [[[x, y, z], [x, y, z], [x, y, z]], //classname1 locations
 						  [[x, y, z], [x, y, z], [x, y, z]], //classname2 locations
 						  [[x, y, z], [x, y, z], [x, y, z]], //classname3 locations
 						  [[x, y, z], [x, y, z], [x, y, z]], //classname4 locations
 						  [[x, y, z], [x, y, z], [x, y, z]], //classname5 locations
-						  [[x, y, z], [x, y, z], [x, y, z]]];//classname6 locations
+						  [[x, y, z], [x, y, z], [x, y, z]], //classname6 locations
+						  [[x, y, z], [x, y, z], [x, y, z]], //classname7 locations
+						  [[x, y, z], [x, y, z], [x, y, z]], //classname8 locations
+						  [[x, y, z], [x, y, z], [x, y, z]], //classname9 locations
+						  [[x, y, z], [x, y, z], [x, y, z]], //classname10 locations
+						  [[x, y, z], [x, y, z], [x, y, z]], //classname11 locations
+						  [[x, y, z], [x, y, z], [x, y, z]], //classname12 locations
+						  [[x, y, z], [x, y, z], [x, y, z]], //classname13 locations
+						  [[x, y, z], [x, y, z], [x, y, z]], //classname14 locations
+						  [[x, y, z], [x, y, z], [x, y, z]], //classname15 locations
+						  [[x, y, z], [x, y, z], [x, y, z]], //classname16 locations
+						  [[x, y, z], [x, y, z], [x, y, z]], //classname17 locations
+						  [[x, y, z], [x, y, z], [x, y, z]], //classname18 locations
+						  [[x, y, z], [x, y, z], [x, y, z]], //classname19 locations
+						  [[x, y, z], [x, y, z], [x, y, z]], //classname20 locations
+						  [[x, y, z], [x, y, z], [x, y, z]], //classname21 locations
+						  [[x, y, z], [x, y, z], [x, y, z]], //classname22 locations
+						  [[x, y, z], [x, y, z], [x, y, z]], //classname23 locations
+						  [[x, y, z], [x, y, z], [x, y, z]], //classname24 locations
+						  [[x, y, z], [x, y, z], [x, y, z]], //classname25 locations
+						  [[x, y, z], [x, y, z], [x, y, z]]];//classname26 locations
 _allVehicleData = [];
 _vehicleIDs = format ["loadVehicleIdPage:%1:%2", 0, 100] call ExileServer_system_database_query_selectFull;
 {
