@@ -550,7 +550,7 @@ checkCfgPatches = "true";				/* checks serve side Cfg Patches vs Client side (lo
 check_Notifications = "false";			/* checks if BIS_fnc_showNotification was used, as it is used with many hacks - some custom addons however use them too. */
 check_doors_n_gates = "true";			/* Fixes Hatches (so when they are locked, they stay closed..) and closes every door that's locked + keeps closing it in case somebody tries to hack open it! */
 attach_to_check = "true";				/* logs and detaches attached vehicles that are close.. basically completely disallow attaching of vehicles! */
-slingload_check = "true";				/* forbid sling loading / rope attaching a vehicle with a crew */
+slingload_check = "false";				/* forbid sling loading / rope attaching a vehicle with a crew */
 
 
 checkPopTabIncrease = "true";
