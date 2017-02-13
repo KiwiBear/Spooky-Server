@@ -5,7 +5,7 @@
 // x pbx, y fishing boats
 
 private["_vehicleIDs", "_vehicleSpawnLocations", "_vehicleClassNames", "_spawnedVehicles", "_curVehicleID", "_curVehicleData", "_allVehicleData"];
-_vehicleClassNames = [["B_MRAP_01_F", 2], 
+_vehicleClassNames = [["B_MRAP_01_F", 2], // 0
 					  ["Exile_Car_HMMWV_UNA_Green", 2], // 1
 					  ["Exile_Car_SUVXL_Black", 2],     // 2
 					  ["Exile_Car_UAZ_Green", 10], //3  
@@ -61,6 +61,7 @@ _vehicleSpawnLocations = [[[x, y, z], [x, y, z], [x, y, z]], //classname1 locati
 						  [[x, y, z], [x, y, z], [x, y, z]]];//classname26 locations
 _allVehicleData = [];
 _spawnedVehicles = [];
+// get an array of all the rows in the database's vehicle table
 _vehicleIDs = format ["loadVehicleIdPage:%1:%2", 0, 150] call ExileServer_system_database_query_selectFull;
 {
 	_curVehicleID = _x select 0;
@@ -68,5 +69,42 @@ _vehicleIDs = format ["loadVehicleIdPage:%1:%2", 0, 150] call ExileServer_system
 	_allVehicleData append [_curVehicleData];
 }
 foreach _vehicleIDs;
+
+// create a counter array so we can figure out how many vehicles of each kind are already spawned
+for "_i" from 0 to (count _vehicleClassNames - 1) do
+{
+	private _temp = [(_vehicleClassNames select _i) select 0, 0];
+	_spawnedVehicles = _spawnedVehicles + _temp;
+};
+
+// populate counter array using data from _allVehicleData
+for "_j" from 0 to (count _spawnedVehicles - 1) do
+{
+	private _curClassName = _spawnedVehicles select _j;
+	for "_k" from 0 to (count _allVehicleData - 1) do
+	{
+		private _class = (_allVehicleData select _k) select 1;
+		if (_class isEqualTo _curClassName) then
+		{
+			_spawnedVehicles set [_j, [(_spawnedVehicles select _j) select 0, ((_spawnedVehicles select _j) select 1) + 1]];
+		};
+	};
+};
+
+// spawn vehicles that need to be spawned
+for "_h" from 0 to (count _spawnedVehicles - 1) do
+{
+	private _curClassName = (_spawnedVehicles select _h) select 0;
+	private _numSpawned = (_spawnedVehicles select _h) select 1;
+	private _numToBeSpawned = (_vehicleClassNames select _h) select 1;
+	for [{_a = _numSpawned}, {_a < _numToBeSpawned}, {_a = _a + 1}] do
+	{
+		// pick location
+		// see if vehicle of same type is at that location
+		// if so repeat until you have an empty location
+		// remove that from list of possible locations
+		// spawn vehicle there
+	};
+};
 
 _allVehicleData call ExileServer_util_log;
