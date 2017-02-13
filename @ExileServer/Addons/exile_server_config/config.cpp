@@ -4170,7 +4170,7 @@ class CfgSettings
 						{"Exile_Item_ChristmasTinner", 10},
 						{"Exile_Item_GloriousKnakworst", 10},
 						{"Exile_Item_SausageGravy", 10},
-						{"Exile_Item_Surstromming", 10,
+						{"Exile_Item_Surstromming", 10},
 						{"Exile_Item_CanOpener", 3},
 						{"Exile_Item_CookingPot", 3},
 						{"Exile_Item_Matches", 3}
@@ -4238,7 +4238,7 @@ class CfgSettings
 					items[] = 
 					{
 						{"Exile_Item_ThermalScannerPro", 2},
-						{"Exile_Item_BaseCameraKit", 2,
+						{"Exile_Item_BaseCameraKit", 2},
 						{"ItemGPS", 2},
 						{"Rangefinder", 2},
 						{"NVGoggles", 2}
@@ -4270,7 +4270,7 @@ class CfgSettings
 				};
 			};
 		};
-
+		
 		class AbandonedSafe
 		{
 			type = "spawn";
@@ -4288,7 +4288,7 @@ class CfgSettings
 			minTime = 30; // minutes
 			maxTime = 90; // minutes
 			minimumPlayersOnline = 1;
-		};
+		};		
 	};
 	
 	class Logging
@@ -4300,4 +4300,4 @@ class CfgSettings
 		deathLogging = 1;
 		territoryLogging = 1;
 	};
-};
+
