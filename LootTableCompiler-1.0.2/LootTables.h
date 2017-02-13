@@ -67,9 +67,9 @@
 30, Trash
 28, Food
 10, Drinks
-8, Pistols
-5, PistolAmmo
-3, PistolAttachments
+20, Pistols
+20, PistolAmmo
+10, PistolAttachments
 4, Shotguns
 3, ShotgunAmmo
 4, SMG
@@ -91,9 +91,9 @@
 30, Trash
 28, Food
 10, Drinks
-8, Pistols
-5, PistolAmmo
-3, PistolAttachments
+20, Pistols
+20, PistolAmmo
+10, PistolAttachments
 4, Shotguns
 3, ShotgunAmmo
 4, SMG
@@ -103,7 +103,7 @@
 3, RifleAmmo
 3, RifleAttachments
 20, CivilianClothing
-11, CivilianBackpacks
+20, CivilianBackpacks
 5, CivilianVests
 20, CivilianHeadgear
 10, CivilianItems
@@ -116,17 +116,17 @@
 ///////////////////////////////////////////////////////////////////////////////
 > Shop
 30, Trash
-15, Food
-15, Drinks
-10, Pistols
-2, PistolAmmo
+30, Food
+30, Drinks
+15, Pistols
+15, PistolAmmo
 1, PistolAttachments
 4, Shotguns
 1, ShotgunAmmo
 5, SMG
 1, SMGAmmo
 1, SMGAttachments
-5, CivilianBackpacks
+15, CivilianBackpacks
 1, CivilianClothing
 3, CivilianHeadgear
 1, CivilianVests
@@ -142,8 +142,8 @@
 // Construction Sites, Warehouses, Research etc.
 ///////////////////////////////////////////////////////////////////////////////
 > Industrial
-5, Food
-5, Drinks
+1, Food
+1, Drinks
 10, Electronics
 30, Trash
 40, IndustrialItems
@@ -193,7 +193,6 @@
 3, MilitaryBackpacks
 3, GuerillaVests
 5, MilitaryVests
-1, DLCVests
 5, GuerillaHeadgear
 5, MilitaryHeadgear
 1, Ghillies
@@ -207,12 +206,11 @@
 3, Snipers
 2, SniperAmmo
 2, SniperAttachments
-3, DLCRifles
 2, DLCAmmo
 2, DLCOptics
-2, DLCSupressor
+1, DLCSupressor
 2, Bipods
-5, Explosives
+2, Explosives
 1, BattleRifles
 1, BattleRifleAmmo
 2, BattleRifleAttachments
@@ -232,14 +230,6 @@
 10, MilitaryBackpacks
 10, MilitaryHeadgear
 1, Ghillies
-1, DLCGhillies
-5, Snipers
-2, SniperAmmo
-2, SniperAttachments
-2, DLCRifles
-2, DLCAmmo
-2, DLCOptics
-1, DLCSupressor
 10, CivilianItems
 4, HandGrenades
 4, Restraints
@@ -248,6 +238,9 @@
 10, GuerillaClothing
 10, GuerillaBackpacks
 5, GuerillaItems
+10, Pistols
+10, PistolAmmo
+10, PistolAttachments
 
 ///////////////////////////////////////////////////////////////////////////////
 // Ghost Hotel Buildings
@@ -274,17 +267,37 @@
 // Custom Crates
 ///////////////////////////////////////////////////////////////////////////////
 > SuperCrate
-10, EpicWeapons
-20, DLCGhillies
-20, Ghillies
+5, EpicWeapons
+5, DLCGhillies
+10, Ghillies
 20, EpicWeaponAmmo
 20, DLCSupressor
-20, DLCVests
-30, Trash
+10, DLCVests
+50, Trash
+20, DLCRifles
+20, DLCOptics
 
 
 ///////////////////////////////////////////////////////////////////////////////
 // Chopper Crashes
 ///////////////////////////////////////////////////////////////////////////////
 
+> ChopperCrash
+1, EpicWeapons
+1, EpicWeaponAmmo
+10, Explosives
+10, MilitaryBackpacks
+20, GuerillaItems
+10, Snipers
+10, SniperAmmo
+2, DLCVests
+20, MilitaryClothing
+3, Ghillies
+10, MilitaryVests
+30, Rifles
+25, RifleAmmo
+30, RifleAttachments
+20, BattleRifles
+20, BattleRifleAmmo
+20, BattleRifleAttachments
 
