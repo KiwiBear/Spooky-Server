@@ -8304,4 +8304,5 @@ class CfgSettings
 		deathLogging = 1;
 		territoryLogging = 1;
 	};
+};
 
