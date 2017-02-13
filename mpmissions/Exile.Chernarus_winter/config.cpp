@@ -2801,7 +2801,7 @@ class CfgExileLootSettings
 	 *
 	 * You can also cap it at a maximum value. See below.
 	 */
-	maximumPositionCoverage = 40;
+	maximumPositionCoverage = 30;
 
  	/**
  	 * Limit the number of loot positions per building. If the 
@@ -2818,7 +2818,7 @@ class CfgExileLootSettings
 	 * is the upper cap for that. So 3 means it could spawn 1, 2 
 	 * or 3.
 	 */
-	maximumNumberOfItemsPerLootSpot = 3;
+	maximumNumberOfItemsPerLootSpot = 1;
 
 	/**
 	 * Radius in meter to spawn loot AROUND each player.

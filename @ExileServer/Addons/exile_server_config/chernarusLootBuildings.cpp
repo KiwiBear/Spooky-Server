@@ -192,7 +192,7 @@ class Land_a_stationhouse : Tourist {
 };
 class Mi8Wreck
 {
-	table = "Military";
+	table = "ChopperCrash";
 	positions[] = {{2.74268, -5, -1.57947}, {-1.2876, -7.3291, -1.67725}, {-0.0629883, -7.44141, -1.65332}, {0.604004, -3.14648, -1.57678}, {-0.665527, -5.11133, -1.62903}
 	};
 };
