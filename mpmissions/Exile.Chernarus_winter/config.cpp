@@ -2894,7 +2894,6 @@ class ExileAbstractAction
  */
 class CfgInteractionMenus
 {
-#include "custom\EBM\menus.hpp"
 
 	class Car 
 	{

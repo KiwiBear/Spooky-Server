@@ -3951,7 +3951,7 @@ class CfgSettings
 			weather type of be more dominant compared to others, add it multiple times
 		*/
 		//keyframes[] = {"Sunny", "Cloudy", "Thunderstorm"}; 
-		keyframes[] = {"Cloudy"}; 
+		keyframes[] = {"Sunny", "Cloudy"}; 
 
 		/*
 			This is a keyframe. Look up the BIKI to get more details about the parameters
@@ -3970,10 +3970,10 @@ class CfgSettings
 		*/
 		class Sunny
 		{
-			fogValue = 0.1;
-			fogDecay = 0.2;
-			fogBase = 5;
-			overcast = 0.2;
+			fogValue = 0;
+			fogDecay = 0;
+			fogBase = 0;
+			overcast = 0.1;
 			waves = 0.2;
 			wind = 0.25;
 			gusts = 0.1;
@@ -3991,9 +3991,9 @@ class CfgSettings
 			waves = 0.4;
 			wind = 0.25;
 			gusts = 0.5;
-			rain = 0.1;
-			lightnings = 0.1;
-			rainbows = 1;
+			rain = 0;
+			lightnings = 0;
+			rainbows = 0;
 		};
 
 		class Thunderstorm
