@@ -497,10 +497,10 @@
 > Snipers
 28, srifle_DMR_01_F			// Rahim 7.62 mm
 28, srifle_EBR_F			// Mk18 ABR 7.62 mm
-10, srifle_GM6_F			// GM6 Lynx 12.7 mm
-15, srifle_LRR_F			// M320 LRR .408
-15, srifle_LRR_tna_F    	// M320 LRR .408 (Tropic)
-10, srifle_GM6_ghex_F   	// GM6 Lynx 12.7 mm (Green Hex)
+//10, srifle_GM6_F			// GM6 Lynx 12.7 mm
+//15, srifle_LRR_F			// M320 LRR .408
+//15, srifle_LRR_tna_F    	// M320 LRR .408 (Tropic)
+//10, srifle_GM6_ghex_F   	// GM6 Lynx 12.7 mm (Green Hex)
 17, srifle_DMR_07_blk_F     // CMR-76 6.5 mm (Black)
 17, srifle_DMR_07_hex_F     // CMR-76 6.5 mm (Hex)
 17, srifle_DMR_07_ghex_F    // CMR-76 6.5 mm (Green Hex)
@@ -510,9 +510,15 @@
 25, CUP_srifle_M24_wdl
 25, CUP_srifle_M24_des
 13, CUP_srifle_G22_des
-13, CUP_srifle_AWM_wdl
-13, CUP_srifle_AWM_des
+5, CUP_srifle_AWM_wdl
+5, CUP_srifle_AWM_des
 26, CUP_srifle_SVD
+20, srifle_DMR_03_F				//MK1EMR
+20, srifle_DMR_03_khaki_F		//MK1EMR
+20, srifle_DMR_03_tan_F			//MK1EMR
+20, srifle_DMR_03_woodland_F		//MK1EMR
+20, srifle_DMR_06_camo_F			//Mk14
+20, srifle_DMR_06_olive_F		//Mk14
 
 > SniperAmmo
 10, 5Rnd_127x108_Mag									// GM6 Lynx
@@ -536,6 +542,7 @@
 16, CUP_5Rnd_762x67_G22
 20, CUP_10Rnd_762x54_SVD_M
 20, CUP_srifle_SVD_des
+
 
 
 > SniperAttachments
@@ -572,14 +579,18 @@
 8, srifle_DMR_05_tan_F			//CYRUS
 3, srifle_DMR_06_camo_F			//Mk14
 3, srifle_DMR_06_olive_F		//Mk14
+10, srifle_GM6_F			// GM6 Lynx 12.7 mm
+15, srifle_LRR_F			// M320 LRR .408
+15, srifle_LRR_tna_F    	// M320 LRR .408 (Tropic)
+10, srifle_GM6_ghex_F   	// GM6 Lynx 12.7 mm (Green Hex)
 
 > DLCAmmo
 //18, 150Rnd_93x64_Mag		//Navid
 //25, 130Rnd_338_Mag			//SPMG
-16, 10Rnd_338_Mag			//MAR10
+//16, 10Rnd_338_Mag			//MAR10
 11, 20Rnd_762x51_Mag		//MK1EMR
 14, 10Rnd_127x54_Mag		//ASP1KIR
-16, 10Rnd_93x64_DMR_05_Mag	//CYRUS
+//16, 10Rnd_93x64_DMR_05_Mag	//CYRUS
 
 > DLCOptics
 14, optic_AMS
