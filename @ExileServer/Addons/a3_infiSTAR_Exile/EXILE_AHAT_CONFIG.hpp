@@ -89,7 +89,7 @@ NOTE: do not use " within the text.
 */
 
 
-ENABLE_NOTIFICATION_MESSAGES = "false";
+ENABLE_NOTIFICATION_MESSAGES = "true";
 NOTIFY_MSG_ARRAY[] =
 {
 };
@@ -356,7 +356,7 @@ ExileDevFriendlyMode = "false";	/* adds Exile Devs to your AdminList - makes it 
 
 /* What ESCAPE Menu shows */
 ESCMNUTOP = "TS dfw01.mainvoice.net:8178";
-ESCMNUBOT = "DayZ Ressurection";
+ESCMNUBOT = "DayZ Resurrection";
 BRIEFING_MSG = "false";	/* use mission briefing message: if   "BRIEFING_MSG = "false";"   then the message will be replaced by infiSTAR */
 HTML_LOAD_URL = "";		/* HTML_LOAD_URL = ""; == disabled and if you set a url it will be shown in ESCAPE menu. HTML in Arma/this is limited. Try it :) example: "http://goo.gl/gb0o7b" */
 ENABLE_PRIVATE_CHAT_MENU = "true";		/* players can open it by typing !chat in chat or by  custom controls -> "Use Action 3" */
@@ -373,18 +373,13 @@ USE_RESTART_TIMES_ARRAY = "false";
 RESTART_TIMES[] =
 {
 	{00,00},
-	{02,00},
-	{04,10},
-	{06,00},
-	{08,00},
-	{10,00},
+	{03,00},
+	{06,10},
+	{09,00},
 	{12,00},
-	{14,00},
-	{16,00},
+	{15,00},
 	{18,00},
-	{20,00},
-	{22,00},
-	{09,34}
+	{21,00}
 };
 
 /* if USE_RESTART_TIMES_ARRAY = "false"; -> restart time in minutes (default: 180min == 3 hours) */
@@ -392,7 +387,7 @@ RESTART_TIME_IN_M = 180;
 TIME_FUNCTION_USED = "diag_tickTime";	// diag_tickTime (starts with arma3server.exe), time (starts with mpmission init)
 
 /* show restart announcement message x min before restart -> SERVER RESTART IN: X MINS  |  (calculated from RESTART_TIMES[])*/
-RESTART_ANNOUNCE_X_MIN[] = {1,2,3,5,8,10};
+RESTART_ANNOUNCE_X_MIN[] = {1,3,5,10,15,30,60,120};
 
 /* SERVER_END_FUNCTION -> #shutdown or #restartserver */
 SERVER_END_FUNCTION = "#shutdown";
@@ -538,14 +533,14 @@ CAP = "false";		/* Check Actions Plr - "Actions: xxx/xxx possible scroll menu ha
 	
 	Only logs BadActions (and removes them) but does not kick or ban.
 */
-BadActionCheck = "true";
+BadActionCheck = "false";
 allowedActions_player[] = {"Break free","Use AutoLockPicker","Craft Vehicle"};
 allowedActions_object[] = {"UnLock","Select vehicle to tow","Tow Selected vehicle","Untow vehicle","Unselect selected vehicle"};
 
 
 KCM = "false";		/* Just close ALL CommandingMenus */
 CMC = "false";		/* Check for CommandingMenus that are not in the allowedCommandingMenus array */
-allowedCommandingMenus[] = {"#user:example","#user:example2"};
+allowedCommandingMenus[] = {"#USER:ASL_Show_Repair_Options_Menu_Array"};
 
 
 task_force_radio = "false";				/* put this to "true" if you allow task force radio on your server! */
@@ -644,10 +639,10 @@ badbanChat[] = {};
 
 
 /* Not allowed Names on server. Example: badNamesFull[] = {"THE"}; would kick all players that are named "THE", it would NOT kick players named "THE CAR" (not case sensitive) */
-badNamesFull[] = {"grim"};
+badNamesFull[] = {};
 
 /* Not allowed Names on server. Example: badNamesPartial[] = {"THE"}; would kick all players with names like "the car" as it includes "THE" (not case sensitive) */
-badNamesPartial[] = {"admin","thirtysix","adolf","le hippo"};
+badNamesPartial[] = {};
 
 
 /* Not allowed Group Names on server. Example: badGroupNames[] = {"THE"}; would rename all groups with names like "the car" as it includes "THE" (not case sensitive) */

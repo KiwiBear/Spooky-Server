@@ -2926,17 +2926,13 @@ class CfgInteractionMenus
 				action = "false spawn ExileClient_object_lock_toggle";
 			};
 
-			class Repair: ExileAbstractAction
+			//Bones Custom Vehicle Repairs
+
+		class Repair: ExileAbstractAction
 			{
-				title = "Repair Engine and Body";
+				title = "Repair/Salvage";
 				condition = "true";
-				action = "_this call JohnO_fnc_vehicleRepairCar";
-			};
-			class RepairWheels: ExileAbstractAction
-			{
-				title = "Repair Wheel";
-				condition = "call ExileClient_object_vehicle_interaction_show";
-				action = "_this call JohnO_fnc_repairWheels";
+				action = "_this call Bones_fnc_salvageAndRepairMenuCar";
 			};
 			
 			//// Repairs a vehicle to 100%. Requires Duckttape
@@ -3012,18 +3008,13 @@ class CfgInteractionMenus
 				action = "false spawn ExileClient_object_lock_toggle";
 			};
 
-			class RepairMajor: ExileAbstractAction
-			{
-				title = "Full Repair";
-				condition = "true";
-				action = "_this call JohnO_fnc_repairchopper";
-			};
-			class RepairMinor: ExileAbstractAction
-			{
-				title = "Minor Repair";
-				condition = "true";
-				action = "_this call JohnO_fnc_repairchopperhalf";
-			};
+			// Bones Custom Air Repairs
+			class Repair: ExileAbstractAction
+				{
+					title = "Repair/Salvage";
+					condition = "true";
+					action = "_this call Bones_fnc_salvageAndRepairMenuHelo";
+				};
 			
 			//// Hot-wires a vehicle
 			//class Hotwire: ExileAbstractAction
