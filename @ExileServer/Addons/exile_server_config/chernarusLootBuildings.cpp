@@ -190,7 +190,7 @@ class Land_a_stationhouse : Tourist {
 			{-2.53101,-4.55664,8.59065}
 	};
 };
-class AmmoCrates_NoInteractive_Large
+class Land_AmmoCrates_NoInteractive_Large
 {
 	table = "SuperCrate";
 	positions[] = {
