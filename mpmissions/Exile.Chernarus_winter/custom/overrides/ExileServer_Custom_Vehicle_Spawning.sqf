@@ -100,7 +100,13 @@ for "_h" from 0 to (count _spawnedVehicles - 1) do
 	for [{_a = _numSpawned}, {_a < _numToBeSpawned}, {_a = _a + 1}] do
 	{
 		// pick location
-		// see if vehicle of same type is at that location
+		private _cont = true;
+		private _locations = _vehicleSpawnLocations select _h;
+		while {_cont} do
+		{
+			_randLoc = selectRandom _locations;
+		}
+		// see if vehicle of same type is near that location
 		// if so repeat until you have an empty location
 		// remove that from list of possible locations
 		// spawn vehicle there
