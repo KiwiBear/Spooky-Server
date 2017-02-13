@@ -28,7 +28,7 @@ _wasteDumpTrader =
     "WhiteHead_17",
     ["HubStandingUA_move1", "HubStandingUA_move2", "HubStandingUA_idle1", "HubStandingUA_idle2", "HubStandingUA_idle3"],
     [8104.342,9238.757,0],
-    157.522
+    359
 ]
 call ExileClient_object_trader_create;
 
