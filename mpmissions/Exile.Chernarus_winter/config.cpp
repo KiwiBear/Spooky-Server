@@ -2595,6 +2595,9 @@ class CfgExileCustomCode
 	// loot spawn fixe
 	ExileClient_system_lootManager_thread_spawn = "custom\overrides\ExileClient_system_lootManager_thread_spawn.sqf";
 	
+	//Waste Dump Cargo Only
+	ExileClient_gui_wasteDumpDialog_show = "custom\overrides\ExileClient_gui_wasteDumpDialog_show.sqf";
+	
 	// Fix Vehicle Trader Spawns
 	ExileServer_system_trading_network_purchaseVehicleRequest = "Fixes\TraderFixes\ExileServer_system_trading_network_purchaseVehicleRequest.sqf";
 	
