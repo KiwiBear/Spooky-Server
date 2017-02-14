@@ -175,3 +175,5 @@ for [{_h = 0}, {_h < (count _spawnedVehicles)}, {_h = _h + 1}] do
 		_vehicle setFuel (random 0.2);
 	};
 };
+
+true
