@@ -59,8 +59,10 @@ _vehicleSpawnLocations = [[[x, y, z], [x, y, z], [x, y, z]], //classname1 locati
 						  [[x, y, z], [x, y, z], [x, y, z]], //classname24 locations
 						  [[x, y, z], [x, y, z], [x, y, z]], //classname25 locations
 						  [[x, y, z], [x, y, z], [x, y, z]]];//classname26 locations
-_allVehicleData = [];
+_allVehicleData = [];						  
 _spawnedVehicles = [];
+
+
 // get an array of all the rows in the database's vehicle table
 _vehicleIDs = format ["loadVehicleIdPage:%1:%2", 0, 150] call ExileServer_system_database_query_selectFull;
 {
@@ -71,62 +73,88 @@ _vehicleIDs = format ["loadVehicleIdPage:%1:%2", 0, 150] call ExileServer_system
 foreach _vehicleIDs;
 
 // create a counter array so we can figure out how many vehicles of each kind are already spawned
-for "_i" from 0 to (count _vehicleClassNames - 1) do
+for [{_i = 0}, {_i < (count _vehicleClassNames)}, {_i = _i + 1}] do
 {
-	private _temp = [(_vehicleClassNames select _i) select 0, 0];
-	_spawnedVehicles = _spawnedVehicles + _temp;
+	_temp = [(_vehicleClassNames select _i) select 0, 0];
+	_spawnedVehicles append [_temp];
 };
 
 // populate counter array using data from _allVehicleData
-for "_j" from 0 to (count _spawnedVehicles - 1) do
+if !(_allVehicleData isEqualTo []) then
 {
-	private _curClassName = _spawnedVehicles select _j;
-	for "_k" from 0 to (count _allVehicleData - 1) do
+	for [{_j = 0}, {_j < (count _spawnedVehicles)}, {_j = _j + 1}] do
 	{
-		private _class = (_allVehicleData select _k) select 1;
-		if (_class isEqualTo _curClassName) then
+		_curClassName = (_spawnedVehicles select _j) select 0;
+		for [{_k = 0}, {_k < (count _allVehicleData)}, {_k = _k + 1}] do
 		{
-			_spawnedVehicles set [_j, [(_spawnedVehicles select _j) select 0, ((_spawnedVehicles select _j) select 1) + 1]];
+			if !(_allVehicleData select _k isEqualTo []) then
+			{
+				_classNm = (_allVehicleData select _k) select 1;
+				if (_classNm isEqualTo _curClassName) then
+				{
+					_spawnedVehicles set [_j, [(_spawnedVehicles select _j) select 0, ((_spawnedVehicles select _j) select 1) + 1]];
+				};
+			};
 		};
 	};
 };
 
 // spawn vehicles that need to be spawned
-for "_h" from 0 to (count _spawnedVehicles - 1) do
+for [{_h = 0}, {_h < (count _spawnedVehicles)}, {_h = _h + 1}] do
 {
-	private _curClassName = (_spawnedVehicles select _h) select 0;
-	private _numSpawned = (_spawnedVehicles select _h) select 1;
-	private _numToBeSpawned = (_vehicleClassNames select _h) select 1;
-	for [{_a = _numSpawned}, {_a < _numToBeSpawned}, {_a = _a + 1}] do
+	_curClassName = (_spawnedVehicles select _h) select 0;
+	_numSpawned = (_spawnedVehicles select _h) select 1;
+	_numShouldBeSpawned = (_vehicleClassNames select _h) select 1;
+	_numToBeSpawned = _numShouldBeSpawned - _numSpawned;
+	for [{_a = 0}, {_a < _numToBeSpawned}, {_a = _a + 1}] do
 	{
 		// pick location
-		private _cont = true;
-		private _locations = _vehicleSpawnLocations select _h;
-		private _randLoc = [];
+		_cont = true;
+		_locations = _vehicleSpawnLocations select _h;
+		_randLoc = [];
+		// loop until you find a spawn point where that vehicle is already not spawned
 		while {_cont} do
 		{
-			_cont = false;
 			_randLoc = selectRandom _locations;
-			for [{_b = 0}, {_b < (count _allVehicleData)}, {_b = _b + 1}] do
+			hint str _randLoc;
+			hint "set randloc";
+			if !(_allVehicleData isEqualTo []) then 
 			{
-				private _curVehiclePos = [(_allVehicleData select _b) select 8, (_allVehicleData select _b) select 9, 0];
-				private _distance = _randLoc distance2D _curVehiclePos;
-				if (_distance < 200)
+				for [{_b = 0}, {_b < (count _allVehicleData)}, {_b = _b + 1}] do
 				{
-					_cont = true;
-					_vehicleSpawnLocations set [_h, (_vehicleSpawnLocations select _h) - _randLoc]; 
-				}
-				
+					if !(_allVehicleData select _b isEqualTo []) then
+					{
+						if ((_allVehicleData select _b) select 1 isEqualTo _curClassName) then 
+						{
+							_curVehiclePos = [(_allVehicleData select _b) select 8, (_allVehicleData select _b) select 9, 0];
+							_distance = _randLoc distance2D _curVehiclePos;
+							if (_distance > 200) then
+							{
+								_cont = false;
+							};
+						};
+					}
+					else 
+					{
+						_cont = false;
+					};
+				};
+			}
+			else
+			{
+				_cont = false;
 			};
+			_vehicleSpawnLocations set [_h, (_vehicleSpawnLocations select _h) - [_randLoc]]; 
 		};
-		_vehicleSpawnLocations set [_h, (_vehicleSpawnLocations select _h) - _randLoc];
+		
+		// create that vehicle and set random damage and fuel
 		_vehicle = [_curClassName, _randLoc, random 360, true, null] call ExileServer_object_vehicle_createPersistentVehicle;
 		_hitpointsData = getAllHitPointsDamage _vehicle;
 		if !(_hitpointsData isEqualTo []) then 
 		{
 			_hitpoints = _hitpointsData select 0;
 			{
-				if ((_x find "Wheel" > -1) && (random 1 < 0.5)) then
+				if ((_x find "Wheel" > -1) && (random 1 < 0.5)) then // so about half of the wheel are completely gone
 				{
 					_vehicle setHitPointDamage [_x, 1];
 				}
@@ -138,11 +166,7 @@ for "_h" from 0 to (count _spawnedVehicles - 1) do
 			forEach _hitpoints;
 		};
 		_vehicle setFuel (random 0.2);
-		// see if vehicle of same type is near that location
-		// if so repeat until you have an empty location
-		// remove that from list of possible locations
-		// spawn vehicle there
 	};
 };
 
-_allVehicleData call ExileServer_util_log;
+// _allVehicleData call ExileServer_util_log;
