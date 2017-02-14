@@ -155,6 +155,7 @@ for [{_h = 0}, {_h < (count _spawnedVehicles)}, {_h = _h + 1}] do
 			_usePosATL = false;
 		};
 		_vehicle = [_curClassName, _randLoc, random 360, _usePosATL, null] call ExileServer_object_vehicle_createPersistentVehicle;
+		"spawned a veh" call ExileServer_util_log;
 		_hitpointsData = getAllHitPointsDamage _vehicle;
 		if !(_hitpointsData isEqualTo []) then 
 		{
@@ -174,5 +175,3 @@ for [{_h = 0}, {_h < (count _spawnedVehicles)}, {_h = _h + 1}] do
 		_vehicle setFuel (random 0.2);
 	};
 };
-
-// _allVehicleData call ExileServer_util_log;
