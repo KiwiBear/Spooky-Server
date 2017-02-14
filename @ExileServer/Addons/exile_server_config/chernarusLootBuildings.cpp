@@ -25,6 +25,9 @@ class Shop {
 class Industrial {
 	table = "Industrial";
 };
+class BarnLoot {
+	table = "BarnLoot";
+};
 
 // stary half dome tents
 class Camp_EP1 : Military {

@@ -3730,7 +3730,7 @@ class CfgTerritories
 	 * Defines the minimum distance to spawn zones where players
 	 * cannot build territories
 	 */
-	minimumDistanceToSpawnZones = 0;
+	minimumDistanceToSpawnZones = 10;
 
 	// Amount of pop tabs per object to pay
 	popTabAmountPerObject = 125;
