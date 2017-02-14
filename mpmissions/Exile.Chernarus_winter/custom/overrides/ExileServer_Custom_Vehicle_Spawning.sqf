@@ -102,10 +102,42 @@ for "_h" from 0 to (count _spawnedVehicles - 1) do
 		// pick location
 		private _cont = true;
 		private _locations = _vehicleSpawnLocations select _h;
+		private _randLoc = [];
 		while {_cont} do
 		{
+			_cont = false;
 			_randLoc = selectRandom _locations;
-		}
+			for [{_b = 0}, {_b < (count _allVehicleData)}, {_b = _b + 1}] do
+			{
+				private _curVehiclePos = [(_allVehicleData select _b) select 8, (_allVehicleData select _b) select 9, 0];
+				private _distance = _randLoc distance2D _curVehiclePos;
+				if (_distance < 200)
+				{
+					_cont = true;
+					_vehicleSpawnLocations set [_h, (_vehicleSpawnLocations select _h) - _randLoc]; 
+				}
+				
+			};
+		};
+		_vehicleSpawnLocations set [_h, (_vehicleSpawnLocations select _h) - _randLoc];
+		_vehicle = [_curClassName, _randLoc, random 360, true, null] call ExileServer_object_vehicle_createPersistentVehicle;
+		_hitpointsData = getAllHitPointsDamage _vehicle;
+		if !(_hitpointsData isEqualTo []) then 
+		{
+			_hitpoints = _hitpointsData select 0;
+			{
+				if ((_x find "Wheel" > -1) && (random 1 < 0.5)) then
+				{
+					_vehicle setHitPointDamage [_x, 1];
+				}
+				else {
+					_vehicle setHitPointDamage [_x, random 1];
+				};
+				
+			}
+			forEach _hitpoints;
+		};
+		_vehicle setFuel (random 0.2);
 		// see if vehicle of same type is near that location
 		// if so repeat until you have an empty location
 		// remove that from list of possible locations
