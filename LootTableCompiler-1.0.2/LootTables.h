@@ -64,14 +64,14 @@
 // Spawn Guerilla things :)
 ///////////////////////////////////////////////////////////////////////////////
 > CivillianLowerClass
-30, Trash
-28, Food
+60, Trash
+10, Food
 10, Drinks
 20, Pistols
 20, PistolAmmo
 10, PistolAttachments
-4, Shotguns
-3, ShotgunAmmo
+15, Shotguns
+20, ShotgunAmmo
 4, SMG
 3, SMGAmmo
 3, SMGAttachments
@@ -79,7 +79,7 @@
 11, CivilianBackpacks
 5, CivilianVests
 20, CivilianHeadgear
-10, CivilianItems
+20, CivilianItems
 1, Restraints
 10, Chemlights
 10, RoadFlares
@@ -88,20 +88,17 @@
 // Apartments, Offices etc.
 ///////////////////////////////////////////////////////////////////////////////
 > CivillianUpperClass
-30, Trash
+40, Trash
 28, Food
-10, Drinks
+15, Drinks
 20, Pistols
 20, PistolAmmo
 10, PistolAttachments
-4, Shotguns
-3, ShotgunAmmo
-4, SMG
-3, SMGAmmo
+20, Shotguns
+25, ShotgunAmmo
+5, SMG
+5, SMGAmmo
 3, SMGAttachments
-1, Rifles
-3, RifleAmmo
-3, RifleAttachments
 20, CivilianClothing
 20, CivilianBackpacks
 5, CivilianVests
@@ -110,6 +107,7 @@
 10, Chemlights
 10, RoadFlares
 1, Restraints
+5, SmokeGrenades
 
 ///////////////////////////////////////////////////////////////////////////////
 // Kiosks, Supermarkets etc.
@@ -121,8 +119,8 @@
 15, Pistols
 15, PistolAmmo
 1, PistolAttachments
-4, Shotguns
-1, ShotgunAmmo
+20, Shotguns
+20, ShotgunAmmo
 5, SMG
 1, SMGAmmo
 1, SMGAttachments
@@ -144,7 +142,7 @@
 > Industrial
 1, Food
 1, Drinks
-10, Electronics
+1, Electronics
 30, Trash
 40, IndustrialItems
 15, Vehicle
@@ -155,8 +153,8 @@
 // Factories
 ///////////////////////////////////////////////////////////////////////////////
 > Factories
-20, Vehicle
-10, Electronics
+30, Vehicle
+1, Electronics
 40, Trash
 50, IndustrialItems
 
@@ -179,8 +177,8 @@
 5, PistolAttachments
 100, Trash
 4, CivilianItems
-4, GuerillaItems
-6, HEGrenades
+6, GuerillaItems
+3, HEGrenades
 3, UGLFlares
 3, UGLSmokes
 3, HandGrenades
@@ -192,28 +190,27 @@
 4, GuerillaBackpacks
 3, MilitaryBackpacks
 3, GuerillaVests
-5, MilitaryVests
+2, MilitaryVests
 5, GuerillaHeadgear
 5, MilitaryHeadgear
 1, Ghillies
-1, DLCGhillies
 1, Rebreathers
 5, Rifles
 3, RifleAmmo
-3, RifleAttachments
-4, LMG
-2, LMGAmmo
-3, Snipers
+5, RifleAttachments
+3, LMG
+3, LMGAmmo
+2, Snipers
 2, SniperAmmo
-2, SniperAttachments
-2, DLCAmmo
-2, DLCOptics
+5, SniperAttachments
+5, DLCAmmo
+5, DLCOptics
 1, DLCSupressor
-2, Bipods
+4, Bipods
 2, Explosives
-1, BattleRifles
-1, BattleRifleAmmo
-2, BattleRifleAttachments
+2, BattleRifles
+2, BattleRifleAmmo
+5, BattleRifleAttachments
 
 ///////////////////////////////////////////////////////////////////////////////
 // Hospital, Medevac etc. (Does not spawn on Altis!)
@@ -273,7 +270,7 @@
 20, EpicWeaponAmmo
 20, DLCSupressor
 10, DLCVests
-50, Trash
+100, Trash
 20, DLCRifles
 20, DLCOptics
 
@@ -301,3 +298,18 @@
 20, BattleRifleAmmo
 20, BattleRifleAttachments
 
+
+///////////////////////////////////////////////////////////////////////////////
+// Barns
+///////////////////////////////////////////////////////////////////////////////
+
+> BarnLoot
+30, Trash
+20, ShotgunAmmo
+20, Shotguns
+20, Pistols
+20, PistolAmmo
+10, CivilianHeadgear
+40, BarnCustom
+5, Food
+5, Drinks

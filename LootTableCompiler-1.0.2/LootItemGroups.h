@@ -134,13 +134,17 @@
 20, CUP_acc_CZ_M3X
 
 > Shotguns
-1, Exile_Weapon_M1014	//M1014
-1, CUP_sgun_Saiga12K
+3, Exile_Weapon_M1014	//M1014
+3, CUP_sgun_Saiga12K
+3, Exile_Weapon_LeeEnfield
+1, Exile_Weapon_CZ550
 
 > ShotgunAmmo
 1, Exile_Magazine_8Rnd_74Slug		//M1014
 1, CUP_8Rnd_B_Saiga12_74Slug_M
 1, CUP_8Rnd_B_Saiga12_74Pellets_M
+1, Exile_Magazine_10Rnd_303
+1, Exile_Magazine_5Rnd_22LR
 
 > SMG
 25, SMG_01_F		// Vermin SMG .45 ACP
@@ -204,7 +208,7 @@
 10, CUP_muzzle_snds_M14
 10, CUP_optic_SB_11_4x20_PM
 10, CUP_optic_LeupoldM3LR
-10, CUP_optic_ACOG
+15, CUP_optic_ACOG
 10, muzzle_snds_B
 10, optic_SOS
 10, optic_DMS
@@ -214,19 +218,19 @@
 10, optic_KHS_blk
 
 > Rifles
-6, arifle_Katiba_F			// Katiba 6.5 mm
-6, arifle_Katiba_GL_F		// Katiba GL 6.5 mm
-8, arifle_MXC_F				// MXC 6.5 mm
+3, arifle_Katiba_F			// Katiba 6.5 mm
+4, arifle_Katiba_GL_F		// Katiba GL 6.5 mm
+7, arifle_MXC_F				// MXC 6.5 mm
 8, arifle_MX_F				// MX 6.5 mm
 4, arifle_MX_GL_F			// MX 3GL 6.5 mm
 6, arifle_MXM_F				// MXM 6.5 mm
-3, arifle_MXM_Black_F		// MXM 6.5 mm (Black)
+4, arifle_MXM_Black_F		// MXM 6.5 mm (Black)
 2, arifle_SDAR_F			// SDAR 5.56 mm
-8, arifle_TRG21_F			// TRG-21 5.56 mm
-8, arifle_TRG20_F			// TRG-20 5.56 mm
+3, arifle_TRG21_F			// TRG-21 5.56 mm
+3, arifle_TRG20_F			// TRG-20 5.56 mm
 4, arifle_TRG21_GL_F		// TRG-21 EGLM 5.56 mm
-7, arifle_Mk20_F			// Mk20 5.56 mm
-7, arifle_Mk20C_F			// Mk20C 5.56 mm
+3, arifle_Mk20_F			// Mk20 5.56 mm
+3, arifle_Mk20C_F			// Mk20C 5.56 mm
 4, arifle_Mk20_GL_F			// Mk20 EGLM 5.56 mm
 3, arifle_MXC_Black_F		// MXC 6.5 mm (Black)
 3, arifle_MX_Black_F		// MX 6.5 mm (Black)
@@ -236,22 +240,22 @@
 10, Exile_Weapon_AK74_GL
 10, Exile_Weapon_AK74
 10, Exile_Weapon_AK47				
-1, Exile_Weapon_AKS_Gold	
-3, Exile_Weapon_DMR		
-10, Exile_Weapon_LeeEnfield
-9, Exile_Weapon_CZ550
+3, Exile_Weapon_AKS_Gold	
+5, Exile_Weapon_DMR		
+12, Exile_Weapon_LeeEnfield
+10, Exile_Weapon_CZ550
 6, Exile_Weapon_SVD
 6, Exile_Weapon_SVDCamo
 6, Exile_Weapon_VSSVintorez
 8, arifle_MX_khk_F   			// MX 6.5 mm (Khaki)
-4, arifle_MX_GL_khk_F			// MX 3GL 6.5 mm (Khaki)
+8, arifle_MX_GL_khk_F			// MX 3GL 6.5 mm (Khaki)
 8, arifle_MXC_khk_F  			// MXC 6.5 mm (Khaki)
 3, arifle_MXM_khk_F  			// MXM 6.5 mm (Khaki)
 5, arifle_AK12_F          		// AK-12 7.62 mm
 5, arifle_AK12_GL_F             // AK-12 GL 7.62 mm
 5, arifle_AKM_F                 // AKM 7.62 mm
 5, arifle_AKM_FL_F              // AKM 7.62 mm
-5, arifle_AKS_F                 // AKS
+7, arifle_AKS_F                 // AKS
 5, arifle_ARX_blk_F             // Type 115 6.5 mm (Black)
 5, arifle_ARX_ghex_F            // Type 115 6.5 mm (Green Hex)
 5, arifle_ARX_hex_F             // Type 115 6.5 mm (Hex)
@@ -280,41 +284,41 @@
 5, CUP_arifle_L85A2_GL
 5, CUP_arifle_G36A
 5, CUP_arifle_G36C
-2, CUP_arifle_G36C_camo_holo_snds
+4, CUP_arifle_G36C_camo_holo_snds
 7, CUP_arifle_M16A2
 7, CUP_arifle_M4A1
 7, CUP_arifle_M4A1_camo
 6, CUP_arifle_M4A3_desert
-2, CUP_arifle_M4A1_camo_AIM_snds
-6, CUP_arifle_XM8_Railed
+5, CUP_arifle_M4A1_camo_AIM_snds
+8, CUP_arifle_XM8_Railed
 5, CUP_arifle_M4A1_BUIS_camo_GL
 5, CUP_arifle_AK74_GL
-5, CUP_arifle_CZ805_GL
-5, CUP_arifle_Mk16_CQC_EGLM
-5, CUP_arifle_Mk16_STD_EGLM
-6, CUP_arifle_CZ805_A1
-6, CUP_arifle_CZ805_B
-6, CUP_arifle_AK74
-8, CUP_arifle_AK74M
-7, CUP_arifle_AK107
+8, CUP_arifle_CZ805_GL
+10, CUP_arifle_Mk16_CQC_EGLM
+10, CUP_arifle_Mk16_STD_EGLM
+10, CUP_arifle_CZ805_A1
+10, CUP_arifle_CZ805_B
+12, CUP_arifle_AK74
+10, CUP_arifle_AK74M
+10, CUP_arifle_AK107
 8, CUP_arifle_AK107_GL
 5, CUP_arifle_AKS74U
-2, CUP_arifle_AK107_GL_kobra
-2, CUP_arifle_AK107_GL_pso
+4, CUP_arifle_AK107_GL_kobra
+5, CUP_arifle_AK107_GL_pso
 8, CUP_arifle_AK107_kobra
-5, CUP_arifle_Mk16_CQC
-4, CUP_arifle_Mk16_CQC_FG
+7, CUP_arifle_Mk16_CQC
+8, CUP_arifle_Mk16_CQC_FG
 5, CUP_arifle_Mk16_SV
 7, CUP_arifle_AK47
 8, CUP_arifle_AKM
-1, CUP_arifle_AKS_Gold
-6, CUP_arifle_Sa58P
+5, CUP_arifle_AKS_Gold
+10, CUP_arifle_Sa58P
 7, CUP_arifle_Sa58P_des
-4, CUP_arifle_Sa58RIS1
-4, CUP_arifle_Sa58RIS2_gl
-4, CUP_arifle_Sa58RIS2_camo
-1, CUP_arifle_Sa58RIS2_Arco_Laser
-7, CUP_srifle_Mk12SPR
+8, CUP_arifle_Sa58RIS1
+8, CUP_arifle_Sa58RIS2_gl
+7, CUP_arifle_Sa58RIS2_camo
+8, CUP_arifle_Sa58RIS2_Arco_Laser
+13, CUP_srifle_Mk12SPR
 
 
 
@@ -588,8 +592,8 @@
 //18, 150Rnd_93x64_Mag		//Navid
 //25, 130Rnd_338_Mag			//SPMG
 //16, 10Rnd_338_Mag			//MAR10
-11, 20Rnd_762x51_Mag		//MK1EMR
-14, 10Rnd_127x54_Mag		//ASP1KIR
+15, 20Rnd_762x51_Mag		//MK1EMR
+10, 10Rnd_127x54_Mag		//ASP1KIR
 //16, 10Rnd_93x64_DMR_05_Mag	//CYRUS
 
 > DLCOptics
@@ -701,14 +705,53 @@
 
 //Civilian
 
-> CivilianItems
+> BarnCustom
 30, ItemWatch
+15, ItemRadio
+30, Binocular
+25, Exile_Item_Heatpack
+35, ItemMap
+5, Exile_Item_MobilePhone
+30, ItemCompass
+15, Chemlight_blue
+15, Chemlight_green
+15, Chemlight_red
+15, Chemlight_yellow
+15, FlareGreen_F
+15, FlareRed_F
+15, FlareWhite_F
+15, FlareYellow_F
+15, SmokeShell
+15, SmokeShellRed
+15, SmokeShellGreen
+15, SmokeShellYellow
+15, SmokeShellPurple
+15, SmokeShellBlue
+15, SmokeShellOrange
+10, Exile_Melee_Axe
+15, Exile_Item_Rope
+18, Exile_Item_CamoTentKit
+25, Exile_Item_Bandage
+10, Exile_Item_ZipTie
+10, Exile_Item_FuelCanisterFull
+20, Exile_Item_FuelCanisterEmpty
+15, Exile_Item_OilCanister
+20, Exile_Item_Carwheel
+23, Exile_Item_ExtensionCord
+18, Exile_Item_WaterCanisterEmpty
+15, Exile_Item_Hammer
+10, Exile_Item_Wrench
+20, Exile_Item_DuctTape
+
+> CivilianItems
+50, ItemWatch
 30, ItemRadio
-10, ItemGPS
-20, Binocular
+5, ItemGPS
+30, Binocular
 40, Exile_Item_Heatpack
 35, ItemMap
 5, Exile_Item_MobilePhone
+30, ItemCompass
 
 > CivilianClothing
 9, U_C_Poor_1
