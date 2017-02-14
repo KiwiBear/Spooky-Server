@@ -33,6 +33,7 @@ _vehicleClassNames = [["B_MRAP_01_F", 2], // 0
 					  ["Exile_Plane_AN2_Green", 2], // 23
 					  ["Exile_Boat_RubberDuck_Black", 5], //24 
 					  ["CUP_C_Fishing_Boat_Chernarus", 3]]; //24
+					  // IF YOU ADD ANOTHER BOAT CLASS, MAKE SURE YOU ADD IT THE CUSTOM ARRAY BELOW IN THE CODE
 						// number of sets of spawn coords MUST be at least as large as the number of
 						// that type of vehicle you want to spawn
 _vehicleSpawnLocations = [[[8543.555, 11988.373, 0], [2048.336, 7270.142, 0]], //classname0 locations
@@ -149,7 +150,11 @@ for [{_h = 0}, {_h < (count _spawnedVehicles)}, {_h = _h + 1}] do
 		};
 		
 		// create that vehicle and set random damage and fuel
-		_vehicle = [_curClassName, _randLoc, random 360, true, null] call ExileServer_object_vehicle_createPersistentVehicle;
+		__usePosATL = true;
+		if ((_curClassName isEqualTo "CUP_C_Fishing_Boat_Chernarus") || (_curClassName isEqualTo "Exile_Boat_RubberDuck_Black")) then {
+			_usePosATL = false;
+		};
+		_vehicle = [_curClassName, _randLoc, random 360, _usePosATL, null] call ExileServer_object_vehicle_createPersistentVehicle;
 		_hitpointsData = getAllHitPointsDamage _vehicle;
 		if !(_hitpointsData isEqualTo []) then 
 		{
