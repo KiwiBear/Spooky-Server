@@ -3732,7 +3732,7 @@ class CfgExileCustomCode
 	ExileServer_system_trading_network_purchaseVehicleRequest = "Fixes\TraderFixes\ExileServer_system_trading_network_purchaseVehicleRequest.sqf";
 	
 	// Custom vehicle spawns
-	ExileServer_world_spawnVehicles = "custom\overrides\ExileServer_Custom_Vehicle_Spawning.sqf";
+	//ExileServer_world_spawnVehicles = "custom\overrides\ExileServer_Custom_Vehicle_Spawning.sqf";
 	
 	// Arma 1.66 Fixes
 	ExileClient_gui_postProcessing_initialize = "Fixes\A166Fixes\ExileClient_gui_postProcessing_initialize.sqf";
