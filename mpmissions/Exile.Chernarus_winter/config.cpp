@@ -3977,7 +3977,7 @@ class CfgExileLootSettings
 	 * set this to a lower value than the maximum radius of a territory,
 	 * which is 150m by default.
 	 */
-	minimumDistanceToTerritories = 150;
+	minimumDistanceToTerritories = 15;
 };
 class CfgExileMobileXM8
 {
@@ -4750,14 +4750,14 @@ class CfgPlayer
 	thirstDecay = 60;
 
 	// Damage taken from 0 (health||thirst)/sec
-	healthDecay = 5.0;
+	healthDecay = 3.0;
 
 	// Health regen if over BOTH
-	thirstRegen = 90;
-	hungerRegen = 90;
+	thirstRegen = 70;
+	hungerRegen = 70;
 
 	// IF above meet recover HP%/MIN
-	recoveryPerMinute = 2;
+	recoveryPerMinute = 1;
 
 	// Set custom aim precision coefficient for weapon sway
 	// https://community.bistudio.com/wiki/Arma_3_Stamina
@@ -4990,34 +4990,88 @@ class CfgTraderCategories
 		};
 	};
 
-	class Headgear 
+	class Weapons 
 	{
-		name = "Headgear";
+		name = "Guns";
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\headgear_ca.paa";
 		items[] =
 		{
-			"Exile_Headgear_SantaHat"
+			"CUP_srifle_LeeEnfield",
+			"hlc_VOG25_AK",
+			"hlc_optic_kobra",
+			"optic_Aco",
+			"Exile_Magazine_8Rnd_9x18",
+			"Exile_Magazine_7Rnd_45ACP",
+			"Exile_Weapon_Makarov",
+			"CUP_5x_22_LR_17_HMR_M",
+			"CUP_10x_303_M",
+			"Exile_Magazine_6Rnd_45ACP",
+			"Exile_Weapon_Taurus",
+			"CUP_8Rnd_B_Beneli_74Pellets",
+			"CUP_sgun_M1014"
 		};
 	};
 
-class Glasses 
+class Equipment 
 	{
-		name = "Glasses";
+		name = "Equipment";
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\Goggles_ca.paa";
 		items[] =
 		{
-			"G_Spectacles"
+			"G_Balaclava_TI_G_blk_F",
+			"TRYK_Shemagh_G",
+			"H_RacingHelmet_3_F",
+			"TRYK_SUITS_BLK_F",
+			"V_TacVest_blk_POLICE",
+			"H_Watchcap_blk",
+			"TRYK_B_tube_cyt",
+			"B_HuntingBackpack",
+			"TRYK_shirts_DENIM_ylb",
+			"TRYK_hoodie_FR",
+			"TRYK_V_tacSVD_BK",
+			"Exile_Headgear_GasMask",
+			"V_RebreatherB",
+			"TRYK_U_denim_hood_blk",
+			"TRYK_U_denim_hood_mc",
+			"TRYK_U_denim_hood_3c",
+			"TRYK_U_denim_hood_nc",
+			"H_Shemag_olive"
 		};
 	};
 
-	class PointerAttachments 
+	class Supplies 
 	{
-		name = "Pointer Attachments";
+		name = "Supplies";
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
 		items[] = 
 		{
-			"acc_flashlight",
-			"acc_pointer_IR"
+			"Exile_Item_PlasticBottleDirtyWater",
+			"Exile_Item_Sand",
+			"Exile_Item_CanOpener",
+			"Exile_Item_Bandage",
+			"Exile_Item_SeedAstics",
+			"Exile_Item_Hammer",
+			"Exile_Item_FuelCanisterEmpty",
+			"Exile_Item_CodeLock",
+			"Exile_Melee_Axe",
+			"Land_CampingTable_F_Kit",
+			"Land_Sun_chair_F_Kit",
+			"Land_Sunshade_04_F_Kit",
+			"Exile_Item_XM8",
+			"ItemMap",
+			"Binocular",
+			"Exile_Item_ZipTie",
+			"ItemCompass",
+			"Exile_Item_MetalScrews",
+			"Exile_Item_Matches",
+			"Exile_Item_CookingPot",
+			"Exile_Item_CarWheel",
+			"Exile_Item_Knife",
+			"Exile_Item_LightBulb",
+			"Exile_Item_ExtensionCord",
+			"Exile_Item_BaseCameraKit",
+			"Exile_Item_FloodLightKit",
+			"Exile_Item_PlasticBottleEmpty"
 		};
 	};
 
@@ -5890,15 +5944,14 @@ class CfgTraders
 	 */
 	class Exile_Trader_Equipment
 	{	
-		name = "EQUIPMENT";
+		name = "RickGrimes";
 		showWeaponFilter = 0;
 		categories[] = 
 		{
-			"Headgear",
-			"Glasses",
-			"Uniforms",
-			"Vests",
-			"Backpacks"
+			"Weapons",
+			"Equipment",
+			"Supplies"
+			
 		};
 	};
 
