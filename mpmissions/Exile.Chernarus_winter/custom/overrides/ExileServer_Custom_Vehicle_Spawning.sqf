@@ -151,7 +151,8 @@ for [{_h = 0}, {_h < (count _spawnedVehicles)}, {_h = _h + 1}] do
 		
 		// create that vehicle and set random damage and fuel
 		__usePosATL = true;
-		if ((_curClassName isEqualTo "CUP_C_Fishing_Boat_Chernarus") || (_curClassName isEqualTo "Exile_Boat_RubberDuck_Black")) then {
+		if ((_curClassName isEqualTo "CUP_C_Fishing_Boat_Chernarus") || (_curClassName isEqualTo "Exile_Boat_RubberDuck_Black")) then 
+		{
 			_usePosATL = false;
 		};
 		_vehicle = [_curClassName, _randLoc, random 360, _usePosATL, null] call ExileServer_object_vehicle_createPersistentVehicle;
