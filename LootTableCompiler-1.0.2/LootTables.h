@@ -211,6 +211,7 @@
 2, BattleRifles
 2, BattleRifleAmmo
 5, BattleRifleAttachments
+10, WinterGearMilitary
 
 ///////////////////////////////////////////////////////////////////////////////
 // Hospital, Medevac etc. (Does not spawn on Altis!)
@@ -273,6 +274,7 @@
 100, Trash
 20, DLCRifles
 20, DLCOptics
+30, WinterGearMilitary
 
 
 ///////////////////////////////////////////////////////////////////////////////
@@ -297,6 +299,7 @@
 20, BattleRifles
 20, BattleRifleAmmo
 20, BattleRifleAttachments
+30, WinterGearMilitary
 
 
 ///////////////////////////////////////////////////////////////////////////////
