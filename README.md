@@ -14,6 +14,7 @@ Current mods installed -mod=
 @Extended_Base_Mod;  
 @Ryanzombies;  
 @Arma Enhanced Movement;  
+@TRYK;  
 
 The directory structure is the same as the production server.
 
