@@ -33,35 +33,34 @@ _vehicleClassNames = [["B_MRAP_01_F", 2], // 0
 					  ["CUP_C_Fishing_Boat_Chernarus", 3]]; //24
 						// number of sets of spawn coords MUST be at least as large as the number of
 						// that type of vehicle you want to spawn
-_vehicleSpawnLocations = [[[x, y, z], [x, y, z], [x, y, z]], //classname1 locations
-						  [[x, y, z], [x, y, z], [x, y, z]], //classname2 locations
-						  [[x, y, z], [x, y, z], [x, y, z]], //classname3 locations
-						  [[x, y, z], [x, y, z], [x, y, z]], //classname4 locations
-						  [[x, y, z], [x, y, z], [x, y, z]], //classname5 locations
-						  [[x, y, z], [x, y, z], [x, y, z]], //classname6 locations
-						  [[x, y, z], [x, y, z], [x, y, z]], //classname7 locations
-						  [[x, y, z], [x, y, z], [x, y, z]], //classname8 locations
-						  [[x, y, z], [x, y, z], [x, y, z]], //classname9 locations
-						  [[x, y, z], [x, y, z], [x, y, z]], //classname10 locations
-						  [[x, y, z], [x, y, z], [x, y, z]], //classname11 locations
-						  [[x, y, z], [x, y, z], [x, y, z]], //classname12 locations
-						  [[x, y, z], [x, y, z], [x, y, z]], //classname13 locations
-						  [[x, y, z], [x, y, z], [x, y, z]], //classname14 locations
-						  [[x, y, z], [x, y, z], [x, y, z]], //classname15 locations
-						  [[x, y, z], [x, y, z], [x, y, z]], //classname16 locations
-						  [[x, y, z], [x, y, z], [x, y, z]], //classname17 locations
-						  [[x, y, z], [x, y, z], [x, y, z]], //classname18 locations
-						  [[x, y, z], [x, y, z], [x, y, z]], //classname19 locations
-						  [[x, y, z], [x, y, z], [x, y, z]], //classname20 locations
-						  [[x, y, z], [x, y, z], [x, y, z]], //classname21 locations
-						  [[x, y, z], [x, y, z], [x, y, z]], //classname22 locations
-						  [[x, y, z], [x, y, z], [x, y, z]], //classname23 locations
-						  [[x, y, z], [x, y, z], [x, y, z]], //classname24 locations
-						  [[x, y, z], [x, y, z], [x, y, z]], //classname25 locations
-						  [[x, y, z], [x, y, z], [x, y, z]]];//classname26 locations
+_vehicleSpawnLocations = [[[8543.555, 11988.373, 0], [2048.336, 7270.142, 0]], //classname0 locations
+						  [[5571.843, 10070.483, 0], [13445.34, 12036.941, 0]], //classname1 locations
+						  [[5919.627, 4733.802, 0], [8341.737, 5996.133, 0]], //classname2 locations
+						  [[4752.367, 2638.57, 0], [3697.703, 5996.299, 0], [6278.627, 7854.885, 0], [11988.79, 12656.652, 0], [6528.396, 2513.330, 0], [8953.133, 4368.568, 0], [7191.911, 9348.322, 0], [9727.648, 8889.108, 0], [6034.568, 10396.346, 0], [4915.108, 12553.286, 0]], //classname3 locations
+						  [[4980.137, 12553.837, 0], [6771.392, 2713.957, 0], [6916.297, 2359.271, 0], [1837.670, 2254.069, 0], [1715.558, 3909.806, 0], [3356.901, 3931.005, 0], [10752.053, 8098.113, 0], [13394.225, 6585.172, 0]], //classname4 locations
+						  [[1600.571, 7794.176, 0], [3699.813, 5960.196, 0], [9656.371, 6560.6, 0], [4831.75, 10296.744, 0]], //classname5 locations
+						  [[4725.740, 6779.8, 0], [2684.332, 9974.343, 0]], //classname6 locations
+						  [[10517.076, 12840.455, 0], [5403.433, 8612.386, 0], [6863.054, 11427.246, 0]], //classname7 locations
+						  [[7130.623, 7748.354, 0], [4066.61, 9157.562, 0], [4615.522, 9677.276, 0], [4480.254, 7970.08, 0], [3130.471, 7953.146, 0], [4533.612, 6477.768, 0]], //classname8 locations
+						  [[8072.714, 3373.581, 0], [12098.795, 7233.579, 0]], //classname9 locations
+						  [[7575.966, 5171.544, 0], [4917.416, 5654.565, 0], [6522.875, 6146.534, 0], [13169.703, 5439.328, 0], [11281.242, 4297.920, 0]], //classname10 locations
+						  [[2061.615, 6098.428, 0]], //classname11 locations
+						  [[980.993, 9216.238, 0]], //classname12 locations
+						  [[1324.267, 13372.133, 0], [11464.932, 7532.471, 0]], //classname13 locations
+						  [[12786.079, 9638.687, 0]], //classname14 locations
+						  [[7107.777, 2703.893, 0], [5390.085, 8531.627, 0]], //classname15 locations
+						  [[4471.074, 4585.625, 0], [6183.900, 7805.358, 0], [10388.007, 2003.267, 0]], //classname16 locations
+						  [[11516.992, 11353.979, 0], [3306.14, 11265.606, 0], [10392.561, 2259.835, 0], [10597.138, 2528.796, 0], [5160.891, 2343.851, 0], [3200.09, 5179.14, 0], [8096.191, 8060.693, 0], [12944.619, 8072.919, 0]], //classname17 locations
+						  [[6849.92, 11538.813, 0]], //classname18 locations
+						  [[13700.29, 2896.453, 0], [12100.466, 12618.495, 0]], //classname19 locations
+						  [[12047.469, 12680.968, 0]], //classname20 locations
+						  [[4103.828, 10805.258, 0]], //classname21 locations
+						  [[6433.630, 9452.833, 0]], //classname22 locations
+						  [[4792.672, 9825.177, 0], [11834.939, 12806.489, 0]], //classname23 locations
+						  [[13473.194, 13756.955, 2.550], [13935.132, 11668.684, 5.153], [13551.283, 6511.376, 16.002], [13411.197, 2879.345, 1.184], [2065.147, 2127.316, 1.036]], //classname24 locations
+						  [[4269.708, 2176.087, 4.215], [7118.208, 2450.903, 14.986], [10435.37, 1779.646, 4.571]]];//classname25 locations
 _allVehicleData = [];						  
 _spawnedVehicles = [];
-
 
 // get an array of all the rows in the database's vehicle table
 _vehicleIDs = format ["loadVehicleIdPage:%1:%2", 0, 150] call ExileServer_system_database_query_selectFull;
