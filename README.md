@@ -2,6 +2,18 @@
 
 DayZ Mod Recreation - Survive, Build, PVP
 
+Current mods installed -mod=
+
+@CUP_Terrains_Core;  
+@CUP_Terrains_Maps;  
+@Chernarus_Winter_A3;  
+@CBA_A3;@CUP_Weapons;  
+@CUP_Units;  
+@CUP_Vehicles;  
+@Extended_Base_Mod;  
+@Ryanzombies;  
+@Arma Enhanced Movement;  
+
 The directory structure is the same as the production server.
 
 Main files are:
