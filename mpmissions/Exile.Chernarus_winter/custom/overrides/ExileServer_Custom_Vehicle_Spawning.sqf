@@ -6,7 +6,10 @@
 // 8 atvs, 1 littelbird, 2 hueys, 1 civ mi-17, 1 armed mi17, 1 medical blackhawks, 2 planes
 // x pbx, y fishing boats
 
-private["_vehicleIDs", "_vehicleSpawnLocations", "_vehicleClassNames", "_spawnedVehicles", "_curVehicleID", "_curVehicleData", "_allVehicleData"];
+private["_vehicleIDs", "_vehicleSpawnLocations", "_vehicleClassNames", "_spawnedVehicles", "_curVehicleID", 
+        "_curVehicleData", "_allVehicleData", "_temp", "_j", "_curClassName", "_classNm", "_k", "_numSpawned", "_numShouldBeSpawned",
+        "_numToBeSpawned", "_a", "_cont", "_locations", "_randLoc", "_curVehiclePos", "_distance", "_b", "_usePosATL", 
+		"_vehicle", "_hitpoints", "_h", "_hitpointsData"];
 _vehicleClassNames = [["B_MRAP_01_F", 2], // 0
 					  ["Exile_Car_HMMWV_UNA_Green", 2], // 1
 					  ["Exile_Car_SUVXL_Black", 2],     // 2
@@ -150,7 +153,7 @@ for [{_h = 0}, {_h < (count _spawnedVehicles)}, {_h = _h + 1}] do
 		};
 		
 		// create that vehicle and set random damage and fuel
-		__usePosATL = true;
+		_usePosATL = true;
 		if ((_curClassName isEqualTo "CUP_C_Fishing_Boat_Chernarus") || (_curClassName isEqualTo "Exile_Boat_RubberDuck_Black")) then {
 			_usePosATL = false;
 		};
