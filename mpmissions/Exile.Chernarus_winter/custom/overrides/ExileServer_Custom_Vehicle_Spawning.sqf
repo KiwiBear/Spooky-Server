@@ -1,3 +1,5 @@
+// Script by Nic, locations by Chase9548
+
 
 // 2 hunters, 2 humvees, 2 suvs, 10 uaz, 8 ladas, 4 datsun, 2 turbos, 3 offroaders, 6 pickup trucks, 2 pizza trucks
 // 5 jeeps, 1 quelin, 1 prowler, 2 vs3,1 mtvr, 2 ural, 3 buses
