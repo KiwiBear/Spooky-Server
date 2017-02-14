@@ -15,6 +15,14 @@ Current mods installed -mod=
 @Ryanzombies;  
 @Arma Enhanced Movement;  
 @TRYK;  
+@HLC Core;  
+@HLC AK Pack;  
+@HLC AR15 Pack;  
+@HLC M14 Pack;  
+@NIArms Core;  
+@NIArms FAL Rifles;  
+@NIArms M1903 Springfield Rifles;  
+@NIArms MP5 SMGs;
 
 The directory structure is the same as the production server.
 
