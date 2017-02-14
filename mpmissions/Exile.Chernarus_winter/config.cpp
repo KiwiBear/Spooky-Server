@@ -2314,10 +2314,10 @@ class CfgExileArsenal
     class TRYK_SUITS_BLK_F                              { quality = 1; price = 40; };
     class TRYK_SUITS_BR_F                               { quality = 1; price = 40; };
     class TRYK_H_ghillie_top_headless3glass             { quality = 1; price = 6; };
-    class TRYK_shoulder_armor_BK                        { quality = 1; price = 69; };
-    class TRYK_shoulder_armor_OD                        { quality = 1; price = 69; };
-    class TRYK_shoulder_armor_CY                        { quality = 1; price = 69; };
-    class TRYK_H_ghillie_top_headless3                  { quality = 1; price = 6; };
+    class TRYK_shoulder_armor_BK                        { quality = 1; price = 60 };
+    class TRYK_shoulder_armor_OD                        { quality = 1; price = 60; };
+    class TRYK_shoulder_armor_CY                        { quality = 1; price = 60; };
+    class TRYK_H_ghillie_top_headless3                  { quality = 1; price = 60; };
     class TRYK_U_B_PCUHsW                               { quality = 1; price = 80; };
     class TRYK_U_B_PCUHsW2                              { quality = 1; price = 80; };
     class TRYK_U_B_PCUHsW3                              { quality = 1; price = 80; };
@@ -2330,21 +2330,21 @@ class CfgExileArsenal
     // TRYK Vests
     ///////////////////////////////////////////////////////////////////////////////
  
-    class TRYK_V_ArmorVest_CBR                          { quality = 3; price = 184; };
-    class TRYK_V_ArmorVest_khk                          { quality = 3; price = 184; };
+    class TRYK_V_ArmorVest_CBR                          { quality = 3; price = 134; };
+    class TRYK_V_ArmorVest_khk                          { quality = 3; price = 134; };
     class TRYK_V_ArmorVest_Ranger                       { quality = 3; price = 184; };
-    class TRYK_V_ArmorVest_cbr2                         { quality = 5; price = 200; };
-    class TRYK_V_ArmorVest_khk2                         { quality = 5; price = 200; };
-    class TRYK_V_ArmorVest_Ranger2                      { quality = 5; price = 200; };
-    class TRYK_V_PlateCarrier_blk                       { quality = 5; price = 184; };
-    class TRYK_V_PlateCarrier_coyo                      { quality = 5; price = 184; };
-    class TRYK_V_PlateCarrier_wood                      { quality = 5; price = 184; };
-    class TRYK_V_PlateCarrier_blk_L                     { quality = 3; price = 168; };
-    class TRYK_V_PlateCarrier_wood_L                    { quality = 3; price = 168; };
-    class TRYK_V_PlateCarrier_coyo_L                    { quality = 3; price = 168; };
-    class TRYK_V_Bulletproof                            { quality = 5; price = 250; };
-    class TRYK_V_Bulletproof_BLK                        { quality = 5; price = 250; };
-    class TRYK_V_Bulletproof_BL                         { quality = 5; price = 250; };
+    class TRYK_V_ArmorVest_cbr2                         { quality = 5; price = 100; };
+    class TRYK_V_ArmorVest_khk2                         { quality = 5; price = 100; };
+    class TRYK_V_ArmorVest_Ranger2                      { quality = 5; price = 100; };
+    class TRYK_V_PlateCarrier_blk                       { quality = 5; price = 104; };
+    class TRYK_V_PlateCarrier_coyo                      { quality = 5; price = 104; };
+    class TRYK_V_PlateCarrier_wood                      { quality = 5; price = 104; };
+    class TRYK_V_PlateCarrier_blk_L                     { quality = 3; price = 108; };
+    class TRYK_V_PlateCarrier_wood_L                    { quality = 3; price = 108; };
+    class TRYK_V_PlateCarrier_coyo_L                    { quality = 3; price = 108; };
+    class TRYK_V_Bulletproof                            { quality = 5; price = 150; };
+    class TRYK_V_Bulletproof_BLK                        { quality = 5; price = 150; };
+    class TRYK_V_Bulletproof_BL                         { quality = 5; price = 150; };
     class TRYK_V_tacSVD_BK                              { quality = 3; price = 120; };
     class TRYK_V_tacSVD_OD                              { quality = 3; price = 120; };
     class TRYK_LOC_AK_chestrig_OD                       { quality = 1; price = 90; };
@@ -2354,36 +2354,37 @@ class CfgExileArsenal
     // TRYK BackPacks
     ///////////////////////////////////////////////////////////////////////////////
    
-    class TRYK_B_AssaultPack_UCP                        { quality = 1; price = 160; };
-    class TRYK_B_AssaultPack_Type2camo                  { quality = 1; price = 160; };
-    class TRYK_B_AssaultPack_MARPAT_Desert              { quality = 1; price = 160; };
-    class TRYK_B_AssaultPack_MARPAT_Wood                { quality = 1; price = 160; };
-    class TRYK_B_Kitbag_Base                            { quality = 1; price = 280; };
-    class TRYK_B_Kitbag_blk                             { quality = 1; price = 280; };
-    class TRYK_B_Kitbag_aaf                             { quality = 1; price = 280; };
-    class TRYK_B_Carryall_blk                           { quality = 1; price = 320; };
-    class TRYK_B_Carryall_wh                            { quality = 1; price = 320; };
-    class TRYK_B_Carryall_wood                          { quality = 1; price = 320; };
-    class TRYK_B_Carryall_JSDF                          { quality = 1; price = 320; };
-    class TRYK_B_Kitbag_Base_JSDF                       { quality = 1; price = 280; };
-    class TRYK_B_Coyotebackpack                         { quality = 1; price = 300; };
-    class TRYK_B_Coyotebackpack_OD                      { quality = 1; price = 300; };
-    class TRYK_B_Coyotebackpack_BLK                     { quality = 1; price = 300; };
-    class TRYK_B_Coyotebackpack_WH                      { quality = 1; price = 300; };
-    class TRYK_B_Alicepack                              { quality = 1; price = 280; };
-    class TRYK_B_Medbag                                 { quality = 1; price = 280; };
-    class TRYK_B_Medbag_OD                              { quality = 1; price = 280; };
-    class TRYK_B_Medbag_BK                              { quality = 1; price = 280; };
-    class TRYK_B_Medbag_ucp                             { quality = 1; price = 280; };
-    class TRYK_B_BAF_BAG_BLK                            { quality = 1; price = 280; };
-    class TRYK_B_BAF_BAG_CYT                            { quality = 1; price = 280; };
-    class TRYK_B_BAF_BAG_OD                             { quality = 1; price = 280; };
-    class TRYK_B_BAF_BAG_rgr                            { quality = 1; price = 280; };
-    class TRYK_B_BAF_BAG_mcamo                          { quality = 1; price = 280; };
-    class TRYK_B_tube_cyt                               { quality = 1; price = 80; };
-    class TRYK_B_tube_od                                { quality = 1; price = 80; };
-    class TRYK_B_tube_blk                               { quality = 1; price = 80; };
-    class TRYK_B_FieldPack_Wood                         { quality = 1; price = 200; };
+    class TRYK_B_AssaultPack_UCP                        { quality = 1; price = 100; };
+    class TRYK_B_AssaultPack_Type2camo                  { quality = 1; price = 100; };
+    class TRYK_B_AssaultPack_MARPAT_Desert              { quality = 1; price = 100; };
+    class TRYK_B_AssaultPack_MARPAT_Wood                { quality = 1; price = 100; };
+    class TRYK_B_Kitbag_Base                            { quality = 1; price = 100; };
+    class TRYK_B_Kitbag_blk                             { quality = 1; price = 100; };
+    class TRYK_B_Kitbag_aaf                             { quality = 1; price = 100; };
+    class TRYK_B_Carryall_blk                           { quality = 1; price = 120; };
+    class TRYK_B_Carryall_wh                            { quality = 1; price = 120; };
+    class TRYK_B_Carryall_wood                          { quality = 1; price = 120; };
+    class TRYK_B_Carryall_JSDF                          { quality = 1; price = 120; };
+    class TRYK_B_Kitbag_Base_JSDF                       { quality = 1; price = 100; };
+    class TRYK_B_Coyotebackpack                         { quality = 1; price = 100; };
+    class TRYK_B_Coyotebackpack_OD                      { quality = 1; price = 100; };
+    class TRYK_B_Coyotebackpack_BLK                     { quality = 1; price = 100; };
+    class TRYK_B_Coyotebackpack_WH                      { quality = 1; price = 100; };
+    class TRYK_B_Alicepack                              { quality = 1; price = 100; };
+    class TRYK_B_Medbag                                 { quality = 1; price = 100; };
+    class TRYK_B_Medbag_OD                              { quality = 1; price = 100; };
+    class TRYK_B_Medbag_BK                              { quality = 1; price = 100; };
+    class TRYK_B_Medbag_ucp                             { quality = 1; price = 100; };
+    class TRYK_B_BAF_BAG_BLK                            { quality = 1; price = 100; };
+    class TRYK_B_BAF_BAG_CYT                            { quality = 1; price = 100; };
+    class TRYK_B_BAF_BAG_OD                             { quality = 1; price = 100; };
+    class TRYK_B_BAF_BAG_rgr                            { quality = 1; price = 100; };
+    class TRYK_B_BAF_BAG_mcamo                          { quality = 1; price = 100; };
+    class TRYK_B_tube_cyt                               { quality = 1; price = 100; };
+    class TRYK_B_tube_od                                { quality = 1; price = 100; };
+    class TRYK_B_tube_blk                               { quality = 1; price = 100; };
+    class TRYK_B_FieldPack_Wood                         { quality = 1; price = 100; };
+	class TRYK_Winter_pack                            { quality = 1; price = 100; };
 	
 	///////////////////////////////////////////////////////////////////////////////
 	// Civillian Clothing
