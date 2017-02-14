@@ -10,7 +10,7 @@ private["_vehicleIDs", "_vehicleSpawnLocations", "_vehicleClassNames", "_spawned
         "_curVehicleData", "_allVehicleData", "_temp", "_j", "_curClassName", "_classNm", "_k", "_numSpawned", "_numShouldBeSpawned",
         "_numToBeSpawned", "_a", "_cont", "_locations", "_randLoc", "_curVehiclePos", "_distance", "_b", "_usePosATL", 
 		"_vehicle", "_hitpoints", "_h", "_hitpointsData"];
-_vehicleClassNames = [["B_MRAP_01_F", 2], // 0
+/* _vehicleClassNames = [["B_MRAP_01_F", 2], // 0
 					  ["Exile_Car_HMMWV_UNA_Green", 2], // 1
 					  ["Exile_Car_SUVXL_Black", 2],     // 2
 					  ["Exile_Car_UAZ_Green", 10], //3  
@@ -177,6 +177,6 @@ for [{_h = 0}, {_h < (count _spawnedVehicles)}, {_h = _h + 1}] do
 		};
 		_vehicle setFuel (random 0.2);
 	};
-};
-
+}; */
+"ran custom veh" call ExileServer_util_log;
 true
