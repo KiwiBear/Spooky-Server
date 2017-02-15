@@ -13,8 +13,8 @@ ZombieSideString             = "EAST";           // Same thing but in a string.
 CorpseDeleteDelay            = 300;              // delay before a zombie corpse is deleted.
 Debug                        = false;             // debug messages.
 MinSpawnDistance             = 20;               // Closest distance from any player to spawn a zombie.
-MaxSpawnDistance             = 160;              // Max distance a zombie should spawn from a player.
-MaxDistance			         = 300;              // Max distance to players before delete.
+MaxSpawnDistance             = 120;              // Max distance a zombie should spawn from a player.
+MaxDistance			         = 200;              // Max distance to players before delete.
 MaxTime                      = 35;               // Max time away from a player before delete.
 RemoveZfromTerritory         = true;             // Will kill zombies when they get too close to a flag. *(the check is done every MaxTime) will only work with zombies that are configured to avoid territories
 TriggerGroupScaling          = 0.30;             // 1 player = Groupsize, 2 player in trigger = Groupsize + (GroupSize * TriggerGroupScalling * number of player in the trigger) set at 0 to disable scaling
@@ -57,7 +57,7 @@ DistanceBonusDivider         = 10;               // Distance divided by that num
 _Ryanzombieshealth			           = 0.8; 	 // Health, *(initial damage level 0 is no damage 1 is dead)
 _Ryanzombieshealthdemon                = 0.5;	 // Health, *(initial damage level 0 is no damage 1 is dead)
 _Ryanzombiesattackspeed 	           = 1.3;	 // Attack speed, *(Time is seconds between attacks)
-_Ryanzombiesattackdistance 	           = 3;	     // Attack distance, *(in meters)
+_Ryanzombiesattackdistance 	           = 2.5;	     // Attack distance, *(in meters)
 _Ryanzombiesattackstrenth 	           = 0;	     // Attack strength *(Knockback strength) *(TYPO IS NORMAL)
 _Ryanzombiesdamage 			           = 0.08;   // Attack damage *(% of players life per hit, 1 is 100%)
 _Ryanzombiesdamagecar 		           = 0.05;	 // Attack damage to car *(% of car health per hit, 1 is 100%)
@@ -93,8 +93,8 @@ _Ryanzombiesjumpdemon                  = 1;      // Jumping Demons
 _Ryanzombiesfeed                       = -1;     // Feeding Zombies
 _Ryanzombiesfeeddemon                  = 1;      // Feeding Demons
                                                     
-_Ryanzombiesinfection                  = -1;     // Enable infections *(-1 to disable)
-_ryanzombiesinfectedchance             = 10;     // Precent chances to be infected on hit
+_Ryanzombiesinfection                  = 1;     // Enable infections *(-1 to disable)
+_ryanzombiesinfectedchance             = 0;     // Precent chances to be infected on hit
 _ryanzombiesinfectedrate               = 0.03;   // Damage per minute when infected (+/- 30 minutes to live)
 _ryanzombiesinfectedsymptoms           = 0.9;    // Symptomes showed when infected 0.9 = Normal 0.7 = Less 0.5 = None
 _ryanzombiesinfecteddeath              = 0.9;    // 0.9 = Scream on death 0.7 = Silent death
@@ -115,9 +115,8 @@ _ryanzombiesmovementspeedcrawler       = 1;      // Animation speed for crawler
 //Default Altis SafeZones
 SafeZonePositions =
 [//  [[Coordinates],Radius]  // You can Get the safezone information directly from your mission.sqm under class Markers
-  [[14599,16797],175],
-  [[23334,24188],175],
-  [[2998,18175],175]
+  [[8132,9149],175]
+
 ];
 
 UseHarassingZombies          = true;             //
