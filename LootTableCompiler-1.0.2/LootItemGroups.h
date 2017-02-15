@@ -134,28 +134,35 @@
 20, CUP_acc_CZ_M3X
 
 > Shotguns
-3, Exile_Weapon_M1014	//M1014
-3, CUP_sgun_Saiga12K
-3, Exile_Weapon_LeeEnfield
-1, Exile_Weapon_CZ550
+10, Exile_Weapon_M1014	//M1014
+10, CUP_sgun_Saiga12K
+15, Exile_Weapon_LeeEnfield
+5, Exile_Weapon_CZ550
+3, hlc_rifle_L1A1SLR
+14, hlc_rifle_saiga12k
 
 > ShotgunAmmo
-1, Exile_Magazine_8Rnd_74Slug		//M1014
-1, CUP_8Rnd_B_Saiga12_74Slug_M
-1, CUP_8Rnd_B_Saiga12_74Pellets_M
-1, Exile_Magazine_10Rnd_303
-1, Exile_Magazine_5Rnd_22LR
+10, Exile_Magazine_8Rnd_74Slug		//M1014
+10, CUP_8Rnd_B_Saiga12_74Slug_M
+10, CUP_8Rnd_B_Saiga12_74Pellets_M
+10, Exile_Magazine_10Rnd_303
+10, Exile_Magazine_5Rnd_22LR
+4, hlc_20Rnd_762x51_B_fal
+13, hlc_10rnd_12g_buck_S12
+11, hlc_10rnd_12g_slug_S12
+3, hlc_optic_kobra
 
 > SMG
-25, SMG_01_F		// Vermin SMG .45 ACP
-20, SMG_02_F		// Sting 9 mm
-33, SMG_05_F		// Protector 9mm
-33, hgun_PDW2000_F	// PDW2000 9 mm
-20, CUP_smg_bizon
-10, CUP_smg_bizon_snds
-10, CUP_smg_EVO
-14, CUP_smg_MP5SD6
+5, SMG_01_F		// Vermin SMG .45 ACP
+5, SMG_02_F		// Sting 9 mm
+10, SMG_05_F		// Protector 9mm
+10, hgun_PDW2000_F	// PDW2000 9 mm
+25, CUP_smg_bizon
+15, CUP_smg_bizon_snds
+15, CUP_smg_EVO
+35, CUP_smg_MP5SD6
 25, CUP_smg_MP5A5
+30, hlc_rifle_hk53
 
 > SMGAmmo
 50, 30Rnd_45ACP_Mag_SMG_01					// Vermin SMG
@@ -167,6 +174,9 @@
 50, CUP_64Rnd_9x19_Bizon_M
 50, CUP_30Rnd_9x19_MP5
 50, CUP_30Rnd_9x19_EVO
+50, hlc_30rnd_556x45_b_hk33
+50, hlc_30rnd_556x45_t_hk33
+50, hlc_30rnd_556x45_epr_hk33
 
 > SMGAttachments
 20, optic_Holosight_smg
@@ -187,6 +197,21 @@
 5, CUP_srifle_L129A1_HG
 5, CUP_srifle_L129A1
 7, CUP_srifle_M110
+11, hlc_rifle_FAL5061
+10, hlc_rifle_falosw
+13, hlc_rifle_g3ka4
+15, HLC_Rifle_g3ka4_GL
+8,  hlc_rifle_c1A1
+12, hlc_rifle_M14
+12, hlc_rifle_m14dmr
+13, hlc_rifle_m14sopmod
+11, hlc_rifle_psg1
+8, hlc_rifle_SLR
+12, hlc_rifle_SLRchopmod
+13, hlc_rifle_STG58F
+
+
+
 
 
 
@@ -202,6 +227,13 @@
 8, CUP_20Rnd_762x51_B_M110
 8, CUP_20Rnd_TE1_Yellow_Tracer_762x51_M110
 8, CUP_20Rnd_TE1_Red_Tracer_762x51_M110
+12, hlc_20rnd_762x51_b_G3
+13, hlc_50rnd_762x51_M_G3
+11, hlc_20rnd_762x51_T_G3
+10, hlc_20Rnd_762x51_B_M14
+8, hlc_50Rnd_762x51_B_M14
+10, hlc_20Rnd_762x51_B_fal
+8, hlc_50rnd_762x51_M_FAL
 
 >BattleRifleAttachments
 5, CUP_muzzle_snds_M110
@@ -218,18 +250,18 @@
 10, optic_KHS_blk
 
 > Rifles
-3, arifle_Katiba_F			// Katiba 6.5 mm
-4, arifle_Katiba_GL_F		// Katiba GL 6.5 mm
-7, arifle_MXC_F				// MXC 6.5 mm
-8, arifle_MX_F				// MX 6.5 mm
-4, arifle_MX_GL_F			// MX 3GL 6.5 mm
+// 3, arifle_Katiba_F			// Katiba 6.5 mm
+// 4, arifle_Katiba_GL_F		// Katiba GL 6.5 mm
+13, arifle_MXC_F				// MXC 6.5 mm
+11, arifle_MX_F				// MX 6.5 mm
+14, arifle_MX_GL_F			// MX 3GL 6.5 mm
 6, arifle_MXM_F				// MXM 6.5 mm
 4, arifle_MXM_Black_F		// MXM 6.5 mm (Black)
-2, arifle_SDAR_F			// SDAR 5.56 mm
-3, arifle_TRG21_F			// TRG-21 5.56 mm
-3, arifle_TRG20_F			// TRG-20 5.56 mm
+// 2, arifle_SDAR_F			// SDAR 5.56 mm
+// 3, arifle_TRG21_F			// TRG-21 5.56 mm
+// 3, arifle_TRG20_F			// TRG-20 5.56 mm
 4, arifle_TRG21_GL_F		// TRG-21 EGLM 5.56 mm
-3, arifle_Mk20_F			// Mk20 5.56 mm
+// 3, arifle_Mk20_F			// Mk20 5.56 mm
 3, arifle_Mk20C_F			// Mk20C 5.56 mm
 4, arifle_Mk20_GL_F			// Mk20 EGLM 5.56 mm
 3, arifle_MXC_Black_F		// MXC 6.5 mm (Black)
@@ -251,11 +283,11 @@
 8, arifle_MX_GL_khk_F			// MX 3GL 6.5 mm (Khaki)
 8, arifle_MXC_khk_F  			// MXC 6.5 mm (Khaki)
 3, arifle_MXM_khk_F  			// MXM 6.5 mm (Khaki)
-5, arifle_AK12_F          		// AK-12 7.62 mm
-5, arifle_AK12_GL_F             // AK-12 GL 7.62 mm
-5, arifle_AKM_F                 // AKM 7.62 mm
-5, arifle_AKM_FL_F              // AKM 7.62 mm
-7, arifle_AKS_F                 // AKS
+15, arifle_AK12_F          		// AK-12 7.62 mm
+15, arifle_AK12_GL_F             // AK-12 GL 7.62 mm
+15, arifle_AKM_F                 // AKM 7.62 mm
+15, arifle_AKM_FL_F              // AKM 7.62 mm
+17, arifle_AKS_F                 // AKS
 5, arifle_ARX_blk_F             // Type 115 6.5 mm (Black)
 5, arifle_ARX_ghex_F            // Type 115 6.5 mm (Green Hex)
 5, arifle_ARX_hex_F             // Type 115 6.5 mm (Hex)
@@ -266,7 +298,7 @@
 5, arifle_CTARS_blk_F           // CAR-95-1 5.8mm (Black)
 5, arifle_CTARS_ghex_F			// CAR-95-1 5.8mm (Green Hex)
 5, arifle_CTARS_hex_F			// CAR-95-1 5.8mm (Hex)
-5, arifle_SPAR_01_blk_F         // SPAR-16 5.56 mm (Black)
+15, arifle_SPAR_01_blk_F         // SPAR-16 5.56 mm (Black)
 5, arifle_SPAR_01_khk_F         // SPAR-16 5.56 mm (Khaki)
 5, arifle_SPAR_01_snd_F         // SPAR-16 5.56 mm (Sand)
 5, arifle_SPAR_01_GL_blk_F      // SPAR-16 GL 5.56 mm (Black)
@@ -276,24 +308,24 @@
 5, arifle_SPAR_02_khk_F         // SPAR-16S 5.56 mm (Khaki)
 5, arifle_SPAR_02_snd_F         // SPAR-16S 5.56 mm (Sand)
 5, arifle_SPAR_03_blk_F         // SPAR-17 7.62 mm (Black)
-5, arifle_SPAR_03_khk_F         // SPAR-17 7.62 mm (Khaki)
-5, arifle_SPAR_03_snd_F         // SPAR-17 7.62 mm (Sand)
-5, CUP_arifle_L86A2
+15, arifle_SPAR_03_khk_F         // SPAR-17 7.62 mm (Khaki)
+15, arifle_SPAR_03_snd_F         // SPAR-17 7.62 mm (Sand)
+15, CUP_arifle_L86A2
 5, CUP_arifle_L85A2_NG
 3, CUP_arifle_L85A2_GL_SUSAT_Laser
-5, CUP_arifle_L85A2_GL
-5, CUP_arifle_G36A
-5, CUP_arifle_G36C
+10, CUP_arifle_L85A2_GL
+15, CUP_arifle_G36A
+15, CUP_arifle_G36C
 4, CUP_arifle_G36C_camo_holo_snds
-7, CUP_arifle_M16A2
-7, CUP_arifle_M4A1
+15, CUP_arifle_M16A2
+14, CUP_arifle_M4A1
 7, CUP_arifle_M4A1_camo
 6, CUP_arifle_M4A3_desert
 5, CUP_arifle_M4A1_camo_AIM_snds
-8, CUP_arifle_XM8_Railed
+15, CUP_arifle_XM8_Railed
 5, CUP_arifle_M4A1_BUIS_camo_GL
-5, CUP_arifle_AK74_GL
-8, CUP_arifle_CZ805_GL
+16, CUP_arifle_AK74_GL
+14, CUP_arifle_CZ805_GL
 10, CUP_arifle_Mk16_CQC_EGLM
 10, CUP_arifle_Mk16_STD_EGLM
 10, CUP_arifle_CZ805_A1
@@ -301,16 +333,16 @@
 12, CUP_arifle_AK74
 10, CUP_arifle_AK74M
 10, CUP_arifle_AK107
-8, CUP_arifle_AK107_GL
-5, CUP_arifle_AKS74U
-4, CUP_arifle_AK107_GL_kobra
+18, CUP_arifle_AK107_GL
+15, CUP_arifle_AKS74U
+5, CUP_arifle_AK107_GL_kobra
 5, CUP_arifle_AK107_GL_pso
-8, CUP_arifle_AK107_kobra
-7, CUP_arifle_Mk16_CQC
-8, CUP_arifle_Mk16_CQC_FG
-5, CUP_arifle_Mk16_SV
-7, CUP_arifle_AK47
-8, CUP_arifle_AKM
+5, CUP_arifle_AK107_kobra
+17, CUP_arifle_Mk16_CQC
+18, CUP_arifle_Mk16_CQC_FG
+15, CUP_arifle_Mk16_SV
+17, CUP_arifle_AK47
+18, CUP_arifle_AKM
 5, CUP_arifle_AKS_Gold
 10, CUP_arifle_Sa58P
 7, CUP_arifle_Sa58P_des
@@ -318,7 +350,25 @@
 8, CUP_arifle_Sa58RIS2_gl
 7, CUP_arifle_Sa58RIS2_camo
 8, CUP_arifle_Sa58RIS2_Arco_Laser
-13, CUP_srifle_Mk12SPR
+16, CUP_srifle_Mk12SPR
+15, hlc_rifle_ak12
+11, hlc_rifle_ak47
+10, hlc_rifle_ak74
+10, hlc_rifle_akm
+10, hlc_rifle_akmgl
+13, hlc_rifle_bcmjack
+13, hlc_rifle_Bushmaster300
+13, hlc_rifle_Colt727_GL
+10, hlc_rifle_honeybadger
+15, hlc_rifle_rpk
+14, hlc_rifle_RU556
+13, hlc_rifle_RU5562
+16, hlc_rifle_SAMR
+14, hlc_rifle_samr2
+15, hlc_rifle_vendimus
+
+
+
 
 
 
@@ -380,6 +430,21 @@
 8, CUP_30Rnd_Sa58_M_TracerR
 7, CUP_30Rnd_Sa58_M_TracerY
 7, CUP_20Rnd_556x45_Stanag
+12, hlc_30Rnd_545x39_B_AK
+11, hlc_30Rnd_545x39_T_AK
+10, hlc_30Rnd_545x39_EP_AK
+11, hlc_30Rnd_762x39_b_ak
+10, hlc_45Rnd_545x39_t_rpk
+10, hlc_30rnd_556x45_EPR
+11, hlc_30rnd_556x45_SOST
+12, hlc_50rnd_556x45_EPR
+10, hlc_30rnd_556x45_SPR
+13, hlc_75Rnd_762x39_m_rpk
+13, hlc_45Rnd_762x39_m_rpk
+11, HLC_45rnd_762x39_T_RPK
+12, 29rnd_300BLK_STANAG
+13, 29rnd_300BLK_STANAG_T
+
 
 
 
@@ -446,9 +511,9 @@
 //1, optic_tws
 
 > LMG
-20, arifle_MX_SW_Black_F	// MX SW 6.5 mm (Black)
-15, arifle_MX_SW_F			// MX SW 6.5 mm
-15, LMG_Mk200_F				// Mk200 6.5 mm
+// 20, arifle_MX_SW_Black_F	// MX SW 6.5 mm (Black)
+// 15, arifle_MX_SW_F			// MX SW 6.5 mm
+// 15, LMG_Mk200_F				// Mk200 6.5 mm
 10, LMG_Zafir_F				// Zafir 7.62 mm
 25, Exile_Weapon_RPK
 13, Exile_Weapon_PK
@@ -464,6 +529,8 @@
 15, CUP_lmg_Pecheneg
 13, CUP_lmg_M240
 10, CUP_lmg_L7A2
+13, hlc_lmg_m60
+15, hlc_lmg_M60E4
 
 
 
@@ -497,6 +564,8 @@
 14, CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M 
 13, CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M
 15, CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M
+14, hlc_100Rnd_762x51_B_M60E4
+13, hlc_100Rnd_762x51_M_M60E4
 
 > Snipers
 28, srifle_DMR_01_F			// Rahim 7.62 mm
@@ -706,7 +775,7 @@
 // WinterGear
 ///////////////////////////////////////////////////////////////////////////////
 
-> WinterGearCiv
+> WinterGearCivilian
 
 > WinterGearMilitary
 1, TRYK_Winter_pack
@@ -759,70 +828,65 @@
 // TRYK_ESS_wh_NV
 
 //HeadGear
-// TRYK_ESS_CAP_OD
-// TRYK_ESS_CAP_tan
-// TRYK_R_CAP_BLK
-// TRYK_R_CAP_TAN
-// TRYK_R_CAP_OD_US
-// TRYK_r_cap_tan_Glasses
-// TRYK_r_cap_blk_Glasses
-// TRYK_r_cap_od_Glasses
-// TRYK_H_headsetcap_Glasses
-// TRYK_H_headsetcap_blk_Glasses
-// TRYK_H_headsetcap_od_Glasses
-// TRYK_TAC_EARMUFF_SHADE
-// TRYK_TAC_EARMUFF
-// TRYK_NOMIC_TAC_EARMUFF
-// TRYK_headset2
-// TRYK_TAC_EARMUFF_Gs
-// TRYK_TAC_SET_bn
-// TRYK_NOMIC_TAC_EARMUFF_Gs
-// TRYK_TAC_EARMUFF_SHADE_Gs
-// TRYK_TAC_SET_TAN
-// TRYK_TAC_SET_OD
-// TRYK_TAC_SET_WH
-// TRYK_TAC_SET_MESH
-// TRYK_TAC_SET_TAN_2
-// TRYK_TAC_SET_OD_2
-// TRYK_TAC_SET_WH_2
-// TRYK_TAC_SET_MESH_2
-// TRYK_bandana_g
-// TRYK_H_PASGT_BLK
-// TRYK_H_PASGT_OD
-// TRYK_H_PASGT_COYO
-// TRYK_H_PASGT_TAN
-// TRYK_H_Helmet_Snow
-// TRYK_H_WH
-// TRYK_H_GR
-// TRYK_H_AOR1
-// TRYK_H_AOR2
-// TRYK_H_EARMUFF
-// TRYK_H_TACEARMUFF_H
-// TRYK_H_Bandana_H
-// TRYK_H_Bandana_wig
-// TRYK_H_Bandana_wig_g
-// TRYK_H_wig
-// TRYK_H_headset2
-// TRYK_H_ghillie_over
-// TRYK_H_ghillie_top
-// TRYK_H_ghillie_top_headless
-// TRYK_H_ghillie_over_green
-// TRYK_H_ghillie_top_green
-// TRYK_H_ghillie_top_headless_green
-// TRYK_H_woolhat
-// TRYK_H_woolhat_CW
-// TRYK_H_woolhat_WH
-// TRYK_H_woolhat_br
-// TRYK_H_woolhat_cu
-// TRYK_H_woolhat_tan
-// TRYK_H_headsetcap
-// TRYK_H_headsetcap_blk
-// TRYK_H_headsetcap_od
-// TRYK_H_pakol
-// TRYK_H_pakol2
-// TRYK_H_LHS_HEL_G
-// TRYK_H_Helmet_Winter
-// TRYK_H_Helmet_Winter_2
+> TRYKHeadgear
+5, TRYK_ESS_CAP_OD
+5, TRYK_ESS_CAP_tan
+5, TRYK_R_CAP_BLK
+5, TRYK_R_CAP_TAN
+5, TRYK_R_CAP_OD_US
+5, TRYK_r_cap_tan_Glasses
+5, TRYK_r_cap_blk_Glasses
+5, TRYK_r_cap_od_Glasses
+5, TRYK_H_headsetcap_Glasses
+5, TRYK_H_headsetcap_blk_Glasses
+5, TRYK_H_headsetcap_od_Glasses
+5, TRYK_TAC_EARMUFF_SHADE
+5, TRYK_TAC_EARMUFF
+5, TRYK_NOMIC_TAC_EARMUFF
+5, TRYK_headset2
+5, TRYK_TAC_EARMUFF_Gs
+5, TRYK_TAC_SET_bn
+5, TRYK_NOMIC_TAC_EARMUFF_Gs
+5, TRYK_TAC_EARMUFF_SHADE_Gs
+5, TRYK_TAC_SET_TAN
+5, TRYK_TAC_SET_OD
+4, TRYK_TAC_SET_WH
+5, TRYK_TAC_SET_MESH
+5, TRYK_TAC_SET_TAN_2
+5, TRYK_TAC_SET_OD_2
+5, TRYK_TAC_SET_WH_2
+5, TRYK_TAC_SET_MESH_2
+5, TRYK_bandana_g
+5, TRYK_H_PASGT_BLK
+5, TRYK_H_PASGT_OD
+5, TRYK_H_PASGT_COYO
+5, TRYK_H_PASGT_TAN
+5, TRYK_H_Helmet_Snow
+5, TRYK_H_WH
+5, TRYK_H_GR
+5, TRYK_H_AOR1
+5, TRYK_H_AOR2
+5, TRYK_H_EARMUFF
+5, TRYK_H_TACEARMUFF_H
+5, TRYK_H_Bandana_H
+5, TRYK_H_Bandana_wig
+5, TRYK_H_Bandana_wig_g
+5, TRYK_H_wig
+5, TRYK_H_headset2
+5, TRYK_H_woolhat
+5, TRYK_H_woolhat_CW
+5, TRYK_H_woolhat_WH
+5, TRYK_H_woolhat_br
+5, TRYK_H_woolhat_cu
+5, TRYK_H_woolhat_tan
+5, TRYK_H_headsetcap
+5, TRYK_H_headsetcap_blk
+5, TRYK_H_headsetcap_od
+5, TRYK_H_pakol
+5, TRYK_H_pakol2
+4, TRYK_H_LHS_HEL_G
+2, TRYK_H_Helmet_Winter
+2, TRYK_H_Helmet_Winter_2
 
 //HeadGear w/NVGS built in
 // TRYK_Headphone_NV
@@ -840,30 +904,30 @@
 // TRYK_H_DELTAHELM_NV
 
 //NeckGear
-// TRYK_Shemagh_shade_MESH
-// TRYK_Shemagh_shade_N
-// TRYK_Shemagh_shade_G_N
-// TRYK_Shemagh_shade_WH_N
-// TRYK_kio_balaclava_WH
-// TRYK_kio_balaclava_BLK
-// TRYK_kio_balaclavas
-// TRYK_kio_balaclava_BLK_ear
-// TRYK_kio_balaclava_ear
-// TRYK_kio_balaclava_ESS
-// TRYK_Shemagh
-// TRYK_Shemagh_mesh
-// TRYK_Shemagh_G
-// TRYK_Shemagh_WH
-// TRYK_Shemagh_shade
-// TRYK_Shemagh_shade_G
-// TRYK_Shemagh_shade_WH
-// TRYK_Shemagh_shade_MH
-// TRYK_Shemagh_ESS
-// TRYK_Shemagh_ESS_G
-// TRYK_Shemagh_ESS_WH
-// TRYK_Shemagh_EAR_TAN
-// TRYK_Shemagh_EAR_TAN
-// TRYK_Shemagh_EAR_WH
+> TRYKNeckGear
+5, TRYK_Shemagh_shade_MESH
+5, TRYK_Shemagh_shade_N
+5, TRYK_Shemagh_shade_G_N
+5, TRYK_Shemagh_shade_WH_N
+5, TRYK_kio_balaclava_WH
+5, TRYK_kio_balaclava_BLK
+5, TRYK_kio_balaclavas
+5, TRYK_kio_balaclava_BLK_ear
+5, TRYK_kio_balaclava_ear
+5, TRYK_kio_balaclava_ESS
+5, TRYK_Shemagh
+5, TRYK_Shemagh_mesh
+5, TRYK_Shemagh_G
+5, TRYK_Shemagh_WH
+5, TRYK_Shemagh_shade
+5, TRYK_Shemagh_shade_G
+5, TRYK_Shemagh_shade_WH
+5, TRYK_Shemagh_shade_MH
+5, TRYK_Shemagh_ESS
+5, TRYK_Shemagh_ESS_G
+5, TRYK_Shemagh_ESS_WH
+5, TRYK_Shemagh_EAR_TAN
+5, TRYK_Shemagh_EAR_WH
 
 //NeckGear w/NVGS built in
 // TRYK_balaclava_BLACK_NV
@@ -882,456 +946,454 @@
 // TRYK_ShemaghESSWH_NV
 
 //Uniforms
-// TRYK_HRP_UCP
-// TRYK_HRP_USMC
-// TRYK_HRP_khk
-// TRYK_U_B_OD_OD_CombatUniform
-// TRYK_U_B_OD_OD_R_CombatUniform
-// TRYK_U_B_TANTAN_CombatUniform
-// TRYK_U_B_TANTAN_R_CombatUniform
-// TRYK_U_B_BLKBLK_CombatUniform
-// TRYK_U_B_BLKBLK_R_CombatUniform
-// TRYK_U_B_GRYOCP_CombatUniform
-// TRYK_U_B_GRYOCP_R_CombatUniformTshirt
-// TRYK_U_B_TANOCP_CombatUniform
-// TRYK_U_B_TANOCP_R_CombatUniformTshirt
-// TRYK_U_B_BLKOCP_CombatUniform
-// TRYK_U_B_BLKOCP_R_CombatUniformTshirt
-// TRYK_U_B_BLKTAN_CombatUniform
-// TRYK_U_B_BLKTANR_CombatUniformTshirt
-// TRYK_U_B_ODTAN_CombatUniform
-// TRYK_U_B_ODTANR_CombatUniformTshirt
-// TRYK_U_B_GRTAN_CombatUniform
-// TRYK_U_B_GRTANR_CombatUniformTshirt
-// TRYK_U_B_wood_CombatUniform
-// TRYK_U_B_woodR_CombatUniformTshirt
-// TRYK_U_B_wood3c_CombatUniform
-// TRYK_U_B_wood3c_CombatUniformTshirt
-// TRYK_U_B_MARPAT_WOOD_CombatUniform
-// TRYK_U_B_MARPAT_WOOD_CombatUniformTshirt
-// TRYK_U_B_WOOD_MARPAT_CombatUniform
-// TRYK_U_B_WOOD_MARPAT_CombatUniformTshirt
-// TRYK_U_B_woodtan_CombatUniform
-// TRYK_U_B_woodtanR_CombatUniformTshirt
-// TRYK_U_B_JSDF_CombatUniform
-// TRYK_U_B_JSDF_CombatUniformTshirt
-// TRYK_U_B_3CD_Delta_BDU
-// TRYK_U_B_3CD_Delta_BDUTshirt
-// TRYK_U_B_3CD_Ranger_BDU
-// TRYK_U_B_3CD_Ranger_BDUTshirt
-// TRYK_U_B_3CD_BLK_BDUTshirt
-// TRYK_U_B_3CD_BLK_BDUTshirt2
-// TRYK_U_B_ACU
-// TRYK_U_B_ACUTshirt
-// TRYK_U_B_MARPAT_Wood
-// TRYK_U_B_MARPAT_Wood_Tshirt
-// TRYK_U_B_MARPAT_Desert
-// TRYK_U_B_MARPAT_Desert_Tshirt
-// TRYK_U_B_MARPAT_Desert2
-// TRYK_U_B_MARPAT_Desert2_Tshirt
-// TRYK_U_B_3c
-// TRYK_U_B_3cr
-// TRYK_U_B_Sage_Tshirt
-// TRYK_U_B_BLK3CD
-// TRYK_U_B_BLK3CD_Tshirt
-// TRYK_U_B_BLK
-// TRYK_U_B_BLK_Tshirt
-// TRYK_U_B_BLKTAN
-// TRYK_U_B_BLKTAN_Tshirt
-// TRYK_U_B_ODTAN
-// TRYK_U_B_ODTAN_Tshirt
-// TRYK_U_B_BLK_OD
-// TRYK_U_B_BLK_OD_Tshirt
-// TRYK_U_B_C01_Tsirt
-// TRYK_U_B_C02_Tsirt
-// TRYK_U_B_OD_BLK
-// TRYK_U_B_OD_BLK_2
-// TRYK_U_B_BLK_TAN_1
-// TRYK_U_B_BLK_TAN_2
-// TRYK_U_B_wh_tan_Rollup_CombatUniform
-// TRYK_U_B_wh_OD_Rollup_CombatUniform
-// TRYK_U_B_wh_blk_Rollup_CombatUniform
-// TRYK_U_B_BLK_tan_Rollup_CombatUniform
-// TRYK_U_B_BLK_OD_Rollup_CombatUniform
-// TRYK_U_B_NATO_UCP_GRY_CombatUniform
-// TRYK_U_B_NATO_UCP_GRY_R_CombatUniform
-// TRYK_U_B_NATO_UCP_CombatUniform
-// TRYK_U_B_NATO_UCP_R_CombatUniform
-// TRYK_U_B_NATO_OCP_c_BLK_CombatUniform
-// TRYK_U_B_NATO_OCP_BLK_c_R_CombatUniform
-// TRYK_U_B_NATO_OCP_BLK_CombatUniform
-// TRYK_U_B_NATO_OCP_BLK_R_CombatUniform
-// TRYK_U_B_NATO_OCPD_CombatUniform
-// TRYK_U_B_NATO_OCPD_R_CombatUniform
-// TRYK_U_B_NATO_OCP_CombatUniform
-// TRYK_U_B_NATO_OCP_R_CombatUniform
-// TRYK_U_B_AOR1_Rollup_CombatUniform
-// TRYK_U_B_AOR2_Rollup_CombatUniform
-// TRYK_U_B_MTP_CombatUniform
-// TRYK_U_B_MTP_R_CombatUniform
-// TRYK_U_B_MTP_BLK_CombatUniform
-// TRYK_U_B_MTP_BLK_R_CombatUniform
-// TRYK_U_B_Woodland
-// TRYK_U_B_Woodland_Tshirt
-// TRYK_U_B_WDL_GRY_CombatUniform
-// TRYK_U_B_WDL_GRY_R_CombatUniform
-// TRYK_U_B_ARO1_GR_CombatUniform
-// TRYK_U_B_ARO1_GR_R_CombatUniform
-// TRYK_U_B_ARO1_GRY_CombatUniform
-// TRYK_U_B_ARO1_GRY_R_CombatUniform
-// TRYK_U_B_ARO1_CombatUniform
-// TRYK_U_B_ARO1R_CombatUniform
-// TRYK_U_B_ARO1_BLK_CombatUniform
-// TRYK_U_B_ARO1_BLK_R_CombatUniform
-// TRYK_U_B_ARO1_CBR_CombatUniform
-// TRYK_U_B_ARO1_CBR_R_CombatUniform
-// TRYK_U_B_ARO2_CombatUniform
-// TRYK_U_B_ARO2R_CombatUniform
-// TRYK_U_B_AOR2_BLK_CombatUniform
-// TRYK_U_B_AOR2_BLK_R_CombatUniform
-// TRYK_U_B_AOR2_OD_CombatUniform
-// TRYK_U_B_AOR2_OD_R_CombatUniform
-// TRYK_U_B_AOR2_GRY_CombatUniform
-// TRYK_U_B_AOR2_GRY_R_CombatUniform
-// TRYK_U_B_Snow_CombatUniform
-// TRYK_U_B_Snowt
-// TRYK_U_B_Denim_T_WH
-// TRYK_U_B_Denim_T_BK
-// TRYK_U_B_BLK_T_WH
-// TRYK_U_B_BLK_T_BK
-// TRYK_U_B_RED_T_BR
-// TRYK_U_B_Denim_T_BG_WH
-// TRYK_U_B_Denim_T_BG_BK
-// TRYK_U_B_BLK_T_BG_WH
-// TRYK_U_B_BLK_T_BG_BK
-// TRYK_U_B_RED_T_BG_BR
-// TRYK_U_B_fleece
-// TRYK_U_B_fleece_UCP
-// TRYK_U_B_UCP_PCUs
-// TRYK_U_B_GRY_PCUs
-// TRYK_U_B_Wood_PCUs
-// TRYK_U_B_PCUs
-// TRYK_U_B_UCP_PCUs_R
-// TRYK_U_B_GRY_PCUs_R
-// TRYK_U_B_Wood_PCUs_R
-// TRYK_U_B_PCUs_R
-// TRYK_U_B_PCUGs
-// TRYK_U_B_PCUODs
-// TRYK_U_B_PCUGs_gry
-// TRYK_U_B_PCUGs_BLK
-// TRYK_U_B_PCUGs_OD
-// TRYK_U_B_PCUGs_gry_R
-// TRYK_U_B_PCUGs_BLK_R
-// TRYK_U_B_PCUGs_OD_R
-// TRYK_U_Bts_GRYGRY_PCUs
-// TRYK_U_Bts_UCP_PCUs
-// TRYK_U_Bts_Wood_PCUs
-// TRYK_U_Bts_PCUs
-// TRYK_U_pad_j
-// TRYK_U_pad_j_blk
-// TRYK_U_pad_hood_Cl
-// TRYK_U_pad_hood_Cl_blk
-// TRYK_U_pad_hood_tan
-// TRYK_U_pad_hood_Blk
-// TRYK_U_pad_hood_CSATBlk
-// TRYK_U_pad_hood_Blod
-// TRYK_U_pad_hood_odBK
-// TRYK_U_pad_hood_BKT2
-// TRYK_hoodie_Blk
-// TRYK_hoodie_FR
-// TRYK_hoodie_Wood
-// TRYK_hoodie_3c
-// TRYK_T_camo_tan
-// TRYK_T_camo_3c
-// TRYK_T_camo_Wood
-// TRYK_T_camo_wood_marpat
-// TRYK_T_camo_Desert_marpat
-// TRYK_T_camo_3c_BG
-// TRYK_T_camo_Wood_BG
-// TRYK_T_camo_wood_marpat_BG
-// TRYK_T_camo_desert_marpat_BG
-// TRYK_T_PAD
-// TRYK_T_OD_PAD
-// TRYK_T_TAN_PAD
-// TRYK_T_BLK_PAD
-// TRYK_T_T2_PAD
-// TRYK_T_CSAT_PAD
-// TRYK_U_nohoodPcu_gry
-// TRYK_U_hood_nc
-// TRYK_U_hood_mc
-// TRYK_U_denim_hood_blk
-// TRYK_U_denim_hood_mc
-// TRYK_U_denim_hood_3c
-// TRYK_U_denim_hood_nc
-// TRYK_U_denim_jersey_blu
-// TRYK_U_denim_jersey_blk
-// TRYK_shirts_PAD
-// TRYK_shirts_OD_PAD
-// TRYK_shirts_TAN_PAD
-// TRYK_shirts_BLK_PAD
-// TRYK_shirts_PAD_BK
-// TRYK_shirts_OD_PAD_BK
-// TRYK_shirts_TAN_PAD_BK
-// TRYK_shirts_BLK_PAD_BK
-// TRYK_shirts_PAD_BLW
-// TRYK_shirts_OD_PAD_BLW
-// TRYK_shirts_TAN_PAD_BLW
-// TRYK_shirts_BLK_PAD_BLW
-// TRYK_shirts_PAD_YEL
-// TRYK_shirts_OD_PAD_YEL
-// TRYK_shirts_TAN_PAD_YEL
-// TRYK_shirts_BLK_PAD_YEL
-// TRYK_shirts_PAD_RED2
-// TRYK_shirts_OD_PAD_RED2
-// TRYK_shirts_TAN_PAD_RED2
-// TRYK_shirts_BLK_PAD_RED2
-// TRYK_shirts_PAD_BLU3
-// TRYK_shirts_OD_PAD_BLU3
-// TRYK_shirts_TAN_PAD_BLU3
-// TRYK_shirts_BLK_PAD_BLU3
-// TRYK_shirts_DENIM_R
-// TRYK_shirts_DENIM_BL
-// TRYK_shirts_DENIM_BK
-// TRYK_shirts_DENIM_WH
-// TRYK_shirts_DENIM_BWH
-// TRYK_shirts_DENIM_RED2
-// TRYK_shirts_DENIM_WHB
-// TRYK_shirts_DENIM_ylb
-// TRYK_shirts_DENIM_od
-// TRYK_shirts_DENIM_R_Sleeve
-// TRYK_shirts_DENIM_BL_Sleeve
-// TRYK_shirts_DENIM_BK_Sleeve
-// TRYK_shirts_DENIM_WH_Sleeve
-// TRYK_shirts_DENIM_BWH_Sleeve
-// TRYK_shirts_DENIM_RED2_Sleeve
-// TRYK_shirts_DENIM_WHB_Sleeve
-// TRYK_shirts_DENIM_ylb_Sleeve
-// TRYK_shirts_DENIM_od_Sleeve
-// TRYK_shirts_PAD_BL
-// TRYK_shirts_OD_PAD_BL
-// TRYK_shirts_TAN_PAD_BL
-// TRYK_shirts_BLK_PAD_BL
-// TRYK_U_taki_wh
-// TRYK_U_taki_COY
-// TRYK_U_taki_BL
-// TRYK_U_taki_BLK
-// TRYK_U_Bts_PCUGs
-// TRYK_U_Bts_PCUODs
-// TRYK_U_taki_G_WH
-// TRYK_U_taki_G_COY
-// TRYK_U_taki_G_BL
-// TRYK_U_taki_G_BLK
-// TRYK_U_B_PCUHs
-// TRYK_U_B_PCUGHs
-// TRYK_U_B_PCUODHs
-// TRYK_B_USMC_R
-// TRYK_B_USMC_R_ROLL
-// TRYK_ZARATAKI
-// TRYK_ZARATAKI2
-// TRYK_ZARATAKI3
-// TRYK_B_TRYK_UCP_T
-// TRYK_B_TRYK_3C_T
-// TRYK_B_TRYK_MTP_T
-// TRYK_B_TRYK_OCP_T
-// TRYK_B_TRYK_OCP_D_T
-// TRYK_DMARPAT_T
-// TRYK_C_AOR2_T
-// TRYK_U_B_Sage_T
-// TRYK_U_B_Wood_T
-// TRYK_U_B_BLTAN_T
-// TRYK_U_B_BLOD_T
-// TRYK_OVERALL_flesh
-// TRYK_OVERALL_nok_flesh
-// TRYK_OVERALL_SAGE_BLKboots
-// TRYK_OVERALL_SAGE_BLKboots_nk_blk
-// TRYK_OVERALL_SAGE_BLKboots_nk
-// TRYK_OVERALL_SAGE_BLKboots_nk_blk2
-// TRYK_OVERALL_SAGE
-// TRYK_SUITS_BLK_F
-// TRYK_SUITS_BR_F
-// TRYK_H_ghillie_top_headless3glass
-// TRYK_shoulder_armor_BK
-// TRYK_shoulder_armor_OD
-// TRYK_shoulder_armor_CY
-// TRYK_H_ghillie_top_headless3
-// TRYK_U_B_PCUHsW
-// TRYK_U_B_PCUHsW2
-// TRYK_U_B_PCUHsW3
-// TRYK_U_B_PCUHsW3nh
-// TRYK_U_B_PCUHsW4
-// TRYK_U_B_PCUHsW5
-// TRYK_U_B_PCUHsW6
+> TRYKMilitaryClothing
+5, TRYK_HRP_UCP
+5, TRYK_HRP_USMC
+5, TRYK_HRP_khk
+5, TRYK_U_B_OD_OD_CombatUniform
+5, TRYK_U_B_OD_OD_R_CombatUniform
+5, TRYK_U_B_TANTAN_CombatUniform
+5, TRYK_U_B_TANTAN_R_CombatUniform
+5, TRYK_U_B_BLKBLK_CombatUniform
+5, TRYK_U_B_BLKBLK_R_CombatUniform
+5, TRYK_U_B_GRYOCP_CombatUniform
+5, TRYK_U_B_GRYOCP_R_CombatUniformTshirt
+5, TRYK_U_B_TANOCP_CombatUniform
+5, TRYK_U_B_TANOCP_R_CombatUniformTshirt
+5, TRYK_U_B_BLKOCP_CombatUniform
+5, TRYK_U_B_BLKOCP_R_CombatUniformTshirt
+5, TRYK_U_B_BLKTAN_CombatUniform
+5, TRYK_U_B_BLKTANR_CombatUniformTshirt
+5, TRYK_U_B_ODTAN_CombatUniform
+5, TRYK_U_B_ODTANR_CombatUniformTshirt
+5, TRYK_U_B_GRTAN_CombatUniform
+5, TRYK_U_B_GRTANR_CombatUniformTshirt
+5, TRYK_U_B_wood_CombatUniform
+5, TRYK_U_B_woodR_CombatUniformTshirt
+5, TRYK_U_B_wood3c_CombatUniform
+5, TRYK_U_B_wood3c_CombatUniformTshirt
+8, TRYK_U_B_MARPAT_WOOD_CombatUniform
+8, TRYK_U_B_MARPAT_WOOD_CombatUniformTshirt
+8, TRYK_U_B_WOOD_MARPAT_CombatUniform
+5, TRYK_U_B_WOOD_MARPAT_CombatUniformTshirt
+5, TRYK_U_B_woodtan_CombatUniform
+5, TRYK_U_B_woodtanR_CombatUniformTshirt
+5, TRYK_U_B_JSDF_CombatUniform
+5, TRYK_U_B_JSDF_CombatUniformTshirt
+5, TRYK_U_B_3CD_Delta_BDU
+5, TRYK_U_B_3CD_Delta_BDUTshirt
+5, TRYK_U_B_3CD_Ranger_BDU
+5, TRYK_U_B_3CD_Ranger_BDUTshirt
+5, TRYK_U_B_wh_tan_Rollup_CombatUniform
+5, TRYK_U_B_wh_OD_Rollup_CombatUniform
+5, TRYK_U_B_wh_blk_Rollup_CombatUniform
+5, TRYK_U_B_BLK_tan_Rollup_CombatUniform
+5, TRYK_U_B_BLK_OD_Rollup_CombatUniform
+5, TRYK_U_B_NATO_UCP_GRY_CombatUniform
+5, TRYK_U_B_NATO_UCP_GRY_R_CombatUniform
+5, TRYK_U_B_NATO_UCP_CombatUniform
+5, TRYK_U_B_NATO_UCP_R_CombatUniform
+5, TRYK_U_B_NATO_OCP_c_BLK_CombatUniform
+5, TRYK_U_B_NATO_OCP_BLK_c_R_CombatUniform
+5, TRYK_U_B_NATO_OCP_BLK_CombatUniform
+5, TRYK_U_B_NATO_OCP_BLK_R_CombatUniform
+5, TRYK_U_B_NATO_OCPD_CombatUniform
+5, TRYK_U_B_NATO_OCPD_R_CombatUniform
+5, TRYK_U_B_NATO_OCP_CombatUniform
+5, TRYK_U_B_NATO_OCP_R_CombatUniform
+5, TRYK_U_B_AOR1_Rollup_CombatUniform
+5, TRYK_U_B_AOR2_Rollup_CombatUniform
+5, TRYK_U_B_MTP_CombatUniform
+5, TRYK_U_B_MTP_R_CombatUniform
+5, TRYK_U_B_MTP_BLK_CombatUniform
+5, TRYK_U_B_MTP_BLK_R_CombatUniform
+5, TRYK_U_B_Woodland
+5, TRYK_U_B_Woodland_Tshirt
+5, TRYK_U_B_WDL_GRY_CombatUniform
+5, TRYK_U_B_WDL_GRY_R_CombatUniform
+5, TRYK_U_B_ARO1_GR_CombatUniform
+5, TRYK_U_B_ARO1_GR_R_CombatUniform
+5, TRYK_U_B_ARO1_GRY_CombatUniform
+5, TRYK_U_B_ARO1_GRY_R_CombatUniform
+5, TRYK_U_B_ARO1_CombatUniform
+5, TRYK_U_B_ARO1R_CombatUniform
+5, TRYK_U_B_ARO1_BLK_CombatUniform
+5, TRYK_U_B_ARO1_BLK_R_CombatUniform
+5, TRYK_U_B_ARO1_CBR_CombatUniform
+5, TRYK_U_B_ARO1_CBR_R_CombatUniform
+5, TRYK_U_B_ARO2_CombatUniform
+5, TRYK_U_B_ARO2R_CombatUniform
+5, TRYK_U_B_AOR2_BLK_CombatUniform
+5, TRYK_U_B_AOR2_BLK_R_CombatUniform
+5, TRYK_U_B_AOR2_OD_CombatUniform
+5, TRYK_U_B_AOR2_OD_R_CombatUniform
+5, TRYK_U_B_AOR2_GRY_CombatUniform
+5, TRYK_U_B_AOR2_GRY_R_CombatUniform
+5, TRYK_U_B_Snow_CombatUniform
+5, TRYK_U_B_Snowt
+5, TRYK_T_camo_tan
+5, TRYK_T_camo_3c
+5, TRYK_T_camo_Wood
+5, TRYK_T_camo_wood_marpat
+5, TRYK_T_camo_Desert_marpat
+5, TRYK_T_camo_3c_BG
+5, TRYK_T_camo_Wood_BG
+5, TRYK_T_camo_wood_marpat_BG
+5, TRYK_T_camo_desert_marpat_BG
+3, TRYK_H_ghillie_over
+3, TRYK_H_ghillie_top
+3, TRYK_H_ghillie_top_headless
+3, TRYK_H_ghillie_over_green
+3, TRYK_H_ghillie_top_green
+3, TRYK_H_ghillie_top_headless_green
+8, TRYK_U_B_MARPAT_Wood
+6, TRYK_U_B_MARPAT_Wood_Tshirt
+6, TRYK_U_B_MARPAT_Desert
+6, TRYK_U_B_MARPAT_Desert_Tshirt
+6, TRYK_U_B_MARPAT_Desert2
+6, TRYK_U_B_MARPAT_Desert2_Tshirt
+
+
+//TRYKUniformsCivilian/////////
+////////////////////////////////
+
+> TRYKCivilianClothing
+5,TRYK_U_B_3CD_BLK_BDUTshirt
+5,TRYK_U_B_3CD_BLK_BDUTshirt2
+5, TRYK_U_B_ACU
+5, TRYK_U_B_ACUTshirt
+5, TRYK_U_B_3c
+5, TRYK_U_B_3cr
+5, TRYK_U_B_Sage_Tshirt
+5, TRYK_U_B_BLK3CD
+5, TRYK_U_B_BLK3CD_Tshirt
+5, TRYK_U_B_BLK
+5, TRYK_U_B_BLK_Tshirt
+5, TRYK_U_B_BLKTAN
+5, TRYK_U_B_BLKTAN_Tshirt
+5, TRYK_U_B_ODTAN
+5, TRYK_U_B_ODTAN_Tshirt
+5, TRYK_U_B_BLK_OD
+5, TRYK_U_B_BLK_OD_Tshirt
+5, TRYK_U_B_C01_Tsirt
+5, TRYK_U_B_C02_Tsirt
+5, TRYK_U_B_OD_BLK
+5, TRYK_U_B_OD_BLK_2
+5, TRYK_U_B_BLK_TAN_1
+5, TRYK_U_B_BLK_TAN_2
+5, TRYK_U_B_Denim_T_WH
+5, TRYK_U_B_Denim_T_BK
+5, TRYK_U_B_BLK_T_WH
+5, TRYK_U_B_BLK_T_BK
+5, TRYK_U_B_RED_T_BR
+5, TRYK_U_B_Denim_T_BG_WH
+5, TRYK_U_B_Denim_T_BG_BK
+5, TRYK_U_B_BLK_T_BG_WH
+5, TRYK_U_B_BLK_T_BG_BK
+5, TRYK_U_B_RED_T_BG_BR
+5, TRYK_U_B_fleece
+5, TRYK_U_B_fleece_UCP
+5, TRYK_U_B_UCP_PCUs
+5, TRYK_U_B_GRY_PCUs
+5, TRYK_U_B_Wood_PCUs
+5, TRYK_U_B_PCUs
+5, TRYK_U_B_UCP_PCUs_R
+5, TRYK_U_B_GRY_PCUs_R
+5, TRYK_U_B_Wood_PCUs_R
+5, TRYK_U_B_PCUs_R
+5, TRYK_U_B_PCUGs
+5, TRYK_U_B_PCUODs
+5, TRYK_U_B_PCUGs_gry
+5, TRYK_U_B_PCUGs_BLK
+5, TRYK_U_B_PCUGs_OD
+5, TRYK_U_B_PCUGs_gry_R
+5, TRYK_U_B_PCUGs_BLK_R
+5, TRYK_U_B_PCUGs_OD_R
+5, TRYK_U_Bts_GRYGRY_PCUs
+5, TRYK_U_Bts_UCP_PCUs
+5, TRYK_U_Bts_Wood_PCUs
+5, TRYK_U_Bts_PCUs
+5, TRYK_U_pad_j
+5, TRYK_U_pad_j_blk
+5, TRYK_U_pad_hood_Cl
+5, TRYK_U_pad_hood_Cl_blk
+5, TRYK_U_pad_hood_tan
+5, TRYK_U_pad_hood_Blk
+5, TRYK_U_pad_hood_CSATBlk
+5, TRYK_U_pad_hood_Blod
+5, TRYK_U_pad_hood_odBK
+5, TRYK_U_pad_hood_BKT2
+5, TRYK_hoodie_Blk
+5, TRYK_hoodie_FR
+5, TRYK_hoodie_Wood
+5, TRYK_hoodie_3c
+5, TRYK_T_PAD
+5, TRYK_T_OD_PAD
+5, TRYK_T_TAN_PAD
+5, TRYK_T_BLK_PAD
+5, TRYK_T_T2_PAD
+5, TRYK_T_CSAT_PAD
+5, TRYK_U_nohoodPcu_gry
+5, TRYK_U_hood_nc
+5, TRYK_U_hood_mc
+5, TRYK_U_denim_hood_blk
+5, TRYK_U_denim_hood_mc
+5, TRYK_U_denim_hood_3c
+5, TRYK_U_denim_hood_nc
+5, TRYK_U_denim_jersey_blu
+5, TRYK_U_denim_jersey_blk
+5, TRYK_shirts_PAD
+5, TRYK_shirts_OD_PAD
+5, TRYK_shirts_TAN_PAD
+5, TRYK_shirts_BLK_PAD
+5, TRYK_shirts_PAD_BK
+5, TRYK_shirts_OD_PAD_BK
+5, TRYK_shirts_TAN_PAD_BK
+5, TRYK_shirts_BLK_PAD_BK
+5, TRYK_shirts_PAD_BLW
+5, TRYK_shirts_OD_PAD_BLW
+5, TRYK_shirts_TAN_PAD_BLW
+5, TRYK_shirts_BLK_PAD_BLW
+5, TRYK_shirts_PAD_YEL
+5, TRYK_shirts_OD_PAD_YEL
+5, TRYK_shirts_TAN_PAD_YEL
+5, TRYK_shirts_BLK_PAD_YEL
+5, TRYK_shirts_PAD_RED2
+5, TRYK_shirts_OD_PAD_RED2
+5, TRYK_shirts_TAN_PAD_RED2
+5, TRYK_shirts_BLK_PAD_RED2
+5, TRYK_shirts_PAD_BLU3
+5, TRYK_shirts_OD_PAD_BLU3
+5, TRYK_shirts_TAN_PAD_BLU3
+5, TRYK_shirts_BLK_PAD_BLU3
+5, TRYK_shirts_DENIM_R
+5, TRYK_shirts_DENIM_BL
+5, TRYK_shirts_DENIM_BK
+5, TRYK_shirts_DENIM_WH
+5, TRYK_shirts_DENIM_BWH
+5, TRYK_shirts_DENIM_RED2
+5, TRYK_shirts_DENIM_WHB
+5, TRYK_shirts_DENIM_ylb
+5, TRYK_shirts_DENIM_od
+5, TRYK_shirts_DENIM_R_Sleeve
+5, TRYK_shirts_DENIM_BL_Sleeve
+5, TRYK_shirts_DENIM_BK_Sleeve
+5, TRYK_shirts_DENIM_WH_Sleeve
+5, TRYK_shirts_DENIM_BWH_Sleeve
+5, TRYK_shirts_DENIM_RED2_Sleeve
+5, TRYK_shirts_DENIM_WHB_Sleeve
+5, TRYK_shirts_DENIM_ylb_Sleeve
+5, TRYK_shirts_DENIM_od_Sleeve
+5, TRYK_shirts_PAD_BL
+5, TRYK_shirts_OD_PAD_BL
+5, TRYK_shirts_TAN_PAD_BL
+5, TRYK_shirts_BLK_PAD_BL
+5, TRYK_U_taki_wh
+5, TRYK_U_taki_COY
+5, TRYK_U_taki_BL
+5, TRYK_U_taki_BLK
+5, TRYK_U_Bts_PCUGs
+5, TRYK_U_Bts_PCUODs
+5, TRYK_U_taki_G_WH
+5, TRYK_U_taki_G_COY
+5, TRYK_U_taki_G_BL
+5, TRYK_U_taki_G_BLK
+5, TRYK_U_B_PCUHs
+5, TRYK_U_B_PCUGHs
+5, TRYK_U_B_PCUODHs
+5, TRYK_B_USMC_R
+5, TRYK_B_USMC_R_ROLL
+5, TRYK_ZARATAKI
+5, TRYK_ZARATAKI2
+5, TRYK_ZARATAKI3
+5, TRYK_B_TRYK_UCP_T
+5, TRYK_B_TRYK_3C_T
+5, TRYK_B_TRYK_MTP_T
+5, TRYK_B_TRYK_OCP_T
+5, TRYK_B_TRYK_OCP_D_T
+5, TRYK_DMARPAT_T
+5, TRYK_C_AOR2_T
+5, TRYK_U_B_Sage_T
+5, TRYK_U_B_Wood_T
+5, TRYK_U_B_BLTAN_T
+5, TRYK_U_B_BLOD_T
+5, TRYK_OVERALL_flesh
+5, TRYK_OVERALL_nok_flesh
+5, TRYK_OVERALL_SAGE_BLKboots
+5, TRYK_OVERALL_SAGE_BLKboots_nk_blk
+5, TRYK_OVERALL_SAGE_BLKboots_nk
+5, TRYK_OVERALL_SAGE_BLKboots_nk_blk2
+5, TRYK_OVERALL_SAGE
+5, TRYK_SUITS_BLK_F
+5, TRYK_SUITS_BR_F
+5, TRYK_shoulder_armor_BK
+5, TRYK_shoulder_armor_OD
+5, TRYK_shoulder_armor_CY
+
 
 //Vests
-// TRYK_Hrp_vest_ucp
-// TRYK_Hrp_vest_od
-// TRYK_V_PlateCarrier_JSDF
-// TRYK_V_ArmorVest_AOR1
-// TRYK_V_ArmorVest_AOR2
-// TRYK_V_ArmorVest_coyo
-// TRYK_V_ArmorVest_Brown
-// TRYK_V_ArmorVest_CBR
-// TRYK_V_ArmorVest_khk
-// TRYK_V_ArmorVest_rgr
-// TRYK_V_ArmorVest_green
-// TRYK_V_ArmorVest_tan
-// TRYK_V_ArmorVest_Delta
-// TRYK_V_ArmorVest_Ranger
-// TRYK_V_ArmorVest_AOR1_2
-// TRYK_V_ArmorVest_AOR2_2
-// TRYK_V_ArmorVest_coyo2
-// TRYK_V_ArmorVest_Brown2
-// TRYK_V_ArmorVest_cbr2
-// TRYK_V_ArmorVest_khk2
-// TRYK_V_ArmorVest_rgr2
-// TRYK_V_ArmorVest_green2
-// TRYK_V_ArmorVest_tan2
-// TRYK_V_ArmorVest_Delta2
-// TRYK_V_ArmorVest_Ranger2
-// TRYK_V_PlateCarrier_blk
-// TRYK_V_PlateCarrier_oli
-// TRYK_V_PlateCarrier_coyo
-// TRYK_V_PlateCarrier_wood
-// TRYK_V_PlateCarrier_ACU
-// TRYK_V_TacVest_coyo
-// TRYK_V_harnes_blk_L
-// TRYK_V_harnes_od_L
-// TRYK_V_harnes_TAN_L
-// TRYK_V_PlateCarrier_blk_L
-// TRYK_V_PlateCarrier_wood_L
-// TRYK_V_PlateCarrier_ACU_L
-// TRYK_V_PlateCarrier_coyo_L
-// TRYK_V_ChestRig_L
-// TRYK_V_ChestRig
-// TRYK_V_Bulletproof
-// TRYK_V_Bulletproof_BLK
-// TRYK_V_Bulletproof_BL
-// TRYK_V_IOTV_BLK
-// TRYK_V_tacv1M_BK
-// TRYK_V_tacv1MLC_BK
-// TRYK_V_tacv1
-// TRYK_V_tacv1_CY
-// TRYK_V_tacv1_BK
-// TRYK_V_tacv1_P_BK
-// TRYK_V_tacv1_SHERIFF_BK
-// TRYK_V_tacv1_FBI_BK
-// TRYK_V_tacv1LP_BK
-// TRYK_V_tacv1LSRF_BK
-// TRYK_V_tacv1LC_BK
-// TRYK_V_tacv1LC_CY
-// TRYK_V_tacv1LC_OD
-// TRYK_V_tacv1LC_FBI_BK
-// TRYK_V_tacv1LC_SRF_BK
-// TRYK_V_tacv1LC_SRF_OD
-// TRYK_V_tacv1LC_P_BK
-// TRYK_V_PlateCarrier_POLICE
-// TRYK_V_ArmorVest_HRT_B
-// TRYK_V_ArmorVest_HRT_OD
-// TRYK_V_ArmorVest_HRT2_B
-// TRYK_V_ArmorVest_HRT2_OD
-// TRYK_V_ArmorVest_Winter
-// TRYK_V_Sheriff_BA_OD
-// TRYK_V_tacv10_BK
-// TRYK_V_tacv10_OD
-// TRYK_V_tacv10_TN
-// TRYK_V_tacv10LC_BK
-// TRYK_V_tacv10LC_OD
-// TRYK_V_tacv10LC_TN
-// TRYK_V_tacv1L_BK
-// TRYK_V_tacv1L_OD
-// TRYK_V_tacv1L_CY
-// TRYK_V_tacv1LC_FBI2_BK
-// TRYK_V_tacv1LC_SRF2_BK
-// TRYK_V_tacv1LC_SRF2_OD
-// TRYK_V_tacv1LC_P2_BK
-// TRYK_V_tacv1_MSL_BK
-// TRYK_V_tacv1_MSL_NV
-// TRYK_V_tacv1LMSL_BK
-// TRYK_V_tacv1LMSL_NV
-// TRYK_V_tacv1LC_MSL_BK
-// TRYK_V_tacv1LC_MSL_NV
-// TRYK_V_tacSVD_BK
-// TRYK_V_tacSVD_OD
-// TRYK_V_Sheriff_BA_TL
-// TRYK_V_Sheriff_BA_TBL
-// TRYK_V_Sheriff_BA_TCL
-// TRYK_V_Sheriff_BA_TL2
-// TRYK_V_Sheriff_BA_TBL2
-// TRYK_V_Sheriff_BA_TCL2
-// TRYK_V_Sheriff_BA_T
-// TRYK_V_Sheriff_BA_TB
-// TRYK_V_Sheriff_BA_T2
-// TRYK_V_Sheriff_BA_TB2
-// TRYK_V_Sheriff_BA_T3
-// TRYK_V_Sheriff_BA_TB3
-// TRYK_V_Sheriff_BA_T4
-// TRYK_V_Sheriff_BA_TB4
-// TRYK_V_Sheriff_BA_T5
-// TRYK_V_Sheriff_BA_TB5
-// TRYK_V_Sheriff_BA_TBL3_BK
-// TRYK_V_Sheriff_BA_TBL3_OD
-// TRYK_V_Sheriff_BA_TBL3_TN
-// TRYK_LOC_AK_chestrig_OD
-// TRYK_LOC_AK_chestrig_TAN
+> TRYKMilitaryVests
+5, TRYK_V_PlateCarrier_blk
+5, TRYK_V_PlateCarrier_oli
+5, TRYK_V_PlateCarrier_coyo
+7, TRYK_V_PlateCarrier_wood
+5, TRYK_V_PlateCarrier_ACU
+5, TRYK_V_PlateCarrier_blk_L
+5, TRYK_V_PlateCarrier_wood_L
+5, TRYK_V_PlateCarrier_ACU_L
+5, TRYK_V_PlateCarrier_coyo_L
+5, TRYK_V_Bulletproof
+5, TRYK_V_Bulletproof_BLK
+5, TRYK_V_Bulletproof_BL
+5, TRYK_V_IOTV_BLK
+5, TRYK_V_tacv1M_BK
+5, TRYK_V_tacv1MLC_BK
+5, TRYK_V_tacv1
+5, TRYK_V_tacv1_CY
+5, TRYK_V_tacv1_BK
+5, TRYK_V_tacv1_P_BK
+5, TRYK_V_tacv1_SHERIFF_BK
+5, TRYK_V_tacv1_FBI_BK
+5, TRYK_V_tacv1LP_BK
+5, TRYK_V_tacv1LSRF_BK
+5, TRYK_V_tacv1LC_BK
+5, TRYK_V_tacv1LC_CY
+5, TRYK_V_tacv1LC_OD
+5, TRYK_V_tacv1LC_FBI_BK
+5, TRYK_V_tacv1LC_SRF_BK
+5, TRYK_V_tacv1LC_SRF_OD
+5, TRYK_V_tacv1LC_P_BK
+5, TRYK_V_PlateCarrier_POLICE
+5, TRYK_V_ArmorVest_HRT_B
+5, TRYK_V_ArmorVest_HRT_OD
+5, TRYK_V_ArmorVest_HRT2_B
+5, TRYK_V_ArmorVest_HRT2_OD
+8, TRYK_V_ArmorVest_Winter
+5, TRYK_V_PlateCarrier_JSDF
+
+> TRYKCivilianVests
+12, TRYK_Hrp_vest_ucp
+13, TRYK_Hrp_vest_od
+5, TRYK_V_ArmorVest_AOR1
+5, TRYK_V_ArmorVest_AOR2
+5, TRYK_V_ArmorVest_coyo
+5, TRYK_V_ArmorVest_Brown
+5, TRYK_V_ArmorVest_CBR
+5, TRYK_V_ArmorVest_khk
+5, TRYK_V_ArmorVest_rgr
+5, TRYK_V_ArmorVest_green
+5, TRYK_V_ArmorVest_tan
+5, TRYK_V_ArmorVest_Delta
+5, TRYK_V_ArmorVest_Ranger
+5, TRYK_V_ArmorVest_AOR1_2
+5, TRYK_V_ArmorVest_AOR2_2
+5, TRYK_V_ArmorVest_coyo2
+5, TRYK_V_ArmorVest_Brown2
+5, TRYK_V_ArmorVest_cbr2
+5, TRYK_V_ArmorVest_khk2
+5, TRYK_V_ArmorVest_rgr2
+5, TRYK_V_ArmorVest_green2
+5, TRYK_V_ArmorVest_tan2
+5, TRYK_V_ArmorVest_Delta2
+5, TRYK_V_ArmorVest_Ranger2
+5, TRYK_V_TacVest_coyo
+5, TRYK_V_harnes_blk_L
+5, TRYK_V_harnes_od_L
+5, TRYK_V_harnes_TAN_L
+5, TRYK_V_ChestRig_L
+5, TRYK_V_ChestRig
+5, TRYK_V_Sheriff_BA_OD
+5, TRYK_V_tacv10_BK
+5, TRYK_V_tacv10_OD
+5, TRYK_V_tacv10_TN
+5, TRYK_V_tacv10LC_BK
+5, TRYK_V_tacv10LC_OD
+5, TRYK_V_tacv10LC_TN
+5, TRYK_V_tacv1L_BK
+5, TRYK_V_tacv1L_OD
+5, TRYK_V_tacv1L_CY
+5, TRYK_V_tacv1LC_FBI2_BK
+5, TRYK_V_tacv1LC_SRF2_BK
+5, TRYK_V_tacv1LC_SRF2_OD
+5, TRYK_V_tacv1LC_P2_BK
+5, TRYK_V_tacv1_MSL_BK
+5, TRYK_V_tacv1_MSL_NV
+5, TRYK_V_tacv1LMSL_BK
+5, TRYK_V_tacv1LMSL_NV
+5, TRYK_V_tacv1LC_MSL_BK
+5, TRYK_V_tacv1LC_MSL_NV
+5, TRYK_V_tacSVD_BK
+5, TRYK_V_tacSVD_OD
+5, TRYK_V_Sheriff_BA_TL
+5, TRYK_V_Sheriff_BA_TBL
+5, TRYK_V_Sheriff_BA_TCL
+5, TRYK_V_Sheriff_BA_TL2
+5, TRYK_V_Sheriff_BA_TBL2
+5, TRYK_V_Sheriff_BA_TCL2
+5, TRYK_V_Sheriff_BA_T
+10, TRYK_V_Sheriff_BA_TB
+7, TRYK_V_Sheriff_BA_T2
+7, TRYK_V_Sheriff_BA_TB2
+7, TRYK_V_Sheriff_BA_T3
+5, TRYK_V_Sheriff_BA_TB3
+5, TRYK_V_Sheriff_BA_T4
+5, TRYK_V_Sheriff_BA_TB4
+5, TRYK_V_Sheriff_BA_T5
+5, TRYK_V_Sheriff_BA_TB5
+5, TRYK_V_Sheriff_BA_TBL3_BK
+5, TRYK_V_Sheriff_BA_TBL3_OD
+5, TRYK_V_Sheriff_BA_TBL3_TN
+12, TRYK_LOC_AK_chestrig_OD
+8, TRYK_LOC_AK_chestrig_TAN
 
 //BackPacks
-// TRYK_B_AssaultPack_UCP
-// TRYK_B_AssaultPack_Type2camo
-// TRYK_B_AssaultPack_MARPAT_Desert
-// TRYK_B_AssaultPack_MARPAT_Wood
-// TRYK_B_Kitbag_Base
-// TRYK_B_Kitbag_blk
-// TRYK_B_Kitbag_aaf
-// TRYK_B_Carryall_blk
-// TRYK_B_Carryall_wh
-// TRYK_B_Carryall_wood
-// TRYK_B_Carryall_JSDF
-// TRYK_B_Kitbag_Base_JSDF
-// TRYK_B_Coyotebackpack
-// TRYK_B_Coyotebackpack_OD
-// TRYK_B_Coyotebackpack_BLK
-// TRYK_B_Coyotebackpack_WH
-// TRYK_B_Alicepack
-// TRYK_B_Medbag
-// TRYK_B_Medbag_OD
-// TRYK_B_Medbag_BK
-// TRYK_B_Medbag_ucp
-// TRYK_B_Belt
-// TRYK_B_Belt_BLK
-// TRYK_B_Belt_CYT
-// TRYK_B_Belt_tan
-// TRYK_B_Belt_br
-// TRYK_B_Belt_GR
-// TRYK_B_Belt_AOR1
-// TRYK_B_Belt_AOR2
-// TRYK_B_BAF_BAG_BLK
-// TRYK_B_BAF_BAG_CYT
-// TRYK_B_BAF_BAG_OD
-// TRYK_B_BAF_BAG_rgr
-// TRYK_B_BAF_BAG_mcamo
-// TRYK_B_tube_cyt
-// TRYK_B_tube_od
-// TRYK_B_tube_blk
-// TRYK_B_FieldPack_Wood
-// TRYK_Winter_pack
+> TRYKMilitaryBackpacks
+10, TRYK_Winter_pack
+5, TRYK_B_Carryall_blk
+5, TRYK_B_Carryall_wh
+5, TRYK_B_Carryall_wood
+5, TRYK_B_Carryall_JSDF
+5, TRYK_B_Coyotebackpack
+5, TRYK_B_Coyotebackpack_OD
+5, TRYK_B_Coyotebackpack_BLK
+10, TRYK_B_Coyotebackpack_WH
 
-//Face Items
-// TRYK_Beard
-// TRYK_Beard_BW
-// TRYK_Beard_BK
-// TRYK_Beard_Gr
-// TRYK_Beard2
-// TRYK_Beard_BW2
-// TRYK_Beard_BK2
-// TRYK_Beard_Gr2
-// TRYK_Beard3
-// TRYK_Beard_BW3
-// TRYK_Beard_BK3
-// TRYK_Beard_Gr3
-// TRYK_Beard4
-// TRYK_Beard_BW4
-// TRYK_Beard_BK4
-// TRYK_Beard_Gr4
+> TRYKCivilianBackpacks
+10, TRYK_B_AssaultPack_UCP
+10, TRYK_B_AssaultPack_Type2camo
+5, TRYK_B_AssaultPack_MARPAT_Desert
+5, TRYK_B_AssaultPack_MARPAT_Wood
+15, TRYK_B_Kitbag_Base
+15, TRYK_B_Kitbag_blk
+13, TRYK_B_Kitbag_aaf
+12, TRYK_B_Kitbag_Base_JSDF
+5, TRYK_B_Coyotebackpack
+5, TRYK_B_Coyotebackpack_OD
+5, TRYK_B_Coyotebackpack_BLK
+3, TRYK_B_Coyotebackpack_WH
+12, TRYK_B_Alicepack
+8, TRYK_B_Medbag
+8, TRYK_B_Medbag_OD
+8, TRYK_B_Medbag_BK
+8, TRYK_B_Medbag_ucp
+15, TRYK_B_Belt
+12, TRYK_B_Belt_BLK
+13, TRYK_B_Belt_CYT
+12, TRYK_B_Belt_tan
+12, TRYK_B_Belt_br
+12, TRYK_B_Belt_GR
+11, TRYK_B_Belt_AOR1
+11, TRYK_B_Belt_AOR2
+12, TRYK_B_BAF_BAG_BLK
+11, TRYK_B_BAF_BAG_CYT
+11, TRYK_B_BAF_BAG_OD
+8, TRYK_B_BAF_BAG_rgr
+9, TRYK_B_BAF_BAG_mcamo
+13, TRYK_B_tube_cyt
+10, TRYK_B_tube_od
+10, TRYK_B_tube_blk
+12, TRYK_B_FieldPack_Wood
+
 
 //Civilian//
 

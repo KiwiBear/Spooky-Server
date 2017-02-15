@@ -70,10 +70,10 @@
 20, Pistols
 20, PistolAmmo
 10, PistolAttachments
-15, Shotguns
+25, Shotguns
 20, ShotgunAmmo
-4, SMG
-3, SMGAmmo
+6, SMG
+8, SMGAmmo
 3, SMGAttachments
 20, CivilianClothing
 11, CivilianBackpacks
@@ -83,6 +83,10 @@
 1, Restraints
 10, Chemlights
 10, RoadFlares
+10, TRYKCivilianBackpacks
+5, TRYKHeadgear
+15, TRYKCivilianClothing
+5, TRYKCivilianVests
 
 ///////////////////////////////////////////////////////////////////////////////
 // Apartments, Offices etc.
@@ -94,11 +98,11 @@
 20, Pistols
 20, PistolAmmo
 10, PistolAttachments
-20, Shotguns
+25, Shotguns
 25, ShotgunAmmo
-5, SMG
-5, SMGAmmo
-3, SMGAttachments
+10, SMG
+13, SMGAmmo
+8, SMGAttachments
 20, CivilianClothing
 20, CivilianBackpacks
 5, CivilianVests
@@ -108,6 +112,10 @@
 10, RoadFlares
 1, Restraints
 5, SmokeGrenades
+20, TRYKCivilianBackpacks
+10, TRYKHeadgear
+20, TRYKCivilianClothing
+10, TRYKCivilianVests
 
 ///////////////////////////////////////////////////////////////////////////////
 // Kiosks, Supermarkets etc.
@@ -134,7 +142,11 @@
 4, SmokeGrenades
 3, IndustrialItems
 3, Restraints
-3, MedicalItems
+13, MedicalItems
+10, TRYKCivilianBackpacks
+5, TRYKHeadgear
+15, TRYKCivilianClothing
+5, TRYKCivilianVests
 
 ///////////////////////////////////////////////////////////////////////////////
 // Construction Sites, Warehouses, Research etc.
@@ -174,7 +186,7 @@
 > Military
 5, Pistols
 5, PistolAmmo
-5, PistolAttachments
+10, PistolAttachments
 100, Trash
 4, CivilianItems
 6, GuerillaItems
@@ -197,14 +209,14 @@
 1, Rebreathers
 5, Rifles
 3, RifleAmmo
-5, RifleAttachments
+7, RifleAttachments
 3, LMG
 3, LMGAmmo
 2, Snipers
 2, SniperAmmo
-5, SniperAttachments
+8, SniperAttachments
 5, DLCAmmo
-5, DLCOptics
+8, DLCOptics
 1, DLCSupressor
 4, Bipods
 2, Explosives
@@ -212,6 +224,9 @@
 2, BattleRifleAmmo
 5, BattleRifleAttachments
 10, WinterGearMilitary
+8, TRYKMilitaryClothing
+8, TRYKMilitaryBackpacks
+8, TRYKMilitaryVests
 
 ///////////////////////////////////////////////////////////////////////////////
 // Hospital, Medevac etc. (Does not spawn on Altis!)
@@ -267,14 +282,18 @@
 > SuperCrate
 5, EpicWeapons
 5, DLCGhillies
-10, Ghillies
+5, Ghillies
 20, EpicWeaponAmmo
 20, DLCSupressor
 10, DLCVests
-100, Trash
+60, Trash
 20, DLCRifles
 20, DLCOptics
 30, WinterGearMilitary
+20, BattleRifles
+20, BattleRifleAmmo
+10, Explosives
+
 
 
 ///////////////////////////////////////////////////////////////////////////////
@@ -300,6 +319,9 @@
 20, BattleRifleAmmo
 20, BattleRifleAttachments
 30, WinterGearMilitary
+20, TRYKMilitaryBackpacks
+20, TRYKMilitaryClothing
+20, TRYKMilitaryVests
 
 
 ///////////////////////////////////////////////////////////////////////////////
@@ -308,9 +330,10 @@
 
 > BarnLoot
 30, Trash
+10, SMG
 20, ShotgunAmmo
-20, Shotguns
-20, Pistols
+25, Shotguns
+25, Pistols
 20, PistolAmmo
 10, CivilianHeadgear
 40, BarnCustom
