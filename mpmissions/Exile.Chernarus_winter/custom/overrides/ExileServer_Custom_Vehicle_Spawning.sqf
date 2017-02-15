@@ -165,23 +165,23 @@ for [{_h = 0}, {_h < (count _spawnedVehicles)}, {_h = _h + 1}] do
 		};
 		// _vehicle = [_curClassName, _randLoc, random 360, _usePosATL, null] call ExileServer_object_vehicle_createPersistentVehicle;
 		"would have spawned a veh" call ExileServer_util_log;
-		_hitpointsData = getAllHitPointsDamage _vehicle;
-		if !(_hitpointsData isEqualTo []) then 
-		{
-			_hitpoints = _hitpointsData select 0;
-			{
-				if ((_x find "Wheel" > -1) && (random 1 < 0.5)) then // so about half of the wheel are completely gone
-				{
-					_vehicle setHitPointDamage [_x, 1];
-				}
-				else {
-					_vehicle setHitPointDamage [_x, random 1];
-				};
+		// _hitpointsData = getAllHitPointsDamage _vehicle;
+		// if !(_hitpointsData isEqualTo []) then 
+		// {
+			// _hitpoints = _hitpointsData select 0;
+			// {
+				// if ((_x find "Wheel" > -1) && (random 1 < 0.5)) then // so about half of the wheel are completely gone
+				// {
+					// _vehicle setHitPointDamage [_x, 1];
+				// }
+				// else {
+					// _vehicle setHitPointDamage [_x, random 1];
+				// };
 				
-			}
-			forEach _hitpoints;
-		};
-		_vehicle setFuel (random 0.2);
+			// }
+			// forEach _hitpoints;
+		// };
+		// _vehicle setFuel (random 0.2);
 	};
 };
 "ran custom veh" call ExileServer_util_log;
