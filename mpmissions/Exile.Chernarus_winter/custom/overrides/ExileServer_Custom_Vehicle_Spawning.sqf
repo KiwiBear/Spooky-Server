@@ -188,8 +188,6 @@ for [{_h = 0}, {_h < (count _spawnedVehicles)}, {_h = _h + 1}] do
 			forEach _hitpoints;
 		};
 		_vehicle setFuel (random 0.2);
-		_vehicle call ExileServer_object_vehicle_database_insert;
-		_vehicle call ExileServer_object_vehicle_database_update;
 	};
 };
 "ran custom veh" call ExileServer_util_log;
