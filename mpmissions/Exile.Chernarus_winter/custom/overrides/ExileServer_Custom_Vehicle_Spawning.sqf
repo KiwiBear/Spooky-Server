@@ -124,7 +124,7 @@ for [{_h = 0}, {_h < (count _spawnedVehicles)}, {_h = _h + 1}] do
 		_locations = _vehicleSpawnLocations select _h;
 		_randLoc = [];
 		// loop until you find a spawn point where that vehicle is already not spawned
-		while {_cont} do
+ 		while {_cont} do
 		{
 			_randLoc = selectRandom _locations;
 			// hint str _randLoc;
@@ -150,6 +150,7 @@ for [{_h = 0}, {_h < (count _spawnedVehicles)}, {_h = _h + 1}] do
 						_cont = false;
 					};
 				};
+				_cont = false;
 			}
 			else
 			{
