@@ -78,6 +78,9 @@ _vehicleIDs = format ["loadVehicleIdPage:%1:%2", 0, 150] call ExileServer_system
 }
 foreach _vehicleIDs;
 
+// (str _vehicleIDs) call ExileServer_util_log;
+// (str _allVehicleData) call ExileServer_util_log;
+
 // create a counter array so we can figure out how many vehicles of each kind are already spawned
 for [{_i = 0}, {_i < (count _vehicleClassNames)}, {_i = _i + 1}] do
 {
@@ -105,7 +108,9 @@ if !(_allVehicleData isEqualTo []) then
 	};
 };
 
-// spawn vehicles that need to be spawned
+(str _spawnedVehicles) call ExileServer_util_log;
+
+/* // spawn vehicles that need to be spawned
 for [{_h = 0}, {_h < (count _spawnedVehicles)}, {_h = _h + 1}] do
 {
 	_curClassName = (_spawnedVehicles select _h) select 0;
@@ -178,6 +183,6 @@ for [{_h = 0}, {_h < (count _spawnedVehicles)}, {_h = _h + 1}] do
 		};
 		_vehicle setFuel (random 0.2);
 	};
-};
+}; */
 "ran custom veh" call ExileServer_util_log;
 true
