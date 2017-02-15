@@ -88,16 +88,16 @@
 ///////////////////////////////////////////////////////////////////////////////
 
 > Pistols
-20, hgun_ACPC2_F			// ACP-C2 .45
-21, hgun_P07_F				// P07 9 mm
-20, hgun_Rook40_F			// Rook-40 9 mm
-13, hgun_Pistol_heavy_01_F	// 4-five .45
-13, hgun_Pistol_heavy_02_F	// Zubr .45
-13, hgun_Pistol_Signal_F	// Starter Pistol
-13, Exile_Weapon_Colt1911   // Colt 1911
-13, Exile_Weapon_Makarov	// Makarov
-13, Exile_Weapon_Taurus		// Taurus
-13, Exile_Weapon_TaurusGold	// Taurus (Gold)
+7, hgun_ACPC2_F			// ACP-C2 .45
+12, hgun_P07_F				// P07 9 mm
+13, hgun_Rook40_F			// Rook-40 9 mm
+15, hgun_Pistol_heavy_01_F	// 4-five .45
+7, hgun_Pistol_heavy_02_F	// Zubr .45
+3, hgun_Pistol_Signal_F	// Starter Pistol
+5, Exile_Weapon_Colt1911   // Colt 1911
+6, Exile_Weapon_Makarov	// Makarov
+3, Exile_Weapon_Taurus		// Taurus
+4, Exile_Weapon_TaurusGold	// Taurus (Gold)
 13, hgun_Pistol_01_F		// PM 9 mm
 13, hgun_P07_khk_F			// P07 9 mm (Khaki)
 12, CUP_hgun_Duty_M3X
@@ -105,6 +105,8 @@
 13, CUP_hgun_SA61
 18, CUP_hgun_Phantom
 10, CUP_hgun_PB6P9_snds
+15, hlc_smg_mp5k_PDW
+15, hlc_smg_mp5k
 
 > PistolAmmo
 20, 11Rnd_45ACP_Mag				// 4-five
@@ -122,6 +124,8 @@
 18, CUP_20Rnd_B_765x17_Ball_M
 18, CUP_18Rnd_9x19_Phantom
 12, CUP_8Rnd_9x18_MakarovSD_M
+20, hlc_30Rnd_9x19_B_MP5
+18, hlc_30Rnd_9x19_GD_MP5
 
 > PistolAttachments
 36, muzzle_snds_L
@@ -140,6 +144,8 @@
 5, Exile_Weapon_CZ550
 3, hlc_rifle_L1A1SLR
 14, hlc_rifle_saiga12k
+10, hlc_rifle_M1903A1
+
 
 > ShotgunAmmo
 10, Exile_Magazine_8Rnd_74Slug		//M1014
@@ -165,18 +171,20 @@
 30, hlc_rifle_hk53
 
 > SMGAmmo
-50, 30Rnd_45ACP_Mag_SMG_01					// Vermin SMG
-50, 30Rnd_45ACP_Mag_SMG_01_Tracer_Green		// Vermin SMG
+20, 30Rnd_45ACP_Mag_SMG_01					// Vermin SMG
+15, 30Rnd_45ACP_Mag_SMG_01_Tracer_Green		// Vermin SMG
 50, 30Rnd_9x21_Mag_SMG_02					// Sting, Protector
-50, 30Rnd_9x21_Mag_SMG_02_Tracer_Red        // Sting, Protector
-50, 30Rnd_9x21_Mag_SMG_02_Tracer_Yellow     // Sting, Protector
-50, 30Rnd_9x21_Mag_SMG_02_Tracer_Green      // Sting, Protector
+20, 30Rnd_9x21_Mag_SMG_02_Tracer_Red        // Sting, Protector
+20, 30Rnd_9x21_Mag_SMG_02_Tracer_Yellow     // Sting, Protector
+20, 30Rnd_9x21_Mag_SMG_02_Tracer_Green      // Sting, Protector
 50, CUP_64Rnd_9x19_Bizon_M
 50, CUP_30Rnd_9x19_MP5
 50, CUP_30Rnd_9x19_EVO
-50, hlc_30rnd_556x45_b_hk33
-50, hlc_30rnd_556x45_t_hk33
-50, hlc_30rnd_556x45_epr_hk33
+30, hlc_30rnd_556x45_b_hk33
+20, hlc_30rnd_556x45_t_hk33
+15, hlc_30rnd_556x45_epr_hk33
+55, hlc_30Rnd_9x19_B_MP5
+50, hlc_30Rnd_9x19_GD_MP5
 
 > SMGAttachments
 20, optic_Holosight_smg
@@ -190,17 +198,17 @@
 > BattleRifles
 10, CUP_arifle_Mk17_STD_EGLM
 15, CUP_arifle_FNFAL
-10, CUP_arifle_FNFAL_railed
+16, CUP_arifle_FNFAL_railed
 10, CUP_srifle_M14
 8, CUP_arifle_Mk17_STD_FG
 8, CUP_arifle_Mk20
 5, CUP_srifle_L129A1_HG
 5, CUP_srifle_L129A1
-7, CUP_srifle_M110
+15, CUP_srifle_M110
 11, hlc_rifle_FAL5061
 10, hlc_rifle_falosw
 13, hlc_rifle_g3ka4
-15, HLC_Rifle_g3ka4_GL
+17, HLC_Rifle_g3ka4_GL
 8,  hlc_rifle_c1A1
 12, hlc_rifle_M14
 12, hlc_rifle_m14dmr
@@ -209,7 +217,12 @@
 8, hlc_rifle_SLR
 12, hlc_rifle_SLRchopmod
 13, hlc_rifle_STG58F
-
+10, hlc_rifle_STGW57
+12, hlc_rifle_stgw57_RIS
+11, hlc_rifle_stgw57_commando
+12, hlc_rifle_sig5104
+11, hlc_rifle_amt
+13, hlc_rifle_PSG1A1_RIS
 
 
 
@@ -234,6 +247,7 @@
 8, hlc_50Rnd_762x51_B_M14
 10, hlc_20Rnd_762x51_B_fal
 8, hlc_50rnd_762x51_M_FAL
+
 
 >BattleRifleAttachments
 5, CUP_muzzle_snds_M110
@@ -366,9 +380,45 @@
 16, hlc_rifle_SAMR
 14, hlc_rifle_samr2
 15, hlc_rifle_vendimus
-
-
-
+15, hlc_rifle_aug                         
+15, hlc_rifle_auga1_t
+15, hlc_rifle_auga1_B
+15, hlc_rifle_auga1carb
+15, hlc_rifle_auga1carb_t
+15, hlc_rifle_auga1carb_b
+15, hlc_rifle_aughbar
+15, hlc_rifle_aughbar_b
+15, hlc_rifle_aughbar_t
+15, hlc_rifle_augpara
+15, hlc_rifle_augpara_b
+15, hlc_rifle_augpara_t
+15, hlc_rifle_auga2
+15, hlc_rifle_auga2_b
+15, hlc_rifle_auga2_t
+15, hlc_rifle_auga2carb
+15, hlc_rifle_auga2carb_t
+15, hlc_rifle_auga2carb_b
+15, hlc_rifle_auga2lsw
+15, hlc_rifle_auga2lsw_t
+15, hlc_rifle_auga2lsw_b
+15, hlc_rifle_auga2para
+15, hlc_rifle_auga2para_b
+15, hlc_rifle_auga2para_t
+15, hlc_rifle_augsr
+15, hlc_rifle_augsr_b
+15, hlc_rifle_augsr_t
+15, hlc_rifle_augsrcarb
+15, hlc_rifle_augsrcarb_t
+15, hlc_rifle_augsrcarb_b
+15, hlc_rifle_augsrhbar
+15, hlc_rifle_augsrhbar_b
+15, hlc_rifle_augsrhbar_t
+15, hlc_rifle_auga3
+15, hlc_rifle_auga3_bl
+15, hlc_rifle_auga3_b
+15, hlc_rifle_auga3_GL
+15, hlc_rifle_auga3_GL_BL
+15, hlc_rifle_auga3_GL_B
 
 
 
@@ -444,6 +494,15 @@
 11, HLC_45rnd_762x39_T_RPK
 12, 29rnd_300BLK_STANAG
 13, 29rnd_300BLK_STANAG_T
+13, hlc_30Rnd_556x45_B_AUG
+11, hlc_30Rnd_556x45_SOST_AUG
+11, hlc_40Rnd_556x45_B_AUG
+10, hlc_40Rnd_556x45_SOST_AUG
+13, hlc_30rnd_556x45_EPR_G36
+14, hlc_30rnd_556x45_SOST_G36
+13, hlc_100rnd_556x45_EPR_G36
+12, hlc_30Rnd_9x19_B_MP5
+11, hlc_30Rnd_9x19_GD_MP5
 
 
 
@@ -592,6 +651,14 @@
 20, srifle_DMR_03_woodland_F		//MK1EMR
 20, srifle_DMR_06_camo_F			//Mk14
 20, srifle_DMR_06_olive_F		//Mk14
+10, hlc_rifle_awcovert
+13, hlc_rifle_awcovert_BL
+12, hlc_rifle_awcovert_FDE
+8, hlc_rifle_awmagnum
+8, hlc_rifle_awmagnum_BL
+5, hlc_rifle_awMagnum_FDE_ghillie
+10, hlc_rifle_awMagnum_OD_ghillie
+
 
 > SniperAmmo
 10, 5Rnd_127x108_Mag									// GM6 Lynx
@@ -615,6 +682,10 @@
 16, CUP_5Rnd_762x67_G22
 20, CUP_10Rnd_762x54_SVD_M
 20, CUP_srifle_SVD_des
+18, hlc_5rnd_300WM_FMJ_AWM
+18, hlc_5rnd_300WM_AP_AWM
+23, hlc_5rnd_300WM_mk248_AWM
+15, hlc_5rnd_300WM_BTSP_AWM
 
 
 
