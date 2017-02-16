@@ -184,49 +184,49 @@
 // Towers, Barracks, Hangars etc.
 ///////////////////////////////////////////////////////////////////////////////
 > Military
-5, Pistols
-5, PistolAmmo
-10, PistolAttachments
-100, Trash
+15, Pistols
+15, PistolAmmo
+20, PistolAttachments
+20, Trash
 4, CivilianItems
 6, GuerillaItems
-3, HEGrenades
+4, HEGrenades
 3, UGLFlares
 3, UGLSmokes
-3, HandGrenades
+5, HandGrenades
 3, SmokeGrenades
 2, Restraints
-2, MedicalItems
+3, MedicalItems
 5, GuerillaClothing
-5, MilitaryClothing
+10, MilitaryClothing
 4, GuerillaBackpacks
-3, MilitaryBackpacks
+10, MilitaryBackpacks
 3, GuerillaVests
-2, MilitaryVests
+10, MilitaryVests
 5, GuerillaHeadgear
-5, MilitaryHeadgear
-1, Ghillies
-1, Rebreathers
-5, Rifles
-3, RifleAmmo
-7, RifleAttachments
-3, LMG
-3, LMGAmmo
-2, Snipers
-2, SniperAmmo
-8, SniperAttachments
+10, MilitaryHeadgear
+3, Ghillies
+4, Rebreathers
+13, Rifles
+14, RifleAmmo
+15, RifleAttachments
+10, LMG
+12, LMGAmmo
+8, Snipers
+8, SniperAmmo
+15, SniperAttachments
 5, DLCAmmo
-8, DLCOptics
-1, DLCSupressor
-4, Bipods
-2, Explosives
-2, BattleRifles
-2, BattleRifleAmmo
+15, DLCOptics
+4, DLCSupressor
+15, Bipods
+7, Explosives
+3, BattleRifles
+7, BattleRifleAmmo
 5, BattleRifleAttachments
-10, WinterGearMilitary
-8, TRYKMilitaryClothing
-8, TRYKMilitaryBackpacks
-8, TRYKMilitaryVests
+13, WinterGearMilitary
+10, TRYKMilitaryClothing
+10, TRYKMilitaryBackpacks
+10, TRYKMilitaryVests
 
 ///////////////////////////////////////////////////////////////////////////////
 // Hospital, Medevac etc. (Does not spawn on Altis!)
@@ -280,17 +280,17 @@
 // Custom Crates
 ///////////////////////////////////////////////////////////////////////////////
 > SuperCrate
-5, EpicWeapons
-5, DLCGhillies
-5, Ghillies
+10, EpicWeapons
+10, DLCGhillies
+15, Ghillies
 20, EpicWeaponAmmo
 20, DLCSupressor
 10, DLCVests
-60, Trash
+30, Trash
 20, DLCRifles
 20, DLCOptics
-30, WinterGearMilitary
-20, BattleRifles
+20, WinterGearMilitary
+15, BattleRifles
 20, BattleRifleAmmo
 10, Explosives
 
