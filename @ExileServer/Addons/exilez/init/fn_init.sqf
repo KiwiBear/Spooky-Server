@@ -165,7 +165,7 @@ Trigger_1 = [				 //Cities
 /* 11 Vest group */          Basic,              // The name of the Array used to list all the possible vest for that trigger. ZVest.sqf
 /* 12 Loot group */          Useful,             // The name of the Array used to list all the possible loot for that trigger. ZLoot.sqf
 /* 13 Zombie group */        MediumCiv,          // The name of the Group used to list the zombies possible for that trigger.  ZClasses.sqf
-/* 14 Avoid Territory */     false,              // Zombie will not spawn in territories and will die in them if RemoveZfromTerritory is true
+/* 14 Avoid Territory */     true,              // Zombie will not spawn in territories and will die in them if RemoveZfromTerritory is true
 /* 15 Mission Radius */      0,                  // Up to how far from the center of the trigger the mission LOOT can spawn.
 /* 16 Mission SQF */         nil,                // The location of the Mission file related to that trigger *(use M3Editor to create the file.) THIS IS STATIC AND WILL NOT MOVE WITH THE TRIGGER
 /* 17 Loot Box */            nil                 // The location of the Missionloot file related to that trigger *(See example file zmissionloot.sqf)
@@ -186,7 +186,7 @@ Trigger_2 = [				 //Military
 /* 11 Vest group */          Basic,              
 /* 12 Loot group */          Useful,             
 /* 13 Zombie group */        MediumMil,          
-/* 14 Avoid Territory */     false,              
+/* 14 Avoid Territory */     true,              
 /* 15 Mission Radius */      0,                  
 /* 16 Mission SQF */         nil,                
 /* 17 Loot Box */            nil                 
@@ -207,7 +207,7 @@ Trigger_3 = [				 //No Buildings
 /* 11 Vest group */          Basic,              
 /* 12 Loot group */          Useful,             
 /* 13 Zombie group */        MediumMix,          
-/* 14 Avoid Territory */     false,              
+/* 14 Avoid Territory */     true,              
 /* 15 Mission Radius */      0,                  
 /* 16 Mission SQF */         nil,                
 /* 17 Loot Box */            nil                 
@@ -228,7 +228,7 @@ Trigger_4 = [				 //No Man Land
 /* 11 Vest group */          Basic,              
 /* 12 Loot group */          DocAndAmmo,         
 /* 13 Zombie group */        Hard,               
-/* 14 Avoid Territory */     false,              
+/* 14 Avoid Territory */     true,              
 /* 15 Mission Radius */      0,                  
 /* 16 Mission SQF */         nil,                
 /* 17 Loot Box */            nil                 
@@ -249,7 +249,7 @@ Trigger_5 = [				 //Mission Trigger
 /* 11 Vest group */          Basic,              
 /* 12 Loot group */          DocAndAmmo,         
 /* 13 Zombie group */        Hardcore,           
-/* 14 Avoid Territory */     false,              
+/* 14 Avoid Territory */     true,              
 /* 15 Mission Radius */      1500,               
 /* 16 Mission SQF */         triggerMission,    
 /* 17 Loot Box */            triggerLootbox     

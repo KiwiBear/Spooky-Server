@@ -97,7 +97,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=20;
+		items=21;
 		class Item0
 		{
 			dataType="Marker";
@@ -2919,6 +2919,57 @@ class Mission
 			text="Guglovo Hospital";
 			type="mil_dot";
 			id=119;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item20
+		{
+			dataType="Marker";
+			position[]={3807.83,0,14110.8};
+			name="MistyPeakMilMarker";
+			text="Military Base";
+			type="mil_dot";
+			id=120;
 			class CustomAttributes
 			{
 				class Attribute0
