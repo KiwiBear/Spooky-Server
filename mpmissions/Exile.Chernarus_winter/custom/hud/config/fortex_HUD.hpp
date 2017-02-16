@@ -28,7 +28,7 @@ class Fortex_hud {
                 idc = 1200;
                 text = "custom\hud\images\hud\status_bg.paa";
                 x = 0.95 * safezoneW + safezoneX;
-                y = 0.896 * safezoneH + safezoneY;
+                y = 0.76 * safezoneH + safezoneY;
                 w = 0.0257812 * safezoneW;
                 h = 0.044 * safezoneH;
             };
@@ -36,7 +36,7 @@ class Fortex_hud {
                 idc = 1201;
                 text = "custom\hud\images\hud\status_blood_border_CA.paa";
                 x = 0.95 * safezoneW + safezoneX;
-                y = 0.896 * safezoneH + safezoneY;
+                y = 0.76 * safezoneH + safezoneY;
                 w = 0.0257812 * safezoneW;
                 h = 0.044 * safezoneH;
             };
@@ -44,7 +44,7 @@ class Fortex_hud {
                 idc = 1210;
                 //text = "images\hud\status_blood_inside_3_ca.paa";
                 x = 0.95 * safezoneW + safezoneX;
-                y = 0.896 * safezoneH + safezoneY;
+                y = 0.76 * safezoneH + safezoneY;
                 w = 0.0257812 * safezoneW;
                 h = 0.044 * safezoneH;
             };
@@ -52,7 +52,7 @@ class Fortex_hud {
                 idc = 1206;
                 text = "custom\hud\images\hud\status_bg.paa";
                 x = 0.95 * safezoneW + safezoneX;
-                y = 0.8014 * safezoneH + safezoneY;
+                y = 0.83 * safezoneH + safezoneY;
                 w = 0.0257812 * safezoneW;
                 h = 0.044 * safezoneH;
             };
@@ -60,7 +60,7 @@ class Fortex_hud {
                 idc = 1207;
                 text = "custom\hud\images\hud\status_food_border_CA.paa";
                 x = 0.95 * safezoneW + safezoneX;
-                y = 0.8014 * safezoneH + safezoneY;
+                y = 0.83 * safezoneH + safezoneY;
                 w = 0.0257812 * safezoneW;
                 h = 0.044 * safezoneH;
             };
@@ -69,7 +69,7 @@ class Fortex_hud {
 
                 //text = "images\hud\status_food_inside_2_ca.paa";
                 x = 0.95 * safezoneW + safezoneX;
-                y = 0.8014 * safezoneH + safezoneY;
+                y = 0.83 * safezoneH + safezoneY;
                 w = 0.0257812 * safezoneW;
                 h = 0.044 * safezoneH;
             };
@@ -77,7 +77,7 @@ class Fortex_hud {
                 idc = 1209;
                 text = "custom\hud\images\hud\status_bg.paa";
                 x = 0.95 * safezoneW + safezoneX;
-                y = 0.8498 * safezoneH + safezoneY;
+                y = 0.69 * safezoneH + safezoneY;
                 w = 0.0257812 * safezoneW;
                 h = 0.044 * safezoneH;
             };
@@ -85,7 +85,7 @@ class Fortex_hud {
                 idc = 1210;
                 text = "custom\hud\images\hud\status_thirst_border_CA.paa";
                 x = 0.95 * safezoneW + safezoneX;
-                y = 0.8476 * safezoneH + safezoneY;
+                y = 0.69 * safezoneH + safezoneY;
                 w = 0.0257812 * safezoneW;
                 h = 0.044 * safezoneH;
             };
@@ -93,7 +93,7 @@ class Fortex_hud {
                 idc = 1211;
                 //text = "images\hud\status_thirst_inside_3_ca.paa";
                 x = 0.95 * safezoneW + safezoneX;
-                y = 0.8476 * safezoneH + safezoneY;
+                y = 0.69 * safezoneH + safezoneY;
                 w = 0.0257812 * safezoneW;
                 h = 0.044 * safezoneH;
             };
@@ -101,7 +101,7 @@ class Fortex_hud {
                 idc = 1212;
                 text = "custom\hud\images\hud\status_bg.paa";
                 x = 0.95 * safezoneW + safezoneX;
-                y = 0.7552 * safezoneH + safezoneY;
+                y = 0.62 * safezoneH + safezoneY;
                 w = 0.0257812 * safezoneW;
                 h = 0.044 * safezoneH;
             };
@@ -109,7 +109,7 @@ class Fortex_hud {
                 idc = 1213;
                 text = "custom\hud\images\hud\status_temp_border_CA.paa";
                 x = 0.95 * safezoneW + safezoneX;
-                y = 0.753 * safezoneH + safezoneY;
+                y = 0.62 * safezoneH + safezoneY;
                 w = 0.0257812 * safezoneW;
                 h = 0.044 * safezoneH;
             };
@@ -117,7 +117,7 @@ class Fortex_hud {
                 idc = 1214;
                 //text = "images\hud\status_temp_3_ca.paa";
                 x = 0.95 * safezoneW + safezoneX;
-                y = 0.753 * safezoneH + safezoneY;
+                y = 0.62 * safezoneH + safezoneY;
                 w = 0.0257812 * safezoneW;
                 h = 0.044 * safezoneH;
             };
