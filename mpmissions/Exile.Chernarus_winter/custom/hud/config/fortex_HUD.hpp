@@ -27,7 +27,7 @@ class Fortex_hud {
             class HEALTH_BKG: RscPicture {
                 idc = 1200;
                 text = "custom\hud\images\hud\status_bg.paa";
-                x = 0.96 * safezoneW + safezoneX;
+                x = 0.965 * safezoneW + safezoneX;
                 y = 0.76 * safezoneH + safezoneY;
                 w = 0.0257812 * safezoneW;
                 h = 0.044 * safezoneH;
@@ -35,7 +35,7 @@ class Fortex_hud {
             class BLOOD: RscPicture {
                 idc = 1201;
                 text = "custom\hud\images\hud\status_blood_border_CA.paa";
-                x = 0.96 * safezoneW + safezoneX;
+                x = 0.965 * safezoneW + safezoneX;
                 y = 0.76 * safezoneH + safezoneY;
                 w = 0.0257812 * safezoneW;
                 h = 0.044 * safezoneH;
@@ -43,7 +43,7 @@ class Fortex_hud {
             class BLOOD_CLR: RscPicture {
                 idc = 1210;
                 //text = "images\hud\status_blood_inside_3_ca.paa";
-                x = 0.96 * safezoneW + safezoneX;
+                x = 0.9655 * safezoneW + safezoneX;
                 y = 0.76 * safezoneH + safezoneY;
                 w = 0.0257812 * safezoneW;
                 h = 0.044 * safezoneH;
@@ -51,7 +51,7 @@ class Fortex_hud {
             class FOOD_BKG: RscPicture {
                 idc = 1206;
                 text = "custom\hud\images\hud\status_bg.paa";
-                x = 0.96 * safezoneW + safezoneX;
+                x = 0.965 * safezoneW + safezoneX;
                 y = 0.83 * safezoneH + safezoneY;
                 w = 0.0257812 * safezoneW;
                 h = 0.044 * safezoneH;
@@ -59,7 +59,7 @@ class Fortex_hud {
             class FOOD: RscPicture {
                 idc = 1207;
                 text = "custom\hud\images\hud\status_food_border_CA.paa";
-                x = 0.96 * safezoneW + safezoneX;
+                x = 0.965 * safezoneW + safezoneX;
                 y = 0.83 * safezoneH + safezoneY;
                 w = 0.0257812 * safezoneW;
                 h = 0.044 * safezoneH;
@@ -68,7 +68,7 @@ class Fortex_hud {
                 idc = 1208;
 
                 //text = "images\hud\status_food_inside_2_ca.paa";
-                x = 0.96 * safezoneW + safezoneX;
+                x = 0.965 * safezoneW + safezoneX;
                 y = 0.83 * safezoneH + safezoneY;
                 w = 0.0257812 * safezoneW;
                 h = 0.044 * safezoneH;
@@ -76,7 +76,7 @@ class Fortex_hud {
             class THIRST_BKG: RscPicture {
                 idc = 1209;
                 text = "custom\hud\images\hud\status_bg.paa";
-                x = 0.96 * safezoneW + safezoneX;
+                x = 0.965 * safezoneW + safezoneX;
                 y = 0.69 * safezoneH + safezoneY;
                 w = 0.0257812 * safezoneW;
                 h = 0.044 * safezoneH;
@@ -84,7 +84,7 @@ class Fortex_hud {
             class THIRST: RscPicture {
                 idc = 1210;
                 text = "custom\hud\images\hud\status_thirst_border_CA.paa";
-                x = 0.96 * safezoneW + safezoneX;
+                x = 0.965 * safezoneW + safezoneX;
                 y = 0.69 * safezoneH + safezoneY;
                 w = 0.0257812 * safezoneW;
                 h = 0.044 * safezoneH;
@@ -92,7 +92,7 @@ class Fortex_hud {
             class THIRST_CLR: RscPicture {
                 idc = 1211;
                 //text = "images\hud\status_thirst_inside_3_ca.paa";
-                x = 0.96 * safezoneW + safezoneX;
+                x = 0.965 * safezoneW + safezoneX;
                 y = 0.69 * safezoneH + safezoneY;
                 w = 0.0257812 * safezoneW;
                 h = 0.044 * safezoneH;
@@ -100,7 +100,7 @@ class Fortex_hud {
             class TEMP_BKG: RscPicture {
                 idc = 1212;
                 text = "custom\hud\images\hud\status_bg.paa";
-                x = 0.96 * safezoneW + safezoneX;
+                x = 0.965 * safezoneW + safezoneX;
                 y = 0.62 * safezoneH + safezoneY;
                 w = 0.0257812 * safezoneW;
                 h = 0.044 * safezoneH;
@@ -108,7 +108,7 @@ class Fortex_hud {
             class TEMP: RscPicture {
                 idc = 1213;
                 text = "custom\hud\images\hud\status_temp_border_CA.paa";
-                x = 0.96 * safezoneW + safezoneX;
+                x = 0.965 * safezoneW + safezoneX;
                 y = 0.62 * safezoneH + safezoneY;
                 w = 0.0257812 * safezoneW;
                 h = 0.044 * safezoneH;
@@ -116,7 +116,7 @@ class Fortex_hud {
             class TEMP_CLR: RscPicture {
                 idc = 1214;
                 //text = "images\hud\status_temp_3_ca.paa";
-                x = 0.96 * safezoneW + safezoneX;
+                x = 0.965 * safezoneW + safezoneX;
                 y = 0.62 * safezoneH + safezoneY;
                 w = 0.0257812 * safezoneW;
                 h = 0.044 * safezoneH;
