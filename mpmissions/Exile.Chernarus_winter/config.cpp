@@ -5032,7 +5032,6 @@ class Equipment
 			"B_HuntingBackpack",
 			"TRYK_shirts_DENIM_ylb",
 			"TRYK_hoodie_FR",
-			"TRYK_V_tacSVD_BK",
 			"Exile_Headgear_GasMask",
 			"V_RebreatherB",
 			"TRYK_U_denim_hood_blk",
