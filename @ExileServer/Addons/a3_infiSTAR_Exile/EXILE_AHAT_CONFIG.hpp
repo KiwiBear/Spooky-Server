@@ -92,6 +92,8 @@ NOTE: do not use " within the text.
 ENABLE_NOTIFICATION_MESSAGES = "true";
 NOTIFY_MSG_ARRAY[] =
 {
+	{-1, -1, 6, 0.6, 0, 0, "#ff0000", "OrbitronLight", "Press 6 then turn on XM8 by clicking X at bottom"},
+	{-1, -1, 4, 0.6, 0, 0, "#1900FF", "OrbitronLight", "Click on Server Rules on the bottom of your XM8"}
 };
 
 /*

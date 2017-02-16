@@ -5855,10 +5855,10 @@ class CfgSettings
 		class Database 
 		{
 			// Remove all deleted items from the database after X days
-			permanentlyDeleteTime = 3;
+			permanentlyDeleteTime = 28;
 			
 			// Remove all territories (and contructions + containers in it) that were not paid after X days
-			territoryLifeTime = 3;
+			territoryLifeTime = 14;
 
 			// Remove all containers outside of territories that have not been used for X days
 			// Example: Tents
@@ -5875,10 +5875,10 @@ class CfgSettings
 			abandonedTime = 7;
 			
 			// Deletes a base X days after the flag is stolen if the ransom money isn't paid
-			stolenFlagLifeTime = 7;
+			stolenFlagLifeTime = 8;
 			
 			// Sets door & safe pins to 0000 and marks safes to abandoned X days after the flag is stolen if the ransom money isn't paid
-			unlockLifeTime = 2;
+			unlockLifeTime = 5;
 		};
 	};
 
@@ -5941,10 +5941,10 @@ class CfgSettings
 			firstBlood = 100;
 
 			// If you kill someone while you are in your own territory
-			homie = 20;
+			homie = 50;
 
 			// If you kill someone who is in his own territory
-			raid = 20;
+			raid = 200;
 
 			/*
 				Example with killstreak = 50
@@ -6173,7 +6173,7 @@ class CfgSettings
 			weather type of be more dominant compared to others, add it multiple times
 		*/
 		//keyframes[] = {"Sunny", "Cloudy", "Thunderstorm"}; 
-		keyframes[] = {"Sunny", "Cloudy"}; 
+		keyframes[] = {"Cloudy"}; 
 
 		/*
 			This is a keyframe. Look up the BIKI to get more details about the parameters
@@ -6209,7 +6209,7 @@ class CfgSettings
 			fogValue = 0.1;
 			fogDecay = 0.1;
 			fogBase = 5;
-			overcast = 0.8;
+			overcast = 1;
 			waves = 0.4;
 			wind = 0.25;
 			gusts = 0.5;

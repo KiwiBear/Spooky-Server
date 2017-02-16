@@ -3785,7 +3785,7 @@ class CfgExileEnvironment
 		class Snow
 		{
 			// 1 = enabled, 0 = disabled
-			enable = 0;
+			enable = 1;
 
 			// https://community.bistudio.com/wiki/surfaceType
 			surfaces[] = {};
@@ -3833,7 +3833,7 @@ class CfgExileEnvironment
 			overcast = -5;
 
 			// Temperature change in °C when it is 100% raining
-			rain = 3;
+			rain = -2;
 
 			// Temperature change in °C when it is 100% windy
 			wind = -3;

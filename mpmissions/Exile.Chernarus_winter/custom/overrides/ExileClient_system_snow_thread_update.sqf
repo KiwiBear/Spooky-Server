@@ -10,7 +10,7 @@
  */
  
 private["_enableSnow","_getTempValue","_tTemp","_house"];
-_enableSnow = false;
+_enableSnow = true;
 _house ="";
 
 
