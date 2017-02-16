@@ -2314,7 +2314,7 @@ class CfgExileArsenal
     class TRYK_SUITS_BLK_F                              { quality = 1; price = 40; };
     class TRYK_SUITS_BR_F                               { quality = 1; price = 40; };
     class TRYK_H_ghillie_top_headless3glass             { quality = 1; price = 6; };
-    class TRYK_shoulder_armor_BK                        { quality = 1; price = 60 };
+    class TRYK_shoulder_armor_BK                        { quality = 1; price = 60; };
     class TRYK_shoulder_armor_OD                        { quality = 1; price = 60; };
     class TRYK_shoulder_armor_CY                        { quality = 1; price = 60; };
     class TRYK_H_ghillie_top_headless3                  { quality = 1; price = 60; };

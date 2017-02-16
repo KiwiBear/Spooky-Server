@@ -97,7 +97,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=18;
+		items=20;
 		class Item0
 		{
 			dataType="Marker";
@@ -2811,12 +2811,114 @@ class Mission
 		class Item17
 		{
 			dataType="Marker";
-			position[]={4615.2358,4.8524076e+020,8291.8359};
+			position[]={4547.91,0,8294.57};
 			name="VeresnikMilMarker";
-			text="Veresnik Military Base";
+			text="Military Base";
 			type="mil_dot";
 			id=117;
-			atlOffset=4.8524076e+020;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item18
+		{
+			dataType="Marker";
+			position[]={2106.9,0,3512.08};
+			name="PavlovoMilMarker";
+			text="Military Base";
+			type="mil_dot";
+			id=118;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		
+		class Item19
+		{
+			dataType="Marker";
+			position[]={8422.92,0,6806.4};
+			name="GuglovoHospital";
+			text="Guglovo Hospital";
+			type="mil_dot";
+			id=119;
 			class CustomAttributes
 			{
 				class Attribute0
