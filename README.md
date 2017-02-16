@@ -17,7 +17,7 @@ Current mods installed -mod=
 @TRYK;  
 @NIArsenal;  
 @TAC VESTS;  
-@EXILE;  
+@Exile;  
 @Open Chernarus Project;  
 
 The directory structure is the same as the production server.
