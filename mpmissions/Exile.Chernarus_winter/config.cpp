@@ -3736,7 +3736,7 @@ class CfgExileCustomCode
 	ExileServer_world_spawnVehicles = "custom\overrides\ExileServer_Custom_Vehicle_Spawning.sqf";
 	
 	// remove pin code bullshit
-	// ExileServer_object_vehicle_createPersistentVehicle = "custom\overrides\ExileServer_object_vehicle_createPersistentVehicle.sqf";
+	ExileServer_object_vehicle_createPersistentVehicle = "custom\overrides\ExileServer_object_vehicle_createPersistentVehicle.sqf";
 	
 	// Arma 1.66 Fixes
 	ExileClient_gui_postProcessing_initialize = "Fixes\A166Fixes\ExileClient_gui_postProcessing_initialize.sqf";
