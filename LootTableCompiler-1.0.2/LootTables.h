@@ -64,9 +64,9 @@
 // Spawn Guerilla things :)
 ///////////////////////////////////////////////////////////////////////////////
 > CivillianLowerClass
-60, Trash
-10, Food
-10, Drinks
+40, Trash
+20, Food
+20, Drinks
 20, Pistols
 20, PistolAmmo
 10, PistolAttachments
@@ -94,7 +94,7 @@
 > CivillianUpperClass
 40, Trash
 28, Food
-15, Drinks
+25, Drinks
 20, Pistols
 20, PistolAmmo
 10, PistolAttachments
@@ -152,8 +152,8 @@
 // Construction Sites, Warehouses, Research etc.
 ///////////////////////////////////////////////////////////////////////////////
 > Industrial
-1, Food
-1, Drinks
+5, Food
+5, Drinks
 1, Electronics
 30, Trash
 40, IndustrialItems
@@ -207,20 +207,20 @@
 10, MilitaryHeadgear
 3, Ghillies
 4, Rebreathers
-13, Rifles
+16, Rifles
 14, RifleAmmo
-15, RifleAttachments
+10, RifleAttachments
 10, LMG
 12, LMGAmmo
 8, Snipers
 8, SniperAmmo
-15, SniperAttachments
+10, SniperAttachments
 5, DLCAmmo
-15, DLCOptics
+10, DLCOptics
 4, DLCSupressor
-15, Bipods
+10, Bipods
 7, Explosives
-3, BattleRifles
+5, BattleRifles
 7, BattleRifleAmmo
 5, BattleRifleAttachments
 13, WinterGearMilitary
@@ -254,6 +254,8 @@
 10, Pistols
 10, PistolAmmo
 10, PistolAttachments
+15, Food
+15, Drinks
 
 ///////////////////////////////////////////////////////////////////////////////
 // Ghost Hotel Buildings

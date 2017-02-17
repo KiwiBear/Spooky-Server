@@ -3938,7 +3938,7 @@ class CfgExileLootSettings
 	 *
 	 * You can also cap it at a maximum value. See below.
 	 */
-	maximumPositionCoverage = 30;
+	maximumPositionCoverage = 40;
 
  	/**
  	 * Limit the number of loot positions per building. If the 
@@ -4844,23 +4844,23 @@ class CfgTerritories
 	prices[] = 
 	{
 		// Purchase Price 		Radius 		Number of Objects
-		{5000,					15,			30 					}, // Level 1
-		{2000,					30,			40					}, // Level 2 
-		{3000,					45,			50 					}, // Level 3
+		{5000,					60,			30 					}, // Level 1
+		{2000,					60,			40					}, // Level 2 
+		{3000,					60,			50 					}, // Level 3
 		{4000,					60,			60					}, // Level 4
-		{5000,					75,			70					}, // Level 5
-		{6000,					90,			80					}, // Level 6
-		{7000,					105,		90					}, // Level 7
-		{8000,					120,		100					}, // Level 8
-		{9000,					135,		130					}, // Level 9
-		{10000,					150,		150					}  // Level 10
+		{5000,					60,			70					}, // Level 5
+		{6000,					60,			80					}, // Level 6
+		{7000,					60,			90					}, // Level 7
+		{8000,					60,			100					}, // Level 8
+		{9000,					60,			130					}, // Level 9
+		{10000,					60,			150					}  // Level 10
 	};
 
 	// A shortcut of the above maximum radius
 	maximumRadius = 150;
 
 	// The above * 2 plus coverving the 20m you can move while placing things
-	minimumDistanceToOtherTerritories = 325; 
+	minimumDistanceToOtherTerritories = 90; 
 
 	// Maximum number of territories a player can own
 	maximumNumberOfTerritoriesPerPlayer = 2;
