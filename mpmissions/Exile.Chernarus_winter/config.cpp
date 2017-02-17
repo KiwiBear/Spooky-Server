@@ -4590,7 +4590,9 @@ class CfgInteractionModels
 			"stallwater_f",
 			"waterpump_01_f",
 			"water_source_f",
-
+			"misc_wellpump.p3d",
+			"pumpa.p3d",
+			
 			// Namalsk
 			"wellpump",
 			"Land_jhad_stand_water",
@@ -4727,13 +4729,17 @@ class CfgInteractionModels
 		{
 			"fuelstation_feed_f.p3d",
 			"a_fuelstation_feed_f.p3d",
+			"a_fuelstation_feed.p3d",
 			"metalbarrel_f.p3d",
 			"flexibletank_01_f.p3d",
 			"fs_feed_f.p3d",
+			"fuelstation_feed_pmc.p3d",
 			"ind_tanksmall.p3d",
 			"fuel_tank_big.p3d",
 			"ind_tanksmall2.p3d",
 			"fuel_tank_stairs.p3d",
+			"fuel_tank_big.p3d",
+			"ind_fuelstation_feed_ep1.p3d",
 			//Tanoa
 			"fuelstation_01_pump_f.p3d",
 			"fuelstation_02_pump_f.p3d"
@@ -4744,7 +4750,7 @@ class CfgLocker
 {
 	numbersOnly = "0123456789";
 	
-	maxDeposit = 10000;
+	maxDeposit = 20000;
 };
 
 class CfgPlayer 
