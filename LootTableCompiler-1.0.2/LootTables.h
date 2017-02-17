@@ -79,7 +79,7 @@
 11, CivilianBackpacks
 5, CivilianVests
 20, CivilianHeadgear
-20, CivilianItems
+30, CivilianItems
 1, Restraints
 10, Chemlights
 10, RoadFlares
@@ -107,7 +107,7 @@
 20, CivilianBackpacks
 5, CivilianVests
 20, CivilianHeadgear
-10, CivilianItems
+30, CivilianItems
 10, Chemlights
 10, RoadFlares
 1, Restraints
@@ -136,7 +136,7 @@
 1, CivilianClothing
 3, CivilianHeadgear
 1, CivilianVests
-7, CivilianItems
+20, CivilianItems
 5, Chemlights
 5, RoadFlares
 4, SmokeGrenades

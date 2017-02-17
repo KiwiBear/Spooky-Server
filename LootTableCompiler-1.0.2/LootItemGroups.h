@@ -861,7 +861,9 @@
 1, TRYK_U_B_PCUHsW3nh
 1, TRYK_U_B_PCUHsW4
 1, TRYK_U_B_PCUHsW5
-1, TRYK_U_B_PCUHsW6 
+1, TRYK_U_B_PCUHsW6
+1, TAC_W_ghillie_01
+1, TAC_W_ghillie_02 
 
 
 ///////////////////////////////////////////////////////////////////////////////
@@ -1507,14 +1509,14 @@
 20, Exile_Item_DuctTape
 
 > CivilianItems
-50, ItemWatch
-30, ItemRadio
+1, ItemWatch
+20, ItemRadio
 5, ItemGPS
 30, Binocular
 40, Exile_Item_Heatpack
-35, ItemMap
+50, ItemMap
 5, Exile_Item_MobilePhone
-30, ItemCompass
+40, ItemCompass
 
 > CivilianClothing
 9, U_C_Poor_1
