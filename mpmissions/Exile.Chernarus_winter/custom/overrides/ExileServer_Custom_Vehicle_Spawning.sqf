@@ -169,7 +169,9 @@ for [{_h = 0}, {_h < (count _spawnedVehicles)}, {_h = _h + 1}] do
 		{
 			_usePosATL = false;
 		};
-		_vehicle = [_curClassName, _randLoc, random 360, _usePosATL, 1234] call ExileServer_object_vehicle_createPersistentVehicle;
+		_vehicle = [_curClassName, _randLoc, random 360, _usePosATL, ""] call ExileServer_object_vehicle_createPersistentVehicle;
+		_vehicle call ExileServer_object_vehicle_database_insert;
+		_vehicle call ExileServer_object_vehicle_database_update;
 		// "would have spawned a veh" call ExileServer_util_log;
 		_hitpointsData = getAllHitPointsDamage _vehicle;
 		if !(_hitpointsData isEqualTo []) then 
