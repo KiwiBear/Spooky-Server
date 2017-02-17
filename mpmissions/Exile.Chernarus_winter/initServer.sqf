@@ -1244,6 +1244,7 @@ private _simpleObjects = [
 ["a3\structures_f_heli\items\luggage\plasticcase_01_medium_f.p3d", [8107.07, 9260.93, 470.597], [0.038079, -0.999228, 0.00969183], [0.0253224, 0.0106607, 0.999622]],
 ["a3\structures_f_heli\items\luggage\plasticcase_01_medium_f.p3d", [8107.03, 9260.86, 470.232], [0.614561, -0.788837, -0.00715534], [0.0253224, 0.0106607, 0.999622]],
 ["a3\supplies_f_exp\ammoboxes\equipment_box_f.p3d", [12275.9, 9736.93, 9.48152], [0, 1, 0], [0, 0, 1]],
+["Exile_Locker",[8111.08,9245.42,470.035],[[0.998474,-0.0463312,-0.0300632],[0.0306495,0.0119943,0.999458]],false]
 ["a3\structures_f_epa\mil\scrapyard\pallet_milboxes_f.p3d", [12275.6, 9734.77, 9.55011], [0, 1, 0], [0, 0, 1]]
 ];
 
