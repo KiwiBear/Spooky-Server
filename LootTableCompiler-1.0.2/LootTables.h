@@ -64,7 +64,7 @@
 // Spawn Guerilla things :)
 ///////////////////////////////////////////////////////////////////////////////
 > CivillianLowerClass
-40, Trash
+25, Trash
 20, Food
 20, Drinks
 20, Pistols
@@ -92,7 +92,7 @@
 // Apartments, Offices etc.
 ///////////////////////////////////////////////////////////////////////////////
 > CivillianUpperClass
-40, Trash
+25, Trash
 28, Food
 25, Drinks
 20, Pistols

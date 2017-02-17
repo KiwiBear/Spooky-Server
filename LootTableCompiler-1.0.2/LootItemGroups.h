@@ -51,9 +51,9 @@
 
 > Food
 3, Exile_Item_CookingPot
-5, Exile_Item_CanOpener
-5, Exile_Item_Matches
-3, Exile_Item_EMRE						// 75% Hunger
+10, Exile_Item_CanOpener
+10, Exile_Item_Matches
+8, Exile_Item_EMRE						// 75% Hunger
 6, Exile_Item_GloriousKnakworst			// 60% Hunger
 7, Exile_Item_Surstromming				// 55% Hunger
 7, Exile_Item_SausageGravy				// 50% Hunger
@@ -70,7 +70,7 @@
 8, Exile_Item_SeedAstics				// 20% Hunger
 9, Exile_Item_Raisins					// 15% Hunger
 9, Exile_Item_Moobar					// 10% Hunger
-11, Exile_Item_InstantCoffee			//  5% Hunger
+8, Exile_Item_InstantCoffee			//  5% Hunger
 
 > Drinks
 7, Exile_Item_PowerDrink					// +95% Thirst
@@ -80,7 +80,7 @@
 20, Exile_Item_MountainDupe					// +50% Thirst, spawns always twice!	
 20, Exile_Item_ChocolateMilk				// +35% Thirst
 25, Exile_Item_PlasticBottleDirtyWater		// +10% Thirst
-5, Exile_Item_PlasticBottleCoffee
+15, Exile_Item_PlasticBottleCoffee
 
 
 ///////////////////////////////////////////////////////////////////////////////
