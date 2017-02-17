@@ -170,11 +170,6 @@ for [{_h = 0}, {_h < (count _spawnedVehicles)}, {_h = _h + 1}] do
 			_usePosATL = false;
 		};
 		_vehicle = [_curClassName, _randLoc, random 360, _usePosATL, "0000"] call ExileServer_object_vehicle_createPersistentVehicle;
-		_vehicle setVariable ["ExileOwnerUID", "76561198081486367"];
-		_vehicle setVariable ["ExileIsLocked",0];
-		_vehicle lock 0;
-		_vehicle call ExileServer_object_vehicle_database_insert;
-		_vehicle call ExileServer_object_vehicle_database_update;
 		// "would have spawned a veh" call ExileServer_util_log;
 		_hitpointsData = getAllHitPointsDamage _vehicle;
 		if !(_hitpointsData isEqualTo []) then 
@@ -193,6 +188,12 @@ for [{_h = 0}, {_h < (count _spawnedVehicles)}, {_h = _h + 1}] do
 			forEach _hitpoints;
 		};
 		_vehicle setFuel (random 0.2);
+		
+		_vehicle setVariable ["ExileOwnerUID", "76561198081486367"];
+		_vehicle setVariable ["ExileIsLocked",0];
+		_vehicle lock 0;
+		_vehicle call ExileServer_object_vehicle_database_insert;
+		_vehicle call ExileServer_object_vehicle_database_update;
 	};
 };
 "ran custom veh" call ExileServer_util_log;
