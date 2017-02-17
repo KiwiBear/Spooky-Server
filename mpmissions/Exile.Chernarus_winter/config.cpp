@@ -4617,7 +4617,8 @@ class CfgInteractionModels
 		models[] = 	
 		{
 			"watercooler",
-			"Land_pumpa"			
+			"Land_Pumpa",
+			"Land_Pumpa(Water Pump)"
 		};
 	};
 
