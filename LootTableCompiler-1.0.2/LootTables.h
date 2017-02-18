@@ -155,9 +155,9 @@
 5, Food
 5, Drinks
 1, Electronics
-30, Trash
+10, Trash
 40, IndustrialItems
-15, Vehicle
+25, Vehicle
 15, RoadFlares
 5, Restraints
 
