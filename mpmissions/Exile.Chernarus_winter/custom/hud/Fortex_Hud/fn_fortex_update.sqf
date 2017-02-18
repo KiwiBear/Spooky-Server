@@ -82,11 +82,12 @@ _ctrlFood ctrlSetTextColor _foodColour;
 		Damage
 */
 _himage = 0;
-if (_health >= 90)			           then { _himage = 4 };
-if (_health >= 70 && _health < 90)		   then { _himage = 3 };
-if (_health >= 50 && _health < 70)	   	   then { _himage = 2 };
-if (_health >= 30 && _health < 40)		   then { _himage = 1 };
-if (_health < 10)			               then { _himage = 0 };
+if (_health >= 90)			           then { _himage = 5 };
+if (_health >= 80 && _health < 90)	   then { _himage = 4 };
+if (_health >= 60 && _health < 80)	   then { _himage = 3 };
+if (_health >= 30 && _health < 60)	   then { _himage = 2 };
+if (_health >= 15 && _health < 30)	   then { _himage = 1 };
+if (_health < 3)			           then { _himage = 0 };
 _healthImage =  "custom\hud\images\hud\status_blood_inside_" + str(_himage) + "_ca.paa";
 
 _damageColour = HUD_COLOUR_0;

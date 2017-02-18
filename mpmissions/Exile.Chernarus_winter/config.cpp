@@ -3738,6 +3738,9 @@ class CfgExileCustomCode
 	// remove pin code bullshit
 	ExileServer_object_vehicle_createPersistentVehicle = "custom\overrides\ExileServer_object_vehicle_createPersistentVehicle.sqf";
 	
+	// remove blinking hunger/thirst icons
+	ExileClient_object_player_stats_update = "custom\overrides\ExileClient_object_player_stats_update.sqf";
+	
 	// Arma 1.66 Fixes
 	ExileClient_gui_postProcessing_initialize = "Fixes\A166Fixes\ExileClient_gui_postProcessing_initialize.sqf";
 	ExileClient_gui_postProcessing_reset = "Fixes\A166Fixes\ExileClient_gui_postProcessing_reset.sqf";
