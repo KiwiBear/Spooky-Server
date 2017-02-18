@@ -12,10 +12,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={3820.3379,454.74966,14069.167};
-		dir[]={0.66537613,-0.60949385,0.43132341};
-		up[]={0.51144195,0.79277796,0.33153799};
-		aside[]={0.54401225,-4.0840823e-006,-0.83920187};
+		pos[]={3784.0227,454.35483,14132.52};
+		dir[]={0.30489731,-0.62671429,-0.71729487};
+		up[]={0.24516678,0.7792393,-0.57677221};
+		aside[]={-0.9204039,-4.344387e-006,-0.39123914};
 	};
 };
 binarizationWanted=0;
@@ -32,14 +32,13 @@ addons[]=
 	"A3_Structures_F_Mil_Cargo",
 	"CUP_Buildings_Config",
 	"CUP_CAMisc",
-	"CUP_Editor_Plants_Config",
-	"A3_Characters_F"
+	"CUP_Editor_Plants_Config"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=13;
+		items=12;
 		class Item0
 		{
 			className="CUP_CAStructures_Mil";
@@ -106,13 +105,6 @@ class AddonsMetaData
 			className="CUP_Editor_Plants_Config";
 			name="CUP_Editor_Plants_Config";
 		};
-		class Item12
-		{
-			className="A3_Characters_F";
-			name="Arma 3 Alpha - Characters and Clothing";
-			author="Bohemia Interactive";
-			url="http://www.arma3.com";
-		};
 	};
 };
 randomSeed=12342667;
@@ -142,7 +134,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=75;
+		items=74;
 		class Item0
 		{
 			dataType="Object";
@@ -1346,37 +1338,6 @@ class Mission
 			};
 			id=584;
 			type="FireLit";
-		};
-		class Item74
-		{
-			dataType="Group";
-			side="Independent";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={3802.6694,419.44336,14112.717};
-					};
-					side="Independent";
-					flags=7;
-					class Attributes
-					{
-						isPlayer=1;
-					};
-					id=926;
-					type="I_G_Soldier_A_F";
-					atlOffset=-6.1035156e-005;
-				};
-			};
-			class Attributes
-			{
-			};
-			id=925;
-			atlOffset=-6.1035156e-005;
 		};
 	};
 	class Connections

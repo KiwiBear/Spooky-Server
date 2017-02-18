@@ -8,14 +8,14 @@ class EditorData
 	toggles=9;
 	class ItemIDProvider
 	{
-		nextID=925;
+		nextID=926;
 	};
 	class Camera
 	{
-		pos[]={8129.1025,493.43872,9254.835};
-		dir[]={-0.64569193,-0.76320994,0.025084633};
-		up[]={-0.76264155,0.64614558,0.029627308};
-		aside[]={0.038819946,-6.549526e-007,0.99926454};
+		pos[]={8105.2305,476.36319,9245.7021};
+		dir[]={0.73245275,-0.64492655,0.21825168};
+		up[]={0.61809134,0.76422954,0.18417554};
+		aside[]={0.28557438,-5.8067963e-007,-0.9583835};
 	};
 };
 binarizationWanted=0;
@@ -32,13 +32,14 @@ addons[]=
 	"A3_Structures_F_EPB_Civ_Garbage",
 	"A3_Structures_F_Civ_Market",
 	"A3_Structures_F_Heli_Items_Luggage",
-	"A3_Structures_F_Items_Vessels"
+	"A3_Structures_F_Items_Vessels",
+	"exile_client"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=9;
+		items=10;
 		class Item0
 		{
 			className="A3_Structures_F_Mil";
@@ -94,6 +95,11 @@ class AddonsMetaData
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
+		class Item9
+		{
+			className="exile_client";
+			name="exile_client";
+		};
 	};
 };
 randomSeed=12342667;
@@ -123,7 +129,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=50;
+		items=51;
 		class Item0
 		{
 			dataType="Object";
@@ -955,6 +961,22 @@ class Mission
 			};
 			id=302;
 			type="Misc_concrete_High";
+		};
+		class Item50
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8111.0791,470.03363,9245.5479};
+				angles[]={0.012000273,1.5615839,6.2525311};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=925;
+			type="Exile_Locker";
 		};
 	};
 };
