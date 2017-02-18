@@ -68,6 +68,7 @@ showHUD[] =
 #include "CfgRemoteExec.hpp"
 #include "infiSTAR_AdminMenu.hpp"
 #include "custom\hud\config\RscFortexDebugDefines.hpp"
+#include "GUIedits.cpp"
 
 class RscTitles
 {
