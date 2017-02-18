@@ -1,0 +1,223 @@
+version=52;
+class EditorData
+{
+	moveGridStep=6.0287747;
+	angleGridStep=0.2617994;
+	scaleGridStep=1;
+	autoGroupingDist=10;
+	toggles=9;
+	class ItemIDProvider
+	{
+		nextID=925;
+	};
+	class Camera
+	{
+		pos[]={13747.016,20.301979,13701.912};
+		dir[]={0.29761878,-0.77175868,0.56199139};
+		up[]={0.36118683,0.63591218,0.68202651};
+		aside[]={0.88373607,1.0000076e-007,-0.46800876};
+	};
+};
+binarizationWanted=0;
+addons[]=
+{
+	"CUP_Buildings_Config",
+	"A3_Props_F_Exp_Naval_Boats",
+	"A3_Structures_F_Naval_RowBoats",
+	"A3_Structures_F_Items_Vessels",
+	"A3_Structures_F_EPB_Items_Vessels",
+	"A3_Props_F_Exp_Commercial_Market"
+};
+class AddonsMetaData
+{
+	class List
+	{
+		items=4;
+		class Item0
+		{
+			className="CUP_Buildings_Config";
+			name="CUP_Buildings_Config";
+		};
+		class Item1
+		{
+			className="A3_Props_F_Exp";
+			name="Arma 3 Apex - Decorative and Mission Objects";
+			author="Bohemia Interactive";
+			url="http://www.arma3.com";
+		};
+		class Item2
+		{
+			className="A3_Structures_F";
+			name="Arma 3 - Buildings and Structures";
+			author="Bohemia Interactive";
+			url="http://www.arma3.com";
+		};
+		class Item3
+		{
+			className="A3_Structures_F_EPB";
+			name="Arma 3 Adapt Episode - Buildings and Structures";
+			author="Bohemia Interactive";
+			url="http://www.arma3.com";
+		};
+	};
+};
+randomSeed=12342667;
+class ScenarioData
+{
+	author="Nic";
+};
+class Mission
+{
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.25;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.25;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2015;
+		month=1;
+		day=1;
+		hour=12;
+		minute=-23;
+		startFogDecay=0.014;
+		forecastFogDecay=0.014;
+	};
+	class Entities
+	{
+		items=8;
+		class Item0
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={13757.873,1.693967,13718.265};
+				angles[]={0,1.595982,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=649;
+			type="Land_Molo_drevo_bs";
+			atlOffset=2.8362646;
+		};
+		class Item1
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={13761.589,1.1613222,13716.94};
+				angles[]={0,3.0291739,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+				createAsSimpleObject=1;
+			};
+			id=650;
+			type="Land_Boat_03_abandoned_F";
+			atlOffset=1.1374512;
+		};
+		class Item2
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={13767.488,0.39325655,13716.932};
+				angles[]={0,3.4811711,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+				createAsSimpleObject=1;
+			};
+			id=653;
+			type="Land_Boat_01_abandoned_red_F";
+			atlOffset=0.39265156;
+		};
+		class Item3
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={13751.801,0.95928943,13726.778};
+				angles[]={5.9990845,0,0.11811461};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=654;
+			type="Land_RowBoat_V1_F";
+			atlOffset=0.0011549592;
+		};
+		class Item4
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={13768.158,0.87501013,13718.006};
+				angles[]={0,0.2688176,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=655;
+			type="Land_Boat_03_abandoned_cover_F";
+			atlOffset=-0.0021716952;
+		};
+		class Item5
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={13758.729,4.502872,13721.227};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=658;
+			type="Land_BarrelWater_F";
+			atlOffset=4.3822589;
+		};
+		class Item6
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={13758.725,4.5222406,13720.52};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=659;
+			type="Land_BarrelTrash_grey_F";
+		};
+		class Item7
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={13762.227,1.9051473,13724.703};
+				angles[]={5.999084,0,0.13255134};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=660;
+			type="Land_WoodenCrate_01_stack_x3_F";
+		};
+	};
+};

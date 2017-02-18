@@ -1,0 +1,132 @@
+version=52;
+class EditorData
+{
+	moveGridStep=6.0287747;
+	angleGridStep=0.2617994;
+	scaleGridStep=1;
+	autoGroupingDist=10;
+	toggles=9;
+	class ItemIDProvider
+	{
+		nextID=925;
+	};
+	class Camera
+	{
+		pos[]={10151.674,359.99429,12046.356};
+		dir[]={-0.59337938,-0.7828958,0.1870984};
+		up[]={-0.74666715,0.6221413,0.23543109};
+		aside[]={0.30072135,2.4738256e-007,0.95372534};
+	};
+};
+binarizationWanted=0;
+addons[]=
+{
+	"CUP_Misc_e_Config"
+};
+class AddonsMetaData
+{
+	class List
+	{
+		items=1;
+		class Item0
+		{
+			className="CUP_Misc_e_Config";
+			name="CUP_Misc_e_Config";
+		};
+	};
+};
+randomSeed=12342667;
+class ScenarioData
+{
+	author="Nic";
+};
+class Mission
+{
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.25;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.25;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2015;
+		month=1;
+		day=1;
+		hour=12;
+		minute=-23;
+		startFogDecay=0.014;
+		forecastFogDecay=0.014;
+	};
+	class Entities
+	{
+		items=4;
+		class Item0
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={13473.879,73.404427,3340.3706};
+				angles[]={0.025327841,0,0.0146689};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=591;
+			type="AmmoCrates_NoInteractive_Large";
+		};
+		class Item1
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10133.086,337.35895,12053.535};
+				angles[]={0.2241669,1.8916943,0.19354631};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=592;
+			type="AmmoCrates_NoInteractive_Large";
+			atlOffset=-0.00024414063;
+		};
+		class Item2
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8935.0635,342.5105,4394.2231};
+				angles[]={0.27548277,0,6.1901245};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=593;
+			type="AmmoCrates_NoInteractive_Large";
+		};
+		class Item3
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1594.022,285.25201,7778.5532};
+				angles[]={6.2791882,0,0.0093375118};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=594;
+			type="AmmoCrates_NoInteractive_Large";
+		};
+	};
+};
