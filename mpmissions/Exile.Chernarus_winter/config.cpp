@@ -4591,8 +4591,8 @@ class CfgInteractionModels
 			"waterpump_01_f",
 			"water_source_f",
 			"misc_wellpump.p3d",
-			"pumpa.p3d",
-			"kasna_new.p3d",
+			// "pumpa.p3d",
+			// "kasna_new.p3d",
 			
 			// Namalsk
 			"wellpump",
@@ -4613,11 +4613,13 @@ class CfgInteractionModels
 
 	class CleanWaterSource
 	{
-		name = "Water cooler";
+		name = "Water pumps or wells";
 		models[] = 	
 		{
 			"watercooler",
 			"Land_Pumpa",
+			"pumpa.p3d",
+			"misc_wellpump.p3d",
 			"Land_Pumpa(Water Pump)"
 		};
 	};
