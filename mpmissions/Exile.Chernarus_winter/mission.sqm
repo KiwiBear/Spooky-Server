@@ -17,9 +17,9 @@ class EditorData
 	class Camera
 	{
 		pos[]={3302.5977,305.27203,9138.8135};
-		dir[]={0.62809896,-0.31132874,-0.71314126};
-		up[]={0.20577183,0.95030093,-0.233632};
-		aside[]={-0.75043511,1.071021e-008,-0.66094565};
+		dir[]={0.66459054,-0.62428635,-0.41059956};
+		up[]={0.53109926,0.78119487,-0.32812503};
+		aside[]={-0.52560198,-7.7532604e-008,-0.85073161};
 	};
 };
 binarizationWanted=0;
@@ -101,7 +101,7 @@ class Mission
 		class Item0
 		{
 			dataType="Marker";
-			position[]={3642.8281,0,2472.9033};
+			position[]={3580.2759,3.0456543,2518.3958};
 			name="SpawnKomarovo";
 			text="Komarovo";
 			markerType="ELLIPSE";
@@ -113,7 +113,7 @@ class Mission
 			b=500;
 			drawBorder=1;
 			id=0;
-			atlOffset=-6.9299998;
+			atlOffset=-6.0663433;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -160,7 +160,7 @@ class Mission
 		class Item1
 		{
 			dataType="Marker";
-			position[]={6711.7202,0,2589.9814};
+			position[]={6743.8848,0.53735352,2874.8677};
 			name="SpawnChernogorsk";
 			text="Chernogorsk";
 			markerType="ELLIPSE";
@@ -172,7 +172,7 @@ class Mission
 			b=500;
 			drawBorder=1;
 			id=1;
-			atlOffset=-6;
+			atlOffset=-6.0787687;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -219,7 +219,7 @@ class Mission
 		class Item2
 		{
 			dataType="Marker";
-			position[]={10513.343,0,2081.8613};
+			position[]={10382.211,2.9692383,2366.822};
 			name="SpawnElektro";
 			text="Elektrozavodsk";
 			markerType="ELLIPSE";
@@ -231,7 +231,7 @@ class Mission
 			b=500;
 			drawBorder=1;
 			id=2;
-			atlOffset=-6.8559303;
+			atlOffset=-3.0928602;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -278,7 +278,7 @@ class Mission
 		class Item3
 		{
 			dataType="Marker";
-			position[]={13352.05,4.7969226e+034,6301.7461};
+			position[]={13169.476,4.7969226e+034,6306.4399};
 			name="SpawnSolnichniy";
 			text="Solnichniy";
 			markerType="ELLIPSE";
@@ -337,7 +337,7 @@ class Mission
 		class Item4
 		{
 			dataType="Marker";
-			position[]={12904.659,-0.82922363,9521.7285};
+			position[]={12593.812,5.9686098,9677.1523};
 			name="SpawnBerezino";
 			text="Berezino";
 			markerType="ELLIPSE";
@@ -349,7 +349,6 @@ class Mission
 			b=500;
 			drawBorder=1;
 			id=4;
-			atlOffset=-7.0606213;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -396,7 +395,7 @@ class Mission
 		class Item5
 		{
 			dataType="Marker";
-			position[]={1909.78,0,2247.2};
+			position[]={1766.0391,14.674316,2388.4202};
 			name="SpawnKamenka";
 			text="Kamenka";
 			markerType="ELLIPSE";
@@ -408,7 +407,7 @@ class Mission
 			b=500;
 			drawBorder=1;
 			id=5;
-			atlOffset=-6.1484799;
+			atlOffset=-5.7630653;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -523,7 +522,7 @@ class Mission
 		class Item8
 		{
 			dataType="Marker";
-			position[]={5413.1782,4.7888096e+034,2064.374};
+			position[]={5219.835,4.7888096e+034,2345.8584};
 			name="SpawnBalota";
 			text="Balota";
 			markerType="ELLIPSE";
@@ -582,7 +581,7 @@ class Mission
 		class Item9
 		{
 			dataType="Marker";
-			position[]={8026.9551,4.7969226e+034,3164.0161};
+			position[]={8096.2896,4.7969226e+034,3392.1499};
 			name="SpawnPrigorodki";
 			text="Prigorodki";
 			markerType="ELLIPSE";
@@ -641,7 +640,7 @@ class Mission
 		class Item10
 		{
 			dataType="Marker";
-			position[]={8918.2588,2.332048e+027,2248.5239};
+			position[]={9305.1914,2.332048e+027,2342.4607};
 			name="SpawnPikKozlova";
 			text="PikKozlova";
 			markerType="ELLIPSE";
@@ -700,7 +699,7 @@ class Mission
 		class Item11
 		{
 			dataType="Marker";
-			position[]={12073.633,6.0868838e+034,3501.77};
+			position[]={12055.779,6.0868838e+034,3626.7432};
 			name="SpawnKamyshovo";
 			text="Kamyshovo";
 			markerType="ELLIPSE";
@@ -759,7 +758,7 @@ class Mission
 		class Item12
 		{
 			dataType="Marker";
-			position[]={13377.752,4.7888096e+034,4141.603};
+			position[]={13338.077,4.7888096e+034,4149.5381};
 			name="SpawnKrutoyCap";
 			text="KrutoyCap";
 			markerType="ELLIPSE";
@@ -818,7 +817,7 @@ class Mission
 		class Item13
 		{
 			dataType="Marker";
-			position[]={13378.86,6.0868838e+034,5438.4941};
+			position[]={13138.036,6.0868838e+034,5468.8682};
 			name="SpawnThreeValleys";
 			text="ThreeValleys";
 			markerType="ELLIPSE";
@@ -877,7 +876,7 @@ class Mission
 		class Item14
 		{
 			dataType="Marker";
-			position[]={13198.588,6.0868838e+034,7140.7588};
+			position[]={12957.445,-3.7254065e-016,7079.105};
 			name="SpawnFactory";
 			text="Factory";
 			markerType="ELLIPSE";
@@ -889,7 +888,7 @@ class Mission
 			b=500;
 			drawBorder=1;
 			id=14;
-			atlOffset=6.0868838e+034;
+			atlOffset=-11.878552;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -936,7 +935,7 @@ class Mission
 		class Item15
 		{
 			dataType="Marker";
-			position[]={13043.164,6.4153955e+034,8104.3911};
+			position[]={12755.682,6.4153955e+034,8162.3916};
 			name="SpawnNizhnoye";
 			text="Chernogorsk";
 			markerType="ELLIPSE";
@@ -2811,11 +2810,12 @@ class Mission
 		class Item17
 		{
 			dataType="Marker";
-			position[]={4547.91,0,8294.57};
+			position[]={4583.894,1.5661621,8269.6592};
 			name="VeresnikMilMarker";
 			text="Military Base";
 			type="mil_dot";
 			id=117;
+			atlOffset=-317.78961;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -2862,11 +2862,12 @@ class Mission
 		class Item18
 		{
 			dataType="Marker";
-			position[]={2106.9,0,3512.08};
+			position[]={2106.8999,0,3512.0801};
 			name="PavlovoMilMarker";
 			text="Military Base";
 			type="mil_dot";
 			id=118;
+			atlOffset=-107.86312;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -2910,15 +2911,15 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		
 		class Item19
 		{
 			dataType="Marker";
-			position[]={8422.92,0,6806.4};
+			position[]={8422.9199,0,6806.3999};
 			name="GuglovoHospital";
 			text="Guglovo Hospital";
 			type="mil_dot";
 			id=119;
+			atlOffset=-350.89999;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -2965,11 +2966,12 @@ class Mission
 		class Item20
 		{
 			dataType="Marker";
-			position[]={3807.83,0,14110.8};
+			position[]={3807.8301,0,14110.8};
 			name="MistyPeakMilMarker";
 			text="Military Base";
 			type="mil_dot";
 			id=120;
+			atlOffset=-419.03851;
 			class CustomAttributes
 			{
 				class Attribute0
