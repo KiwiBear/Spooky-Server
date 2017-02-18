@@ -3741,6 +3741,11 @@ class CfgExileCustomCode
 	// remove blinking hunger/thirst icons
 	ExileClient_object_player_stats_update = "custom\overrides\ExileClient_object_player_stats_update.sqf";
 	
+	// change hud icon locations
+	ExileClient_gui_hud_toggleAutoRunIcon = "custom\overrides\ExileClient_gui_hud_toggleAutoRunIcon.sqf";
+	ExileClient_gui_hud_toggleBambiIcon = "custom\overrides\ExileClient_gui_hud_toggleBambiIcon.sqf";
+	ExileClient_gui_hud_toggleEarplugsIcon = "custom\overrides\ExileClient_gui_hud_toggleEarplugsIcon.sqf";
+	
 	// Arma 1.66 Fixes
 	ExileClient_gui_postProcessing_initialize = "Fixes\A166Fixes\ExileClient_gui_postProcessing_initialize.sqf";
 	ExileClient_gui_postProcessing_reset = "Fixes\A166Fixes\ExileClient_gui_postProcessing_reset.sqf";
