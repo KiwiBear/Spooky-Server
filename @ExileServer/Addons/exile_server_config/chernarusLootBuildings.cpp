@@ -126,6 +126,11 @@ class Land_PowLines_WoodL : CivillianLowerClass {
 		{0.13916, 0.526367, -3.49637},{-0.101563, -1.41504, -3.49637}
 	};
 };
+class Land_Mil_Barracks_L : Military {
+	positions[] = {
+		{-0.584961, -4.56934, -2.20029},{-5.38721, -7.37012, -2.20032}
+	};
+};
 class Land_Psi_bouda : CivillianLowerClass {
 	positions[] = {
 		{0.430664, -0.0410156, -0.374207}
