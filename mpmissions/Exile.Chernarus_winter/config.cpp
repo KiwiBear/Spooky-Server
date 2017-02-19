@@ -7019,6 +7019,9 @@ class CfgVehicleTransport
 	};
 };
 
+class RscText;
+class RscPicture;
+
 class RscDisplayVoiceChat
 {
 	onLoad="uiNamespace setVariable ['ExileIsUsingVON', true];";
@@ -7054,8 +7057,7 @@ class RscDisplayVoiceChat
 		};
 	};
 };
-class RscText;
-class RscPicture;
+
 class RscPendingInvitation
 {
 	textureConnectionQualityPoor="\exile_assets\texture\hud\hud_icon_connection_yellow_ca.paa";
