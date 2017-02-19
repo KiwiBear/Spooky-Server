@@ -6022,7 +6022,10 @@ class CfgSettings
 		{
 			"Exile_Item_XM8",
 			"ItemRadio",
-			"Exile_Item_PlasticBottleFreshWater"
+			"Exile_Item_PlasticBottleFreshWater",
+			"Exile_Item_Bandage",
+			"Exile_Item_Bandage",
+			"Exile_Item_Bandage"
 		};
 
 		/**
