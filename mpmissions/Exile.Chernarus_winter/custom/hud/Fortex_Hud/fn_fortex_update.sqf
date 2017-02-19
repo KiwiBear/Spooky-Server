@@ -1,6 +1,9 @@
 disableSerialization;
 
 _display = uiNameSpace getVariable ["Fortex_hud", displayNull];
+_displayRSCHUD = "Fortex_hud" call BIS_fnc_rscLayer;
+
+
 
 /*
 		Controls..
@@ -21,7 +24,7 @@ _ctrlCombatBorder = _display displayCtrl 1211;
 _ctrlNotInCombat = _display displayCtrl 1212;
 _ctrlInCombat = _display displayCtrl 1213;
 
-
+// doulby make sure icon is not flashing when in combat
 if(!ExileClientPlayerIsInCombat) then
 {
 	_ctrlInCombat ctrlShow false;
@@ -36,6 +39,9 @@ _food = (round (ExileClientPlayerAttributes select 2));
 _thirst = (round (ExileClientPlayerAttributes select 3));
 _health = round ((1 - (damage player)) * 100);
 _bodytemp = round (ExileClientPlayerAttributes select 5);
+
+
+
 
 
 /*
