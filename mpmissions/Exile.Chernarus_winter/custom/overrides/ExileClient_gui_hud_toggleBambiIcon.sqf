@@ -13,6 +13,6 @@ private["_display","_bambiIcon"];
 disableSerialization;
 _display = uiNamespace getVariable "RscExileHUD";
 _bambiIcon = _display displayCtrl 1003;
-_bambiIcon ctrlSetPosition [(0.9355 * safezoneW + safezoneX),(0.22 * safezoneH + safezoneY)];
+_bambiIcon ctrlSetPosition [(0.9355 * safezoneW + safezoneX),(0.235 * safezoneH + safezoneY)];
 _bambiIcon ctrlCommit 0;
 _bambiIcon ctrlShow _this;

@@ -36,9 +36,9 @@ if ( _thirst >= 90 )				 then { _timage = 4 };
 if ( _thirst >= 70 && _thirst < 90 ) then { _timage = 3 };
 if ( _thirst >= 50 && _thirst < 70 ) then { _timage = 2 };
 if ( _thirst >= 30 && _thirst < 40 ) then { _timage = 1 };
-if ( _thirst < 10 ) then 
+if (_thirst < 10) then 
 { 
-_timage = 0
+_timage = 0;
 _ctrlThirstInside ctrlShow false;
 _ctrlThirstBlinking ctrlShow true;
 }
@@ -62,8 +62,8 @@ if ((_thirst >= 30) && (_thirst < 40)) then {_thirstColour = HUD_COLOUR_108;};
 if ((_thirst >= 20) && (_thirst < 30)) then {_thirstColour = HUD_COLOUR_20;};
 if ((_thirst >= 10) && (_thirst < 20)) then {_thirstColour = HUD_COLOUR_10;};
 
-__ctrlThirstInside ctrlSetText _thirstImage;
-__ctrlThirstInside ctrlSetTextColor _thirstColour;
+_ctrlThirstInside ctrlSetText _thirstImage;
+_ctrlThirstInside ctrlSetTextColor _thirstColour;
 
 /*
 		FOOD
@@ -74,9 +74,9 @@ if (_food >= 90)			           then { _fimage = 4 };
 if (_food >= 70 && _food < 90)		   then { _fimage = 3 };
 if (_food >= 50 && _food < 70)	   	   then { _fimage = 2 };
 if (_food >= 30 && _food < 40)		   then { _fimage = 1 };
-if (_food < 10)then 
+if (_food < 10) then 
 { 
-_fimage = 0
+_fimage = 0;
 _ctrlFoodInside ctrlShow false;
 _ctrlFoodBlinking ctrlShow true;
 }

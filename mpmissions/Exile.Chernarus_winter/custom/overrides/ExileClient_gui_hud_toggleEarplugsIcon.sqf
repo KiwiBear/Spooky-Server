@@ -13,6 +13,6 @@ private["_display","_earplugsIcon"];
 disableSerialization;
 _display = uiNamespace getVariable "RscExileHUD";
 _earplugsIcon = _display displayCtrl 1004;
-_earplugsIcon ctrlSetPosition [(0.9355 * safezoneW + safezoneX),(0.29 * safezoneH + safezoneY)];
+_earplugsIcon ctrlSetPosition [(0.9355 * safezoneW + safezoneX),(0.305 * safezoneH + safezoneY)];
 _earplugsIcon ctrlCommit 0;
 _earplugsIcon ctrlShow _this;
