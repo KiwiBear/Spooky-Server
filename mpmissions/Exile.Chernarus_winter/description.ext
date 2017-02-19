@@ -69,9 +69,11 @@ showHUD[] =
 #include "infiSTAR_AdminMenu.hpp"
 #include "custom\hud\config\RscFortexDebugDefines.hpp"
 
+
 class RscTitles
 {
 #include "custom\hud\config\fortex_HUD.hpp"
+#include "deathHUD.hpp"
 
 class WY_SNOW_1
 	{

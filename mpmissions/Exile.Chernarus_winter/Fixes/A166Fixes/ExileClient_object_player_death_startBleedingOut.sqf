@@ -12,9 +12,9 @@
 private["_respawnDelay","_layer","_descriptions"];
 _respawnDelay = _this;
 [100] call BIS_fnc_bloodEffect;
-ExileClientPostProcessingColorCorrections ppEffectAdjust [1, 1, 0, [0, 0, 0, 0], [0.39, 0.32, 0.25, 0], [0.5,0.5,0.5,0], [0,0,0,0,0,0,4]]; 
+ExileClientPostProcessingColorCorrections ppEffectAdjust [0, 0, 0, [0, 0, 0, 0], [0, 0, 0, 0], [0,0,0,0], [0,0,0,0,0,0,0]]; 
 ExileClientPostProcessingColorCorrections ppEffectCommit 0;
-ExileClientPostProcessingColorCorrections ppEffectAdjust [1, 1, 0, [0.4, 0.2, 0.3, 0], [0.3, 0.05, 0, 0], [0.5,0.5,0.5,0], [0,0,0,0,0,0,4]];
+ExileClientPostProcessingColorCorrections ppEffectAdjust [0, 0, 0, [0, 0, 0, 0], [0, 0, 0, 0], [0,0,0,0], [0,0,0,0,0,0,0]];
 ExileClientPostProcessingColorCorrections ppEffectCommit _respawnDelay;
 BIS_DeathBlur ppEffectAdjust [0];
 BIS_DeathBlur ppEffectCommit 0;
@@ -28,38 +28,17 @@ ExileClientBleedOutHeartbeatPlaying = false;
 ExileClientBleedOutCountDownDuration = _respawnDelay;
 ExileClientBleedOutCountDownEnd = time + _respawnDelay;
 _layer = "BIS_fnc_respawnCounter" call bis_fnc_rscLayer;
+_displaydeathHUD = "deathHUD" call BIS_fnc_rscLayer;
 _layer cutText ["", "plain"];
 _descriptions = 
 [
-	"WRECKED",
-	"REKT",
-	"STOMPED",
-	"WASTED",
-	"SCREWED",
-	"TOASTED",
-	"REST IN PIECES", 
-	"TERMINATED",
-	"KILLED",
-	"EXILED",
-	"ANNIHILATED",
-	"HAMMERED",
-	"NEUTRALIZED",
-	"DUMPED",
-	"ZAPPED",
-	"SLAIN",
-	"FRIED",
-	"WIPED OUT",
-	"VANQUISHED",
-	"BUSTED",
-	"PULVERIZED",
-	"SMASHED",
-	"SHREDDED",
-	"CRUSHED"
+	"Press ESC to Respawn"
 ];
 missionnamespace setvariable ["RscRespawnCounter_description", format ["<t size='2' align='center'>%1</t>",selectRandom _descriptions]];
 missionnamespace setvariable ["RscRespawnCounter_colorID", 0];
 missionnamespace setvariable ["RscRespawnCounter_Custom", _respawnDelay];
 _layer cutRsc ["RscRespawnCounter", "plain"];
+_displaydeathHUD cutRsc ["deathHUD", "plain"];
 showChat true;
 "Start bleeding out..." call ExileClient_util_log;
 if(ExileClientBleedOutThread isEqualTo -1)then

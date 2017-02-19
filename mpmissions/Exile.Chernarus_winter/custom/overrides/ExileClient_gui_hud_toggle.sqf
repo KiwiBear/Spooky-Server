@@ -8,9 +8,10 @@
  * This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. 
  * To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/.
  */
- private[" _displayRSCHUD"];
+ private[" _displayRSCHUD", "_displaydeathHUD"];
  
  _displayRSCHUD = "Fortex_hud" call BIS_fnc_rscLayer;
+ _displaydeathHUD = "deathHUD" call BIS_fnc_rscLayer;
  
 if (_this) then
 {
@@ -18,6 +19,7 @@ if (_this) then
 	{
 		ExileLayerHUD cutRsc ["RscExileHUD", "PLAIN", 1, false];
 		_displayRSCHUD cutRsc ["Fortex_hud","PLAIN",1,false];
+		_displaydeathHUD cutText ["", "PLAIN"];
 		ExileHudIsVisible = true;
 	};
 	if (ExileHudEventHandle isEqualTo -1) then 

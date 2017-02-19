@@ -3749,7 +3749,7 @@ class CfgExileCustomCode
 	
 	// remove custom HUD when Exile hud is removed
 	ExileClient_gui_hud_toggle = "custom\overrides\ExileClient_gui_hud_toggle.sqf";
-	
+		
 	// Arma 1.66 Fixes
 	ExileClient_gui_postProcessing_initialize = "Fixes\A166Fixes\ExileClient_gui_postProcessing_initialize.sqf";
 	ExileClient_gui_postProcessing_reset = "Fixes\A166Fixes\ExileClient_gui_postProcessing_reset.sqf";
