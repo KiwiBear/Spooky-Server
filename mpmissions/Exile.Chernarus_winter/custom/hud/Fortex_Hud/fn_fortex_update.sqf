@@ -17,7 +17,11 @@ _ctrlFoodBlinking = _display displayCtrl 1210;
 _ctrlNotInCombat = _display displayCtrl 1212;
 _ctrlInCombat = _display displayCtrl 1213;
 
-
+if(!ExileClientPlayerIsInCombat) then
+{
+	_ctrlInCombat ctrlShow false;
+	_ctrlNotInCombat ctrlShow true;
+};
 
 /*
 		Get the data (all the datas :^) )
