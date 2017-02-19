@@ -7,15 +7,20 @@ _display = uiNameSpace getVariable ["Fortex_hud", displayNull];
 */
 
 //_ctrlCash = _display displayCtrl 1003;
-
+_ctrlTempBorder = _display displayCtrl 1201;
 _ctrlTempInside = _display displayCtrl 1202;
+_ctrlThirstBorder = _display displayCtrl 1203;
 _ctrlThirstInside = _display displayCtrl 1204;
 _ctrlThirstBlinking = _display displayCtrl 1205;
+_ctrlDamageBorder = _display displayCtrl 1206;
 _ctrlDamageInside = _display displayCtrl 1207;
+_ctrlFoodBorder = _display displayCtrl 1208;
 _ctrlFoodInside = _display displayCtrl 1209;
 _ctrlFoodBlinking = _display displayCtrl 1210;
+_ctrlCombatBorder = _display displayCtrl 1211;
 _ctrlNotInCombat = _display displayCtrl 1212;
 _ctrlInCombat = _display displayCtrl 1213;
+
 
 if(!ExileClientPlayerIsInCombat) then
 {
@@ -31,6 +36,8 @@ _food = (round (ExileClientPlayerAttributes select 2));
 _thirst = (round (ExileClientPlayerAttributes select 3));
 _health = round ((1 - (damage player)) * 100);
 _bodytemp = round (ExileClientPlayerAttributes select 5);
+
+
 /*
 	Run some checks on the data to determine colours/images and all that stuff :^)
 */
