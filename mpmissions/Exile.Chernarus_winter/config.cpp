@@ -3745,6 +3745,7 @@ class CfgExileCustomCode
 	ExileClient_gui_hud_toggleAutoRunIcon = "custom\overrides\ExileClient_gui_hud_toggleAutoRunIcon.sqf";
 	ExileClient_gui_hud_toggleBambiIcon = "custom\overrides\ExileClient_gui_hud_toggleBambiIcon.sqf";
 	ExileClient_gui_hud_toggleEarplugsIcon = "custom\overrides\ExileClient_gui_hud_toggleEarplugsIcon.sqf";
+	ExileClient_gui_hud_toggleCombatIcon = "custom\overrides\ExileClient_gui_hud_toggleCombatIcon.sqf";
 	
 	// Arma 1.66 Fixes
 	ExileClient_gui_postProcessing_initialize = "Fixes\A166Fixes\ExileClient_gui_postProcessing_initialize.sqf";
