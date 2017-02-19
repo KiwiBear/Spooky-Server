@@ -10,6 +10,31 @@
  */
  
 private["_timeElapsed","_hungerFactor","_thirstFactor","_bloodAlcohol","_effectAttribute","_effectValue","_effectDuration","_effectStartTime","_effectValueRemaining","_endEffect","_effectToApply","_hunger","_thirst"];
+
+if (isNil "BleedingDealtWith") then 
+{ 
+	BleedingDealtWith = false; 
+};
+
+if (isNil "CheckForBleedingDone") then 
+{ 
+	CheckForBleedingDone = false; 
+};
+
+if (!(BleedingDealtWith) && (isBleeding player)) then
+{	
+	player setBleedingRemaining ((round(random 120)) + 300);
+	BleedingDealtWith = true;
+	CheckForBleedingDone = true;
+};
+
+if (CheckForBleedingDone && !(isBleeding player)) then
+{
+	CheckForBleedingDone = false;
+	BleedingDealtWith = false;
+};
+
+
 if (isNil "ExileLastStatUpdate") then 
 { 
 	ExileLastStatUpdate = diag_tickTime; 

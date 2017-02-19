@@ -883,7 +883,7 @@ class CraftBandage: Exile_AbstractCraftingRecipe
 	};
 	components[] = 
 	{
-		{4, "Exile_Item_ToiletPaper"}
+		{2, "Exile_Item_ToiletPaper"}
 	};
 };
 
