@@ -7,10 +7,16 @@ _display = uiNameSpace getVariable ["Fortex_hud", displayNull];
 */
 
 //_ctrlCash = _display displayCtrl 1003;
-_ctrlFood = _display displayCtrl 1208;
-_ctrlThirst = _display displayCtrl 1211;
-_ctrlDamage = _display displayCtrl 1210;
-_ctrlTemp = _display displayCtrl 1214;
+
+_ctrlTempInside = _display displayCtrl 1202;
+_ctrlThirstInside = _display displayCtrl 1204;
+_ctrlThirstBlinking = _display displayCtrl 1205;
+_ctrlDamageInside = _display displayCtrl 1207;
+_ctrlFoodInside = _display displayCtrl 1209;
+_ctrlFoodBlinking = _display displayCtrl 1210;
+_ctrlNotInCombat = _display displayCtrl 1212;
+_ctrlInCombat = _display displayCtrl 1213;
+
 
 
 /*
@@ -30,7 +36,18 @@ if ( _thirst >= 90 )				 then { _timage = 4 };
 if ( _thirst >= 70 && _thirst < 90 ) then { _timage = 3 };
 if ( _thirst >= 50 && _thirst < 70 ) then { _timage = 2 };
 if ( _thirst >= 30 && _thirst < 40 ) then { _timage = 1 };
-if ( _thirst < 10 )				     then { _timage = 0 };
+if ( _thirst < 10 ) then 
+{ 
+_timage = 0
+_ctrlThirstInside ctrlShow false;
+_ctrlThirstBlinking ctrlShow true;
+}
+else
+{
+_ctrlThirstBlinking ctrlShow false;
+_ctrlThirstInside ctrlShow true;
+
+};
 _thirstImage = "custom\hud\images\hud\status_thirst_inside_" + str(_timage) + "_ca.paa";
 
 _thirstColour = HUD_COLOUR_DEFAULT;
@@ -45,8 +62,8 @@ if ((_thirst >= 30) && (_thirst < 40)) then {_thirstColour = HUD_COLOUR_108;};
 if ((_thirst >= 20) && (_thirst < 30)) then {_thirstColour = HUD_COLOUR_20;};
 if ((_thirst >= 10) && (_thirst < 20)) then {_thirstColour = HUD_COLOUR_10;};
 
-_ctrlThirst ctrlSetText _thirstImage;
-_ctrlThirst ctrlSetTextColor _thirstColour;
+__ctrlThirstInside ctrlSetText _thirstImage;
+__ctrlThirstInside ctrlSetTextColor _thirstColour;
 
 /*
 		FOOD
@@ -57,7 +74,18 @@ if (_food >= 90)			           then { _fimage = 4 };
 if (_food >= 70 && _food < 90)		   then { _fimage = 3 };
 if (_food >= 50 && _food < 70)	   	   then { _fimage = 2 };
 if (_food >= 30 && _food < 40)		   then { _fimage = 1 };
-if (_food < 10)			               then { _fimage = 0 };
+if (_food < 10)then 
+{ 
+_fimage = 0
+_ctrlFoodInside ctrlShow false;
+_ctrlFoodBlinking ctrlShow true;
+}
+else
+{
+_ctrlFoodBlinking ctrlShow false;
+_ctrlFoodInside ctrlShow true;
+
+};
 _foodImage =  "custom\hud\images\hud\status_food_inside_" + str(_fimage) + "_ca.paa";
 
 _foodColour = HUD_COLOUR_DEFAULT;
@@ -74,8 +102,8 @@ if((_food >= 10) && (_food < 20)) 	then {_foodColour =  HUD_COLOUR_10;};
 if((_food >= 1) && (_food < 10)) 	then {_foodColour =  HUD_COLOUR_0;};
 if(_food < 1) then{_foodColour =  HUD_COLOUR_DEAD;};
 
-_ctrlFood ctrlSetText _foodImage;
-_ctrlFood ctrlSetTextColor _foodColour;
+_ctrlFoodInside ctrlSetText _foodImage;
+_ctrlFoodInside ctrlSetTextColor _foodColour;
 
 
 /*
@@ -104,8 +132,8 @@ if((_health >= 10) && (_health < 20)) then {_damageColour =  HUD_COLOUR_0;};
 if((_health >= 1) && (_health < 10)) then {_damageColour =  HUD_COLOUR_0;};
 if(_health < 1) then{_damageColour =  HUD_COLOUR_DEAD;};
 
-_ctrlDamage ctrlSetText _healthImage;
-_ctrlDamage ctrlSetTextColor _damageColour;
+_ctrlDamageInside ctrlSetText _healthImage;
+_ctrlDamageInside ctrlSetTextColor _damageColour;
 
 /*
 		TEMP
@@ -126,5 +154,5 @@ if((_bodytemp >= 35) && (_bodytemp < 35.7)) 	then {_tempColour =  HUD_COLOUR_GR2
 if((_bodytemp >= 2) && (_bodytemp < 34)) 	then {_tempColour =  HUD_COLOUR_GR2;};
 if(_bodytemp < 1) then{_tempColour =  HUD_COLOUR_DEAD;};
 
-_ctrlTemp ctrlSetText _tempImage;
-_ctrlTemp ctrlSetTextColor _tempColour;
+_ctrlTempInside ctrlSetText _tempImage;
+_ctrlTempInside ctrlSetTextColor _tempColour;
