@@ -32,10 +32,10 @@ _bodytemp = round (ExileClientPlayerAttributes select 5);
 */
 
 _timage = 0;
-if ( _thirst >= 90 )				 then { _timage = 4 };
-if ( _thirst >= 70 && _thirst < 90 ) then { _timage = 3 };
-if ( _thirst >= 50 && _thirst < 70 ) then { _timage = 2 };
-if ( _thirst >= 30 && _thirst < 40 ) then { _timage = 1 };
+if ( _thirst >= 85 )				 then { _timage = 4 };
+if ( _thirst >= 70 && _thirst < 85 ) then { _timage = 3 };
+if ( _thirst >= 40 && _thirst < 70 ) then { _timage = 2 };
+if ( _thirst >= 10 && _thirst < 40 ) then { _timage = 1 };
 if (_thirst < 10) then 
 { 
 _timage = 0;
@@ -70,10 +70,10 @@ _ctrlThirstInside ctrlSetTextColor _thirstColour;
 */
 
 _fimage = 0;
-if (_food >= 90)			           then { _fimage = 4 };
-if (_food >= 70 && _food < 90)		   then { _fimage = 3 };
+if (_food >= 85)			           then { _fimage = 4 };
+if (_food >= 60 && _food < 85)		   then { _fimage = 3 };
 if (_food >= 50 && _food < 70)	   	   then { _fimage = 2 };
-if (_food >= 30 && _food < 40)		   then { _fimage = 1 };
+if (_food >= 10 && _food < 50)		   then { _fimage = 1 };
 if (_food < 10) then 
 { 
 _fimage = 0;
@@ -114,7 +114,7 @@ if (_health >= 90)			           then { _himage = 5 };
 if (_health >= 80 && _health < 90)	   then { _himage = 4 };
 if (_health >= 60 && _health < 80)	   then { _himage = 3 };
 if (_health >= 30 && _health < 60)	   then { _himage = 2 };
-if (_health >= 15 && _health < 30)	   then { _himage = 1 };
+if (_health >= 3 && _health < 30)	   then { _himage = 1 };
 if (_health < 3)			           then { _himage = 0 };
 _healthImage =  "custom\hud\images\hud\status_blood_inside_" + str(_himage) + "_ca.paa";
 
