@@ -9,7 +9,7 @@
 private["_vehicleIDs", "_vehicleSpawnLocations", "_vehicleClassNames", "_spawnedVehicles", "_curVehicleID", 
         "_curVehicleData", "_allVehicleData", "_temp", "_j", "_curClassName", "_classNm", "_k", "_numSpawned", "_numShouldBeSpawned",
         "_numToBeSpawned", "_a", "_cont", "_locations", "_randLoc", "_curVehiclePos", "_distance", "_b", "_usePosATL", 
-		"_vehicle", "_hitpoints", "_h", "_hitpointsData"];
+		"_vehicle", "_hitpoints", "_h","_count", "_hitpointsData"];
 
 _vehicleClassNames = [["B_MRAP_01_F", 2], // 0
 					  ["Exile_Car_HMMWV_UNA_Green", 2], // 1
@@ -109,7 +109,7 @@ if !(_allVehicleData isEqualTo []) then
 };
 
 // (str _spawnedVehicles) call ExileServer_util_log;
-
+_count = 0;
 // spawn vehicles that need to be spawned
 for [{_h = 0}, {_h < (count _spawnedVehicles)}, {_h = _h + 1}] do
 {
@@ -171,6 +171,7 @@ for [{_h = 0}, {_h < (count _spawnedVehicles)}, {_h = _h + 1}] do
 		};
 		_vehicle = [_curClassName, _randLoc, random 360, _usePosATL, "0000"] call ExileServer_object_vehicle_createPersistentVehicle;
 		// "would have spawned a veh" call ExileServer_util_log;
+		_count = _count + 1;
 		_hitpointsData = getAllHitPointsDamage _vehicle;
 		if !(_hitpointsData isEqualTo []) then 
 		{
@@ -196,5 +197,5 @@ for [{_h = 0}, {_h < (count _spawnedVehicles)}, {_h = _h + 1}] do
 		_vehicle call ExileServer_object_vehicle_database_update;
 	};
 };
-"ran custom veh" call ExileServer_util_log;
+("Custom vehicle spawning ran, vehicles respawned: " + str(_count)) call ExileServer_util_log;
 true
