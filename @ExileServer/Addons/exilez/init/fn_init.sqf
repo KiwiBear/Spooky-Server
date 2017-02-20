@@ -93,7 +93,7 @@ _Ryanzombiesjumpdemon                  = 1;      // Jumping Demons
 _Ryanzombiesfeed                       = -1;     // Feeding Zombies
 _Ryanzombiesfeeddemon                  = 1;      // Feeding Demons
                                                     
-_Ryanzombiesinfection                  = 1;     // Enable infections *(-1 to disable)
+_Ryanzombiesinfection                  = -1;     // Enable infections *(-1 to disable)
 _ryanzombiesinfectedchance             = 0;     // Precent chances to be infected on hit
 _ryanzombiesinfectedrate               = 0.03;   // Damage per minute when infected (+/- 30 minutes to live)
 _ryanzombiesinfectedsymptoms           = 0.9;    // Symptomes showed when infected 0.9 = Normal 0.7 = Less 0.5 = None
