@@ -16,9 +16,6 @@ class Factories {
 class Civillian {
 	table = "Civillian";
 };
-class Civillian {
-	table = "Civillian";
-};
 class Industrial {
 	table = "Industrial";
 };
