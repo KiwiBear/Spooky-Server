@@ -1,11 +1,11 @@
 class CfgBuildings
 {
 
-class Tourist {
-	table = "Tourist";
-};
 class MilitaryLow {
 	table = "MilitaryLow";
+};
+class MilitaryHigh {
+	table = "MilitaryHigh";
 };
 class Medical {
 	table = "Medical";
@@ -15,9 +15,6 @@ class Factories {
 };
 class Civillian {
 	table = "Civillian";
-};
-class Industrial {
-	table = "Industrial";
 };
 class Industrial {
 	table = "Industrial";
