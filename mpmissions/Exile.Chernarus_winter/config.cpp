@@ -3687,9 +3687,10 @@ class CfgExileCustomCode
 	ExileClient_gui_selectSpawnLocation_show = "custom\overrides\ExileClient_gui_selectSpawnLocation_show.sqf";
 	//Party ESP GPS
 	ExileClient_gui_hud_renderPartyESP = "custom\overrides\ExileClient_gui_hud_renderPartyESP.sqf";
+	
 	//Random Spawn Outfit
-	ExileServer_object_player_createBambi = "custom\loadout\ExileServer_object_player_createBambi.sqf";
-	ExileServer_object_player_network_createPlayerRequest = "custom\loadout\ExileServer_object_player_network_createPlayerRequest.sqf";
+	// ExileServer_object_player_createBambi = "custom\loadout\ExileServer_object_player_createBambi.sqf";
+	ExileServer_object_player_network_createPlayerRequest = "custom\ExileServer_object_player_network_createPlayerRequest.sqf";
 	
 	// loot spawn fixe
 	ExileClient_system_lootManager_thread_spawn = "custom\overrides\ExileClient_system_lootManager_thread_spawn.sqf";
