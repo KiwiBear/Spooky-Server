@@ -237,11 +237,11 @@ Trigger_4 = [				 //No Man Land
 Trigger_5 = [				 //Mission Trigger
 /* 0  Use this trigger */    True,               
 /* 1  Trigger Positions */   Mission,            
-/* 2  Max Zombies */         15,                 
+/* 2  Max Zombies */         40,                 
 /* 3  Activation Delay */    5,                  
 /* 4  Spawn Delay */         5,                  
 /* 5  Respawn Delay */       5,                  
-/* 6  Show Trigger On Map */ false,               
+/* 6  Show Trigger On Map */ true,               
 /* 7  Marker Color */        "ColorYellow",      
 /* 8  MarkerBrush */         "Solid",            
 /* 9  Marker Alpha */        0.5,                
@@ -250,7 +250,7 @@ Trigger_5 = [				 //Mission Trigger
 /* 12 Loot group */          DocAndAmmo,         
 /* 13 Zombie group */        Hardcore,           
 /* 14 Avoid Territory */     true,              
-/* 15 Mission Radius */      1500,               
+/* 15 Mission Radius */      500,               
 /* 16 Mission SQF */         triggerMission,    
 /* 17 Loot Box */            triggerLootbox     
 ];
