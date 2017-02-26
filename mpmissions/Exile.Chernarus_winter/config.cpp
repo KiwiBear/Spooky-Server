@@ -3953,7 +3953,7 @@ class CfgExileLootSettings
 	 * 50m  = Minimum
 	 * 200m = Maximum
 	 */
-	spawnRadius = 60;
+	spawnRadius = 100;
 
 	/**
 	 * Defines the radius around trader cities where the system should
@@ -4872,7 +4872,7 @@ class CfgTerritories
 };
 class CfgTraderCategories 
 {
-	class Community
+	/* class Community
 	{
 		name = "Community Items";
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\uniform_ca.paa";
@@ -4970,7 +4970,7 @@ class CfgTraderCategories
 		{
 			// Add your items here <3
 		};
-	};
+	}; */
 
 	class Uniforms
 	{
@@ -5095,7 +5095,7 @@ class Equipment
 		};
 	};
 
-	class MuzzleAttachments 
+/* 	class MuzzleAttachments 
 	{
 		name = "Suppressor Attachments";
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemmuzzle_ca.paa";
@@ -5151,7 +5151,7 @@ class Equipment
 			//"O_HMG_01_support_high_F", // Does not seem to work with HMG01, only the lower version does
 			"O_HMG_01_weapon_F"
 		};
-	};
+	}; */
 
 	class OpticAttachments 
 	{
@@ -5353,7 +5353,7 @@ class Equipment
 		};
 	};
 
-	class Navigation
+/* 	class Navigation
 	{
 		name = "Special Environment";
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
@@ -5369,7 +5369,7 @@ class Equipment
 			"G_O_Diving",
 			"G_I_Diving"			
 		};
-	};
+	}; */
 
 	class Backpacks
 	{
@@ -5482,7 +5482,7 @@ class Equipment
 		};
 	};
 
-	class Flares 
+/* 	class Flares 
 	{
 		name = "Flares";
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
@@ -5613,13 +5613,13 @@ class Equipment
 			"Exile_Weapon_PK",
 			"Exile_Weapon_PKP"
 
-			/*
-			"MMG_01_hex_F",
-			"MMG_01_tan_F",
-			"MMG_02_black_F",
-			"MMG_02_camo_F",
-			"MMG_02_sand_F"
-			*/
+			
+			// "MMG_01_hex_F",
+			// "MMG_01_tan_F",
+			// "MMG_02_black_F",
+			// "MMG_02_camo_F",
+			// "MMG_02_sand_F"
+			
 		};
 	};
 
@@ -5894,15 +5894,13 @@ class Equipment
 			"U_O_Wetsuit",
 			"U_B_Wetsuit"
 		};
-	};
+	}; */
 };
 
 class CfgTraders
 {
-	/**
-	 * Weapons, scopes, silencers, ammo
-	 */
-	class Exile_Trader_Armory
+
+/* 	class Exile_Trader_Armory
 	{
 		name = "ARMORY";
 		showWeaponFilter = 1;
@@ -5922,9 +5920,7 @@ class CfgTraders
 		};
 	};
 
-	/**
-	 * Satchels, nades, UAVs, static MGs
-	 */
+
 	class Exile_Trader_SpecialOperations
 	{
 		name = "SPECIAL OPERATIONS";
@@ -5938,7 +5934,7 @@ class CfgTraders
 			"Explosives",
 			"Navigation"
 		};
-	};
+	}; */
 
 	/**
 	 * Uniforms, vests, helmets, backpacks
@@ -5956,10 +5952,8 @@ class CfgTraders
 		};
 	};
 
-	/**
-	 * Cans, cans, cans
-	 */
-	class Exile_Trader_Food
+
+/* 	class Exile_Trader_Food
 	{
 		name = "FAST FOOD";
 		showWeaponFilter = 0;
@@ -5970,9 +5964,7 @@ class CfgTraders
 		};
 	};
 
-	/**
-	 * Light bulbs, metal, etc.
-	 */
+
 	class Exile_Trader_Hardware
 	{
 		name = "HARDWARE";
@@ -5984,9 +5976,6 @@ class CfgTraders
 		};
 	};
 
-	/**
-	 * Sells cars and general vehicles
-	 */
 	class Exile_Trader_Vehicle
 	{
 		name = "VEHICLE";
@@ -5998,9 +5987,7 @@ class CfgTraders
 		};
 	};
 
-	/**
-	 * Sells choppers and planes
-	 */
+
 	class Exile_Trader_Aircraft
 	{
 		name = "AIRCRAFT";
@@ -6012,9 +5999,7 @@ class CfgTraders
 		};
 	};
 
-	/**
-	 * Sells ships and boats
-	 */ 
+
 	class Exile_Trader_Boat
 	{
 		name = "BOAT";
@@ -6035,9 +6020,7 @@ class CfgTraders
 		};
 	};
 
-	/**
-	 * Sells Community Items
-	 */ 
+
 	class Exile_Trader_CommunityCustoms
 	{
 		name = "COMMUNITY";
@@ -6136,7 +6119,7 @@ class CfgTraders
 		{
 			"Community10"
 		};
-	};
+	}; */
 };
 class CfgTrading 
 {
@@ -6159,7 +6142,8 @@ class CfgTrading
 		Level6 = 25000;
 	};
 };
-class CfgVehicleCustoms
+
+/* class CfgVehicleCustoms
 {
 	///////////////////////////////////////////////////////////////////////////////
 	// QUAD BIKES
@@ -6954,6 +6938,7 @@ class CfgVehicleCustoms
 		};
 	};
 };
+ */
 class CfgVehicleTransport 
 {
 	class Exile_Container_SupplyBox
