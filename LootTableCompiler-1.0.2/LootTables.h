@@ -92,23 +92,23 @@
 // Towers, Barracks, Hangars etc.
 ///////////////////////////////////////////////////////////////////////////////
 > MilitaryLow
-40, AssaultRifleLow
+30, AssaultRifleLow
 15, MilitaryBackpacks
 5, MilitaryClothes
 5, MilitaryHeadgear
 15, MilitaryVests
-30, AllAmmo
+40, AllAmmo
 15, Optics
 15, Supressors
 3, Bipods
 3, Pointers
 
 >MilitaryHigh
-30, AssaultRifleLow
-5, AssaultRifleHigh
-5, LMG
-5, SniperLow
-30, AllAmmo
+20, AssaultRifleLow
+3, AssaultRifleHigh
+2, LMG
+3, SniperLow
+40, AllAmmo
 15, MilitaryBackpacks
 5, MilitaryClothes
 5, MilitaryHeadgear
@@ -129,8 +129,8 @@
 70, MedicalItems
 
 >MedicMil
-80, MedicalItems
-20, AssaultRifleLow
+90, MedicalItems
+10, AssaultRifleLow
 
 ///////////////////////////////////////////////////////////////////////////////
 // Custom Crates

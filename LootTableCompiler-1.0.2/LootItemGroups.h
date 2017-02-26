@@ -436,7 +436,6 @@
 10, CUP_20Rnd_TE1_Green_Tracer_762x51_DMR
 10, CUP_20Rnd_TE1_White_Tracer_762x51_DMR //*****
 //
-10, hlc_5rnd_3006_1903 // 5rnd .30-06 Ball
 10, CUP_5Rnd_762x51_M24 // M24
 10, 20Rnd_762x51_Mag // 7.62 20rnd vanilla
 //
@@ -725,38 +724,32 @@
 10, ItemGPS // GPS
 	
 >MilitaryVests
-1, V_PlateCarrierGL_blk
-10, V_PlateCarrier1_blk
-10, V_PlateCarrier1_rgr
-10, CUP_V_I_RACS_Carrier_Vest_wdl_3
-10, Exile_Vest_Snow
-10, CUP_V_B_IOTV_AT
-10, CUP_V_B_IOTV_SL
-10, CUP_V_B_MTV
-10, CUP_V_BAF_Osprey_Mk2_DDPM_Empty
-10, CUP_V_BAF_Osprey_Mk2_DPM_Empty
-10, V_TacVestIR_blk
-10, CUP_V_B_Eagle_SPC_Officer
-10, TAC_PBDFG2_B_1
-10, TAC_PBDFG2CPL_BK
-10, TAC_ArmorVest_Winter
-10, TAC_V_CTBA
-10, TAC_V_Sheriff_BA_TB2
-10, TAC_V_Sheriff_BA_TB3
-10, TAC_V_Sheriff_BA_T3
-10, TAC_V_Sheriff_BA_TBL
-10, TAC_V_Sheriff_BA_TL
-10, TAC_EI_RRVCQB_B
-10, TAC_V_tacSVD_BK
-10, TAC_V_tacSVD_ODL
-10, TRYK_V_ArmorVest_AOR2_2
-10, TRYK_V_ArmorVest_Ranger2
-10, TRYK_V_ArmorVest_Delta
-10, TRYK_V_PlateCarrier_ACU
-10, TRYK_V_PlateCarrier_wood
-10, TRYK_V_PlateCarrier_ACU_L
-10, TRYK_V_PlateCarrier_blk_L
-10, TRYK_V_PlateCarrier_JSDF
+15, V_TacVestIR_blk //*****
+15, TAC_V_tacSVD_BK
+15, TAC_V_tacSVD_OD
+15, V_TacVest_blk
+15, V_TacVest_brn          // Low Tier Vests
+15, V_TacVest_camo
+15, V_TacVest_khk
+15, V_TacVest_oli
+15, V_TacVest_blk_POLICE
+15, V_I_G_resistanceLeader_F //*****
+//
+1, V_PlateCarrierGL_blk //*****
+3, V_PlateCarrier2_rgr
+1, CUP_V_B_IOTV_AT
+3, CUP_V_BAF_Osprey_Mk2_DPM_Empty
+3, TAC_PBDFG2_B_1
+3, TAC_ArmorVest_Winter
+3, TRYK_V_PlateCarrier_wood_L
+3, TRYK_V_PlateCarrier_blk_L     
+1, TRYK_V_PlateCarrier_blk               // High Tier Vests
+3, TRYK_V_PlateCarrier_ACU_L
+1, TRYK_V_PlateCarrier_ACU
+3, TRYK_V_ArmorVest_AOR2_2
+3, TRYK_V_ArmorVest_Delta2
+3, TRYK_V_ArmorVest_green2
+3, TRYK_V_ArmorVest_Ranger2 //*****
 
 >MilitaryClothes
 1, U_I_FullGhillie_lsh
@@ -785,25 +778,33 @@
 10, Exile_Uniform_Woodland
 
 >MilitaryBackpacks
-1, B_Bergen_dgtl_F
+1, B_Bergen_dgtl_F //*****
 1, B_Bergen_hex_F
 1, B_Bergen_mcamo_F
 1, B_Bergen_tna_F
-10, B_Carryall_cbr
-10, B_Carryall_ghex_F
-10, B_Carryall_ocamo
-10, B_Carryall_khk
-10, B_Carryall_mcamo
-10, G_Carryall_Ammo
-10, B_Carryall_oucamo
-10, TRYK_B_Coyotebackpack_BLK
-10, TRYK_B_Coyotebackpack
-10, TRYK_B_Coyotebackpack_OD
-30, TRYK_B_Coyotebackpack_WH
-10, TRYK_B_Carryall_JSDF
-10, TRYK_B_Carryall_blk
-30, TRYK_B_Carryall_wh
-10, TRYK_B_Carryall_wood
+3, B_Carryall_cbr
+3, B_Carryall_ghex_F
+3, B_Carryall_ocamo
+3, B_Carryall_khk
+3, B_Carryall_mcamo
+3, G_Carryall_Ammo                 // High Capacity Backpacks
+3, B_Carryall_oucamo
+3, TRYK_B_Coyotebackpack_BLK
+3, TRYK_B_Coyotebackpack
+3, TRYK_B_Coyotebackpack_OD
+3, TRYK_B_Coyotebackpack_WH
+3, TRYK_B_Carryall_JSDF
+3, TRYK_B_Carryall_blk
+3, TRYK_B_Carryall_wh
+3, TRYK_B_Carryall_wood //*****
+//
+20, B_Kitbag_cbr //*****
+20, B_Kitbag_rgr
+20, B_Kitbag_mcamo
+20, CUP_B_RUS_Backpack           // Medium Capacity Backpacks
+20, B_TacticalPack_blk
+20, B_TacticalPack_rgr
+20, B_TacticalPack_mcamo //*****
 
 >MilitaryHeadgear
 10, TRYK_H_WH
@@ -905,9 +906,9 @@
 ///////////////////////////////////////////////////////////////////////////////
 
 > MedicalItems
-2, Exile_Item_InstaDoc
-50, Exile_Item_Bandage
-8, Exile_Item_Vishpirin
+1, Exile_Item_InstaDoc
+65, Exile_Item_Bandage
+4, Exile_Item_Vishpirin
 30, Exile_Item_Heatpack
 
 >IndustrialItems
