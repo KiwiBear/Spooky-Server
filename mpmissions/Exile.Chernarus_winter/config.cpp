@@ -4978,7 +4978,43 @@ class CfgTraderCategories
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\uniform_ca.paa";
 		items[] = 
 		{
-			"U_C_Journalist"
+			"TRYK_U_B_Denim_T_WH",
+			"TRYK_U_B_RED_T_BR",
+			"TRYK_U_B_Denim_T_BK",
+			"TRYK_SUITS_BLK_F",
+			"TRYK_shirts_DENIM_BK",
+			"TRYK_shirts_DENIM_BL",
+			"TRYK_shirts_DENIM_BWH",
+			"TRYK_shirts_DENIM_od",
+			"TRYK_shirts_DENIM_R",
+			"TRYK_shirts_DENIM_RED2",
+			"TRYK_shirts_DENIM_WH",
+			"TRYK_shirts_DENIM_WHB",
+			"TRYK_shirts_DENIM_ylb",
+			"TRYK_shirts_TAN_PAD_YEL",
+			"TRYK_shirts_OD_PAD_YEL",
+			"TRYK_shirts_BLK_PAD_YEL",
+			"TRYK_shirts_PAD_YEL",
+			"TRYK_shirts_TAN_PAD_RED2",
+			"TRYK_shirts_OD_PAD_RED2",
+			"TRYK_shirts_BLK_PAD_RED2",
+			"TRYK_shirts_PAD_RED2",
+			"TRYK_shirts_TAN_PAD",
+			"TRYK_shirts_OD_PAD",
+			"TRYK_shirts_BLK_PAD",
+			"TRYK_shirts_PAD",
+			"TRYK_shirts_TAN_PAD_BLU3",
+			"TRYK_shirts_OD_PAD_BLU3",
+			"TRYK_shirts_BLK_PAD_BLU3",
+			"TRYK_shirts_PAD_BLU3",
+			"TRYK_shirts_TAN_PAD_BLW",
+			"TRYK_shirts_OD_PAD_BLW",
+			"TRYK_shirts_BLK_PAD_BLW",
+			"TRYK_shirts_PAD_BLW",
+			"TRYK_shirts_TAN_PAD_BL",
+			"TRYK_shirts_OD_PAD_BL",
+			"TRYK_shirts_BLK_PAD_BL",
+			"TRYK_shirts_PAD_BL"
 		};
 	};
 
@@ -4988,7 +5024,13 @@ class CfgTraderCategories
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\vest_ca.paa";
 		items[] = 
 		{
-			"V_Press_F"
+			"V_Chestrig_blk",
+			"V_Chestrig_rgr",
+			"V_Chestrig_khk",
+			"V_Chestrig_oli",
+			"V_TacChestrig_cbr_F",
+			"V_TacChestrig_grn_F",
+			"V_TacChestrig_oli_F"
 		};
 	};
 
@@ -4998,19 +5040,15 @@ class CfgTraderCategories
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\headgear_ca.paa";
 		items[] =
 		{
-			"CUP_srifle_LeeEnfield",
-			"hlc_VOG25_AK",
-			"hlc_optic_kobra",
-			"optic_Aco",
-			"Exile_Magazine_8Rnd_9x18",
-			"Exile_Magazine_7Rnd_45ACP",
-			"Exile_Weapon_Makarov",
-			"CUP_5x_22_LR_17_HMR_M",
-			"CUP_10x_303_M",
-			"Exile_Magazine_6Rnd_45ACP",
-			"Exile_Weapon_Taurus",
-			"CUP_8Rnd_B_Beneli_74Pellets",
-			"CUP_sgun_M1014"
+			"CUP_sgun_M1014",
+			"CUP_srifle_LeeEnfield_rail",
+			"CUP_smg_MP5A5",
+			"CUP_smg_MP5SD6",
+			"CUP_sgun_Saiga12K",
+			"CUP_smg_bizon",
+			"CUP_srifle_CZ550",
+			"hlc_rifle_M1903A1",
+			"hlc_rifle_M1903A1_unertl"
 		};
 	};
 
@@ -5020,7 +5058,7 @@ class Equipment
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\Goggles_ca.paa";
 		items[] =
 		{
-			"G_Balaclava_TI_G_blk_F",
+/* 			"G_Balaclava_TI_G_blk_F",
 			"TRYK_Shemagh_G",
 			"H_RacingHelmet_3_F",
 			"TRYK_SUITS_BLK_F",
@@ -5036,7 +5074,7 @@ class Equipment
 			"TRYK_U_denim_hood_mc",
 			"TRYK_U_denim_hood_3c",
 			"TRYK_U_denim_hood_nc",
-			"H_Shemag_olive"
+			"H_Shemag_olive" */
 		};
 	};
 
@@ -5046,7 +5084,7 @@ class Equipment
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
 		items[] = 
 		{
-			"Exile_Item_PlasticBottleDirtyWater",
+/* 			"Exile_Item_PlasticBottleDirtyWater",
 			"Exile_Item_Sand",
 			"Exile_Item_CanOpener",
 			"Exile_Item_Bandage",
@@ -5072,7 +5110,7 @@ class Equipment
 			"Exile_Item_ExtensionCord",
 			"Exile_Item_BaseCameraKit",
 			"Exile_Item_FloodLightKit",
-			"Exile_Item_PlasticBottleEmpty"
+			"Exile_Item_PlasticBottleEmpty" */
 		};
 	};
 
@@ -5159,45 +5197,32 @@ class Equipment
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemoptic_ca.paa";
 		items[] = 
 		{
-			"optic_Aco",
-			"optic_ACO_grn",
-			"optic_ACO_grn_smg",
-			"optic_Aco_smg",
-			"optic_AMS",
-			"optic_AMS_khk",
-			"optic_AMS_snd",
-			"optic_Arco",
-			"optic_DMS",
-			"optic_Hamr",
-			"optic_Holosight",
-			"optic_Holosight_smg",
-			"optic_KHS_blk",
-			"optic_KHS_hex",
-			"optic_KHS_old",
-			"optic_KHS_tan",
-			"optic_LRPS",
-			"optic_MRCO",
-			"optic_MRD",
-			"optic_Nightstalker",
-			"optic_NVS",
-			"optic_SOS",
-			//"optic_tws",
-			//"optic_tws_mg",
-			"optic_Yorris",
-			//Apex
-			"optic_Arco_blk_F",
-			"optic_Arco_ghex_F",
-			"optic_DMS_ghex_F",
-			"optic_Hamr_khk_F",
-			"optic_ERCO_blk_F",
-			"optic_ERCO_khk_F",
-			"optic_ERCO_snd_F",
-			"optic_SOS_khk_F",
-			"optic_LRPS_tna_F",
-			"optic_LRPS_ghex_F",
-			"optic_Holosight_blk_F",
-			"optic_Holosight_khk_F",
-			"optic_Holosight_smg_blk_F"
+			"optic_Aco",  //ACO (Red)
+			"optic_ACO_grn",  //ACO (Green)
+			"optic_Aco_smg",  //ACO SMG (Red)
+			"optic_ACO_grn_smg",  //ACO SMG (Green)
+			"optic_Holosight",  //Mk17 Holosight
+			"optic_Holosight_smg",  //Mk17 Holosight SMG
+			"optic_MRD",  //MRD
+			"optic_Holosight_blk_F",  //Mk17 Holosight (Black)
+			"optic_Holosight_khk_F",  //Mk17 Holosight (Khaki)
+			"optic_Holosight_smg_blk_F",  //Mk17 Holosight SMG (Black)
+			"CUP_optic_Kobra",  //Kobra Reflex Sight
+			"CUP_optic_HoloBlack",  //EoTech Holo (Black)
+			"CUP_optic_HoloWdl",  //EoTech Holo (Woodland)
+			"CUP_optic_HoloDesert",  //EoTech Holo (Desert)
+			"CUP_optic_Eotech533",  //EoTech 533 HWS (Tan)
+			"CUP_optic_Eotech533Grey",  //EoTech 533 HWS (Grey)
+			"CUP_optic_CompM4",  //Aimpoint CompM4 (Black)
+			"CUP_optic_CompM2_Black",  //M68 CCO (Black)
+			"CUP_optic_CompM2_Woodland",  //M68 CCO (Woodland)
+			"CUP_optic_CompM2_Woodland2",  //M68 CCO (Woodland 2)
+			"CUP_optic_CompM2_Desert",  //M68 CCO (Desert)
+			"CUP_optic_ZDDot",  //Meopta ZD-Dot
+			"CUP_optic_MRad",  //Meopta Rapid Acquisition Dot
+			"CUP_optic_TrijiconRx01_desert",  //Trijicon Rx01 Red Dot sight (Desert)
+			"CUP_optic_TrijiconRx01_black",  //Trijicon Rx01 Red Dot sight (Black)
+			"hlc_optic_kobra"  //Kobra Sight
 		};
 	};
 
@@ -5208,19 +5233,19 @@ class Equipment
 		items[] = 
 		{
 			
-			"Exile_Item_DuctTape",
 			"Exile_Item_ExtensionCord",
-			"Exile_Item_FuelCanisterEmpty",
-			"Exile_Item_JunkMetal",
+			"Exile_Item_FuelCanisterEmpty",			
 			"Exile_Item_LightBulb",
+			"Exile_Item_CamoTentKit",
+			"Exile_Item_CarWheel"
+			
+			/*
+			"Exile_Item_DuctTape",
+			"Exile_Item_CodeLock"
 			"Exile_Item_MetalBoard",
 			"Exile_Item_MetalPole",
 			"Exile_Item_SafeKit",
-			"Exile_Item_CamoTentKit",
-			"Exile_Item_CodeLock"
-			
-			/*
-			--Not for Sale--
+			"Exile_Item_JunkMetal",
 			"Exile_Item_MetalScrews",
 			"Exile_Item_MetalWire",
 			"Exile_Item_Laptop",
@@ -5249,7 +5274,9 @@ class Equipment
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
 		items[] =
 		{
-			"Exile_Item_EMRE",		
+			"Exile_Item_Moobar"
+			
+/* 			"Exile_Item_EMRE",		
 			"Exile_Item_GloriousKnakworst",
 			"Exile_Item_Surstromming",
 			"Exile_Item_SausageGravy",
@@ -5263,8 +5290,7 @@ class Equipment
 			"Exile_Item_Noodles",
 			"Exile_Item_SeedAstics",
 			"Exile_Item_Raisins",
-			"Exile_Item_Moobar",
-			"Exile_Item_InstantCoffee"
+			"Exile_Item_InstantCoffee" */
 		};
 	};
 
@@ -5274,14 +5300,15 @@ class Equipment
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
 		items[] =
 		{
-			"Exile_Item_PlasticBottleCoffee",
+			"Exile_Item_ChocolateMilk"
+			
+			/* "Exile_Item_PlasticBottleCoffee",
 			"Exile_Item_PowerDrink",
 			"Exile_Item_PlasticBottleFreshWater",
 			"Exile_Item_Beer",
 			"Exile_Item_EnergyDrink",
-			"Exile_Item_ChocolateMilk",
 			"Exile_Item_MountainDupe",
-			"Exile_Item_PlasticBottleEmpty"
+			"Exile_Item_PlasticBottleEmpty" */
 		};
 	};
 
@@ -5291,15 +5318,19 @@ class Equipment
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
 		items[] = 
 		{
+			"ItemMap",
+			"ItemCompass",
+			"ItemRadio",
+			"ItemWatch",
 			"Exile_Item_Matches",
-			"Exile_Item_CookingPot",
+			"Binocular"
+			
+			/* "Exile_Item_CookingPot",
 			"Exile_Item_CanOpener",
 			"Exile_Item_Handsaw",
 			"Exile_Item_Pliers",
 			"Exile_Item_Grinder",
 			"Exile_Item_Foolbox",
-
-			/*
 			"Exile_Item_CordlessScrewdriver",
 			"Exile_Item_FireExtinguisher",
 			"Exile_Item_Hammer",
@@ -5310,30 +5341,20 @@ class Equipment
 			"Exile_Item_SleepingMat",	
 			"Exile_Item_ToiletPaper",			
 			"Exile_Item_ZipTie",
-			*/
-
-			"Binocular",
 			"Rangefinder",
-			/*
 			"Laserdesignator",
 			"Laserdesignator_02",
 			"Laserdesignator_03",
-			*/
 			"NVGoggles",
 			"NVGoggles_INDEP",
 			"NVGoggles_OPFOR",
 			"ItemGPS",
-			"ItemMap",
-			"ItemCompass",
-			"ItemRadio",
-			"ItemWatch",
 			"Exile_Item_XM8",
-			
 			//Apex
 			"O_NVGoggles_hex_F",
 			"O_NVGoggles_urb_F",
 			"O_NVGoggles_ghex_F",
-			"NVGoggles_tna_F"
+			"NVGoggles_tna_F" */
 		};
 	};
 
@@ -5343,11 +5364,11 @@ class Equipment
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
 		items[] = 
 		{
-			"Exile_Item_InstaDoc",
 			"Exile_Item_Bandage",
-			"Exile_Item_Vishpirin",
 			"Exile_Item_Heatpack"
-
+			
+			//"Exile_Item_InstaDoc",
+			//"Exile_Item_Vishpirin",
 			// Not available in 0.9.4!
 			//"Exile_Item_Defibrillator"
 		};
@@ -5377,7 +5398,28 @@ class Equipment
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\backpack_ca.paa";
 		items[] = 
 		{
-			"B_AssaultPack_blk"
+			"B_AssaultPack_blk",
+			"B_AssaultPack_cbr",
+			"B_AssaultPack_dgtl",
+			"B_AssaultPack_rgr",
+			"B_AssaultPack_ocamo",
+			"B_AssaultPack_khk",
+			"B_AssaultPack_mcamo",
+			"B_AssaultPack_sgg",
+			"CUP_B_ACRScout_m95",
+			"B_FieldPack_blk",
+			"B_FieldPack_cbr",
+			"B_FieldPack_ocamo",
+			"B_FieldPack_khk",
+			"B_FieldPack_oli",
+			"B_FieldPack_oucamo",
+			"CUP_B_RPGPack_Khaki",
+			"TRYK_B_tube_blk",
+			"TRYK_B_tube_cyt",
+			"TRYK_B_tube_od",
+			"CUP_B_AssaultPack_ACU",
+			"CUP_B_AssaultPack_Black",
+			"CUP_B_AssaultPack_Coyote"
 		};
 	};
 
@@ -5387,6 +5429,24 @@ class Equipment
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\CargoMag_ca.paa";
 		items[] = 
 		{
+			"CUP_10Rnd_9x19_Compact",
+			"CUP_17Rnd_9x19_glock17",
+			"CUP_7Rnd_45ACP_1911",
+			"CUP_15Rnd_9x19_M9",
+			"CUP_8Rnd_9x18_Makarov_M",
+			"CUP_20Rnd_B_765x17_Ball_M",
+			"CUP_6Rnd_45ACP_M",
+			"CUP_8Rnd_B_Beneli_74Slug",  //shotgun slug
+			"CUP_8Rnd_B_Beneli_74Pellets",  //shotgun pellets
+			"CUP_10x_303_M",  //enfield ammo
+			"CUP_30Rnd_9x19_MP5",  //MP5 ammo
+			"CUP_8Rnd_B_Saiga12_74Slug_M",  //saiga slugs
+			"CUP_8Rnd_B_Saiga12_74Pellets_M",  //saiga pellets
+			"CUP_64Rnd_9x19_Bizon_M",  //bizon ammo
+			"CUP_5x_22_LR_17_HMR_M",  //cz-550 ammo
+			"hlc_5rnd_3006_1903"  //M1903A1 ammo
+
+			/* 			
 			"100Rnd_65x39_caseless_mag",
 			"100Rnd_65x39_caseless_mag_Tracer",
 			"10Rnd_127x54_Mag",
@@ -5478,7 +5538,8 @@ class Equipment
 			"Exile_Magazine_5Rnd_127x108_Bullet_Cam_Mag",
 			"Exile_Magazine_10Rnd_93x64_DMR_05_Bullet_Cam_Mag",
 			"Exile_Magazine_7Rnd_408_Bullet_Cam_Mag",
-			"Exile_Magazine_10Rnd_338_Bullet_Cam_Mag"
+			"Exile_Magazine_10Rnd_338_Bullet_Cam_Mag" 
+			*/
 		};
 	};
 
@@ -5561,7 +5622,7 @@ class Equipment
 			"SatchelCharge_Remote_Mag",
 			"SLAMDirectionalMine_Wire_Mag"
 		};
-	};
+	}; */
 
 	class Pistols 
 	{
@@ -5569,22 +5630,17 @@ class Equipment
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\handgun_ca.paa";
 		items[] = 
 		{
-			"hgun_ACPC2_F",
-			"hgun_P07_F",
-			"hgun_Pistol_heavy_01_F",
-			"hgun_Pistol_heavy_02_F",
-			"hgun_Pistol_Signal_F",
-			"hgun_Rook40_F",
-			"Exile_Weapon_Colt1911",
-			"Exile_Weapon_Makarov",
-			"Exile_Weapon_Taurus",
-			"Exile_Weapon_TaurusGold",
-			//Apex
-			"hgun_Pistol_01_F",
-			"hgun_P07_khk_F"
+			"CUP_hgun_Compact",
+			"CUP_hgun_Glock17",
+			"CUP_hgun_Colt1911",
+			"CUP_hgun_M9",
+			"CUP_hgun_Makarov",
+			"CUP_hgun_SA61",
+			"CUP_hgun_TaurusTracker455"
 		};
 	};
 
+	/*
 	class SubMachineGuns 
 	{
 		name = "Sub Machine Guns";
@@ -5941,13 +5997,23 @@ class CfgTraders
 	 */
 	class Exile_Trader_Equipment
 	{	
-		name = "RickGrimes";
+		name = "Gear";
 		showWeaponFilter = 0;
 		categories[] = 
 		{
+			"Uniforms",
+			"Vests",
+			"Backpacks",
 			"Weapons",
-			"Equipment",
-			"Supplies"
+			"Pistols",
+			"Ammunition",
+			"BipodAttachments",
+			"OpticAttachments",
+			"Hardware",
+			"Food",
+			"Drinks",
+			"Tools",
+			"FirstAid"
 			
 		};
 	};

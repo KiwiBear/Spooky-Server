@@ -313,6 +313,7 @@
 10, CUP_8Rnd_B_Saiga12_74Pellets_M // saiga pellets
 10, CUP_64Rnd_9x19_Bizon_M // bizon ammo
 10, CUP_5x_22_LR_17_HMR_M // cz-550 ammo
+10, hlc_5rnd_3006_1903 // M1903A1 ammo
 //
 10, hlc_30Rnd_762x39_b_ak //*****
 10, hlc_30Rnd_762x39_t_ak
