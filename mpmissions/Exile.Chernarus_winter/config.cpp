@@ -3690,7 +3690,7 @@ class CfgExileCustomCode
 	
 	//Random Spawn Outfit
 	// ExileServer_object_player_createBambi = "custom\loadout\ExileServer_object_player_createBambi.sqf";
-	ExileServer_object_player_network_createPlayerRequest = "custom\ExileServer_object_player_network_createPlayerRequest.sqf";
+	ExileServer_object_player_network_createPlayerRequest = "custom\overrides\ExileServer_object_player_network_createPlayerRequest.sqf";
 	
 	// loot spawn fixe
 	ExileClient_system_lootManager_thread_spawn = "custom\overrides\ExileClient_system_lootManager_thread_spawn.sqf";
