@@ -643,7 +643,7 @@ class BreachingChargeMetal: Exile_AbstractCraftingRecipe
 	components[] = 
 	{
 		{1, "Exile_Item_DuctTape"},
-		{1, "SatchelCharge_Remote_Mag"}
+		{3, "SatchelCharge_Remote_Mag"}
 	};
 };
 
@@ -662,7 +662,7 @@ class BreachingChargeWood: Exile_AbstractCraftingRecipe
 	components[] = 
 	{
 		{1, "Exile_Item_DuctTape"},
-		{1, "DemoCharge_Remote_Mag"}
+		{2, "DemoCharge_Remote_Mag"}
 	};
 };
 
@@ -1049,7 +1049,7 @@ class CraftRepairKitMetal: Exile_AbstractCraftingRecipe
 	};
 	components[] = 
 	{
-		{4, "Exile_Item_MetalBoard"}
+		{2, "Exile_Item_MetalBoard"}
 	};
 	tools[] = 
 	{
@@ -1323,7 +1323,7 @@ class CraftWoodWallHalf: Exile_AbstractCraftingRecipe
 	};
 	components[] = 
 	{
-		{5, "Exile_Item_WoodPlank"},
+		{4, "Exile_Item_WoodPlank"},
 		{1, "Exile_Item_MetalScrews"}
 	};
 	tools[] = 
@@ -1345,6 +1345,26 @@ class CraftWoodWindow: Exile_AbstractCraftingRecipe
 	{
 		{8, "Exile_Item_WoodPlank"},
 		{1, "Exile_Item_MetalScrews"}
+	};
+	tools[] = 
+	{
+		"Exile_Item_Hammer",
+		"Exile_Item_Handsaw"
+	};
+};
+class CraftWoodWallFromWindow: Exile_AbstractCraftingRecipe
+{
+	name = "Craft Wood Wall (from window)";
+	pictureItem = "Exile_Item_WoodWallKit";
+	requiredInteractionModelGroup = "WorkBench";
+	returnedItems[] = 
+	{
+		{1, "Exile_Item_WoodWallKit"}
+	};
+	components[] = 
+	{
+		{2, "Exile_Item_WoodPlank"},
+		{1, "Exile_Item_WoodWindowKit"}
 	};
 	tools[] = 
 	{
@@ -1684,59 +1704,7 @@ class Chair: Exile_AbstractCraftingRecipe
 
 class CfgExileArsenal
 {
-	///////////////////////////////////////////////////////////////////////////////
-	//IRON FRONT ITEMS
-	///////////////////////////////////////////////////////////////////////////////
-	class LIB_SVT_40								{ quality = 1; price = 50; };
-	class LIB_G43									{ quality = 1; price = 50; };
-	class LIB_M38									{ quality = 1; price = 50; };
-	class LIB_FLARE_PISTOL							{ quality = 1; price = 50; };
-	class LIB_1Rnd_flare_red						{ quality = 1; price = 50; };
-	class LIB_TT33									{ quality = 1; price = 50; };
-	class LIB_P38									{ quality = 1; price = 50; };
-	class LIB_K98									{ quality = 1; price = 50; };
-	class LIB_M1_Garand								{ quality = 1; price = 50; };
-	class lib_8Rnd_762x25							{ quality = 1; price = 50; };
-	class LIB_8Rnd_9x19								{ quality = 1; price = 50; };
-	class LIB_5Rnd_792x57_t							{ quality = 1; price = 50; };
-	class LIB_5Rnd_762x54							{ quality = 1; price = 50; };
-	class LIB_10Rnd_762x54							{ quality = 1; price = 50; };
-	class LIB_10Rnd_792x57							{ quality = 1; price = 50; };
-	class LIB_8Rnd_762x63							{ quality = 1; price = 50; };
-	class G_LIB_GER_Gloves2							{ quality = 1; price = 50; };
-	class G_LIB_GER_Gloves3							{ quality = 1; price = 50; };
-	class H_LIB_SOV_Ushanka2						{ quality = 1; price = 50; };
-	class B_LIB_GER_Backpack						{ quality = 1; price = 50; };
-	class B_LIB_SOV_RA_Rucksack						{ quality = 1; price = 50; };
-	class B_LIB_SOV_RA_Rucksack_Green				{ quality = 1; price = 50; };
-	class B_LIB_US_Backpack							{ quality = 1; price = 50; };
-	class B_LIB_US_MGbag_Empty						{ quality = 1; price = 50; };
-	class B_LIB_GER_Tonister34_cowhide				{ quality = 1; price = 50; };
-	class V_LIB_WP_OfficerVest						{ quality = 1; price = 50; };
-	class V_LIB_SOV_RA_OfficerVest					{ quality = 1; price = 50; };
-	class V_LIB_GER_VestSTG							{ quality = 1; price = 50; };
-	class V_LIB_GER_VestUnterofficer				{ quality = 1; price = 50; };
-	class V_LIB_GER_FieldOfficer					{ quality = 1; price = 50; };
-	class V_LIB_GER_PioneerVest						{ quality = 1; price = 50; };
-	class V_LIB_SOV_RA_TankOfficerSet				{ quality = 1; price = 50; };
-	class U_LIB_GER_Soldier_camo					{ quality = 1; price = 50; };
-	class U_LIB_GER_Soldier_camo2					{ quality = 1; price = 50; };
-	class U_LIB_GER_Soldier_camo3					{ quality = 1; price = 50; };
-	class U_LIB_GER_Soldier_camo4					{ quality = 1; price = 50; };
-	class U_LIB_GER_Soldier_camo5					{ quality = 1; price = 50; };
-	class U_LIB_SOV_Strelok							{ quality = 1; price = 50; };
-	class U_LIB_SOV_Strelok_summer					{ quality = 1; price = 50; };
-	class U_LIB_SOV_Kapitan							{ quality = 1; price = 50; };
-	class U_LIB_SOV_Kapitan_summer					{ quality = 1; price = 50; };
-	class U_LIB_SOV_Razvedchik_am					{ quality = 1; price = 50; };
-	class U_LIB_US_Cap								{ quality = 1; price = 50; };
-	class V_LIB_SOV_IShBrVestMG						{ quality = 1; price = 50; };
-	class H_LIB_SOV_RA_Helmet						{ quality = 1; price = 50; };
-	class H_LIB_SOV_RA_PrivateCap					{ quality = 1; price = 50; };
-	class H_LIB_SOV_RA_OfficerCap					{ quality = 1; price = 50; };
-	class H_LIB_SOV_RA_Ushanka2						{ quality = 1; price = 50; };
-	class H_LIB_NKVD_PrivateCap						{ quality = 1; price = 50; };
-	class H_LIB_NKVD_OfficerCap						{ quality = 1; price = 50; };
+
 		
 	///////////////////////////////////////////////////////////////////////////////
 	// CUP WEAPONS
@@ -3963,7 +3931,7 @@ class CfgExileLootSettings
  	 * This results in 30 loot positions and that is too much. So we
  	 * cap this at 10
  	 */
-	maximumNumberOfLootSpotsPerBuilding = 4;
+	maximumNumberOfLootSpotsPerBuilding = 10;
 
 	/**
 	 * Exile spawns a random number of items per loot spot. This 
@@ -3996,7 +3964,7 @@ class CfgExileLootSettings
 	 * set this to a lower value than the maximum radius of a territory,
 	 * which is 150m by default.
 	 */
-	minimumDistanceToTerritories = 15;
+	minimumDistanceToTerritories = 100;
 };
 class CfgExileMobileXM8
 {
@@ -4500,12 +4468,12 @@ class CfgInteractionMenus
 			//};
 
 			// Repairs a vehicle to 100%. Requires Duckttape
-			class Repair: ExileAbstractAction
-			{
-				title = "Repair";
-				condition = "true";
-				action = "['RepairVehicle', _this select 0] call ExileClient_action_execute";
-			};
+			// class Repair: ExileAbstractAction
+			// {
+				// title = "Repair";
+				// condition = "true";
+				// action = "['RepairVehicle', _this select 0] call ExileClient_action_execute";
+			// };
 
 			// Fills fuel from a can into a car
 			class Refuel: ExileAbstractAction
@@ -4878,7 +4846,7 @@ class CfgTerritories
 	maximumRadius = 150;
 
 	// The above * 2 plus coverving the 20m you can move while placing things
-	minimumDistanceToOtherTerritories = 90; 
+	minimumDistanceToOtherTerritories = 150; 
 
 	// Maximum number of territories a player can own
 	maximumNumberOfTerritoriesPerPlayer = 2;
@@ -4896,7 +4864,7 @@ class CfgTerritories
 	minimumDistanceToSpawnZones = 10;
 
 	// Amount of pop tabs per object to pay
-	popTabAmountPerObject = 125;
+	popTabAmountPerObject = 100;
 };
 class CfgTraderCategories 
 {

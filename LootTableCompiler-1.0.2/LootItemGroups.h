@@ -948,6 +948,7 @@
 10, Exile_Item_Wrench  //Wrench
 10, Exile_Melee_Axe  //Axe
 10, Exile_Melee_SledgeHammer  //Sledgehammer
+10, Exile_Item_Screwdriver  //Screwdriver
 
 >Vehicle
 10, Exile_Item_CarWheel  //Car Wheel

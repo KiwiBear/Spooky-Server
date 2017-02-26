@@ -3013,7 +3013,7 @@ class CfgSettings
 		/**
 		 * Radius of spawn zones around the center of spawn zone markers.
 		 */
-		spawnZoneRadius = 500;
+		spawnZoneRadius = 300;
 
 		/**
 		 * These vehicles spawn on server restart close to spawn zones.
@@ -3244,10 +3244,10 @@ class CfgSettings
 		serverPassword = "";
 
 		// Autolocks server until its ready to accept players
-		useAutoLock = 0;
+		useAutoLock = 1;
 
 		// Server will autoLock at that time before restart (minutes)
-		restartAutoLock = 3;
+		restartAutoLock = 5;
 
 		/*
 			Number of hours and minutes of your restart period.
@@ -3358,7 +3358,7 @@ class CfgSettings
 				The type of box is chosen randomly from the following list.
 				Add a type multiple times to increase the chance of being used.
 			*/
-			types[] = {"Beer", "Tools", "Food", "Drinks", "RepairParts", "Medical", "Technology", "Explosives", "BuildingSupplies"};
+			types[] = {"Beer", "Tools", "Food", "Drinks", "RepairParts", "Medical", "Technology", "BuildingSupplies"};
 
 			class BoxTypes
 			{
@@ -3366,7 +3366,7 @@ class CfgSettings
 				{
 					items[] = 
 					{
-						{"Exile_Item_Beer", 48}
+						{"Exile_Item_Beer", 20}
 					};
 				};
 
@@ -3438,7 +3438,7 @@ class CfgSettings
 						{"Exile_Item_WoodDoorwayKit", 2},
 						{"Exile_Item_WoodGateKit", 2},
 						{"Exile_Item_WoodWindowKit", 5},
-						{"Exile_Item_Codelock", 2}
+						{"Exile_Item_Codelock", 1}
 					};
 				};
 
@@ -3451,15 +3451,6 @@ class CfgSettings
 						{"ItemGPS", 2},
 						{"Rangefinder", 2},
 						{"NVGoggles", 2}
-					};
-				};
-				
-				class Explosives 
-				{
-					items[] = 
-					{
-						{"Exile_Item_BreachingCharge_Wood", 3},
-						{"Exile_Item_BreachingCharge_Metal", 3}
 					};
 				};
 
