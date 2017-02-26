@@ -49,7 +49,7 @@
 // Food & Drinks
 ///////////////////////////////////////////////////////////////////////////////
 
->FoodAndDrink
+> FoodAndDrink
 3, Exile_Item_CookingPot
 10, Exile_Item_CanOpener
 10, Exile_Item_Matches
@@ -294,7 +294,7 @@
 1, hlc_optic_Kern2d  //Kern AARAU 4x24(2D)
 1, CUP_optic_NSPU_RPG  //NSPU (1PN58)
 
->AllAmmo
+> AllAmmo
 10, CUP_10Rnd_9x19_Compact //*****
 10, CUP_17Rnd_9x19_glock17
 10, hlc_30Rnd_9x19_B_MP5
@@ -565,7 +565,7 @@
 10, hlc_rifle_aek971 // ZID AEK971S
 10, hlc_rifle_aek971_mtk // ZID AEK971S(MTK)
 
->AssaultRifleHigh
+> AssaultRifleHigh
 10, hlc_rifle_akm_MTK // AKM(MTK)
 10, hlc_rifle_akmgl // AKM(GL)
 10, hlc_rifle_akm // AKM
@@ -612,7 +612,7 @@
 10, arifle_ARX_blk_F // Type 115 (Black)
 10, hlc_rifle_RK62 // Valmet Rk.62
 	
->LMG
+> LMG
 10, hlc_rifle_rpk74n // RPK 74
 10, hlc_rifle_RPK12 // RPK 12
 10, hlc_rifle_rpk // RPK
@@ -635,7 +635,7 @@
 10, LMG_Zafir_F // Zafir
 10, CUP_arifle_XM8_Railed // XM8
 	
->SniperLow
+> SniperLow
 10, srifle_DMR_07_blk_F // CMR-76 6.5mm
 10, hlc_rifle_psg1A1 // HK PSG1A1
 10, hlc_rifle_PSG1A1_RIS // HK PSG1A1 RIS
@@ -655,7 +655,7 @@
 10, CUP_srifle_VSSVintorez // VSS Vintorez
 10, hlc_rifle_M21_Rail // M21(RIS)
 
->Explosives
+> Explosives
 3, SatchelCharge_Remote_Mag  //Satchel Charge
 3, DemoCharge_Remote_Mag  //Explosive Charge
 3, CUP_IED_V1_M
@@ -669,7 +669,7 @@
 10, MiniGrenade
 10, HandGrenade
 
->EpicWeapons
+> EpicWeapons
 10, hlc_rifle_awcovert_BL // AWC Black
 10, hlc_rifle_awcovert_FDE // AWC Tan
 10, hlc_rifle_awcovert // AWC Green
@@ -687,7 +687,7 @@
 1, MMG_02_camo_F // SPMG (Camo)
 1, CUP_launch_MAAWS // MAAWS
 
->EpicAmmo
+> EpicAmmo
 10, hlc_5rnd_300WM_FMJ_AWM //*****
 10, hlc_5rnd_300WM_mk248_AWM
 10, hlc_5rnd_300WM_BTSP_AWM
@@ -716,14 +716,14 @@
 /////// Gear //////////////////////////////////////////////
 ///////////////////////////////////////////////////////////
 
->MilitaryGear
+> MilitaryGear
 3, NVGoggles_OPFOR  //NVG (Black)
 3, NVGoggles  //NVG (Brown)
 3, NVGoggles_INDEP  //NVG (Green)
 10, Rangefinder // Rangerfinder
 10, ItemGPS // GPS
 	
->MilitaryVests
+> MilitaryVests
 15, V_TacVestIR_blk //*****
 15, TAC_V_tacSVD_BK
 15, TAC_V_tacSVD_OD
@@ -751,7 +751,7 @@
 3, TRYK_V_ArmorVest_green2
 3, TRYK_V_ArmorVest_Ranger2 //*****
 
->MilitaryClothes
+> MilitaryClothes
 1, U_I_FullGhillie_lsh
 1, TAC_W_ghillie_O1
 10, TRYK_U_B_PCUHsW4
@@ -777,7 +777,7 @@
 10, TRYK_U_B_ARO2_CombatUniform
 10, Exile_Uniform_Woodland
 
->MilitaryBackpacks
+> MilitaryBackpacks
 1, B_Bergen_dgtl_F //*****
 1, B_Bergen_hex_F
 1, B_Bergen_mcamo_F
@@ -806,7 +806,7 @@
 20, B_TacticalPack_rgr
 20, B_TacticalPack_mcamo //*****
 
->MilitaryHeadgear
+> MilitaryHeadgear
 10, TRYK_H_WH
 10, TRYK_H_Helmet_Snow
 10, TRYK_H_Helmet_Winter_2
@@ -827,7 +827,7 @@
 10, H_HelmetB_TI_tna_F
 10, CUP_H_USMC_MICH2000_ESS_COMM_WDL
 
->CivilianClothes
+> CivilianClothes
 10, TRYK_shirts_DENIM_BL
 10, TRYK_shirts_DENIM_BWH
 10, TRYK_shirts_DENIM_od
@@ -839,7 +839,7 @@
 10, TRYK_U_B_RED_T_BR
 10, U_C_Poor_1
 
->CivilianBackpacks
+> CivilianBackpacks
 10, B_AssaultPack_blk
 10, B_AssaultPack_cbr
 10, B_AssaultPack_khk
@@ -854,7 +854,7 @@
 10, TRYK_B_tube_blk
 10, CUP_B_AssaultPack_Coyote
 
->CivilianVests
+> CivilianVests
 10, V_HarnessOGL_brn
 10, V_HarnessO_brn
 10, V_Rangemaster_belt
@@ -870,7 +870,7 @@
 10, V_Chestrig_blk
 10, V_Press_F
 
->CivilianGear
+> CivilianGear
 1, ItemWatch
 20, ItemRadio
 1, ItemGPS
@@ -879,7 +879,7 @@
 30, ItemMap
 30, ItemCompass
 
->BarnItems
+> BarnItems
 30, ItemWatch
 15, ItemRadio
 30, Binocular
@@ -911,7 +911,7 @@
 4, Exile_Item_Vishpirin
 30, Exile_Item_Heatpack
 
->IndustrialItems
+> IndustrialItems
 5, Exile_Item_Knife  //Knife
 20, Exile_Item_ZipTie  //ZipTie
 5, Exile_Item_BaseCameraKit  //Base Camera
@@ -940,7 +940,7 @@
 10, Exile_Item_CamoTentKit
 10, Land_TentDome_F_Kit  //Tent Dome
 
->Tools
+> Tools
 10, Exile_Item_Foolbox  //Foolbox
 10, Exile_Item_Grinder  //Grinder
 10, Exile_Item_Hammer  //Hammer
@@ -952,7 +952,7 @@
 10, Exile_Melee_SledgeHammer  //Sledgehammer
 10, Exile_Item_Screwdriver  //Screwdriver
 
->Vehicle
+> Vehicle
 10, Exile_Item_CarWheel  //Car Wheel
 3, Exile_Item_Foolbox  //Foolbox
 3, Exile_Item_Wrench  //Wrench
