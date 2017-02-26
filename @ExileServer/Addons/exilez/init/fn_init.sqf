@@ -115,7 +115,7 @@ _ryanzombiesmovementspeedcrawler       = 1;      // Animation speed for crawler
 //Default Altis SafeZones
 SafeZonePositions =
 [//  [[Coordinates],Radius]  // You can Get the safezone information directly from your mission.sqm under class Markers
-  [[8132,9149],175]
+  [[8132,9149],500]
 
 ];
 
@@ -133,9 +133,9 @@ HSet = [
 UseHorde                     = true;             // Use the horde spawner             
 
 HordeSet = [
-/* 0 Groups Size  */         4,                 // maximum number of zombies around a player
-/* 1 Min Frequency */        20,                 // min time in minutes between each new zombie horde.
-/* 2 Max Frequency */        60,                 // max time in minutes between each new zombie horde.
+/* 0 Groups Size  */         1,                 // maximum number of zombies around a player
+/* 1 Min Frequency */        45,                 // min time in minutes between each new zombie horde.
+/* 2 Max Frequency */        90,                 // max time in minutes between each new zombie horde.
 /* 3 Vest group */           Basic,              // Vest function defined in ZVest.sqf
 /* 4 Loot group */           DocAndAmmo,         // Loot function defined in ZLoot.sqf
 /* 5 Zombie group */         MediumMix,          // Group function defined in ZClasses.sqf
@@ -153,7 +153,7 @@ triggerLootbox = compile preprocessFile "exilez\init\zmissionloot.sqf";
 Trigger_1 = [				 //Cities
 /* 0  Use this trigger */    True,               // Self - explanatory
 /* 1  Trigger Positions */   Cities,             // The name of the array used to list all trigger position in the TriggerPositions.sqf file
-/* 2  Max Zombies */         4,                 // The maximum number of zombies for that trigger.
+/* 2  Max Zombies */         3,                 // The maximum number of zombies for that trigger.
 /* 3  Activation Delay */    15,                 // The delay before the activation of the trigger.
 /* 4  Spawn Delay */         15,                 // The delay between each zombie spawn right after the activation until the Max group size is reached.
 /* 5  Respawn Delay */       60,                 // The respawn delay after the max group size was reached
@@ -174,7 +174,7 @@ Trigger_1 = [				 //Cities
 Trigger_2 = [				 //Military
 /* 0  Use this trigger */    True,               
 /* 1  Trigger Positions */   Military,        
-/* 2  Max Zombies */         4,                 
+/* 2  Max Zombies */         3,                 
 /* 3  Activation Delay */    15,                 
 /* 4  Spawn Delay */         15,                 
 /* 5  Respawn Delay */       45,                 
@@ -195,7 +195,7 @@ Trigger_2 = [				 //Military
 Trigger_3 = [				 //No Buildings
 /* 0  Use this trigger */    True,               
 /* 1  Trigger Positions */   NoBuildings,        
-/* 2  Max Zombies */         4,                 
+/* 2  Max Zombies */         3,                 
 /* 3  Activation Delay */    15,                 
 /* 4  Spawn Delay */         15,                 
 /* 5  Respawn Delay */       60,                 
@@ -216,7 +216,7 @@ Trigger_3 = [				 //No Buildings
 Trigger_4 = [				 //No Man Land
 /* 0  Use this trigger */    True,               
 /* 1  Trigger Positions */   NoMansLand,       
-/* 2  Max Zombies */         4,                 
+/* 2  Max Zombies */         3,                 
 /* 3  Activation Delay */    15,                 
 /* 4  Spawn Delay */         15,                 
 /* 5  Respawn Delay */       30,                 

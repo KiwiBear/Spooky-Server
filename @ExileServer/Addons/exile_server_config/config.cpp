@@ -3358,18 +3358,10 @@ class CfgSettings
 				The type of box is chosen randomly from the following list.
 				Add a type multiple times to increase the chance of being used.
 			*/
-			types[] = {"Beer", "Tools", "Food", "Drinks", "RepairParts", "Medical", "Technology", "BuildingSupplies"};
+			types[] = {"Tools", "Food", "Drinks", "RepairParts", "Medical", "Technology", "BuildingSupplies"};
 
 			class BoxTypes
 			{
-				class Beer 
-				{
-					items[] = 
-					{
-						{"Exile_Item_Beer", 20}
-					};
-				};
-
 				class Food 
 				{
 					items[] = 
