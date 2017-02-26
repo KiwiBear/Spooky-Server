@@ -3720,6 +3720,9 @@ class CfgExileCustomCode
 	
 	// prevent unwanted ammo from spawning
 	ExileServer_system_lootManager_spawnLootInBuilding = "custom\overrides\ExileServer_system_lootManager_spawnLootInBuilding.sqf";
+	
+	// only allow events to spawn once per restart
+	ExileServer_system_event_thread_spawn = "custom\overrides\ExileServer_system_event_thread_spawn.sqf";
 		
 	// Arma 1.66 Fixes
 	ExileClient_gui_postProcessing_initialize = "Fixes\A166Fixes\ExileClient_gui_postProcessing_initialize.sqf";

@@ -3346,7 +3346,7 @@ class CfgSettings
 			type = "spawn";
 			function = "ExileServer_system_event_supplyBox_start";
 			minTime = 20; // minutes
-			maxTime = 90; // minutes
+			maxTime = 150; // minutes
 			minimumPlayersOnline = 2;
 			dropRadius = 500; // 500m around an airport (including the main airport on Altis!)
 			dropAltitude = 300; // altitude of the drop
