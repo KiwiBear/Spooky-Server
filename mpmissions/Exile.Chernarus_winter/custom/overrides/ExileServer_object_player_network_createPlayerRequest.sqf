@@ -11,7 +11,7 @@
  
 private["_sessionID","_parameters","_requestingPlayer","_spawnLocationMarkerName","_playerUID","_accountData","_bambiPlayer","_cargoType",_"bambiClothes","_selectedClothes"];
 _bambiClothes = [
-"TRYK_U_B_Denim_T_WH"
+"TRYK_U_B_Denim_T_WH",
 "TRYK_U_B_RED_T_BR",
 "TRYK_U_B_Denim_T_BK",
 "TRYK_SUITS_BLK_F",
