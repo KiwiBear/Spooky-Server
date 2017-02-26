@@ -63,170 +63,63 @@
 // Slums/Ghetto, Farms, Village Houses, Castle etc.
 // Spawn Guerilla things :)
 ///////////////////////////////////////////////////////////////////////////////
-> CivillianLowerClass
-25, Trash
-20, Food
-20, Drinks
-20, Pistols
-20, PistolAmmo
-10, PistolAttachments
-25, Shotguns
-20, ShotgunAmmo
-6, SMG
-8, SMGAmmo
-3, SMGAttachments
-20, CivilianClothing
-11, CivilianBackpacks
-5, CivilianVests
-20, CivilianHeadgear
-30, CivilianItems
-1, Restraints
-10, Chemlights
-10, RoadFlares
-10, TRYKCivilianBackpacks
-5, TRYKHeadgear
-15, TRYKCivilianClothing
-5, TRYKCivilianVests
+> Civillian
+5, Trash
+40, FoodAndDrink
+10, CivilianBackpacks
+10, CivilianVests
+5, CivilianWeapons
+5, Pistols
+20, CivilianGear
 
-///////////////////////////////////////////////////////////////////////////////
-// Apartments, Offices etc.
-///////////////////////////////////////////////////////////////////////////////
-> CivillianUpperClass
-25, Trash
-28, Food
-25, Drinks
-20, Pistols
-20, PistolAmmo
-10, PistolAttachments
-25, Shotguns
-25, ShotgunAmmo
-10, SMG
-13, SMGAmmo
-8, SMGAttachments
-20, CivilianClothing
-20, CivilianBackpacks
-5, CivilianVests
-20, CivilianHeadgear
-30, CivilianItems
-10, Chemlights
-10, RoadFlares
-1, Restraints
-5, SmokeGrenades
-20, TRYKCivilianBackpacks
-10, TRYKHeadgear
-20, TRYKCivilianClothing
-10, TRYKCivilianVests
-
-///////////////////////////////////////////////////////////////////////////////
-// Kiosks, Supermarkets etc.
-///////////////////////////////////////////////////////////////////////////////
-> Shop
-30, Trash
-30, Food
-30, Drinks
-15, Pistols
-15, PistolAmmo
-1, PistolAttachments
-20, Shotguns
-20, ShotgunAmmo
-5, SMG
-1, SMGAmmo
-1, SMGAttachments
-15, CivilianBackpacks
-1, CivilianClothing
-3, CivilianHeadgear
-1, CivilianVests
-20, CivilianItems
-5, Chemlights
-5, RoadFlares
-4, SmokeGrenades
-3, IndustrialItems
-3, Restraints
-13, MedicalItems
-10, TRYKCivilianBackpacks
-5, TRYKHeadgear
-15, TRYKCivilianClothing
-5, TRYKCivilianVests
 
 ///////////////////////////////////////////////////////////////////////////////
 // Construction Sites, Warehouses, Research etc.
 ///////////////////////////////////////////////////////////////////////////////
 > Industrial
-5, Food
-5, Drinks
-1, Electronics
 10, Trash
 40, IndustrialItems
-25, Vehicle
-15, RoadFlares
-5, Restraints
+10, Tools
 
 ///////////////////////////////////////////////////////////////////////////////
 // Factories
 ///////////////////////////////////////////////////////////////////////////////
 > Factories
 30, Vehicle
-1, Electronics
 40, Trash
-50, IndustrialItems
-
-///////////////////////////////////////////////////////////////////////////////
-// Fuel Stations, Garages, Workshops etc.
-///////////////////////////////////////////////////////////////////////////////
-> VehicleService
-30, Trash
-25, IndustrialItems
-40, Vehicle
-15, RoadFlares
-5, Restraints
 
 ///////////////////////////////////////////////////////////////////////////////
 // Towers, Barracks, Hangars etc.
 ///////////////////////////////////////////////////////////////////////////////
-> Military
-15, Pistols
-15, PistolAmmo
-20, PistolAttachments
-20, Trash
-4, CivilianItems
-6, GuerillaItems
-4, HEGrenades
-3, UGLFlares
-3, UGLSmokes
-5, HandGrenades
-3, SmokeGrenades
-2, Restraints
-3, MedicalItems
-5, GuerillaClothing
-10, MilitaryClothing
-4, GuerillaBackpacks
-10, MilitaryBackpacks
-3, GuerillaVests
-10, MilitaryVests
-5, GuerillaHeadgear
-10, MilitaryHeadgear
-3, Ghillies
-4, Rebreathers
-16, Rifles
-14, RifleAmmo
-10, RifleAttachments
-10, LMG
-12, LMGAmmo
-8, Snipers
-8, SniperAmmo
-10, SniperAttachments
-5, DLCAmmo
-10, DLCOptics
-4, DLCSupressor
-10, Bipods
-7, Explosives
-5, BattleRifles
-7, BattleRifleAmmo
-5, BattleRifleAttachments
-13, WinterGearMilitary
-10, TRYKMilitaryClothing
-10, TRYKMilitaryBackpacks
-10, TRYKMilitaryVests
+> MilitaryLow
+40, AssaultRifleLow
+15, MilitaryBackpacks
+5, MilitaryClothes
+5, MilitaryHeadgear
+15, MilitaryVests
+30, AllAmmo
+15, Optics
+15, Supressors
+3, Bipods
+3, Pointers
+
+>MilitaryHigh
+30, AssaultRifleLow
+5, AssaultRifleHigh
+5, LMG
+5, SniperLow
+30, AllAmmo
+15, MilitaryBackpacks
+5, MilitaryClothes
+5, MilitaryHeadgear
+15, MilitaryVests
+10, Explosives
+10, MilitaryGear
+15, Optics
+15, Supressors
+3, Bipods
+3, Pointers
+
 
 ///////////////////////////////////////////////////////////////////////////////
 // Hospital, Medevac etc. (Does not spawn on Altis!)
@@ -235,109 +128,39 @@
 30, Trash
 70, MedicalItems
 
-///////////////////////////////////////////////////////////////////////////////
-// Light Houses + Life Guard Towers + Castles
-///////////////////////////////////////////////////////////////////////////////
-> Tourist
-20, CivilianBackpacks
-10, MilitaryBackpacks
-10, MilitaryHeadgear
-1, Ghillies
-10, CivilianItems
-4, HandGrenades
-4, Restraints
-4, MedicalItems
-10, MilitaryClothing
-10, GuerillaClothing
-10, GuerillaBackpacks
-5, GuerillaItems
-10, Pistols
-10, PistolAmmo
-10, PistolAttachments
-15, Food
-15, Drinks
-
-///////////////////////////////////////////////////////////////////////////////
-// Ghost Hotel Buildings
-///////////////////////////////////////////////////////////////////////////////
-> Radiation
-10, MilitaryBackpacks
-10, MilitaryHeadgear
-5, Ghillies
-5, DLCGhillies
-30, Snipers
-2, SniperAmmo
-2, SniperAttachments
-30, DLCRifles
-2, DLCAmmo
-2, DLCOptics
-2, DLCSupressor
-4, HandGrenades
-4, Restraints
-4, MedicalItems
-10, Explosives
-4, EpicWeapons
+>MedicMil
+80, MedicalItems
+20, AssaultRifleLow
 
 ///////////////////////////////////////////////////////////////////////////////
 // Custom Crates
 ///////////////////////////////////////////////////////////////////////////////
 > SuperCrate
-10, EpicWeapons
-10, DLCGhillies
-15, Ghillies
-20, EpicWeaponAmmo
-20, DLCSupressor
-10, DLCVests
-30, Trash
-20, DLCRifles
-20, DLCOptics
-20, WinterGearMilitary
-15, BattleRifles
-20, BattleRifleAmmo
-10, Explosives
-
-
+3, EpicWeapons
+7, EpicAmmo
+90, Trash
 
 ///////////////////////////////////////////////////////////////////////////////
 // Chopper Crashes
 ///////////////////////////////////////////////////////////////////////////////
 
 > ChopperCrash
-1, EpicWeapons
-1, EpicWeaponAmmo
 10, Explosives
 10, MilitaryBackpacks
-20, GuerillaItems
-10, Snipers
-10, SniperAmmo
-2, DLCVests
-20, MilitaryClothing
-3, Ghillies
-10, MilitaryVests
-30, Rifles
-25, RifleAmmo
-30, RifleAttachments
-20, BattleRifles
-20, BattleRifleAmmo
-20, BattleRifleAttachments
-30, WinterGearMilitary
-20, TRYKMilitaryBackpacks
-20, TRYKMilitaryClothing
-20, TRYKMilitaryVests
+20, MilitaryClothes
+5, AssaultRifleHigh
+5, LMG
+5, SniperLow
+
 
 
 ///////////////////////////////////////////////////////////////////////////////
 // Barns
 ///////////////////////////////////////////////////////////////////////////////
 
-> BarnLoot
-30, Trash
-10, SMG
-20, ShotgunAmmo
-25, Shotguns
-25, Pistols
-20, PistolAmmo
-10, CivilianHeadgear
-40, BarnCustom
-5, Food
-5, Drinks
+> Barn
+10, Trash
+10, CivilianWeapons
+5, FoodAndDrink
+40, BarnItems
+

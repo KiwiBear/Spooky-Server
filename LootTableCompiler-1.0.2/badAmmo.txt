@@ -1,0 +1,6 @@
+["CUP_20Rnd_556x45_Stanag",
+"CUP_30Rnd_556x45_Stanag",
+"CUP_30Rnd_556x45_G36",
+"CUP_30Rnd_TE1_Red_Tracer_556x45_G36",
+"CUP_30Rnd_TE1_Green_Tracer_556x45_G36",
+"CUP_30Rnd_TE1_Yellow_Tracer_556x45_G36"]
