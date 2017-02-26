@@ -358,7 +358,7 @@ ExileDevFriendlyMode = "false";	/* adds Exile Devs to your AdminList - makes it 
 
 /* What ESCAPE Menu shows */
 ESCMNUTOP = "TS dfw01.mainvoice.net:8178";
-ESCMNUBOT = "DayZ Resurrection";
+ESCMNUBOT = "DayZ Exile";
 BRIEFING_MSG = "false";	/* use mission briefing message: if   "BRIEFING_MSG = "false";"   then the message will be replaced by infiSTAR */
 HTML_LOAD_URL = "";		/* HTML_LOAD_URL = ""; == disabled and if you set a url it will be shown in ESCAPE menu. HTML in Arma/this is limited. Try it :) example: "http://goo.gl/gb0o7b" */
 ENABLE_PRIVATE_CHAT_MENU = "true";		/* players can open it by typing !chat in chat or by  custom controls -> "Use Action 3" */
@@ -513,7 +513,7 @@ extra punishments possible:
 	4 - kick
 	5 - ban (not recommended)
 */
-wall_glitch_punish = 2;
+wall_glitch_punish = 1;
 
 
 
