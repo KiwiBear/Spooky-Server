@@ -54,8 +54,8 @@ CqbBonus                     = 40;               // Respect for close quarter bo
 DistanceBonusDivider         = 10;               // Distance divided by that number = respect E.G. 300m / [20] = 15 Respect
 
 //Zombie settings : SET TO -1 TO DISABLE AND USE DEFAULT FROM RYANZOMBIES
-_Ryanzombieshealth			           = 0.3; 	 // Health, *(initial damage level 0 is no damage 1 is dead)
-_Ryanzombieshealthdemon                = 0.3;	 // Health, *(initial damage level 0 is no damage 1 is dead)
+_Ryanzombieshealth			           = 0.9; 	 // Health, *(initial damage level 0 is no damage 1 is dead)
+_Ryanzombieshealthdemon                = 0.9;	 // Health, *(initial damage level 0 is no damage 1 is dead)
 _Ryanzombiesattackspeed 	           = 2;	 // Attack speed, *(Time is seconds between attacks)
 _Ryanzombiesattackdistance 	           = 2.5;	     // Attack distance, *(in meters)
 _Ryanzombiesattackstrenth 	           = 0;	     // Attack strength *(Knockback strength) *(TYPO IS NORMAL)
