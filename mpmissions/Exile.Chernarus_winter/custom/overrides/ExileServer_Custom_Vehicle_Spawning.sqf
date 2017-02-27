@@ -36,7 +36,7 @@ _vehicleClassNames = [["B_MRAP_01_F", 2], // 0
 					  ["CUP_B_UH60L_Unarmed_FFV_US", 1], //22
 					  ["Exile_Plane_AN2_Green", 2], // 23
 					  ["Exile_Boat_RubberDuck_Black", 5], //24 
-					  ["CUP_C_Fishing_Boat_Chernarus", 3]]; //24
+					  ["CUP_C_Fishing_Boat_Chernarus", 3]]; //25
 					  // IF YOU ADD ANOTHER BOAT CLASS, MAKE SURE YOU ADD IT THE CUSTOM ARRAY BELOW IN THE CODE
 						// number of sets of spawn coords MUST be at least as large as the number of
 						// that type of vehicle you want to spawn
