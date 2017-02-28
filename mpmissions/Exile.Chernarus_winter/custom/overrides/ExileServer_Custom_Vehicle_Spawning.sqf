@@ -25,7 +25,7 @@ _vehicleClassNames = [["B_MRAP_01_F", 2], // 0
 					  ["Exile_Car_QilinUnarmed", 1], //11 
 					  ["B_LSV_01_unarmed_F", 1], //12
 					  ["Exile_Car_V3S_Open", 2], //13
-					  ["CUP_B_MTVR_USMC", 1], //14
+					  ["CUP_B_Ural_CDF", 1], //14   //CUP_B_Ural_CDF
 					  ["Ural_Civ_01", 2], //15
 					  ["Ikarus_Civ_Base", 3], //16
 					  ["Exile_Bike_QuadBike_Nato", 8],  //17
