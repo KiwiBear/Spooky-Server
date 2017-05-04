@@ -50,10 +50,6 @@ MainCitiesOnly = [
 NoMansLand = [        
 [4504,10333,150]       // No man's land
 ];                      
-                        
-Mission = [             
-[4504,10333,150]        // Mission
-];
 
 Cities = [
 [1909.46,2245.71,300], //Kamenka
