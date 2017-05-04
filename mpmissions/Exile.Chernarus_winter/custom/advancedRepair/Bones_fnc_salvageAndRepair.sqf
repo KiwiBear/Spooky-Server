@@ -1,3 +1,4 @@
+
 private ["_partsNeeded","_itemsNeeded","_partsToActOn","_partToActOn","_brokenParts","_repairableParts","_salvageableParts","_itemAction","_equippedMagazines","_vehicle","_action","_usedArray","_missingArray","_duration","_progress","_sleepDuration","_startTime","_label"];
 
 _partsNeeded = [];
