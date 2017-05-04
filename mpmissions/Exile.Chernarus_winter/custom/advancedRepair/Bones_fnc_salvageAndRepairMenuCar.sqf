@@ -1,4 +1,3 @@
-
 ASL_Show_Repair_Options_Menu_Array = 
 [
 	["Repair Menu",false],
