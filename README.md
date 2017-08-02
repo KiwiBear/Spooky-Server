@@ -1,4 +1,4 @@
-# Spooky-Server
+# ExDayZ-Spooky-Server
 
 DayZ Mod Recreation - Survive, Build, PVP
 
